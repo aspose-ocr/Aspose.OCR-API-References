@@ -1,1 +1,0 @@
-# Aspose.OCR-API-References
