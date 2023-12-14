@@ -142,35 +142,34 @@ ISO 639-2 Code
 
 | Name | Type | Default | Description |
 | --- | --- | --- | --- |
-| none | <code>int</code> | <code>0</code> | Multi-language support |
-| eng | <code>int</code> | <code>1</code> | English alphabet |
-| deu | <code>int</code> | <code>2</code> | German alphabet |
-| por | <code>int</code> | <code>3</code> | Portuguese alphabet |
-| spa | <code>int</code> | <code>4</code> | Spanish alphabet |
-| fra | <code>int</code> | <code>5</code> | French alphabet |
-| ita | <code>int</code> | <code>6</code> | Italian alphabet |
-| cze | <code>int</code> | <code>7</code> | Czech alphabet |
-| dan | <code>int</code> | <code>8</code> | Danish alphabet |
-| dum | <code>int</code> | <code>9</code> | Dutch alphabet |
-| est | <code>int</code> | <code>10</code> | Estonian alphabet |
-| fin | <code>int</code> | <code>11</code> | Finnish alphabet |
-| lav | <code>int</code> | <code>12</code> | Latvian alphabet |
-| lit | <code>int</code> | <code>13</code> | Lithuanian alphabet |
-| nor | <code>int</code> | <code>14</code> | Norwegian alphabet |
-| pol | <code>int</code> | <code>15</code> | Polish alphabet |
-| rum | <code>int</code> | <code>16</code> | Romanian alphabet |
-| srp_hrv | <code>int</code> | <code>17</code> | Serbo-Croatian alphabet |
-| slk | <code>int</code> | <code>18</code> | Slovak alphabet |
-| slv | <code>int</code> | <code>19</code> | Slovene alphabet |
-| swe | <code>int</code> | <code>20</code> | Swedish alphabet |
-| chi | <code>int</code> | <code>21</code> | Chinese alphabet |
-| bel | <code>int</code> | <code>22</code> | Belorussian alphabet |
-| bul | <code>int</code> | <code>23</code> | Bulgarian alphabet |
-| rus | <code>int</code> | <code>24</code> | Russian alphabet |
-| srp | <code>int</code> | <code>25</code> | Serbian alphabet |
-| ukr | <code>int</code> | <code>26</code> | Ukrainian alphabet |
-| kaz | <code>int</code> | <code>27</code> | Kazakh alphabet |
-| hin | <code>int</code> | <code>28</code> | Hindi alphabet |
+| NONE | <code>int</code> | <code>0</code> | Multi-language support |
+| ENG | <code>int</code> | <code>1</code> | English alphabet |
+| DEU | <code>int</code> | <code>2</code> | German alphabet |
+| POR | <code>int</code> | <code>3</code> | Portuguese alphabet |
+| SPA | <code>int</code> | <code>4</code> | Spanish alphabet |
+| FRA | <code>int</code> | <code>5</code> | French alphabet |
+| ITA | <code>int</code> | <code>6</code> | Italian alphabet |
+| CZE | <code>int</code> | <code>7</code> | Czech alphabet |
+| DAN | <code>int</code> | <code>8</code> | Danish alphabet |
+| DUM | <code>int</code> | <code>9</code> | Dutch alphabet |
+| EST | <code>int</code> | <code>10</code> | Estonian alphabet |
+| FIN | <code>int</code> | <code>11</code> | Finnish alphabet |
+| LAV | <code>int</code> | <code>12</code> | Latvian alphabet |
+| LIT | <code>int</code> | <code>13</code> | Lithuanian alphabet |
+| NOR | <code>int</code> | <code>14</code> | Norwegian alphabet |
+| POL | <code>int</code> | <code>15</code> | Polish alphabet |
+| RUM | <code>int</code> | <code>16</code> | Romanian alphabet |
+| SRP_HRV | <code>int</code> | <code>17</code> | Serbo-Croatian alphabet |
+| SLK | <code>int</code> | <code>18</code> | Slovak alphabet |
+| SLV | <code>int</code> | <code>19</code> | Slovene alphabet |
+| SWE | <code>int</code> | <code>20</code> | Swedish alphabet |
+| CHI | <code>int</code> | <code>21</code> | Chinese alphabet |
+| BEL | <code>int</code> | <code>22</code> | Belorussian alphabet |
+| BUL | <code>int</code> | <code>23</code> | Bulgarian alphabet |
+| RUS | <code>int</code> | <code>24</code> | Russian alphabet |
+| SRP | <code>int</code> | <code>25</code> | Serbian alphabet |
+| UKR | <code>int</code> | <code>26</code> | Ukrainian alphabet |
+| HIN | <code>int</code> | <code>28</code> | Hindi alphabet |
 
 <a name="module_Module..AsposeOCRSetLicense"></a>
 
@@ -330,4 +329,5 @@ Empty constructor of WasmAsposeOCRInput.
 | Name | Type |
 | --- | --- |
 | recognized_pages | <code>Array.&lt;WasmAsposeOCRRecognizedPage&gt;</code> | 
+
 
