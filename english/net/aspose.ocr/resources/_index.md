@@ -3,7 +3,7 @@ title: Resources
 second_title: Aspose.OCR for .NET API Reference
 description: Manage downloadable resources that enhance Aspose.OCR recognition capabilities.
 type: docs
-weight: 300
+weight: 310
 url: /net/aspose.ocr/resources/
 ---
 ## Resources class
