@@ -157,6 +157,7 @@ public enum Language extends Enum<Language>
 | [Ruf](#Ruf) | Luguru alphabet |
 | [Srp_hrv](#Srp-hrv) | Serbo-Croatian alphabet |
 | [None](#None) | Multi-language (latin alphabet + diacritic) support |
+| [Ara](#Ara) | Arabic alphabet |
 ## Methods
 
 | Method | Description |
@@ -1290,6 +1291,14 @@ public static final Language None
 
 
 Multi-language (latin alphabet + diacritic) support
+
+### Ara {#Ara}
+```
+public static final Language Ara
+```
+
+
+Arabic alphabet
 
 ### values() {#values--}
 ```
