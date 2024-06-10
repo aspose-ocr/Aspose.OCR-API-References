@@ -3,7 +3,7 @@ title: Resources
 second_title: Aspose.OCR for Java API Reference
 description: Manage downloadable resources that enhance Aspose.OCR recognition capabilities.
 type: docs
-weight: 28
+weight: 31
 url: /java/com.aspose.ocr/resources/
 ---
 
