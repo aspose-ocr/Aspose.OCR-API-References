@@ -18,8 +18,10 @@ public enum Country
 
 | Name | Value | Description |
 | --- | --- | --- |
-| UNIVERSAL | `0` | Do not improve the recognized text |
-| MADAGASCAR | `1` | Improve the recognized text according to the Madagascar passport template. |
+| UNIVERSAL | `0` | Do not parse the recognized text. |
+| USA | `1` | Extract key details from US passport image. |
+| MADAGASCAR | `2` | Extract key details from Malagasy passport image. |
+| NONE | `3` | Do not parse the recognized text. |
 
 ### See Also
 
