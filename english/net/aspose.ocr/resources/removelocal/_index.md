@@ -3,7 +3,7 @@ title: RemoveLocal
 second_title: Aspose.OCR for .NET API Reference
 description: Removes the locally stored Aspose.OCR resource.
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.ocr/resources/removelocal/
 ---
 ## Resources.RemoveLocal method

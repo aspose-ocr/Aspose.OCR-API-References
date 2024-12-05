@@ -3,7 +3,7 @@ title: Resources
 second_title: Aspose.OCR for .NET API Reference
 description: Manage downloadable resources that enhance Aspose.OCR recognition capabilities.
 type: docs
-weight: 350
+weight: 370
 url: /net/aspose.ocr/resources/
 ---
 ## Resources class
@@ -32,6 +32,7 @@ public class Resources
 | static [GetRepository](../../aspose.ocr/resources/getrepository)() | Return the URL of the online repository from which Aspose.OCR resources are downloaded. |
 | static [ListLocal](../../aspose.ocr/resources/listlocal)() | List all Aspose.OCR resources stored in the local directory. |
 | static [ListRemote](../../aspose.ocr/resources/listremote)() | List all compatible resources from the online repository. |
+| static [ReleaseMemory](../../aspose.ocr/resources/releasememory)() | Unload OCR modules to free up memory. The downloaded module files will remain intact. |
 | static [RemoveLocal](../../aspose.ocr/resources/removelocal)(string) | Removes the locally stored Aspose.OCR resource. |
 | static [SetLocalPath](../../aspose.ocr/resources/setlocalpath#setlocalpath)(string) | Specify an absolute or relative path to the directory where the resources will be downloaded. If the directory does not exist, it will be created automatically. By default, the resources are downloaded to aspose_data directory in the application's working directory. |
 | static [SetLocalPath](../../aspose.ocr/resources/setlocalpath#setlocalpath_1)(string, bool) | Specify an absolute or relative path to the directory where the resources will be downloaded. Pass `false` to the `create` parameter to prevent the directory from being created automatically. If the provided directory does not exist and creation is not allowed, the resources will be loaded into the aspose_data directory in the application's working directory. |

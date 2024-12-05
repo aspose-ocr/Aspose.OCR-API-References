@@ -3,7 +3,7 @@ title: SetLocalPath
 second_title: Aspose.OCR for .NET API Reference
 description: Specify an absolute or relative path to the directory where the resources will be downloaded. If the directory does not exist it will be created automatically. By default the resources are downloaded to aspose_data directory in the applications working directory.
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.ocr/resources/setlocalpath/
 ---
 ## SetLocalPath(string) {#setlocalpath}
