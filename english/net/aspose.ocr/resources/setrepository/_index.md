@@ -3,7 +3,7 @@ title: SetRepository
 second_title: Aspose.OCR for .NET API Reference
 description: Specify the URL of the online repository from which Aspose.OCR resources will be downloaded. By default the resources are downloaded from https//github.com/aspose-ocr/resources/.
 type: docs
-weight: 120
+weight: 130
 url: /net/aspose.ocr/resources/setrepository/
 ---
 ## Resources.SetRepository method
