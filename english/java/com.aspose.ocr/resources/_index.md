@@ -3,7 +3,7 @@ title: Resources
 second_title: Aspose.OCR for Java API Reference
 description: Manage downloadable resources that enhance Aspose.OCR recognition capabilities
 type: docs
-weight: 30
+weight: 32
 url: /java/com.aspose.ocr/resources/
 ---
 
@@ -31,19 +31,12 @@ Manage downloadable resources that enhance Aspose.OCR recognition capabilities.
 | [GetRepository()](#GetRepository) | Return the URL of the online repository from which Aspose.OCR resources are downloaded. |
 | [ListLocal()](#ListLocal) | List all Aspose.OCR resources stored in the local directory. |
 | [ListRemote()](#ListRemote) | List all compatible resources from the online repository. |
+| [ReleaseMemory()](#ReleaseMemory) | Unload OCR modules to free up memory. |
 | [RemoveLocal(String name)](#RemoveLocal-java.lang.String) | Removes the locally stored Aspose.OCR resource. |
 | [SetLocalPath(String path)](#SetLocalPath-java.lang.String) | Specify an absolute or relative path to the directory where the resources will be downloaded. |
 | [SetLocalPath(String path, Boolean create)](#SetLocalPath-java.lang.String-java.lang.Boolean) | Specify an absolute or relative path to the directory where the resources will be downloaded. |
 | [SetRepository(String url)](#SetRepository-java.lang.String) | Specify the URL of the online repository from which Aspose.OCR resources will be downloaded. |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getClass()](#getClass) |  |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
+
 ### Resources() {#Resources}
 ```
 public Resources()
@@ -137,6 +130,14 @@ List all compatible resources from the online repository.
 
 **Returns:**
 java.util.List<java.lang.String> - List of resources names.
+### ReleaseMemory() {#ReleaseMemory}
+```
+public static void ReleaseMemory()
+```
+
+
+Unload OCR modules to free up memory. The downloaded module files will remain intact.
+
 ### RemoveLocal(String name) {#RemoveLocal-java.lang.String}
 ```
 public static void RemoveLocal(String name)
@@ -190,99 +191,4 @@ Specify the URL of the online repository from which Aspose.OCR resources will be
 | --- | --- | --- |
 | url | java.lang.String | URL of the online repository. |
 
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 
