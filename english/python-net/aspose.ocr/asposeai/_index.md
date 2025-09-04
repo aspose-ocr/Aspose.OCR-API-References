@@ -19,10 +19,10 @@ The AsposeAI type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|run_postprocessor(res, mode)|  |
+|run_postprocessor(res, mode)| [AITableDetectionMode](/ocr/python-net/aspose.ocr.ai/aitabledetectionmode/) |
 |run_postprocessor(res)|  |
 |is_initialized()|  |
-|set_post_processor(processor, custom_settings)|  |
+|set_post_processor(processor, custom_settings) |[Processors](/ocr/python-net/aspose.ocr.ai//) [AsposeAIModelConfig](/ocr/python-net/aspose.ocr/asposeaimodelconfig/) |
 |get_local_path()|  |
 |list_local()|  |
 |free_resources()|  |
