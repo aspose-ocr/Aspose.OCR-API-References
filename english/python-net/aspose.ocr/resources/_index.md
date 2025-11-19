@@ -3,7 +3,7 @@ title: Resources
 second_title: Aspose.OCR for Python via .NET API Reference
 description: 
 type: docs
-weight: 250
+weight: 350
 url: /python-net/aspose.ocr/resources/
 ---
 
