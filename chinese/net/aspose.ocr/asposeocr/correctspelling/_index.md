@@ -1,35 +1,35 @@
 ---
-title: AsposeOcr.CorrectSpelling
-second_title: Aspose.OCR for .NET API 参考
-description: AsposeOcr 方法. 更正文本替换拼写错误的单词
+title: CorrectSpelling
+second_title: Aspose.OCR 适用于 .NET API 参考
+description: 纠正文本，替换拼写错误的单词。
 type: docs
-weight: 60
+weight: 50
 url: /zh/net/aspose.ocr/asposeocr/correctspelling/
 ---
 ## AsposeOcr.CorrectSpelling method
 
-更正文本（替换拼写错误的单词）。
+纠正文本（替换拼写错误的单词）。
 
 ```csharp
 public string CorrectSpelling(string text, SpellCheckLanguage language = SpellCheckLanguage.Eng, 
     string dictionaryPath = null)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| text | String | 文本进行更正。 |
-| language | SpellCheckLanguage | 要使用的词典。 |
-| dictionaryPath | String | 可选。用户词典（频率词典）的完整路径。 词典文件格式： UTF-8 编码的纯文本文件。 单词和单词频率由空格或制表符分隔。默认情况下，单词在第一列中，频率在第二列中。 每个单词-单独一行中的频率对。一行定义为字符序列后跟换行符 ("\n")、回车符 ("\r")、 或回车符后紧跟换行符("\r\n"). 每个单词都应该是小写的。 |
+| text | String | 用于纠正的文本。 |
+| language | SpellCheckLanguage | 要使用的字典。 |
+| dictionaryPath | String | 可选。用户字典（频率字典）的完整路径。字典文件格式：UTF-8 编码的纯文本文件。单词和词频之间以空格或制表符分隔。默认情况下，单词应位于第一列，词频位于第二列。每个单词‑词频对占一行。行的定义是以换行符（"\n"）、回车符（"\r"）或回车紧随换行符（"\r\n"）结束的字符序列。所有单词均应为小写。 |
 
-### 返回值
+### Return Value
 
-带有替换词的文本。
+已替换单词的文本。
 
-### 也可以看看
+### 另请参阅
 
-* enum [SpellCheckLanguage](../../../aspose.ocr.spellchecker/spellchecklanguage/)
-* class [AsposeOcr](../)
-* 命名空间 [Aspose.OCR](../../asposeocr/)
-* 部件 [Aspose.OCR](../../../)
+* enum [SpellCheckLanguage](../../../aspose.ocr.spellchecker/spellchecklanguage)
+* class [AsposeOcr](../../asposeocr)
+* namespace [Aspose.OCR](../../asposeocr)
+* assembly [Aspose.OCR](../../../)
 
-
+<!-- 请勿编辑：由 xmldocmd 为 Aspose.OCR.dll 生成 -->

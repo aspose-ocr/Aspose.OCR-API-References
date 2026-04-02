@@ -1,27 +1,27 @@
 ---
-title: Metered.GetConsumptionCredit
-second_title: Aspose.OCR for .NET API 参考
-description: Metered 方法. 获得消费积分
+title: GetConsumptionCredit
+second_title: Aspose.OCR 适用于 .NET API 参考
+description: 获取消耗积分。
 type: docs
 weight: 30
 url: /zh/net/aspose.ocr/metered/getconsumptioncredit/
 ---
 ## Metered.GetConsumptionCredit method
 
-获得消费积分
+获取消耗积分。
 
 ```csharp
 public static decimal GetConsumptionCredit()
 ```
 
-### 返回值
+### Return Value
 
-消费量
+消耗数量。
 
-### 也可以看看
+### 另请参阅
 
-* class [Metered](../)
-* 命名空间 [Aspose.OCR](../../metered/)
-* 部件 [Aspose.OCR](../../../)
+* class [Metered](../../metered)
+* namespace [Aspose.OCR](../../metered)
+* assembly [Aspose.OCR](../../../)
 
-
+<!-- 请勿编辑：由 xmldocmd 为 Aspose.OCR.dll 生成 -->
