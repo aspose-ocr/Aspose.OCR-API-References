@@ -1,57 +1,57 @@
 ---
-title: PreprocessingFilter.Scale
-second_title: Aspose.OCR for .NET API 参考
-description: PreprocessingFilter 方法. Rescale image  放大或缩小图像分辨率 InterpolationFilterType  Lanczos8
+title: Scale
+second_title: Aspose.OCR 适用于 .NET 的 API 参考
+description: Rescale image - Upscale or downscale image resolution. InterpolationFilterType  Lanczos8
 type: docs
-weight: 120
+weight: 140
 url: /zh/net/aspose.ocr.models.preprocessingfilters/preprocessingfilter/scale/
 ---
 ## Scale(float) {#scale}
 
-Rescale image - 放大或缩小图像分辨率。 InterpolationFilterType = Lanczos8
+重新缩放图像——放大或缩小图像分辨率。InterpolationFilterType = Lanczos8
 
 ```csharp
 public static PreprocessingFilter Scale(float ratio)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| ratio | Single | 比例因子。建议从 0.1 到 1 收缩。从 1 到 10 放大。 |
+| ratio | Single | The scaling factor. Recommended from 0.1 to 1 to shrink. From 1 to 10 to enlarge. |
 
 ### 返回值
 
-比例过滤器对象。
+ScaleFilter object.
 
-### 也可以看看
+### 另请参阅
 
-* class [PreprocessingFilter](../)
-* 命名空间 [Aspose.OCR.Models.PreprocessingFilters](../../preprocessingfilter/)
-* 部件 [Aspose.OCR](../../../)
+* class [PreprocessingFilter](../../preprocessingfilter)
+* namespace [Aspose.OCR.Models.PreprocessingFilters](../../preprocessingfilter)
+* assembly [Aspose.OCR](../../../)
 
 ---
 
 ## Scale(float, InterpolationFilterType) {#scale_1}
 
-Rescale image - 放大或缩小图像分辨率。
+重新缩放图像——放大或缩小图像分辨率。
 
 ```csharp
 public static PreprocessingFilter Scale(float ratio, InterpolationFilterType type)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| ratio | Single | 比例因子。建议从 0.1 到 1 收缩。从 1 到 10 放大。 |
-| type | InterpolationFilterType | [`InterpolationFilterType`](../../../aspose.ocr.filters/interpolationfiltertype/) |
+| ratio | Single | The scaling factor. Recommended from 0.1 to 1 to shrink. From 1 to 10 to enlarge. |
+| type | InterpolationFilterType | [`InterpolationFilterType`](../../../aspose.ocr.filters/interpolationfiltertype) |
 
 ### 返回值
 
-比例过滤器对象。
+ScaleFilter object.
 
-### 也可以看看
+### 另请参阅
 
-* enum [InterpolationFilterType](../../../aspose.ocr.filters/interpolationfiltertype/)
-* class [PreprocessingFilter](../)
-* 命名空间 [Aspose.OCR.Models.PreprocessingFilters](../../preprocessingfilter/)
-* 部件 [Aspose.OCR](../../../)
+* enum [InterpolationFilterType](../../../aspose.ocr.filters/interpolationfiltertype)
+* class [PreprocessingFilter](../../preprocessingfilter)
+* namespace [Aspose.OCR.Models.PreprocessingFilters](../../preprocessingfilter)
+* assembly [Aspose.OCR](../../../)
 
-
+<!-- 请勿编辑：由 xmldoccmd 为 Aspose.OCR.dll 生成 -->

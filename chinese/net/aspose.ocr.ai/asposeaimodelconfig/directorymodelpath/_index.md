@@ -1,0 +1,23 @@
+---
+title: DirectoryModelPath
+second_title: Aspose.OCR 适用于 .NET 的 API 参考
+description: Optional path where downloaded or processed models will be cached. If not set a default system location will be used.
+type: docs
+weight: 40
+url: /zh/net/aspose.ocr.ai/asposeaimodelconfig/directorymodelpath/
+---
+## AsposeAIModelConfig.DirectoryModelPath property
+
+可选的路径，用于缓存已下载或已处理的模型。如果未设置，将使用默认系统位置。
+
+```csharp
+public string? DirectoryModelPath { get; set; }
+```
+
+### 另请参阅
+
+* class [AsposeAIModelConfig](../../asposeaimodelconfig)
+* namespace [Aspose.OCR.AI](../../asposeaimodelconfig)
+* assembly [Aspose.OCR](../../../)
+
+<!-- 请勿编辑：由 xmldoccmd 为 Aspose.OCR.dll 生成 -->
