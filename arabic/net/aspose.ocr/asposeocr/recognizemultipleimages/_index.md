@@ -1,112 +1,112 @@
 ---
-title: AsposeOcr.RecognizeMultipleImages
-second_title: Aspose.OCR لمرجع .NET API
-description: AsposeOcr طريقة. يتعرف على صور متعددة من القائمة .  المحفوظات والمجلدات غير مدعومة. أقصى قدر من الصور المعالجة هو 20. يدعم GIF و PNG و JPEG و BMP و TIFF و JFIF.
+title: "RecognizeMultipleImages"
+second_title: "Aspose.OCR لـ .NET مرجع API"
+description: "يتعرف على صور متعددة من القائمة. لا يتم دعم الأرشيفات والمجلدات. الحد الأقصى لعدد الصور المعالجة هو 20. يدعم GIF PNG JPEG BMP TIFF JFIF."
 type: docs
 weight: 200
 url: /ar/net/aspose.ocr/asposeocr/recognizemultipleimages/
 ---
 ## RecognizeMultipleImages(List&lt;string&gt;, RecognitionSettings) {#recognizemultipleimages_1}
 
-يتعرف على صور متعددة من القائمة .  المحفوظات والمجلدات غير مدعومة. أقصى قدر من الصور المعالجة هو 20. يدعم GIF و PNG و JPEG و BMP و TIFF و JFIF.
+يتعرف على صور متعددة من القائمة. لا يتم دعم الأرشيفات والمجلدات. الحد الأقصى لعدد الصور المعالجة هو 20. يدعم GIF، PNG، JPEG، BMP، TIFF، JFIF.
 
 ```csharp
 public List<RecognitionResult> RecognizeMultipleImages(List<string> files, 
     RecognitionSettings settings)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| files | List`1 | مسارات كاملة للصور. |
+| الملفات | List`1 | المسارات الكاملة للصور. |
 | settings | RecognitionSettings | إعدادات التعرف. |
 
 ### قيمة الإرجاع
 
-مصفوفة من[`RecognitionResult`](../../recognitionresult/) مع نتائج التعرف على كل صورة معالجة.
+مصفوفة من كائنات [`RecognitionResult`](../../recognitionresult) تحتوي على نتائج التعرف لكل صورة معالجة.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [RecognitionResult](../../recognitionresult/)
-* class [RecognitionSettings](../../recognitionsettings/)
-* class [AsposeOcr](../)
-* مساحة الاسم [Aspose.OCR](../../asposeocr/)
-* المجسم [Aspose.OCR](../../../)
+* class [RecognitionResult](../../recognitionresult)
+* class [RecognitionSettings](../../recognitionsettings)
+* class [AsposeOcr](../../asposeocr)
+* namespace [Aspose.OCR](../../asposeocr)
+* assembly [Aspose.OCR](../../../)
 
 ---
 
 ## RecognizeMultipleImages(List&lt;string&gt;) {#recognizemultipleimages}
 
-يتعرف على صور متعددة من القائمة بالإعدادات الافتراضية. المحفوظات والمجلدات غير مدعومة. أقصى قدر من الصور المعالجة هو 20. يدعم GIF و PNG و JPEG و BMP و TIFF و JFIF.
+يتعرف على عدة صور من القائمة باستخدام الإعدادات الافتراضية. لا يتم دعم الأرشيفات والمجلدات. الحد الأقصى لعدد الصور المعالجة هو 20. يدعم GIF و PNG و JPEG و BMP و TIFF و JFIF.
 
 ```csharp
 public List<RecognitionResult> RecognizeMultipleImages(List<string> files)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| files | List`1 | مسارات كاملة للصور. |
+| الملفات | List`1 | المسارات الكاملة للصور. |
 
 ### قيمة الإرجاع
 
-مصفوفة من[`RecognitionResult`](../../recognitionresult/) مع نتائج التعرف على كل صورة معالجة.
+مصفوفة من كائنات [`RecognitionResult`](../../recognitionresult) تحتوي على نتائج التعرف لكل صورة معالجة.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [RecognitionResult](../../recognitionresult/)
-* class [AsposeOcr](../)
-* مساحة الاسم [Aspose.OCR](../../asposeocr/)
-* المجسم [Aspose.OCR](../../../)
+* class [RecognitionResult](../../recognitionresult)
+* class [AsposeOcr](../../asposeocr)
+* namespace [Aspose.OCR](../../asposeocr)
+* assembly [Aspose.OCR](../../../)
 
 ---
 
 ## RecognizeMultipleImages(string, RecognitionSettings) {#recognizemultipleimages_3}
 
-يتعرف على صور متعددة معبأة في أرشيف ZIP أو من المجلد. المحفوظات والمجلدات المتداخلة غير مدعومة. أقصى قدر من الصور المعالجة هو 20. يدعم GIF و PNG و JPEG و BMP و TIFF و JFIF.
+يتعرف على عدة صور مضغوطة في أرشيف ZIP أو من مجلد. لا يتم دعم الأرشيفات والمجلدات المتداخلة. الحد الأقصى لعدد الصور المعالجة هو 20. يدعم GIF و PNG و JPEG و BMP و TIFF و JFIF.
 
 ```csharp
 public List<RecognitionResult> RecognizeMultipleImages(string path, RecognitionSettings settings)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| path | String | المسار الكامل للأرشيف المضغوط (بما في ذلك امتداد .zip) أو إلى المجلد الذي يحتوي على صور. |
+| المسار | String | المسار الكامل لأرشيف zip (بما في ذلك امتداد .zip) أو للمجلد الذي يحتوي على الصور. |
 | settings | RecognitionSettings | إعدادات التعرف. |
 
 ### قيمة الإرجاع
 
-مصفوفة من[`RecognitionResult`](../../recognitionresult/) مع نتائج التعرف على كل صورة معالجة.
+مصفوفة من كائنات [`RecognitionResult`](../../recognitionresult) تحتوي على نتائج التعرف لكل صورة معالجة.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [RecognitionResult](../../recognitionresult/)
-* class [RecognitionSettings](../../recognitionsettings/)
-* class [AsposeOcr](../)
-* مساحة الاسم [Aspose.OCR](../../asposeocr/)
-* المجسم [Aspose.OCR](../../../)
+* class [RecognitionResult](../../recognitionresult)
+* class [RecognitionSettings](../../recognitionsettings)
+* class [AsposeOcr](../../asposeocr)
+* namespace [Aspose.OCR](../../asposeocr)
+* assembly [Aspose.OCR](../../../)
 
 ---
 
 ## RecognizeMultipleImages(string) {#recognizemultipleimages_2}
 
-يتعرف على صور متعددة معبأة في أرشيف مضغوط أو من مجلد بإعدادات افتراضية. المحفوظات والمجلدات المتداخلة غير مدعومة. أقصى قدر من الصور المعالجة هو 20. يدعم GIF و PNG و JPEG و BMP و TIFF و JFIF.
+يتعرف على عدة صور مضغوطة في أرشيف ZIP أو من مجلد باستخدام الإعدادات الافتراضية. لا يتم دعم الأرشيفات والمجلدات المتداخلة. الحد الأقصى لعدد الصور المعالجة هو 20. يدعم GIF و PNG و JPEG و BMP و TIFF و JFIF.
 
 ```csharp
 public List<RecognitionResult> RecognizeMultipleImages(string path)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| path | String | المسار الكامل للأرشيف المضغوط (بما في ذلك امتداد .zip) أو إلى المجلد الذي يحتوي على صور. |
+| المسار | String | المسار الكامل لأرشيف zip (بما في ذلك امتداد .zip) أو للمجلد الذي يحتوي على الصور. |
 
 ### قيمة الإرجاع
 
-مصفوفة من[`RecognitionResult`](../../recognitionresult/) مع نتائج التعرف على كل صورة معالجة.
+مصفوفة من كائنات [`RecognitionResult`](../../recognitionresult) تحتوي على نتائج التعرف لكل صورة معالجة.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [RecognitionResult](../../recognitionresult/)
-* class [AsposeOcr](../)
-* مساحة الاسم [Aspose.OCR](../../asposeocr/)
-* المجسم [Aspose.OCR](../../../)
+* class [RecognitionResult](../../recognitionresult)
+* class [AsposeOcr](../../asposeocr)
+* namespace [Aspose.OCR](../../asposeocr)
+* assembly [Aspose.OCR](../../../)
 
-
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.OCR.dll -->

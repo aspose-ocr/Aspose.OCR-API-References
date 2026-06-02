@@ -1,46 +1,40 @@
 ---
-title: Class BaseRecognitionSettings
-second_title: Aspose.OCR لمرجع .NET API
-description: Aspose.OCR.BaseRecognitionSettings فصل. إعدادات التعرف على الصورة . يحتوي على عناصر تسمح بتخصيص عملية التعرف .
+title: "BaseRecognitionSettings"
+second_title: "Aspose.OCR لـ .NET مرجع API"
+description: "إعدادات التعرف على الصور. يحتوي على عناصر تسمح بتخصيص عملية التعرف."
 type: docs
-weight: 30
+weight: 170
 url: /ar/net/aspose.ocr/baserecognitionsettings/
 ---
 ## BaseRecognitionSettings class
 
-إعدادات التعرف على الصورة . يحتوي على عناصر تسمح بتخصيص عملية التعرف .
+إعدادات التعرف على الصور. يحتوي على عناصر تسمح بتخصيص عملية التعرف.
 
 ```csharp
-public class BaseRecognitionSettings
+public abstract class BaseRecognitionSettings
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [BaseRecognitionSettings](baserecognitionsettings/)(Language, bool, float, int) | يقوم بتهيئة مثيل جديد لملف[`RecognitionSettings`](../recognitionsettings/)فئة بمجموعة كاملة من الخصائص. |
+| [BaseRecognitionSettings](baserecognitionsettings)(Language) | ينشئ مثيلاً جديدًا من الفئة [`RecognitionSettings`](../recognitionsettings) مع مجموعة كاملة من الخصائص. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [AllowedCharacters](../../aspose.ocr/baserecognitionsettings/allowedcharacters/) { get; set; } | مجموعة الأحرف المسموح بها. لتحديد نوع الأحرف المسموح بها لنتيجة التعرف . |
-| [AutoContrast](../../aspose.ocr/baserecognitionsettings/autocontrast/) { get; set; } | يسمح باستخدام خوارزمية إضافية لتصحيح التباين للصورة قبل التعرف عليها. |
-| [AutoDenoising](../../aspose.ocr/baserecognitionsettings/autodenoising/) { get; set; } | تمكين استخدام شبكة عصبية إضافية لتحسين الصورة - تقليل التشويش . مفيد للصور التي تحتوي على نتائج مسح ضوئي ، وتشويه ، وبقع ، وموهجات ، وتدرجات ، وعناصر غريبة . |
-| [AutoSkew](../../aspose.ocr/baserecognitionsettings/autoskew/) { set; } | الحصول على أو تعيين علامة تشير إلى ما إذا كان يجب تمكين تصحيح الانحراف التلقائي للصورة. ممكّن (صحيح) افتراضيًا. |
-| [DetectAreasMode](../../aspose.ocr/baserecognitionsettings/detectareasmode/) { get; set; } | يسمح بتحديد الوضع الأمثل لمناطق نوع المستند: مستند ، صورة ، نص عادي ، عمود ، صورة. |
-| [IgnoredCharacters](../../aspose.ocr/baserecognitionsettings/ignoredcharacters/) { get; set; } | تعيين قائمة سوداء لرموز التعرف. |
-| [Language](../../aspose.ocr/baserecognitionsettings/language/) { set; } | الحصول على أو تعيين اللغة المستخدمة في التعرف الضوئي على الحروف .  تحديد الأبجدية المستخدمة أثناء التعرف . متعدد اللغات افتراضيًا. |
-| [LinesFiltration](../../aspose.ocr/baserecognitionsettings/linesfiltration/) { get; set; } | يسمح بالتعرف على النص في الجداول (خطوط المناطق المحاطة). |
-| [PreprocessingFilters](../../aspose.ocr/baserecognitionsettings/preprocessingfilters/) { get; set; } | يسمح بتجهيز الصورة لـ OCR عن طريق ضبط طرق المعالجة المسبقة. |
-| [SkewAngle](../../aspose.ocr/baserecognitionsettings/skewangle/) { set; } | الحصول على أو تعيين الزاوية بالدرجات لتدوير الصورة. سيؤدي تعيين هذه القيمة إلى تعطيل ملف[`AutoSkew`](./autoskew/) الخاصية ، بحيث لا يتم تطبيق تصحيح الانحراف التلقائي . صفر افتراضيًا. |
-| [ThreadsCount](../../aspose.ocr/baserecognitionsettings/threadscount/) { set; } | الحصول على أو تحديد عدد سلاسل الرسائل للمعالجة . بشكل افتراضي ، يعني 0 أن الصورة ستتم معالجتها بعدد الخيوط الذي يساوي عدد المعالجات . ThreadsCount = 1 يعني أنه سيتم معالجة الصورة في السلسلة الرئيسية. |
-| [ThresholdValue](../../aspose.ocr/baserecognitionsettings/thresholdvalue/) { set; } | الحصول على أو تعيين قيمة حد مخصصة لترميز الصورة بالترميز . النطاق من 1 إلى 255. |
-| [UpscaleSmallFont](../../aspose.ocr/baserecognitionsettings/upscalesmallfont/) { get; set; } | يسمح لك باستخدام خوارزميات إضافية خصيصًا للتعرف على الخطوط الصغيرة. مفيد للصور ذات الأحرف الصغيرة الحجم . |
+| [AllowedCharacters](../../aspose.ocr/baserecognitionsettings/allowedcharacters) { get; set; } | مجموعة الأحرف المسموح بها. تحدد نوع الأحرف المسموح بها لنتيجة التعرف. |
+| [AllowedSymbols](../../aspose.ocr/baserecognitionsettings/allowedsymbols) { get; set; } | حدد الأحرف المسموح بها باستخدام خاصية alphabet. |
+| [AutomaticColorInversion](../../aspose.ocr/baserecognitionsettings/automaticcolorinversion) { get; set; } | اكتشف الصور التي تحتوي على نص أبيض على خلفية داكنة/سوداء واختر تلقائيًا خوارزمية OCR خاصة لها. |
+| [IgnoredSymbols](../../aspose.ocr/baserecognitionsettings/ignoredsymbols) { get; set; } | يضبط القائمة السوداء لرموز التعرف. |
+| [Language](../../aspose.ocr/baserecognitionsettings/language) { get; set; } | يحصل أو يضبط اللغة المستخدمة في OCR. تحدد الأبجدية المستخدمة أثناء التعرف. متعددة اللغات بشكل افتراضي. |
+| [RecognizeVerticalLines](../../aspose.ocr/baserecognitionsettings/recognizeverticallines) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب اكتشاف خطوط النص العمودية والتعرف عليها بالإضافة إلى الخطوط الأفقية. القيمة الافتراضية هي `false`. |
+| [ThreadsCount](../../aspose.ocr/baserecognitionsettings/threadscount) { get; set; } | يحصل أو يضبط عدد الخيوط للمعالجة. بشكل افتراضي، 0 يعني أن الصورة ستُعالج بعدد خيوط يساوي عدد المعالجات لديك. ThreadsCount = 1 يعني أن الصورة ستُعالج في الخيط الرئيسي. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.OCR](../../aspose.ocr/)
-* المجسم [Aspose.OCR](../../)
+* namespace [Aspose.OCR](../../aspose.ocr)
+* assembly [Aspose.OCR](../../)
 
-
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.OCR.dll -->

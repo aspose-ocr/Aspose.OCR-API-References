@@ -1,61 +1,123 @@
 ---
-title: RecognitionResult.Save
-second_title: Aspose.OCR لمرجع .NET API
-description: RecognitionResult طريقة. يحفظ المستند كنص عادي أو PDF أو مستند Microsoft Word .
+title: "Save"
+second_title: "Aspose.OCR لـ .NET مرجع API"
+description: "يحفظ المستند كملف PDF نص عادي أو مستند Microsoft Word."
 type: docs
-weight: 130
+weight: 150
 url: /ar/net/aspose.ocr/recognitionresult/save/
 ---
-## Save(string, SaveFormat, bool, SpellCheckLanguage, string) {#save_1}
+## Save(string, SaveFormat, bool, SpellCheckLanguage, string, string, PdfOptimizationMode) {#save_2}
 
-يحفظ المستند كنص عادي أو PDF أو مستند Microsoft Word .
+يحفظ المستند كنص عادي أو PDF أو مستند Microsoft Word.
 
 ```csharp
-public void Save(string fullFileName, SaveFormat saveFormat, bool applySpellingCorrection = false, 
-    SpellCheckLanguage language = SpellCheckLanguage.Eng, string dictionaryPath = null)
+public void Save(string fullFileName, SaveFormat saveFormat, bool applySpellingCorrection, 
+    SpellCheckLanguage language = SpellCheckLanguage.Eng, string dictionaryPath = null, 
+    string embeddedFontPath = null, 
+    PdfOptimizationMode optimizePdf = PdfOptimizationMode.MAXIMUM_QUALITY)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| fullFileName | String | اسم ملف مع مسار لحفظ التعرف ينتج عنه التنسيق المحدد. |
-| saveFormat | SaveFormat | تنسيق المستند (Docx ، Txt ، Pdf). |
-| applySpellingCorrection | Boolean | اضبط "true" لتصحيح الكلمات التي بها أخطاء إملائية في حال كان لديك مثل هذا في نتيجة التعرف. |
-| language | SpellCheckLanguage | قاموس التدقيق الإملائي (اختياري). |
-| dictionaryPath | String | اختياريا. المسار الكامل إلى قاموس المستخدم بتنسيق txt. التنسيق هو [كلمة - مسافة - تردد (رقم)] . مثال: 23135851162 \ n ذلك 3400031103 \ n |
+| fullFileName | String | اسم الملف مع مسار لحفظ نتيجة التعرف بالتنسيق المحدد. |
+| saveFormat | SaveFormat | تنسيق المستند (Docx, Txt, Pdf, Xlsx, Rtf, Json, Xml). |
+| applySpellingCorrection | Boolean | عيّن true لتصحيح الكلمات المكتوبة بشكل خاطئ في حال وجودها في نتيجة التعرف. |
+| language | SpellCheckLanguage | قاموس لتدقيق الإملاء (اختياري). |
+| dictionaryPath | String | اختياريًا. المسار الكامل إلى القاموس الخاص بالمستخدم بصيغة .txt. الصيغة هي [كلمة - مسافة - تكرار(رقم)]. مثال: the 23135851162\nthat 3400031103\n |
+| embeddedFontPath | String | اختياريًا. المسار الكامل إلى خط المستخدم. |
+| optimizePdf | PdfOptimizationMode | تقليل حجم ملف PDF عن طريق خفض جودة الصور الخلفية. بشكل افتراضي، يتم الحفاظ على جودة الصورة الأصلية. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* enum [SaveFormat](../../saveformat/)
-* enum [SpellCheckLanguage](../../../aspose.ocr.spellchecker/spellchecklanguage/)
-* class [RecognitionResult](../)
-* مساحة الاسم [Aspose.OCR](../../recognitionresult/)
-* المجسم [Aspose.OCR](../../../)
+* enum [SaveFormat](../../saveformat)
+* enum [SpellCheckLanguage](../../../aspose.ocr.spellchecker/spellchecklanguage)
+* enum [PdfOptimizationMode](../../pdfoptimizationmode)
+* class [RecognitionResult](../../recognitionresult)
+* namespace [Aspose.OCR](../../recognitionresult)
+* assembly [Aspose.OCR](../../../)
 
 ---
 
-## Save(MemoryStream, SaveFormat, bool, SpellCheckLanguage, string) {#save}
+## Save(string, SaveFormat, string, PdfOptimizationMode) {#save_3}
 
-يحفظ المستند كنص عادي أو PDF أو مستند Microsoft Word .
+يحفظ المستند كنص عادي أو PDF أو مستند Microsoft Word.
 
 ```csharp
-public void Save(MemoryStream stream, SaveFormat saveFormat, bool applySpellingCorrection = false, 
-    SpellCheckLanguage language = SpellCheckLanguage.Eng, string dictionaryPath = null)
+public void Save(string fullFileName, SaveFormat saveFormat, string embeddedFontPath = null, 
+    PdfOptimizationMode optimizePdf = PdfOptimizationMode.MAXIMUM_QUALITY)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| stream | MemoryStream | MemoryStream لحفظ التعرف ينتج عنه التنسيق المحدد. |
-| saveFormat | SaveFormat | تنسيق المستند (Docx ، Txt ، Pdf). |
-| applySpellingCorrection | Boolean | اضبط "true" لتصحيح الكلمات التي بها أخطاء إملائية في حال كان لديك مثل هذا في نتيجة التعرف. |
-| language | SpellCheckLanguage | قاموس التدقيق الإملائي (اختياري). |
-| dictionaryPath | String | اختياريا. المسار الكامل إلى قاموس المستخدم بتنسيق txt. التنسيق هو [كلمة - مسافة - تردد (رقم)] . مثال: 23135851162 \ n ذلك 3400031103 \ n |
+| fullFileName | String | اسم الملف مع مسار لحفظ نتيجة التعرف بالتنسيق المحدد. |
+| saveFormat | SaveFormat | تنسيق المستند (Docx, Txt, Pdf, Xlsx, Rtf, Json, Xml). |
+| embeddedFontPath | String | اختياريًا. المسار الكامل إلى خط المستخدم. |
+| optimizePdf | PdfOptimizationMode | تقليل حجم ملف PDF عن طريق خفض جودة الصور الخلفية. بشكل افتراضي، يتم الحفاظ على جودة الصورة الأصلية. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* enum [SaveFormat](../../saveformat/)
-* enum [SpellCheckLanguage](../../../aspose.ocr.spellchecker/spellchecklanguage/)
-* class [RecognitionResult](../)
-* مساحة الاسم [Aspose.OCR](../../recognitionresult/)
-* المجسم [Aspose.OCR](../../../)
+* enum [SaveFormat](../../saveformat)
+* enum [PdfOptimizationMode](../../pdfoptimizationmode)
+* class [RecognitionResult](../../recognitionresult)
+* namespace [Aspose.OCR](../../recognitionresult)
+* assembly [Aspose.OCR](../../../)
 
+---
 
+## Save(MemoryStream, SaveFormat, bool, SpellCheckLanguage, string, string, PdfOptimizationMode) {#save}
+
+يحفظ المستند كنص عادي أو PDF أو مستند Microsoft Word.
+
+```csharp
+public void Save(MemoryStream stream, SaveFormat saveFormat, bool applySpellingCorrection, 
+    SpellCheckLanguage language = SpellCheckLanguage.Eng, string dictionaryPath = null, 
+    string embeddedFontPath = null, 
+    PdfOptimizationMode optimizePdf = PdfOptimizationMode.MAXIMUM_QUALITY)
+```
+
+| معامل | نوع | الوصف |
+| --- | --- | --- |
+| تدفق | MemoryStream | MemoryStream لحفظ نتيجة التعرف بالتنسيق المحدد. |
+| saveFormat | SaveFormat | تنسيق المستند (Docx, Txt, Pdf). |
+| applySpellingCorrection | Boolean | عيّن true لتصحيح الكلمات المكتوبة بشكل خاطئ في حال وجودها في نتيجة التعرف. |
+| language | SpellCheckLanguage | قاموس لتدقيق الإملاء (اختياري). |
+| dictionaryPath | String | اختياريًا. المسار الكامل إلى القاموس الخاص بالمستخدم بصيغة .txt. الصيغة هي [كلمة - مسافة - تكرار(رقم)]. مثال: the 23135851162\nthat 3400031103\n |
+| embeddedFontPath | String | اختياريًا. المسار الكامل إلى خط المستخدم. |
+| optimizePdf | PdfOptimizationMode | تقليل حجم ملف PDF عن طريق خفض جودة الصور الخلفية. بشكل افتراضي، يتم الحفاظ على جودة الصورة الأصلية. |
+
+### انظر أيضًا
+
+* enum [SaveFormat](../../saveformat)
+* enum [SpellCheckLanguage](../../../aspose.ocr.spellchecker/spellchecklanguage)
+* enum [PdfOptimizationMode](../../pdfoptimizationmode)
+* class [RecognitionResult](../../recognitionresult)
+* namespace [Aspose.OCR](../../recognitionresult)
+* assembly [Aspose.OCR](../../../)
+
+---
+
+## Save(MemoryStream, SaveFormat, string, PdfOptimizationMode) {#save_1}
+
+يحفظ المستند كنص عادي أو PDF أو مستند Microsoft Word.
+
+```csharp
+public void Save(MemoryStream stream, SaveFormat saveFormat, string embeddedFontPath = null, 
+    PdfOptimizationMode optimizePdf = PdfOptimizationMode.MAXIMUM_QUALITY)
+```
+
+| معامل | نوع | الوصف |
+| --- | --- | --- |
+| تدفق | MemoryStream | MemoryStream لحفظ نتيجة التعرف بالتنسيق المحدد. |
+| saveFormat | SaveFormat | تنسيق المستند (Docx, Txt, Pdf). |
+| embeddedFontPath | String | اختياريًا. المسار الكامل إلى خط المستخدم. |
+| optimizePdf | PdfOptimizationMode | تقليل حجم ملف PDF عن طريق خفض جودة الصور الخلفية. بشكل افتراضي، يتم الحفاظ على جودة الصورة الأصلية. |
+
+### انظر أيضًا
+
+* enum [SaveFormat](../../saveformat)
+* enum [PdfOptimizationMode](../../pdfoptimizationmode)
+* class [RecognitionResult](../../recognitionresult)
+* namespace [Aspose.OCR](../../recognitionresult)
+* assembly [Aspose.OCR](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.OCR.dll -->

@@ -1,53 +1,63 @@
 ---
-title: Class RecognitionResult
-second_title: Aspose.OCR لمرجع .NET API
-description: Aspose.OCR.RecognitionResult فصل. نتائج التعرف على الصورة . تحتوي على عناصر بمعلومات التعرف وطرق تصدير النتيجة .
+title: "RecognitionResult"
+second_title: "Aspose.OCR لـ .NET مرجع API"
+description: "نتائج التعرف على الصورة. تحتوي على عناصر بمعلومات التعرف وطرق لتصدير النتائج."
 type: docs
-weight: 220
+weight: 140
 url: /ar/net/aspose.ocr/recognitionresult/
 ---
 ## RecognitionResult class
 
-نتائج التعرف على الصورة . تحتوي على عناصر بمعلومات التعرف وطرق تصدير النتيجة .
+نتائج التعرف على الصورة. تحتوي على عناصر بمعلومات التعرف وطرق لتصدير النتائج.
 
 ```csharp
 public class RecognitionResult
 ```
 
+## المنشئات
+
+| الاسم | الوصف |
+| --- | --- |
+| [RecognitionResult](recognitionresult)() | ينشئ مثيلًا جديدًا للفئة [`RecognitionResult`](../recognitionresult). |
+
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Image](../../aspose.ocr/recognitionresult/image/) { get; set; } | الحصول على أو تعيين صورة لإنشاء ملف pdf . |
-| [RecognitionAreasRectangles](../../aspose.ocr/recognitionresult/recognitionareasrectangles/) { get; } | الحصول على إحداثيات المستطيلات . |
-| [RecognitionAreasText](../../aspose.ocr/recognitionresult/recognitionareastext/) { get; } | الحصول على نتائج التعرف على القائمة لقائمة المناطق (المستطيلات) . |
-| [RecognitionCharactersList](../../aspose.ocr/recognitionresult/recognitioncharacterslist/) { get; } | مجموعة من الأحرف تم العثور عليها بواسطة خوارزمية التعرف وترتيبها تنازليًا حسب الاحتمالية. |
-| [RecognitionLinesResult](../../aspose.ocr/recognitionresult/recognitionlinesresult/) { get; } | الحصول على قائمة بنتائج التعرف مع قائمة بالصفوف (المستطيلات) . |
-| [RecognitionText](../../aspose.ocr/recognitionresult/recognitiontext/) { get; } | الحصول على نتيجة التعرف في سلسلة واحدة . |
-| [Skew](../../aspose.ocr/recognitionresult/skew/) { get; } | يحصل على زاوية الانحراف. |
-| [Warnings](../../aspose.ocr/recognitionresult/warnings/) { get; } | الحصول على قائمة برسائل التحذير التي تصف الأخطاء غير الحرجة التي ظهرت أثناء الإنشاء. |
+| [FileName](../../aspose.ocr/recognitionresult/filename) { get; set; } | المسار الكامل للملف. |
+| [Image](../../aspose.ocr/recognitionresult/image) { get; set; } | يحصل أو يعيّن الصورة لإنشاء ملف PDF. |
+| [RecognitionCharactersList](../../aspose.ocr/recognitionresult/recognitioncharacterslist) { get; } | مجموعة من الأحرف التي وجدها خوارزمية التعرف وتم ترتيبها بترتيب تنازلي حسب الاحتمالية. |
+| [RecognitionLinesResult](../../aspose.ocr/recognitionresult/recognitionlinesresult) { get; } | يحصل على قائمة بنتائج التعرف مع قائمة بالصفوف (المستطيلات). |
+| [RecognitionRegionsResult](../../aspose.ocr/recognitionresult/recognitionregionsresult) { get; } | يحصل على قائمة بنتائج التعرف مع قائمة بالمناطق (المستطيلات). |
+| [RecognitionText](../../aspose.ocr/recognitionresult/recognitiontext) { get; set; } | يحصل على نتيجة التعرف كسلسلة واحدة. |
+| [SerializableImage](../../aspose.ocr/recognitionresult/serializableimage) { get; set; } | حمولة الصورة المتسلسلة المستخدمة لتسلسل JSON/ثنائي لـ RecognitionResult. تخزن نفس بيانات الصورة كما في [`Image`](./image)، ولكن بصيغة أحادية البعد. |
+| [Warnings](../../aspose.ocr/recognitionresult/warnings) { get; } | يحصل على قائمة رسائل التحذير التي تصف الأخطاء غير الحرجة التي ظهرت أثناء الإنشاء. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [GetJson](../../aspose.ocr/recognitionresult/getjson/)(bool) | سلسلة نموذج JSON مع نتائج التعرف. |
-| [GetSpellCheckCorrectedText](../../aspose.ocr/recognitionresult/getspellcheckcorrectedtext/)(SpellCheckLanguage, string) | تصحيح النص (استبدال الكلمات التي بها أخطاء إملائية) . |
-| [GetSpellCheckErrorList](../../aspose.ocr/recognitionresult/getspellcheckerrorlist/)(SpellCheckLanguage, string) | ابحث عن الكلمات التي بها أخطاء إملائية مع التهجئات المقترحة لنص إدخال معين. |
-| [GetXml](../../aspose.ocr/recognitionresult/getxml/)() | سلسلة XML للنموذج مع نتائج التعرف . |
-| [Save](../../aspose.ocr/recognitionresult/save/#save)(MemoryStream, SaveFormat, bool, SpellCheckLanguage, string) | يحفظ المستند كنص عادي أو PDF أو مستند Microsoft Word . |
-| [Save](../../aspose.ocr/recognitionresult/save/#save_1)(string, SaveFormat, bool, SpellCheckLanguage, string) | يحفظ المستند كنص عادي أو PDF أو مستند Microsoft Word . |
-| [operator +](../../aspose.ocr/recognitionresult/op_addition/) | لإكمال النتيجة الكاملة من الأجزاء (السطور) التي تم التعرف عليها . |
+| [GetJson](../../aspose.ocr/recognitionresult/getjson)(bool) | تكوين سلسلة JSON مع نتائج التعرف. |
+| [GetKeywords](../../aspose.ocr/recognitionresult/getkeywords)() | احصل على الكلمات المفتاحية من جواز السفر (وضع الاختبار. يعمل فقط مع جوازات سفر الولايات المتحدة ومدغشقر). |
+| [GetSpellCheckCorrectedText](../../aspose.ocr/recognitionresult/getspellcheckcorrectedtext)(SpellCheckLanguage, string) | يصحح النص (يستبدل الكلمات المكتوبة بشكل خاطئ). |
+| [GetSpellCheckErrorList](../../aspose.ocr/recognitionresult/getspellcheckerrorlist)(SpellCheckLanguage, string) | ابحث عن الكلمات المكتوبة خطأ مع الاقتراحات الإملائية لنص مدخل معين. |
+| [GetXml](../../aspose.ocr/recognitionresult/getxml)() | تكوين سلسلة XML مع نتائج التعرف. |
+| [Save](../../aspose.ocr/recognitionresult/save#save_1)(MemoryStream, SaveFormat, string, PdfOptimizationMode) | يحفظ المستند كنص عادي أو PDF أو مستند Microsoft Word. |
+| [Save](../../aspose.ocr/recognitionresult/save#save_3)(string, SaveFormat, string, PdfOptimizationMode) | يحفظ المستند كنص عادي أو PDF أو مستند Microsoft Word. |
+| [Save](../../aspose.ocr/recognitionresult/save#save)(MemoryStream, SaveFormat, bool, SpellCheckLanguage, string, string, PdfOptimizationMode) | يحفظ المستند كنص عادي أو PDF أو مستند Microsoft Word. |
+| [Save](../../aspose.ocr/recognitionresult/save#save_2)(string, SaveFormat, bool, SpellCheckLanguage, string, string, PdfOptimizationMode) | يحفظ المستند كنص عادي أو PDF أو مستند Microsoft Word. |
+| [operator +](../../aspose.ocr/recognitionresult/op_addition) | لإكمال النتيجة الكاملة من القطع المعترف بها (السطور). |
 
 ## أعضاء آخرون
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| class [LinesResult](recognitionresult.linesresult/) | نص تم التعرف عليه من صف به إحداثيات الصف . |
+| class [LinesResult](recognitionresult.linesresult) | النص المعترف به من الصف مع إحداثيات الصف. |
+| class [RegionResult](recognitionresult.regionresult) | النص المعترف به من المنطقة مع إحداثيات المنطقة. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.OCR](../../aspose.ocr/)
-* المجسم [Aspose.OCR](../../)
+* namespace [Aspose.OCR](../../aspose.ocr)
+* assembly [Aspose.OCR](../../)
 
-
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.OCR.dll -->

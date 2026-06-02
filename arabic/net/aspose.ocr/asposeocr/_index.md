@@ -1,86 +1,86 @@
 ---
-title: Class AsposeOcr
-second_title: Aspose.OCR لمرجع .NET API
-description: Aspose.OCR.AsposeOcr فصل. واجهة برمجة التطبيقات الرئيسية لمكتبة Aspose OCR
+title: "AsposeOcr"
+second_title: "Aspose.OCR لـ .NET مرجع API"
+description: "API الرئيسي لمكتبة Aspose OCR"
 type: docs
 weight: 20
 url: /ar/net/aspose.ocr/asposeocr/
 ---
 ## AsposeOcr class
 
-واجهة برمجة التطبيقات الرئيسية لمكتبة Aspose OCR
+API الرئيسي لمكتبة Aspose OCR
 
 ```csharp
-public class AsposeOcr
+public class AsposeOcr : IDisposable
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [AsposeOcr](asposeocr/#constructor)() | يقوم بتهيئة مثيل جديد لملف`AsposeOcr` class. مُنشئ فارغ . |
-| [AsposeOcr](asposeocr/#constructor_1)(string) | يقوم بتهيئة مثيل جديد لملف`AsposeOcr` class. اضبط الأحرف المسموح بها بخاصية الأبجدية. |
+| [AsposeOcr](asposeocr)() | يُنشئ مثيلًا جديدًا من الفئة [`AsposeOcr`](../asposeocr). مُنشئ فارغ. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [CalculateSkew](../../aspose.ocr/asposeocr/calculateskew/#calculateskew)(MemoryStream) | حساب زاوية انحراف الصورة. |
-| [CalculateSkew](../../aspose.ocr/asposeocr/calculateskew/#calculateskew_1)(string) | حساب زاوية انحراف الصورة. |
-| [CalculateSkewFromUri](../../aspose.ocr/asposeocr/calculateskewfromuri/)(string) | حساب زاوية الانحراف لصورة من URI. |
-| [CompareImageTexts](../../aspose.ocr/asposeocr/compareimagetexts/)(string, string, RecognitionSettings, bool) | تحقق مما إذا كانت الصورتان تحتويان على نفس النص. |
-| [CorrectSpelling](../../aspose.ocr/asposeocr/correctspelling/)(string, SpellCheckLanguage, string) | تصحيح النص (استبدال الكلمات التي بها أخطاء إملائية) . |
-| [GetRectangles](../../aspose.ocr/asposeocr/getrectangles/#getrectangles)(MemoryStream, AreasType, bool) | يكتشف مناطق النص في الصورة .  لا يتم تطبيق التصحيح التلقائي لانحراف الصورة. يدعم GIF و PNG و JPEG و BMP و TIFF و JFIF. |
-| [GetRectangles](../../aspose.ocr/asposeocr/getrectangles/#getrectangles_1)(string, AreasType, bool) | يكتشف مناطق النص في الصورة .  لا يتم تطبيق التصحيح التلقائي لانحراف الصورة. يدعم GIF و PNG و JPEG و BMP و TIFF و JFIF. |
-| [ImageHasText](../../aspose.ocr/asposeocr/imagehastext/#imagehastext_1)(string, Regex, RecognitionSettings) | تحقق مما إذا كان نص الصورة يطابق التعبير العادي المقدم. |
-| [ImageHasText](../../aspose.ocr/asposeocr/imagehastext/#imagehastext)(string, string, RecognitionSettings, bool) | تحقق مما إذا كانت الصورة تحتوي على جزء النص المقدم. |
-| [ImageTextDiff](../../aspose.ocr/asposeocr/imagetextdiff/)(string, string, RecognitionSettings, bool) | قارن النصوص الموجودة على الصورتين وأعد رقمًا يمثل مدى تشابههما (من 0 إلى 1) . |
-| [PreprocessImage](../../aspose.ocr/asposeocr/preprocessimage/#preprocessimage)(MemoryStream, PreprocessingFilter) | استخدم المعالجة المسبقة للصور لتحسين دقة التعرف الضوئي على الحروف . أنشئ قائمة بالفلاتر التي سيتم تطبيقها على صورة الإدخال بالترتيب الذي تحدده. مثال لإنشاء عوامل التصفية: PreprocessingFilter filter = new PreprocessingFilter { PreprocessingFilter. ، تصفية المعالجة المسبقة. الحد الفاصل (150)، PreprocessingFilter.Binarize ()، PreprocessingFilter.Rotate (180)، PreprocessingFilter.Resize (3000،3000، Asprose.OCR.FilterFilters.Inarize) )، PreprocessingFilter.Dilate () }؛ أنت لست بحاجة إلى كل منهم. قم بتعيين ما تحتاجه فقط. |
-| [PreprocessImage](../../aspose.ocr/asposeocr/preprocessimage/#preprocessimage_1)(string, PreprocessingFilter) | استخدم المعالجة المسبقة للصور لتحسين دقة التعرف الضوئي على الحروف . أنشئ قائمة بالفلاتر التي سيتم تطبيقها على صورة الإدخال بالترتيب الذي تحدده. مثال لإنشاء عوامل التصفية: PreprocessingFilter filter = new PreprocessingFilter { PreprocessingFilter. ، تصفية المعالجة المسبقة. الحد الفاصل (150)، PreprocessingFilter.Binarize ()، PreprocessingFilter.Rotate (180)، PreprocessingFilter.Resize (3000،3000، Asprose.OCR.FilterFilters.Inarize) )، PreprocessingFilter.Dilate () }؛ أنت لست بحاجة إلى كل منهم. قم بتعيين ما تحتاجه فقط. |
-| [RecognizeCarPlate](../../aspose.ocr/asposeocr/recognizecarplate/#recognizecarplate)(MemoryStream, CarPlateRecognitionSettings) | يتعرف على لوحة السيارة. |
-| [RecognizeCarPlate](../../aspose.ocr/asposeocr/recognizecarplate/#recognizecarplate_1)(string, CarPlateRecognitionSettings) | يتعرف على لوحة السيارة. |
-| [RecognizeDjvu](../../aspose.ocr/asposeocr/recognizedjvu/#recognizedjvu)(MemoryStream, DocumentRecognitionSettings) | التعرف على النص من صورة DJVU متعددة الصفحات. يتعرف على ملف DJVU مع القدرة على التحديد[`DocumentRecognitionSettings`](../documentrecognitionsettings/) . يدعم DJVU فقط. لا يدعم أنواع الصور الأخرى. |
-| [RecognizeDjvu](../../aspose.ocr/asposeocr/recognizedjvu/#recognizedjvu_1)(string, DocumentRecognitionSettings) | التعرف على النص من صورة DJVU متعددة الصفحات. يتعرف على ملف DJVU مع القدرة على التحديد[`DocumentRecognitionSettings`](../documentrecognitionsettings/) . يدعم DJVU فقط. لا يدعم أنواع الصور الأخرى. |
-| [RecognizeIDCard](../../aspose.ocr/asposeocr/recognizeidcard/#recognizeidcard)(MemoryStream, IDCardRecognitionSettings) | يتعرف على النص الموجود في بطاقة الهوية. |
-| [RecognizeIDCard](../../aspose.ocr/asposeocr/recognizeidcard/#recognizeidcard_1)(string, IDCardRecognitionSettings) | يتعرف على النص الموجود في بطاقة الهوية. |
-| [RecognizeImage](../../aspose.ocr/asposeocr/recognizeimage/#recognizeimage_4)(MemoryStream) | يتعرف على النص على الصورة. |
-| [RecognizeImage](../../aspose.ocr/asposeocr/recognizeimage/#recognizeimage_5)(string) | يتعرف على النص على الصورة. |
-| [RecognizeImage](../../aspose.ocr/asposeocr/recognizeimage/#recognizeimage_2)(MemoryStream, RecognitionSettings) | يتعرف على النص على الصورة.  يتعرف على الصورة مع إمكانية التحديد[`RecognitionSettings`](../recognitionsettings/) . يدعم GIF و PNG و JPEG و BMP و TIFF و JFIF. |
-| [RecognizeImage](../../aspose.ocr/asposeocr/recognizeimage/#recognizeimage_3)(string, RecognitionSettings) | يتعرف على النص على الصورة. |
-| [RecognizeImage](../../aspose.ocr/asposeocr/recognizeimage/#recognizeimage)(Color[], int, int, RecognitionSettings) | يتعرف على النص على الصورة. |
-| [RecognizeImage](../../aspose.ocr/asposeocr/recognizeimage/#recognizeimage_1)(byte[], int, int, PixelType, RecognitionSettings) | يتعرف على النص على الصورة. |
-| [RecognizeImageFast](../../aspose.ocr/asposeocr/recognizeimagefast/#recognizeimagefast)(MemoryStream) | التعرف على النص الموجود في الصورة بجودة جيدة. لا يستخدم تصحيح الانحراف واكتشاف المناطق. يعمل في الوضع السريع. |
-| [RecognizeImageFast](../../aspose.ocr/asposeocr/recognizeimagefast/#recognizeimagefast_1)(string) | التعرف على النص الموجود في الصورة بجودة جيدة. لا يستخدم تصحيح الانحراف واكتشاف المناطق. يعمل في الوضع السريع. |
-| [RecognizeImageFromBase64](../../aspose.ocr/asposeocr/recognizeimagefrombase64/)(string, RecognitionSettings) | يتعرف على النص في الصورة المقدمة في نوع base64 . |
-| [RecognizeImageFromUri](../../aspose.ocr/asposeocr/recognizeimagefromuri/)(string, RecognitionSettings) | يتعرف على النص الموجود في الصورة المقدم من رابط URI. |
-| [RecognizeInvoice](../../aspose.ocr/asposeocr/recognizeinvoice/#recognizeinvoice)(MemoryStream, InvoiceRecognitionSettings) | يتعرف على النص الموجود في صورة الفاتورة . |
-| [RecognizeInvoice](../../aspose.ocr/asposeocr/recognizeinvoice/#recognizeinvoice_1)(string, InvoiceRecognitionSettings) | يتعرف على النص الموجود في صورة الفاتورة . |
-| [RecognizeLine](../../aspose.ocr/asposeocr/recognizeline/#recognizeline)(MemoryStream) | يتعرف على الصورة التي تحتوي على سطر واحد من النص. لا يتم تطبيق التصحيح التلقائي لانحراف الصورة. يدعم GIF و PNG و JPEG و BMP و TIFF و JFIF. |
-| [RecognizeLine](../../aspose.ocr/asposeocr/recognizeline/#recognizeline_1)(string) | يتعرف على الصورة التي تحتوي على سطر واحد من النص. لا يتم تطبيق التصحيح التلقائي لانحراف الصورة. يدعم GIF و PNG و JPEG و BMP و TIFF و JFIF. |
-| [RecognizeMultipleImages](../../aspose.ocr/asposeocr/recognizemultipleimages/#recognizemultipleimages)(List&lt;string&gt;) | يتعرف على صور متعددة من القائمة بالإعدادات الافتراضية. المحفوظات والمجلدات غير مدعومة. أقصى قدر من الصور المعالجة هو 20. يدعم GIF و PNG و JPEG و BMP و TIFF و JFIF. |
-| [RecognizeMultipleImages](../../aspose.ocr/asposeocr/recognizemultipleimages/#recognizemultipleimages_2)(string) | يتعرف على صور متعددة معبأة في أرشيف مضغوط أو من مجلد بإعدادات افتراضية. المحفوظات والمجلدات المتداخلة غير مدعومة. أقصى قدر من الصور المعالجة هو 20. يدعم GIF و PNG و JPEG و BMP و TIFF و JFIF. |
-| [RecognizeMultipleImages](../../aspose.ocr/asposeocr/recognizemultipleimages/#recognizemultipleimages_1)(List&lt;string&gt;, RecognitionSettings) | يتعرف على صور متعددة من القائمة .  المحفوظات والمجلدات غير مدعومة. أقصى قدر من الصور المعالجة هو 20. يدعم GIF و PNG و JPEG و BMP و TIFF و JFIF. |
-| [RecognizeMultipleImages](../../aspose.ocr/asposeocr/recognizemultipleimages/#recognizemultipleimages_3)(string, RecognitionSettings) | يتعرف على صور متعددة معبأة في أرشيف ZIP أو من المجلد. المحفوظات والمجلدات المتداخلة غير مدعومة. أقصى قدر من الصور المعالجة هو 20. يدعم GIF و PNG و JPEG و BMP و TIFF و JFIF. |
-| [RecognizePassport](../../aspose.ocr/asposeocr/recognizepassport/#recognizepassport)(MemoryStream, PassportRecognitionSettings) | يتعرف على النص الموجود في جوازات السفر . |
-| [RecognizePassport](../../aspose.ocr/asposeocr/recognizepassport/#recognizepassport_1)(string, PassportRecognitionSettings) | يتعرف على النص الموجود في جوازات السفر . |
-| [RecognizePdf](../../aspose.ocr/asposeocr/recognizepdf/#recognizepdf)(MemoryStream, DocumentRecognitionSettings) | التعرف على النص من ملف pdf الممسوح ضوئيًا (استخراج الصور). يتعرف على ملف pdf مع إمكانية التحديد[`RecognitionSettings`](../recognitionsettings/) . يدعم ملفات PDF الممسوحة ضوئيًا فقط. لا يدعم ملف PDF القابل للبحث . |
-| [RecognizePdf](../../aspose.ocr/asposeocr/recognizepdf/#recognizepdf_1)(string, DocumentRecognitionSettings) | التعرف على النص من ملف pdf الممسوح ضوئيًا (استخراج الصور). يتعرف على ملف pdf مع إمكانية التحديد[`DocumentRecognitionSettings`](../documentrecognitionsettings/) . يدعم ملفات PDF الممسوحة ضوئيًا فقط. لا يدعم ملف PDF القابل للبحث . |
-| [RecognizeReceipt](../../aspose.ocr/asposeocr/recognizereceipt/#recognizereceipt)(MemoryStream, ReceiptRecognitionSettings) | يتعرف على النص على الصورة. |
-| [RecognizeReceipt](../../aspose.ocr/asposeocr/recognizereceipt/#recognizereceipt_1)(string, ReceiptRecognitionSettings) | يتعرف على النص على الصورة. |
-| [RecognizeTiff](../../aspose.ocr/asposeocr/recognizetiff/#recognizetiff)(MemoryStream, DocumentRecognitionSettings) | التعرف على النص من صورة TIFF متعددة الصفحات. يتعرف على ملف TIFF مع إمكانية التحديد[`DocumentRecognitionSettings`](../documentrecognitionsettings/) . يدعم TIFF (TIF) فقط. لا يدعم أنواع الصور الأخرى. |
-| [RecognizeTiff](../../aspose.ocr/asposeocr/recognizetiff/#recognizetiff_1)(string, DocumentRecognitionSettings) | التعرف على النص من صورة TIFF متعددة الصفحات. يتعرف على ملف TIFF مع إمكانية التحديد[`DocumentRecognitionSettings`](../documentrecognitionsettings/) . يدعم TIFF (TIF) فقط. لا يدعم أنواع الصور الأخرى. |
-| static [SaveMultipageDocument](../../aspose.ocr/asposeocr/savemultipagedocument/#savemultipagedocument)(MemoryStream, SaveFormat, List&lt;RecognitionResult&gt;) | يسمح بالحصول على مستند متعدد الصفحات من قائمة كائنات RecognitionResult |
-| static [SaveMultipageDocument](../../aspose.ocr/asposeocr/savemultipagedocument/#savemultipagedocument_1)(string, SaveFormat, List&lt;RecognitionResult&gt;) | يسمح بالحصول على مستند متعدد الصفحات من قائمة كائنات RecognitionResult |
+| [CalculateSkew](../../aspose.ocr/asposeocr/calculateskew)(OcrInput) | يحسب زوايا الانحراف للصور. يدعم GIF، PNG، JPEG، BMP، TIFF، JFIF، التدفق، المجلد، المصفوفات، الأرشيفات. |
+| [CompareImageTexts](../../aspose.ocr/asposeocr/compareimagetexts)(string, string, RecognitionSettings, bool) | تحقق مما إذا كانت الصورتان تحتويان على نفس النص. |
+| [CorrectSpelling](../../aspose.ocr/asposeocr/correctspelling)(string, SpellCheckLanguage, string) | يصحح النص (يستبدل الكلمات المكتوبة بشكل خاطئ). |
+| [DetectDefects](../../aspose.ocr/asposeocr/detectdefects)(OcrInput, DefectType) | يبحث تلقائيًا عن المناطق المشكلة في الصورة والتي يمكن أن تؤثر بشكل كبير على دقة OCR. يدعم صور PNG، JPEG، BMP، TIFF، JFIF، وGIF المقدمة كملف أو تدفق أو مصفوفة بكسل. يدعم التعرف الجماعي. |
+| [DetectDocumentLayout](../../aspose.ocr/asposeocr/detectdocumentlayout)(OcrInput) | يحلل الصورة ويحدد الأنواع المختلفة لمناطق المحتوى داخلها. يدعم صور PNG، JPEG، BMP، TIFF، JFIF، وGIF من الملفات، التدفقات، ومصفوفات البكسل. يمكنه معالجة المجلدات والأرشيفات بشكل جماعي. |
+| [DetectLanguages](../../aspose.ocr/asposeocr/detectlanguages)(OcrInput) | يحلل النص الموجود على الصورة لتحديد اللغات التي كُتب بها. يتيح ذلك اختيار لغة التعرف الأنسب ويساعد في مهام معالجة النصوص اللاحقة مثل التدقيق الإملائي أو الترجمة. |
+| [DetectRectangles](../../aspose.ocr/asposeocr/detectrectangles#detectrectangles)(OcrInput) | يكشف عن مناطق النص في الصور. يدعم GIF، PNG، JPEG، BMP، TIFF، JFIF، التدفق، المجلد، المصفوفات، الأرشيفات. |
+| [DetectRectangles](../../aspose.ocr/asposeocr/detectrectangles#detectrectangles_1)(OcrInput, AreasType, bool) | يكشف عن مناطق النص في الصور. يدعم GIF، PNG، JPEG، BMP، TIFF، JFIF، التدفق، المجلد، المصفوفات، الأرشيفات. |
+| [DetectTables](../../aspose.ocr/asposeocr/detecttables)(OcrInput) | يكشف عن مناطق الجداول في الصور. يدعم GIF، PNG، JPEG، BMP، TIFF، JFIF، التدفق، المجلد، المصفوفات، الأرشيفات. |
+| [Dispose](../../aspose.ocr/asposeocr/dispose)() | مسح الموارد للتعرف. |
+| [ImageHasText](../../aspose.ocr/asposeocr/imagehastext#imagehastext_1)(string, Regex, RecognitionSettings, bool) | تحقق مما إذا كان نص الصورة يطابق التعبير النمطي المقدم. |
+| [ImageHasText](../../aspose.ocr/asposeocr/imagehastext#imagehastext)(string, string, RecognitionSettings, bool, bool) | تحقق مما إذا كانت الصورة تحتوي على الجزء النصي المقدم. |
+| [ImageTextDiff](../../aspose.ocr/asposeocr/imagetextdiff)(string, string, RecognitionSettings, bool, bool) | قارن النصوص على الصورتين وأرجع رقمًا يمثل مدى تشابههما (من 0 إلى 1). |
+| [Recognize](../../aspose.ocr/asposeocr/recognize#recognize)(OcrInput) | يتعرف على النص في الصور / المستندات. يدعم GIF، PNG، JPEG، BMP، TIFF، JFIF، التدفق، الدليل، المصفوفات، الأرشيفات. |
+| [Recognize](../../aspose.ocr/asposeocr/recognize#recognize_1)(OcrInput, AsposeOcrPresets) | يتعرف على النص من مدخل OCR المعطى باستخدام تكوين مسبق محدد. |
+| [Recognize](../../aspose.ocr/asposeocr/recognize#recognize_2)(OcrInput, RecognitionSettings) | يتعرف على النص في الصور / المستندات. يدعم GIF، PNG، JPEG، BMP، TIFF، JFIF، التدفق، الدليل، المصفوفات، الأرشيفات. |
+| [Recognize](../../aspose.ocr/asposeocr/recognize#recognize_3)(OcrInput, RecognitionSettings, CancellationToken) | يتعرف على النص في الصور / المستندات. يدعم GIF، PNG، JPEG، BMP، TIFF، JFIF، التدفق، الدليل، المصفوفات، الأرشيفات. |
+| [RecognizeCarPlate](../../aspose.ocr/asposeocr/recognizecarplate#recognizecarplate)(OcrInput) | يتعرف على النص على لوحة السيارة. |
+| [RecognizeCarPlate](../../aspose.ocr/asposeocr/recognizecarplate#recognizecarplate_1)(OcrInput, CarPlateRecognitionSettings) | يتعرف على النص على لوحة السيارة. |
+| [RecognizeCharacters](../../aspose.ocr/asposeocr/recognizecharacters#recognizecharacters)(OcrInput) | يكشف عن الرموز على الصور. يدعم GIF و PNG و JPEG و BMP و TIFF و JFIF، التدفق، المجلد، المصفوفات، الأرشيفات. |
+| [RecognizeCharacters](../../aspose.ocr/asposeocr/recognizecharacters#recognizecharacters_1)(OcrInput, DetectAreasMode, Language) | يكشف عن الرموز على الصور. يدعم GIF و PNG و JPEG و BMP و TIFF و JFIF، التدفق، المجلد، المصفوفات، الأرشيفات. |
+| [RecognizeFast](../../aspose.ocr/asposeocr/recognizefast)(OcrInput) | يتعرف على النص في الصور / المستندات. يدعم GIF، PNG، JPEG، BMP، TIFF، JFIF، التدفق، الدليل، المصفوفات، الأرشيفات. |
+| [RecognizeFormula](../../aspose.ocr/asposeocr/recognizeformula)(OcrInput, bool) | يتعرف على الصيغ الرياضية من صور المدخل المقدمة. |
+| [RecognizeFormulaAI](../../aspose.ocr/asposeocr/recognizeformulaai)(OcrInput) | يتعرف على الصيغ الرياضية من صور المدخل المقدمة باستخدام الذكاء الاصطناعي. |
+| [RecognizeHandwrittenText](../../aspose.ocr/asposeocr/recognizehandwrittentext)(OcrInput) | يتعرف على النص المكتوب بخط اليد على الصور. |
+| [RecognizeIDCard](../../aspose.ocr/asposeocr/recognizeidcard#recognizeidcard)(OcrInput) | يتعرف على النص على بطاقة الهوية. |
+| [RecognizeIDCard](../../aspose.ocr/asposeocr/recognizeidcard#recognizeidcard_1)(OcrInput, IDCardRecognitionSettings) | يتعرف على النص على بطاقة الهوية. |
+| [RecognizeInvoice](../../aspose.ocr/asposeocr/recognizeinvoice#recognizeinvoice)(OcrInput) | يتعرف على النص على الفواتير. |
+| [RecognizeInvoice](../../aspose.ocr/asposeocr/recognizeinvoice#recognizeinvoice_1)(OcrInput, InvoiceRecognitionSettings) | يتعرف على النص على الفواتير. |
+| [RecognizeLines](../../aspose.ocr/asposeocr/recognizelines#recognizelines)(OcrInput) | يتعرف على الصور التي تحتوي على سطر واحد من النص. يدعم GIF و PNG و JPEG و BMP و TIFF و JFIF، التدفق، المجلد، المصفوفات، الأرشيفات. |
+| [RecognizeLines](../../aspose.ocr/asposeocr/recognizelines#recognizelines_1)(OcrInput, RecognitionSettings) | يتعرف على الصور التي تحتوي على سطر واحد من النص. يدعم GIF و PNG و JPEG و BMP و TIFF و JFIF، التدفق، المجلد، المصفوفات، الأرشيفات. |
+| [RecognizePassport](../../aspose.ocr/asposeocr/recognizepassport#recognizepassport)(OcrInput) | يتعرف على النص على جواز السفر. |
+| [RecognizePassport](../../aspose.ocr/asposeocr/recognizepassport#recognizepassport_1)(OcrInput, PassportRecognitionSettings) | يتعرف على النص على جواز السفر. |
+| [RecognizeReceipt](../../aspose.ocr/asposeocr/recognizereceipt#recognizereceipt)(OcrInput) | يتعرف على النص على الإيصالات. |
+| [RecognizeReceipt](../../aspose.ocr/asposeocr/recognizereceipt#recognizereceipt_1)(OcrInput, ReceiptRecognitionSettings) | يتعرف على النص على الإيصالات. |
+| [RecognizeTables](../../aspose.ocr/asposeocr/recognizetables)(OcrInput, Language) | يكشف عن الجداول والبنية، ويتعرف على خلايا النص. يدعم GIF و PNG و JPEG و BMP و TIFF و JFIF، التدفق، الدليل، المصفوفات، الأرشيفات. |
+| static [SaveMultipageDocument](../../aspose.ocr/asposeocr/savemultipagedocument#savemultipagedocument_1)(MemoryStream, SaveFormat, List&lt;RecognitionResult&gt;, string, PdfOptimizationMode) | يسمح بالحصول على مستند متعدد الصفحات من قائمة كائنات RecognitionResult |
+| static [SaveMultipageDocument](../../aspose.ocr/asposeocr/savemultipagedocument#savemultipagedocument_3)(string, SaveFormat, List&lt;RecognitionResult&gt;, string, PdfOptimizationMode) | يسمح بالحصول على مستند متعدد الصفحات من قائمة كائنات RecognitionResult |
+| static [SaveMultipageDocument](../../aspose.ocr/asposeocr/savemultipagedocument#savemultipagedocument)(MemoryStream, SaveFormat, List&lt;RecognitionResult&gt;, bool, SpellCheckLanguage, string, string, PdfOptimizationMode) | يسمح بالحصول على مستند متعدد الصفحات من قائمة كائنات RecognitionResult |
+| static [SaveMultipageDocument](../../aspose.ocr/asposeocr/savemultipagedocument#savemultipagedocument_2)(string, SaveFormat, List&lt;RecognitionResult&gt;, bool, SpellCheckLanguage, string, string, PdfOptimizationMode) | يسمح بالحصول على مستند متعدد الصفحات من قائمة كائنات RecognitionResult |
+
+## الحقول
+
+| الاسم | الوصف |
+| --- | --- |
+| static [DebugMode](../../aspose.ocr/asposeocr/debugmode) | يفعل وضع التصحيح. عند التفعيل، يحفظ النظام نتائج معالجة الصور الوسيطة مثل الصور المسبقة المعالجة والصور التي تحتوي على مستطيلات خطوط النص المرسومة. |
+| static [DebugModeSaveDirectory](../../aspose.ocr/asposeocr/debugmodesavedirectory) | الدليل الذي سيتم حفظ نتائج التصحيح فيه. إذا لم يتم تحديده، سيُستخدم الدليل العامل الحالي كإعداد افتراضي. |
 
 ## الأحداث
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| event [OcrProgress](../../aspose.ocr/asposeocr/ocrprogress/) | حدث لتتبع تقدم التعرف على الصور متعددة الصفحات. |
+| event [OcrProgress](../../aspose.ocr/asposeocr/ocrprogress) | حدث لتتبع تقدم التعرف على الصور متعددة الصفحات. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.OCR](../../aspose.ocr/)
-* المجسم [Aspose.OCR](../../)
+* namespace [Aspose.OCR](../../aspose.ocr)
+* assembly [Aspose.OCR](../../)
 
-
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.OCR.dll -->
