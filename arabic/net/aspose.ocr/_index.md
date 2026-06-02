@@ -1,41 +1,68 @@
 ---
-title: Aspose.OCR
-second_title: Aspose.OCR لمرجع .NET API
-description: 
+title: "Aspose.OCR"
+second_title: "Aspose.OCR لـ .NET مرجع API"
+description: "تحتوي Aspose.OCR على أدوات للتعرف على الصور، وتصحيح الانحراف، واكتشاف مناطق النص، وتدقيق إملائي."
 type: docs
 weight: 10
 url: /ar/net/aspose.ocr/
 ---
+تحتوي **Aspose.OCR** على أدوات للتعرف على الصور، وتصحيح الانحراف، واكتشاف مناطق النص، وتدقيق إملائي.
 
+## الفئات
 
-## الطبقات
-
-| فصل | وصف |
+| الفئة | الوصف |
 | --- | --- |
-| [AsposeOcr](./asposeocr/) | واجهة برمجة التطبيقات الرئيسية لمكتبة Aspose OCR |
-| [BaseRecognitionSettings](./baserecognitionsettings/) | إعدادات التعرف على الصورة . يحتوي على عناصر تسمح بتخصيص عملية التعرف . |
-| [CarPlateRecognitionSettings](./carplaterecognitionsettings/) | إعدادات التعرف على رقم السيارة . يحتوي على عناصر تسمح بتخصيص عملية التعرف . |
-| [DocumentRecognitionSettings](./documentrecognitionsettings/) | إعدادات التعرف على pdf . يحتوي على عناصر تسمح بتخصيص عملية التعرف . |
-| [IDCardRecognitionSettings](./idcardrecognitionsettings/) | إعدادات التعرف على بطاقة الهوية . تحتوي على عناصر تسمح بتخصيص عملية التعرف . |
-| [InvoiceRecognitionSettings](./invoicerecognitionsettings/) | إعدادات التعرف على الفواتير . تحتوي على عناصر تسمح بتخصيص عملية التعرف . |
-| [License](./license/) | يوفر طرقًا لترخيص المكون. |
-| [Logging](./logging/) | فئة لإنشاء تكوينات السجل. |
-| [Metered](./metered/) | يوفر طرقًا لتعيين المفتاح المقنن . |
-| [OcrRecognizeEventHandler](./ocrrecognizeeventhandler/) | مفوض لتتبع تقدم التعرف على الصور متعددة الصفحات. |
-| [PassportRecognitionSettings](./passportrecognitionsettings/) | إعدادات التعرف على جواز السفر . يحتوي على عناصر تسمح بتخصيص عملية التعرف . |
-| [ReceiptRecognitionSettings](./receiptrecognitionsettings/) | إعدادات التعرف على الإيصالات . تحتوي على عناصر تسمح بتخصيص عملية التعرف . |
-| [RecognitionResult](./recognitionresult/) | نتائج التعرف على الصورة . تحتوي على عناصر بمعلومات التعرف وطرق تصدير النتيجة . |
-| [RecognitionSettings](./recognitionsettings/) | إعدادات التعرف على الصورة . يحتوي على عناصر تسمح بتخصيص عملية التعرف . |
+| [AsposeOcr](./asposeocr) | API الرئيسي لمكتبة Aspose OCR |
+| [AsposeOcrPresets](./asposeocrpresets) | يمثل مجموعة من الإعدادات المسبقة لـ OCR المعرّفة مسبقًا لسيناريوهات التعرف الشائعة. يتيح تكوينًا سريعًا لإعدادات التعرف دون ضبط يدوي للمعلمات. |
+| [BaseRecognitionSettings](./baserecognitionsettings) | إعدادات التعرف على الصور. يحتوي على عناصر تسمح بتخصيص عملية التعرف. |
+| [CarPlateRecognitionSettings](./carplaterecognitionsettings) | إعدادات التعرف على أرقام السيارات. يحتوي على عناصر تسمح بتخصيص عملية التعرف. |
+| [Character](./character) | بيانات حول الحرف المكتشف. |
+| [CharacterRecognitionResult](./characterrecognitionresult) | صفحات تحتوي على بيانات الأحرف المكتشفة. |
+| [ContentArea](./contentarea) | منطقة محتوى تم اكتشافها في صورة. |
+| [DefectAreas](./defectareas) | مناطق الصورة التي تحتوي على نوع معين من العيوب. |
+| [DefectOutput](./defectoutput) | مناطق تحتوي على عيوب تم تحديدها في الصورة. |
+| [IDCardRecognitionSettings](./idcardrecognitionsettings) | إعدادات التعرف على بطاقة الهوية. يحتوي على عناصر تسمح بتخصيص عملية التعرف. |
+| [ImageData](./imagedata) | معلومات حول الصورة المعالجة / المُعترف بها. |
+| [ImageProcessing](./imageprocessing) | فئة مساعدة لمكتبة Aspose OCR. تسمح بتهيئة الصور مسبقًا وحفظها. |
+| [InvoiceRecognitionSettings](./invoicerecognitionsettings) | إعدادات التعرف على الفاتورة. تحتوي على عناصر تسمح بتخصيص عملية التعرف. |
+| [LanguageDetectionOutput](./languagedetectionoutput) | اللغات المكتشفة في نص الصورة. |
+| [LayoutOutput](./layoutoutput) | معلومات حول مناطق المحتوى المكتشفة في الصورة. |
+| [License](./license) | يوفر طرقًا لترخيص المكوّن. |
+| [Logging](./logging) | فئة لإنشاء تكوينات السجل. |
+| [Metered](./metered) | يوفر طرقًا لتعيين المفتاح القائم على القياس. |
+| [OcrInput](./ocrinput) | حاوية لجمع جميع الصور / المستندات للتهيئة المسبقة / التعرف. |
+| [OcrOutput](./ocroutput) | فئة حاوية لتخزين وإدارة نتائج عمليات OCR. |
+| [OcrRecognizeEventHandler](./ocrrecognizeeventhandler) | مُفوض لتتبع تقدم التعرف على الصور متعددة الصفحات. |
+| [OCRTable](./ocrtable) | يمثل جدولًا واحدًا ببيانات جدولة مُعترف بها. |
+| [OCRTableCell](./ocrtablecell) | يمثل خلية جدول واحدة بنص مُعترف به ومعلومات الموقع. |
+| [OCRTablePage](./ocrtablepage) | يمثل بيانات جدول منظمة للصفحة الكاملة لمستند OCR. |
+| [OCRTableRow](./ocrtablerow) | يمثل صفًا واحدًا داخل جدول مُعترف به. |
+| [OnnxRuntimeSessionOptions](./onnxruntimesessionoptions) | خيارات التكوين لإنشاء ONNX InferenceSession. نوصي بالحفاظ على الإعدادات الافتراضية المُحسّنة ما لم تكن متأكدًا تمامًا من التعديلات. للحصول على تفاصيل تقنية، راجع وثائق ONNX Runtime. |
+| [PassportRecognitionSettings](./passportrecognitionsettings) | إعدادات التعرف على جواز السفر. تحتوي على عناصر تسمح بتخصيص عملية التعرف. |
+| [ReceiptRecognitionSettings](./receiptrecognitionsettings) | إعدادات التعرف على الإيصال. تحتوي على عناصر تسمح بتخصيص عملية التعرف. |
+| [RecognitionResult](./recognitionresult) | نتائج التعرف على الصورة. تحتوي على عناصر بمعلومات التعرف وطرق لتصدير النتائج. |
+| [RecognitionSettings](./recognitionsettings) | إعدادات التعرف على الصور. يحتوي على عناصر تسمح بتخصيص عملية التعرف. |
+| [RectangleOutput](./rectangleoutput) | بيانات حول مناطق النص المكتشفة أو السطور. |
+| [Resources](./resources) | إدارة الموارد القابلة للتنزيل التي تعزز قدرات التعرف في Aspose.OCR. |
+| [SkewOutput](./skewoutput) | بيانات حول زاوية الانحراف بالدرجات واسم الملف. |
 ## تعداد
 
-| تعداد | وصف |
+| تعداد | الوصف |
 | --- | --- |
-| [AreasType](./areastype/) | يحدد نوع المناطق التي اكتشفها النموذج. |
-| [CharactersAllowedType](./charactersallowedtype/) | لتحديد نوع الأحرف المسموح بها لنتيجة التعرف . |
-| [DetectAreasMode](./detectareasmode/) | يحدد نوع الشبكة العصبية المستخدمة لاكتشاف المناطق. |
-| [Language](./language/) | اللغات المستخدمة في التعرف الضوئي على الحروف . ISO 639-2 Code |
-| [LoggingLevel](./logginglevel/) | يحدد نوع السجلات المراد عرضها . |
-| [PixelType](./pixeltype/) | يحدد نوع بيانات البكسل للتعرف على الصورة. |
-| [SaveFormat](./saveformat/) | للحصول على نتيجة التعرف save |
+| [AreasType](./areastype) | يحدد نوع المناطق المكتشفة بواسطة النموذج. |
+| [CharactersAllowedType](./charactersallowedtype) | يحدد نوع الأحرف المسموح بها لنتيجة التعرف. |
+| [Country](./country) | لتحسين التعرف على جواز السفر، حدد بلد جواز السفر. |
+| [DefectType](./defecttype) | أنواع عيوب الصورة. |
+| [DetectAreasMode](./detectareasmode) | يحدد نوع الشبكة العصبية المستخدمة لاكتشاف المناطق. |
+| [ExecutionModeOnnx](./executionmodeonnx) | يتحكم فيما إذا كنت تريد تنفيذ المشغلات في الرسم البياني واحدًا تلو الآخر أو بشكل متزامن. |
+| [GraphOptimizationLevelOnnx](./graphoptimizationlevelonnx) | مستوى تحسين الرسم البياني لاستخدامه مع SessionOptions. للحصول على تفاصيل تقنية، راجع وثائق ONNX Runtime. |
+| [InputType](./inputtype) | أنواع الصور/المستندات للمعالجة/التعرف. |
+| [Language](./language) | اللغات المستخدمة في OCR. رمز ISO 939-3. |
+| [LanguageDetectionLevel](./languagedetectionlevel) | يحدد مستوى اكتشاف اللغة للتعرف على النص في الصورة. |
+| [LoggingLevel](./logginglevel) | يحدد نوع السجلات التي سيتم عرضها. |
+| [PdfOptimizationMode](./pdfoptimizationmode) | قلل حجم ملف PDF بشكل كبير على حساب جودة صورة أقل. |
+| [PixelType](./pixeltype) | يحدد نوع بيانات البكسل للتعرف على الصورة. |
+| [RegionTypes](./regiontypes) | أنواع المناطق التي يكتشفها نموذج اكتشاف التخطيط/المناطق. |
+| [SaveFormat](./saveformat) | لحفظ نتيجة التعرف |
 
-
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.OCR.dll -->

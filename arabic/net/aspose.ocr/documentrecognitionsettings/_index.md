@@ -1,50 +1,50 @@
 ---
-title: Class DocumentRecognitionSettings
-second_title: Aspose.OCR لمرجع .NET API
-description: Aspose.OCR.DocumentRecognitionSettings فصل. إعدادات التعرف على pdf . يحتوي على عناصر تسمح بتخصيص عملية التعرف .
+title: "DocumentRecognitionSettings"
+second_title: "Aspose.OCR لـ .NET مرجع API"
+description: "إعدادات التعرف على ملفات PDF. تحتوي على عناصر تسمح بتخصيص عملية التعرف."
 type: docs
-weight: 70
+weight: 140
 url: /ar/net/aspose.ocr/documentrecognitionsettings/
 ---
 ## DocumentRecognitionSettings class
 
-إعدادات التعرف على pdf . يحتوي على عناصر تسمح بتخصيص عملية التعرف .
+إعدادات التعرف على ملفات PDF. تحتوي على عناصر تسمح بتخصيص عملية التعرف.
 
 ```csharp
 public class DocumentRecognitionSettings : BaseRecognitionSettings
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [DocumentRecognitionSettings](documentrecognitionsettings/#constructor)(int, int) | يقوم بتهيئة مثيل جديد لملف`DocumentRecognitionSettings` فئة مع مجموعة قصيرة من الخصائص . |
-| [DocumentRecognitionSettings](documentrecognitionsettings/#constructor_1)(int, int, Language, bool, bool, int) | يقوم بتهيئة مثيل جديد لملف`DocumentRecognitionSettings`فئة بمجموعة كاملة من الخصائص. |
+| [DocumentRecognitionSettings](documentrecognitionsettings#constructor)(int, int) | يُنشئ مثيلاً جديدًا من الفئة [`DocumentRecognitionSettings`](../documentrecognitionsettings) مع مجموعة مختصرة من الخصائص. |
+| [DocumentRecognitionSettings](documentrecognitionsettings#constructor_1)(int, int, Language, bool, bool, int) | يُنشئ مثيلاً جديدًا من الفئة [`DocumentRecognitionSettings`](../documentrecognitionsettings) مع مجموعة كاملة من الخصائص. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [AllowedCharacters](../../aspose.ocr/baserecognitionsettings/allowedcharacters/) { get; set; } | مجموعة الأحرف المسموح بها. لتحديد نوع الأحرف المسموح بها لنتيجة التعرف . |
-| [AutoContrast](../../aspose.ocr/baserecognitionsettings/autocontrast/) { get; set; } | يسمح باستخدام خوارزمية إضافية لتصحيح التباين للصورة قبل التعرف عليها. |
-| [AutoDenoising](../../aspose.ocr/baserecognitionsettings/autodenoising/) { get; set; } | تمكين استخدام شبكة عصبية إضافية لتحسين الصورة - تقليل التشويش . مفيد للصور التي تحتوي على نتائج مسح ضوئي ، وتشويه ، وبقع ، وموهجات ، وتدرجات ، وعناصر غريبة . |
-| [AutoSkew](../../aspose.ocr/baserecognitionsettings/autoskew/) { set; } | الحصول على أو تعيين علامة تشير إلى ما إذا كان يجب تمكين تصحيح الانحراف التلقائي للصورة. ممكّن (صحيح) افتراضيًا. |
-| [DetectAreasMode](../../aspose.ocr/baserecognitionsettings/detectareasmode/) { get; set; } | يسمح بتحديد الوضع الأمثل لمناطق نوع المستند: مستند ، صورة ، نص عادي ، عمود ، صورة. |
-| [IgnoredCharacters](../../aspose.ocr/baserecognitionsettings/ignoredcharacters/) { get; set; } | تعيين قائمة سوداء لرموز التعرف. |
-| [Language](../../aspose.ocr/baserecognitionsettings/language/) { set; } | الحصول على أو تعيين اللغة المستخدمة في التعرف الضوئي على الحروف .  تحديد الأبجدية المستخدمة أثناء التعرف . متعدد اللغات افتراضيًا. |
-| [LinesFiltration](../../aspose.ocr/baserecognitionsettings/linesfiltration/) { get; set; } | يسمح بالتعرف على النص في الجداول (خطوط المناطق المحاطة). |
-| [PagesNumber](../../aspose.ocr/documentrecognitionsettings/pagesnumber/) { get; set; } | تعيين عدد الصفحات لملف التعرف على ملف pdf متعدد الصفحات. |
-| [PreprocessingFilters](../../aspose.ocr/baserecognitionsettings/preprocessingfilters/) { get; set; } | يسمح بتجهيز الصورة لـ OCR عن طريق ضبط طرق المعالجة المسبقة. |
-| [SkewAngle](../../aspose.ocr/baserecognitionsettings/skewangle/) { set; } | الحصول على أو تعيين الزاوية بالدرجات لتدوير الصورة. سيؤدي تعيين هذه القيمة إلى تعطيل ملف[`AutoSkew`](../baserecognitionsettings/autoskew/) الخاصية ، بحيث لا يتم تطبيق تصحيح الانحراف التلقائي . صفر افتراضيًا. |
-| [StartPage](../../aspose.ocr/documentrecognitionsettings/startpage/) { get; set; } | اضبط الصفحة الأولى للاعتراف . |
-| [ThreadsCount](../../aspose.ocr/baserecognitionsettings/threadscount/) { set; } | الحصول على أو تحديد عدد سلاسل الرسائل للمعالجة . بشكل افتراضي ، يعني 0 أن الصورة ستتم معالجتها بعدد الخيوط الذي يساوي عدد المعالجات . ThreadsCount = 1 يعني أنه سيتم معالجة الصورة في السلسلة الرئيسية. |
-| [ThresholdValue](../../aspose.ocr/baserecognitionsettings/thresholdvalue/) { set; } | الحصول على أو تعيين قيمة حد مخصصة لترميز الصورة بالترميز . النطاق من 1 إلى 255. |
-| [UpscaleSmallFont](../../aspose.ocr/baserecognitionsettings/upscalesmallfont/) { get; set; } | يسمح لك باستخدام خوارزميات إضافية خصيصًا للتعرف على الخطوط الصغيرة. مفيد للصور ذات الأحرف الصغيرة الحجم . |
+| [AllowedCharacters](../../aspose.ocr/baserecognitionsettings/allowedcharacters) { get; set; } | مجموعة الأحرف المسموح بها. تحدد نوع الأحرف المسموح بها لنتيجة التعرف. |
+| [AutoContrast](../../aspose.ocr/baserecognitionsettings/autocontrast) { get; set; } | يسمح باستخدام خوارزمية تصحيح التباين الإضافية للصورة قبل عملية التعرف. |
+| [AutoDenoising](../../aspose.ocr/baserecognitionsettings/autodenoising) { get; set; } | يفعل استخدام شبكة عصبية إضافية لتحسين الصورة - تقليل الضوضاء. مفيد للصور التي تحتوي على عيوب المسح، التشوه، البقع، الوهج، التدرجات، العناصر الغريبة. |
+| [AutoSkew](../../aspose.ocr/baserecognitionsettings/autoskew) { set; } | يحصل أو يضبط علامة تشير إلى ما إذا كان يجب تمكين تصحيح الانحراف التلقائي للصورة. مفعّل (true) بشكل افتراضي. |
+| [DetectAreasMode](../../aspose.ocr/baserecognitionsettings/detectareasmode) { get; set; } | يسمح باختيار الوضع الأمثل لمناطق نوع المستند: مستند، صورة، نص عادي، عمود، صورة. |
+| [IgnoredCharacters](../../aspose.ocr/baserecognitionsettings/ignoredcharacters) { get; set; } | يضبط القائمة السوداء لرموز التعرف. |
+| [Language](../../aspose.ocr/baserecognitionsettings/language) { set; } | يحصل أو يضبط اللغة المستخدمة في OCR. تحدد الأبجدية المستخدمة أثناء التعرف. متعددة اللغات بشكل افتراضي. |
+| [LinesFiltration](../../aspose.ocr/baserecognitionsettings/linesfiltration) { get; set; } | يسمح بالتعرف على النص داخل الجداول (المناطق المحاطة بخطوط). |
+| [PagesNumber](../../aspose.ocr/documentrecognitionsettings/pagesnumber) { get; set; } | حدد عدد الصفحات للتعرف في ملف PDF متعدد الصفحات. |
+| [PreprocessingFilters](../../aspose.ocr/baserecognitionsettings/preprocessingfilters) { get; set; } | يسمح بتحضير الصورة لـ OCR عن طريق تعديل طرق ما قبل المعالجة. |
+| [SkewAngle](../../aspose.ocr/baserecognitionsettings/skewangle) { set; } | يحصل أو يضبط الزاوية بالدرجات لتدوير الصورة. ضبط هذه القيمة سيعطل الخاصية [`AutoSkew`](../baserecognitionsettings/autoskew)، بحيث لا يتم تطبيق تصحيح الانحراف التلقائي. الصفر بشكل افتراضي. |
+| [StartPage](../../aspose.ocr/documentrecognitionsettings/startpage) { get; set; } | حدد الصفحة الأولى للتعرف. |
+| [ThreadsCount](../../aspose.ocr/baserecognitionsettings/threadscount) { set; } | يحصل أو يضبط عدد الخيوط للمعالجة. بشكل افتراضي، 0 يعني أن الصورة ستُعالج بعدد خيوط يساوي عدد المعالجات لديك. ThreadsCount = 1 يعني أن الصورة ستُعالج في الخيط الرئيسي. |
+| [ThresholdValue](../../aspose.ocr/baserecognitionsettings/thresholdvalue) { set; } | يحصل أو يعيّن قيمة العتبة المخصصة لتحويل الصورة إلى ثنائي. النطاق من 1 إلى 255. |
+| [UpscaleSmallFont](../../aspose.ocr/baserecognitionsettings/upscalesmallfont) { get; set; } | يسمح لك باستخدام خوارزميات إضافية مخصصة للتعرف على الخطوط الصغيرة. مفيد للصور التي تحتوي على أحرف صغيرة الحجم. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [BaseRecognitionSettings](../baserecognitionsettings/)
-* مساحة الاسم [Aspose.OCR](../../aspose.ocr/)
-* المجسم [Aspose.OCR](../../)
+* class [BaseRecognitionSettings](../baserecognitionsettings)
+* namespace [Aspose.OCR](../../aspose.ocr)
+* assembly [Aspose.OCR](../../)
 
-
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.OCR.dll -->

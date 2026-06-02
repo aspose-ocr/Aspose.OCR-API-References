@@ -1,7 +1,7 @@
 ---
-title: AsposeOcr.RecognizeImage
-second_title: Aspose.OCR لمرجع .NET API
-description: AsposeOcr طريقة. يتعرف على النص على الصورة.
+title: "RecognizeImage"
+second_title: "Aspose.OCR لـ .NET مرجع API"
+description: "يتعرف على النص على الصورة."
 type: docs
 weight: 140
 url: /ar/net/aspose.ocr/asposeocr/recognizeimage/
@@ -14,23 +14,23 @@ url: /ar/net/aspose.ocr/asposeocr/recognizeimage/
 public string RecognizeImage(string fullPath)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| fullPath | String | مسار الصورة. |
+| fullPath | String | المسار إلى الصورة. |
 
 ### قيمة الإرجاع
 
-نص تم التعرف عليه.
+النص المتعرف عليه.
 
 ### ملاحظات
 
-يستخدم التصحيح التلقائي لانحراف الصورة واكتشاف مناطق النص. يدعم GIF و PNG و JPEG و BMP و TIFF و JFIF.
+يستخدم تصحيح الانحراف التلقائي للصورة واكتشاف مناطق النص. يدعم GIF, PNG, JPEG, BMP, TIFF, JFIF.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [AsposeOcr](../)
-* مساحة الاسم [Aspose.OCR](../../asposeocr/)
-* المجسم [Aspose.OCR](../../../)
+* class [AsposeOcr](../../asposeocr)
+* namespace [Aspose.OCR](../../asposeocr)
+* assembly [Aspose.OCR](../../../)
 
 ---
 
@@ -42,26 +42,26 @@ public string RecognizeImage(string fullPath)
 public RecognitionResult RecognizeImage(string fullPath, RecognitionSettings settings)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| fullPath | String | مسار الصورة. |
+| fullPath | String | المسار إلى الصورة. |
 | settings | RecognitionSettings | إعدادات التعرف. |
 
 ### قيمة الإرجاع
 
-ال[`RecognitionResult`](../../recognitionresult/) مع نتائج التعرف على الصور.
+كائن [`RecognitionResult`](../../recognitionresult) مع نتائج التعرف على الصورة.
 
 ### ملاحظات
 
-يتعرف على الصورة مع إمكانية التحديد[`RecognitionSettings`](../../recognitionsettings/) . يدعم GIF و PNG و JPEG و BMP و TIFF و JFIF.
+يتعرف على الصورة مع إمكانية تحديد [`RecognitionSettings`](../../recognitionsettings). يدعم GIF, PNG, JPEG, BMP, TIFF, JFIF.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [RecognitionResult](../../recognitionresult/)
-* class [RecognitionSettings](../../recognitionsettings/)
-* class [AsposeOcr](../)
-* مساحة الاسم [Aspose.OCR](../../asposeocr/)
-* المجسم [Aspose.OCR](../../../)
+* class [RecognitionResult](../../recognitionresult)
+* class [RecognitionSettings](../../recognitionsettings)
+* class [AsposeOcr](../../asposeocr)
+* namespace [Aspose.OCR](../../asposeocr)
+* assembly [Aspose.OCR](../../../)
 
 ---
 
@@ -73,50 +73,50 @@ public RecognitionResult RecognizeImage(string fullPath, RecognitionSettings set
 public string RecognizeImage(MemoryStream stream)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| stream | MemoryStream | تيار الذاكرة الذي يحتوي على الصورة. |
+| تدفق | MemoryStream | دفق الذاكرة الذي يحتوي على الصورة. |
 
 ### قيمة الإرجاع
 
-نص تم التعرف عليه.
+النص المتعرف عليه.
 
 ### ملاحظات
 
-يستخدم التصحيح التلقائي لانحراف الصورة واكتشاف مناطق النص. يدعم GIF و PNG و JPEG و BMP و TIFF و JFIF.
+يستخدم تصحيح الانحراف التلقائي للصورة واكتشاف مناطق النص. يدعم GIF, PNG, JPEG, BMP, TIFF, JFIF.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [AsposeOcr](../)
-* مساحة الاسم [Aspose.OCR](../../asposeocr/)
-* المجسم [Aspose.OCR](../../../)
+* class [AsposeOcr](../../asposeocr)
+* namespace [Aspose.OCR](../../asposeocr)
+* assembly [Aspose.OCR](../../../)
 
 ---
 
 ## RecognizeImage(MemoryStream, RecognitionSettings) {#recognizeimage_2}
 
-يتعرف على النص على الصورة.  يتعرف على الصورة مع إمكانية التحديد[`RecognitionSettings`](../../recognitionsettings/) . يدعم GIF و PNG و JPEG و BMP و TIFF و JFIF.
+يتعرف على النص على الصورة. يتعرف على الصورة مع القدرة على تحديد [`RecognitionSettings`](../../recognitionsettings). يدعم GIF, PNG, JPEG, BMP, TIFF, JFIF.
 
 ```csharp
 public RecognitionResult RecognizeImage(MemoryStream stream, RecognitionSettings settings)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| stream | MemoryStream | تيار الذاكرة الذي يحتوي على الصورة. |
+| تدفق | MemoryStream | دفق الذاكرة الذي يحتوي على الصورة. |
 | settings | RecognitionSettings | إعدادات التعرف. |
 
 ### قيمة الإرجاع
 
-ال[`RecognitionResult`](../../recognitionresult/) مع نتائج التعرف على الصور.
+كائن [`RecognitionResult`](../../recognitionresult) مع نتائج التعرف على الصورة.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [RecognitionResult](../../recognitionresult/)
-* class [RecognitionSettings](../../recognitionsettings/)
-* class [AsposeOcr](../)
-* مساحة الاسم [Aspose.OCR](../../asposeocr/)
-* المجسم [Aspose.OCR](../../../)
+* class [RecognitionResult](../../recognitionresult)
+* class [RecognitionSettings](../../recognitionsettings)
+* class [AsposeOcr](../../asposeocr)
+* namespace [Aspose.OCR](../../asposeocr)
+* assembly [Aspose.OCR](../../../)
 
 ---
 
@@ -129,30 +129,30 @@ public RecognitionResult RecognizeImage(byte[] imageData, int width, int height,
     PixelType pixelFormat, RecognitionSettings settings = null)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| imageData | Byte[] | صورة مفككة في صفيف بايت. يستخدم تقنية الإضاءة RGB لـ bitsPerPixel&gt; 1. |
-| width | Int32 | عرض الصورة. |
-| height | Int32 | ارتفاع الصورة. |
-| pixelFormat | PixelType | يدعم بايت ، rgb ، bgr ، rgba. |
+| imageData | Byte[] | الصورة المفكوكة في مصفوفة بايتات. يستخدم تقنية إضاءة RGB للـ bitsPerPixel &gt; 1. |
+| العرض | Int32 | عرض الصورة. |
+| الارتفاع | Int32 | ارتفاع الصورة. |
+| تنسيق البكسل | PixelType | يدعم byte، rgb، bgr، rgba. |
 | settings | RecognitionSettings | إعدادات التعرف. |
 
 ### قيمة الإرجاع
 
-ال[`RecognitionResult`](../../recognitionresult/) مع نتائج التعرف على الصور.
+كائن [`RecognitionResult`](../../recognitionresult) مع نتائج التعرف على الصورة.
 
 ### ملاحظات
 
-يتعرف على الصورة مع إمكانية التحديد[`RecognitionSettings`](../../recognitionsettings/) . يدعم بيانات البايت التي تم فك ترميزها .
+يتعرف على الصورة مع إمكانية تحديد [`RecognitionSettings`](../../recognitionsettings). يدعم بيانات البايت المفكوكة على شكل صف.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [RecognitionResult](../../recognitionresult/)
-* enum [PixelType](../../pixeltype/)
-* class [RecognitionSettings](../../recognitionsettings/)
-* class [AsposeOcr](../)
-* مساحة الاسم [Aspose.OCR](../../asposeocr/)
-* المجسم [Aspose.OCR](../../../)
+* class [RecognitionResult](../../recognitionresult)
+* enum [PixelType](../../pixeltype)
+* class [RecognitionSettings](../../recognitionsettings)
+* class [AsposeOcr](../../asposeocr)
+* namespace [Aspose.OCR](../../asposeocr)
+* assembly [Aspose.OCR](../../../)
 
 ---
 
@@ -165,27 +165,27 @@ public RecognitionResult RecognizeImage(Color[] imageData, int width, int height
     RecognitionSettings settings = null)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| imageData | Color[] | تم فك ترميز الصورة في مجموعة Aspose.Drawing.Color. |
-| width | Int32 | عرض الصورة. |
-| height | Int32 | ارتفاع الصورة. |
+| imageData | Color[] | الصورة المفكوكة في مصفوفة Aspose.Drawing.Color. |
+| العرض | Int32 | عرض الصورة. |
+| الارتفاع | Int32 | ارتفاع الصورة. |
 | settings | RecognitionSettings | إعدادات التعرف. |
 
 ### قيمة الإرجاع
 
-ال[`RecognitionResult`](../../recognitionresult/) مع نتائج التعرف على الصور.
+كائن [`RecognitionResult`](../../recognitionresult) مع نتائج التعرف على الصورة.
 
 ### ملاحظات
 
-يتعرف على الصورة مع إمكانية التحديد[`RecognitionSettings`](../../recognitionsettings/) . يدعم بيانات البايت التي تم فك ترميزها .
+يتعرف على الصورة مع إمكانية تحديد [`RecognitionSettings`](../../recognitionsettings). يدعم بيانات البايت المفكوكة على شكل صف.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [RecognitionResult](../../recognitionresult/)
-* class [RecognitionSettings](../../recognitionsettings/)
-* class [AsposeOcr](../)
-* مساحة الاسم [Aspose.OCR](../../asposeocr/)
-* المجسم [Aspose.OCR](../../../)
+* class [RecognitionResult](../../recognitionresult)
+* class [RecognitionSettings](../../recognitionsettings)
+* class [AsposeOcr](../../asposeocr)
+* namespace [Aspose.OCR](../../asposeocr)
+* assembly [Aspose.OCR](../../../)
 
-
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.OCR.dll -->
