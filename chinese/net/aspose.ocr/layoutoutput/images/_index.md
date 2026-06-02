@@ -1,7 +1,7 @@
 ---
-title: 图像
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 检测到的图片/插图。
+title: "图像"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "检测到的图片/插图。"
 type: docs
 weight: 50
 url: /zh/net/aspose.ocr/layoutoutput/images/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr/layoutoutput/images/
 public List<ContentArea> Images { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * class [ContentArea](../../contentarea)
 * class [LayoutOutput](../../layoutoutput)

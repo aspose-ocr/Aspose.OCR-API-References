@@ -1,7 +1,7 @@
 ---
-title: 预设
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 当前选定的 OCR 预设。
+title: "预设"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "当前选定的 OCR 预设。"
 type: docs
 weight: 20
 url: /zh/net/aspose.ocr/asposeocrpresets/preset/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr/asposeocrpresets/preset/
 public OcrPreset Preset { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * enum [OcrPreset](../../asposeocrpresets.ocrpreset)
 * class [AsposeOcrPresets](../../asposeocrpresets)

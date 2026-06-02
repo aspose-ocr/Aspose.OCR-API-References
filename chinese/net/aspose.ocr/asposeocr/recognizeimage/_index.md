@@ -1,7 +1,7 @@
 ---
-title: RecognizeImage
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 识别图像上的文本。
+title: "RecognizeImage"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "识别图像上的文本。"
 type: docs
 weight: 140
 url: /zh/net/aspose.ocr/asposeocr/recognizeimage/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr/asposeocr/recognizeimage/
 public string RecognizeImage(string fullPath)
 ```
 
-| Parameter | Type | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | fullPath | String | 图像的路径。 |
 
@@ -26,7 +26,7 @@ public string RecognizeImage(string fullPath)
 
 使用自动图像倾斜校正和文本区域检测。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF。
 
-### 另请参见
+### 另见
 
 * class [AsposeOcr](../../asposeocr)
 * namespace [Aspose.OCR](../../asposeocr)
@@ -42,10 +42,10 @@ public string RecognizeImage(string fullPath)
 public RecognitionResult RecognizeImage(string fullPath, RecognitionSettings settings)
 ```
 
-| Parameter | Type | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | fullPath | String | 图像的路径。 |
-| settings | RecognitionSettings | Recognition settings. |
+| settings | RecognitionSettings | 识别设置。 |
 
 ### 返回值
 
@@ -53,9 +53,9 @@ public RecognitionResult RecognizeImage(string fullPath, RecognitionSettings set
 
 ### 备注
 
-识别图像并可指定[`RecognitionSettings`](../../recognitionsettings)。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF。
+识别图像并可以指定 [`RecognitionSettings`](../../recognitionsettings)。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF。
 
-### 另请参见
+### 另见
 
 * class [RecognitionResult](../../recognitionresult)
 * class [RecognitionSettings](../../recognitionsettings)
@@ -73,7 +73,7 @@ public RecognitionResult RecognizeImage(string fullPath, RecognitionSettings set
 public string RecognizeImage(MemoryStream stream)
 ```
 
-| Parameter | Type | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | 流 | MemoryStream | 包含图像的内存流。 |
 
@@ -85,7 +85,7 @@ public string RecognizeImage(MemoryStream stream)
 
 使用自动图像倾斜校正和文本区域检测。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF。
 
-### 另请参见
+### 另见
 
 * class [AsposeOcr](../../asposeocr)
 * namespace [Aspose.OCR](../../asposeocr)
@@ -95,22 +95,22 @@ public string RecognizeImage(MemoryStream stream)
 
 ## RecognizeImage(MemoryStream, RecognitionSettings) {#recognizeimage_2}
 
-识别图像上的文本。可通过指定 [`RecognitionSettings`](../../recognitionsettings) 来识别图像。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF。
+识别图像上的文本。能够指定 [`RecognitionSettings`](../../recognitionsettings) 来识别图像。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF。
 
 ```csharp
 public RecognitionResult RecognizeImage(MemoryStream stream, RecognitionSettings settings)
 ```
 
-| Parameter | Type | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | 流 | MemoryStream | 包含图像的内存流。 |
-| settings | RecognitionSettings | Recognition settings. |
+| settings | RecognitionSettings | 识别设置。 |
 
 ### 返回值
 
 包含图像识别结果的 [`RecognitionResult`](../../recognitionresult) 对象。
 
-### 另请参见
+### 另见
 
 * class [RecognitionResult](../../recognitionresult)
 * class [RecognitionSettings](../../recognitionsettings)
@@ -129,13 +129,13 @@ public RecognitionResult RecognizeImage(byte[] imageData, int width, int height,
     PixelType pixelFormat, RecognitionSettings settings = null)
 ```
 
-| Parameter | Type | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| imageData | Byte[] | 以字节数组形式解码的图像。对于 bitsPerPixel > 1，使用 RGB 照明技术。 |
-| width | Int32 | 图像宽度。 |
+| imageData | Byte[] | 已解码的字节数组图像。使用 RGB 照明技术，适用于 bitsPerPixel &gt; 1。 |
+| 宽度 | Int32 | 图像宽度。 |
 | 高度 | Int32 | 图像高度。 |
-| pixelFormat | PixelType | 支持 byte、rgb、bgr、rgba。 |
-| settings | RecognitionSettings | Recognition settings. |
+| 像素格式 | PixelType | 支持 byte、rgb、bgr、rgba。 |
+| settings | RecognitionSettings | 识别设置。 |
 
 ### 返回值
 
@@ -143,9 +143,9 @@ public RecognitionResult RecognizeImage(byte[] imageData, int width, int height,
 
 ### 备注
 
-识别图像并可指定 [`RecognitionSettings`](../../recognitionsettings)。支持行解码字节数据。
+识别图像并能够指定 [`RecognitionSettings`](../../recognitionsettings)。支持逐行解码的字节数据。
 
-### 另请参见
+### 另见
 
 * class [RecognitionResult](../../recognitionresult)
 * enum [PixelType](../../pixeltype)
@@ -165,12 +165,12 @@ public RecognitionResult RecognizeImage(Color[] imageData, int width, int height
     RecognitionSettings settings = null)
 ```
 
-| Parameter | Type | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| imageData | Color[] | 在 Aspose.Drawing.Color 数组中的解码图像。 |
-| width | Int32 | 图像宽度。 |
+| imageData | Color[] | 已解码的 Aspose.Drawing.Color 数组图像。 |
+| 宽度 | Int32 | 图像宽度。 |
 | 高度 | Int32 | 图像高度。 |
-| settings | RecognitionSettings | Recognition settings. |
+| settings | RecognitionSettings | 识别设置。 |
 
 ### 返回值
 
@@ -178,9 +178,9 @@ public RecognitionResult RecognizeImage(Color[] imageData, int width, int height
 
 ### 备注
 
-识别图像并可指定 [`RecognitionSettings`](../../recognitionsettings)。支持行解码字节数据。
+识别图像并能够指定 [`RecognitionSettings`](../../recognitionsettings)。支持逐行解码的字节数据。
 
-### 另请参见
+### 另见
 
 * class [RecognitionResult](../../recognitionresult)
 * class [RecognitionSettings](../../recognitionsettings)

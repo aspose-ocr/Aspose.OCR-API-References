@@ -1,9 +1,9 @@
 ---
-title: ContentArea
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 图像中检测到的内容区域。
+title: "ContentArea"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "图像中检测到的内容区域。"
 type: docs
-weight: 380
+weight: 390
 url: /zh/net/aspose.ocr/contentarea/
 ---
 ## ContentArea class
@@ -31,9 +31,9 @@ public class ContentArea
 | 名称 | 描述 |
 | --- | --- |
 | [image](../../aspose.ocr/contentarea/image) | 包含内容的图像区域。 |
-| [index](../../aspose.ocr/contentarea/index) | 内容区域的顺序索引，在图像内唯一。 |
+| [index](../../aspose.ocr/contentarea/index) | 内容区域的顺序索引，在图像中唯一。 |
 
-### 另请参见
+### 另见
 
 * namespace [Aspose.OCR](../../aspose.ocr)
 * assembly [Aspose.OCR](../../)

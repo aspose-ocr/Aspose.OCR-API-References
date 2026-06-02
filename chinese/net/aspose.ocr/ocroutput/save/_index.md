@@ -1,7 +1,7 @@
 ---
-title: 保存
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 将所有识别结果保存到文件中。
+title: "Save"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "将所有识别结果保存到文件中。"
 type: docs
 weight: 50
 url: /zh/net/aspose.ocr/ocroutput/save/
@@ -16,14 +16,14 @@ public void Save(string fullFileName, SaveFormat saveFormat = SaveFormat.Text,
     PdfOptimizationMode optimizePdf = PdfOptimizationMode.MAXIMUM_QUALITY)
 ```
 
-| Parameter | Type | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| fullFileName | String | 用于保存识别结果的文件名（含路径），采用所选格式。 |
+| fullFileName | String | 用于保存所选格式识别结果的带路径的文件名。 |
 | saveFormat | SaveFormat | 文档格式（Docx、Txt、Pdf、Xlsx、Rtf、Json、Xml、Epub）。 |
 | embeddedFontPath | String | 可选。用户字体的完整路径。 |
 | optimizePdf | PdfOptimizationMode | 通过降低背景图像的质量来减小 PDF 文件大小。默认情况下，保留原始图像质量。 |
 
-### 另请参见
+### 另见
 
 * enum [SaveFormat](../../saveformat)
 * enum [PdfOptimizationMode](../../pdfoptimizationmode)
@@ -43,14 +43,14 @@ public void Save(MemoryStream stream, SaveFormat saveFormat = SaveFormat.Text,
     PdfOptimizationMode optimizePdf = PdfOptimizationMode.MAXIMUM_QUALITY)
 ```
 
-| Parameter | Type | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | 流 | MemoryStream | 用于以所选格式保存识别结果的 MemoryStream。 |
 | saveFormat | SaveFormat | 文档格式（Docx、Txt、Pdf、Xlsx、Rtf、Json、Xml、Epub）。 |
 | embeddedFontPath | String | 可选。用户字体的完整路径。 |
 | optimizePdf | PdfOptimizationMode | 通过降低背景图像的质量来减小 PDF 文件大小。默认情况下，保留原始图像质量。 |
 
-### 另请参见
+### 另见
 
 * enum [SaveFormat](../../saveformat)
 * enum [PdfOptimizationMode](../../pdfoptimizationmode)

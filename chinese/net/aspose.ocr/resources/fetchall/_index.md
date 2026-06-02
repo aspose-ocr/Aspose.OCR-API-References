@@ -1,7 +1,7 @@
 ---
-title: FetchAll
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 从在线仓库下载所有兼容的资源。现有的资源文件将被覆盖。
+title: "FetchAll"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "从在线仓库下载所有兼容的资源。现有的资源文件将被覆盖。"
 type: docs
 weight: 30
 url: /zh/net/aspose.ocr/resources/fetchall/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr/resources/fetchall/
 public static void FetchAll()
 ```
 
-### 另请参见
+### 另见
 
 * class [Resources](../../resources)
 * namespace [Aspose.OCR](../../resources)

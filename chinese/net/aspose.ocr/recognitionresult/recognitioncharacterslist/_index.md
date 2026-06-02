@@ -1,9 +1,9 @@
 ---
-title: RecognitionCharactersList
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 识别算法找到的一组字符，按概率降序排列。
+title: "RecognitionCharactersList"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "识别算法找到的一组字符，按概率降序排列。"
 type: docs
-weight: 30
+weight: 40
 url: /zh/net/aspose.ocr/recognitionresult/recognitioncharacterslist/
 ---
 ## RecognitionResult.RecognitionCharactersList property
@@ -16,9 +16,9 @@ public List<char[]> RecognitionCharactersList { get; }
 
 ### 备注
 
-具有最高概率及其备选项的 Char 符号数组。
+具有最高概率和备选项的 Char 符号数组。
 
-### 另请参见
+### 另见
 
 * class [RecognitionResult](../../recognitionresult)
 * namespace [Aspose.OCR](../../recognitionresult)

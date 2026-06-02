@@ -1,7 +1,7 @@
 ---
-title: GetRectangles
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 检测图像上的文本区域。未应用自动图像倾斜校正。支持 GIF PNG JPEG BMP TIFF JFIF。
+title: "GetRectangles"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "检测图像上的文本区域。未应用自动图像倾斜校正。支持 GIF PNG JPEG BMP TIFF JFIF。"
 type: docs
 weight: 70
 url: /zh/net/aspose.ocr/asposeocr/getrectangles/
@@ -15,17 +15,17 @@ public List<Rectangle> GetRectangles(string fullPath, AreasType areasType = Area
     bool detectAreas = true)
 ```
 
-| Parameter | Type | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | fullPath | String | 图像的路径。 |
-| areasType | AreasType | 确定返回的矩形类型——行或段落。 |
+| areasType | AreasType | 确定返回哪些矩形——行或段落。 |
 | detectAreas | Boolean | 启用自动文本区域检测。 |
 
 ### 返回值
 
 检测到的文本区域或行的列表。
 
-### 另请参见
+### 另见
 
 * enum [AreasType](../../areastype)
 * class [AsposeOcr](../../asposeocr)
@@ -43,17 +43,17 @@ public List<Rectangle> GetRectangles(MemoryStream image,
     AreasType areasType = AreasType.PARAGRAPHS, bool detectAreas = true)
 ```
 
-| Parameter | Type | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 图像 | MemoryStream | 包含图像的内存流。 |
-| areasType | AreasType | 确定返回的矩形类型——行或段落。 |
+| image | MemoryStream | 包含图像的内存流。 |
+| areasType | AreasType | 确定返回哪些矩形——行或段落。 |
 | detectAreas | Boolean | 启用自动文本区域检测。 |
 
 ### 返回值
 
 检测到的文本区域或行的列表。
 
-### 另请参见
+### 另见
 
 * enum [AreasType](../../areastype)
 * class [AsposeOcr](../../asposeocr)

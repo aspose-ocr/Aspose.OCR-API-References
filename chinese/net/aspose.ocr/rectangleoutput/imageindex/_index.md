@@ -1,20 +1,20 @@
 ---
-title: ImageIndex
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 页面上图像的序列号。
+title: "ImageIndex"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "页面上图像的序号。"
 type: docs
 weight: 20
 url: /zh/net/aspose.ocr/rectangleoutput/imageindex/
 ---
 ## RectangleOutput.ImageIndex property
 
-页面上图像的序列号。
+页面上图像的序号。
 
 ```csharp
 public int ImageIndex { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * class [RectangleOutput](../../rectangleoutput)
 * namespace [Aspose.OCR](../../rectangleoutput)

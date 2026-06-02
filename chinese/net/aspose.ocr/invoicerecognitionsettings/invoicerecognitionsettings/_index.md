@@ -1,24 +1,24 @@
 ---
-title: InvoiceRecognitionSettings
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 使用完整属性集初始化 InvoiceRecognitionSettingsaspose.ocr/invoicerecognitionsettings 类的新实例。
+title: "InvoiceRecognitionSettings"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "初始化 InvoiceRecognitionSettingsaspose.ocr/invoicerecognitionsettings 类的新实例，并包含完整的属性集。"
 type: docs
 weight: 10
 url: /zh/net/aspose.ocr/invoicerecognitionsettings/invoicerecognitionsettings/
 ---
 ## InvoiceRecognitionSettings(Language) {#constructor_1}
 
-使用完整属性集初始化 [`InvoiceRecognitionSettings`](../../invoicerecognitionsettings) 类的新实例。
+初始化 [`InvoiceRecognitionSettings`](../../invoicerecognitionsettings) 类的新实例，并包含完整的属性集。
 
 ```csharp
 public InvoiceRecognitionSettings(Language language)
 ```
 
-| Parameter | Type | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | language | 语言 | 用于 OCR 的语言。 |
 
-### 另请参见
+### 另见
 
 * enum [Language](../../language)
 * class [InvoiceRecognitionSettings](../../invoicerecognitionsettings)
@@ -29,13 +29,13 @@ public InvoiceRecognitionSettings(Language language)
 
 ## InvoiceRecognitionSettings() {#constructor}
 
-使用默认属性集初始化 [`InvoiceRecognitionSettings`](../../invoicerecognitionsettings) 类的新实例。
+初始化 [`InvoiceRecognitionSettings`](../../invoicerecognitionsettings) 类的新实例，并使用默认属性集。
 
 ```csharp
 public InvoiceRecognitionSettings()
 ```
 
-### 另请参见
+### 另见
 
 * class [InvoiceRecognitionSettings](../../invoicerecognitionsettings)
 * namespace [Aspose.OCR](../../invoicerecognitionsettings)

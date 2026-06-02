@@ -1,7 +1,7 @@
 ---
-title: Rectangle
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 内容区域的边界矩形。
+title: "Rectangle"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "内容区域的边界矩形。"
 type: docs
 weight: 20
 url: /zh/net/aspose.ocr/contentarea/rectangle/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr/contentarea/rectangle/
 public Rectangle Rectangle { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * class [ContentArea](../../contentarea)
 * namespace [Aspose.OCR](../../contentarea)

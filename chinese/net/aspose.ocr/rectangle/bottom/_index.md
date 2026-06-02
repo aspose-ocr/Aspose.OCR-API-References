@@ -1,14 +1,14 @@
 ---
-title: 底部
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 获取或设置 y 坐标，该坐标是此 Rectangleaspose.ocr/rectangle 结构的 Yaspose.ocr/rectangle/y 与 Heightaspose.ocr/rectangle/height 属性值之和。
+title: "Bottom"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "获取或设置 y 坐标，该坐标是此 Rectangleaspose.ocr/rectangle 结构的 Yaspose.ocr/rectangle/y 和 Heightaspose.ocr/rectangle/height 属性值的和。"
 type: docs
 weight: 30
 url: /zh/net/aspose.ocr/rectangle/bottom/
 ---
 ## Rectangle.Bottom property
 
-获取或设置 y 坐标，该坐标是此 [`Rectangle`](../../rectangle) 结构的 [`Y`](../y) 与 [`Height`](../height) 属性值之和。
+获取或设置 y 坐标，该坐标是此 [`Rectangle`](../../rectangle) 结构的 [`Y`](../y) 和 [`Height`](../height) 属性值的和。
 
 ```csharp
 public int Bottom { get; set; }
@@ -16,9 +16,9 @@ public int Bottom { get; set; }
 
 ### Property Value
 
-y 坐标是此 [`Rectangle`](../../rectangle) 的 [`Y`](../y) 与 [`Height`](../height) 的和。
+此 [`Rectangle`](../../rectangle) 的 y 坐标是 [`Y`](../y) 和 [`Height`](../height) 的和。
 
-### 另请参见
+### 另见
 
 * struct [Rectangle](../../rectangle)
 * namespace [Aspose.OCR](../../rectangle)

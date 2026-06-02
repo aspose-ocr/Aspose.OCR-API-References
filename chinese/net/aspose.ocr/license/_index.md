@@ -1,14 +1,14 @@
 ---
-title: 许可证
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 提供对组件进行授权的方法。
+title: "许可证"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "提供对组件授权的方法。"
 type: docs
 weight: 40
 url: /zh/net/aspose.ocr/license/
 ---
 ## License class
 
-提供对组件进行授权的方法。
+提供对组件授权的方法。
 
 ```csharp
 public class License
@@ -24,9 +24,9 @@ public class License
 
 | 名称 | 描述 |
 | --- | --- |
-| [IsLicensed](../../aspose.ocr/license/islicensed) { get; } | 获取一个值，指示产品是否已授权。 |
+| [IsLicensed](../../aspose.ocr/license/islicensed) { get; } | 获取指示产品是否已授权的值。 |
 
-## 方法
+## Methods
 
 | 名称 | 描述 |
 | --- | --- |
@@ -44,14 +44,14 @@ License license = new License();
 license.SetLicense("MyLicense.lic");
 ```
 
-组件的 jar 文件：
+组件 jar 文件：
 
 ```csharp
 License license = new License();
 license.setLicense("MyLicense.lic");
 ```
 
-### 另请参见
+### 另见
 
 * namespace [Aspose.OCR](../../aspose.ocr)
 * assembly [Aspose.OCR](../../)

@@ -1,7 +1,7 @@
 ---
-title: FileName
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 已处理的文件名。
+title: "FileName"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "已处理的文件名。"
 type: docs
 weight: 30
 url: /zh/net/aspose.ocr.models.events/ocrpagerecognizeeventsargs/filename/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr.models.events/ocrpagerecognizeeventsargs/filename/
 public string FileName { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * class [OcrPageRecognizeEventsArgs](../../ocrpagerecognizeeventsargs)
 * namespace [Aspose.OCR.Models.Events](../../ocrpagerecognizeeventsargs)

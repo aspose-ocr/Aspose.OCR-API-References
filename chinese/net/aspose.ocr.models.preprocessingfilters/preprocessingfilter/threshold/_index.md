@@ -1,7 +1,7 @@
 ---
-title: 阈值
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 基于对原始图像像素强度设置阈值来创建二值图像。
+title: "阈值"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "基于对原始图像像素强度设置阈值来创建二值图像。"
 type: docs
 weight: 150
 url: /zh/net/aspose.ocr.models.preprocessingfilters/preprocessingfilter/threshold/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr.models.preprocessingfilters/preprocessingfilter/threshol
 public static PreprocessingFilter Threshold(int value)
 ```
 
-| Parameter | Type | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | 值 | Int32 | 最大值。 |
 
@@ -22,7 +22,7 @@ public static PreprocessingFilter Threshold(int value)
 
 BinarizeFilter 对象。
 
-### 另请参见
+### 另见
 
 * class [PreprocessingFilter](../../preprocessingfilter)
 * namespace [Aspose.OCR.Models.PreprocessingFilters](../../preprocessingfilter)
@@ -32,13 +32,13 @@ BinarizeFilter 对象。
 
 ## Threshold(int, Rectangle) {#threshold_1}
 
-基于对原始图像部分像素强度设置阈值，创建图像的二值部分。
+基于对原始图像部分像素强度设置阈值来创建图像的二值部分。
 
 ```csharp
 public static PreprocessingFilter Threshold(int value, Rectangle area)
 ```
 
-| Parameter | Type | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | 值 | Int32 | 最大值。 |
 | 区域 | Rectangle | 要校正的图像部分的坐标。 |
@@ -47,7 +47,7 @@ public static PreprocessingFilter Threshold(int value, Rectangle area)
 
 BinarizeFilter 对象。
 
-### 另请参见
+### 另见
 
 * class [PreprocessingFilter](../../preprocessingfilter)
 * namespace [Aspose.OCR.Models.PreprocessingFilters](../../preprocessingfilter)

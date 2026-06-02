@@ -1,20 +1,20 @@
 ---
-title: 单词
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 被拼错的单词。
+title: "单词"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "被拼写错误的单词。"
 type: docs
 weight: 40
 url: /zh/net/aspose.ocr.spellchecker/spellcheckerror/word/
 ---
 ## SpellCheckError.Word property
 
-被拼错的单词。
+被拼写错误的单词。
 
 ```csharp
 public string Word { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * struct [SpellCheckError](../../spellcheckerror)
 * namespace [Aspose.OCR.SpellChecker](../../spellcheckerror)

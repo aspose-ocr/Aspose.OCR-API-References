@@ -1,7 +1,7 @@
 ---
-title: AsposeOcr
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 初始化 AsposeOcraspose.ocr/asposeocr 类的新实例。空构造函数。
+title: "AsposeOcr"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "初始化 AsposeOcraspose.ocr/asposeocr 类的新实例。空构造函数。"
 type: docs
 weight: 10
 url: /zh/net/aspose.ocr/asposeocr/asposeocr/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr/asposeocr/asposeocr/
 public AsposeOcr()
 ```
 
-### 另请参见
+### 另见
 
 * class [AsposeOcr](../../asposeocr)
 * namespace [Aspose.OCR](../../asposeocr)

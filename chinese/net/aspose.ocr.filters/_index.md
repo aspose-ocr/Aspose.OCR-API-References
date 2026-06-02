@@ -1,7 +1,7 @@
 ---
-title: Aspose.OCR.Filters
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 该 Aspose.OCR.Filters 包含用于缩放图像的插值。
+title: "Aspose.OCR.Filters"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "Aspose.OCR.Filters 包含用于缩放图像的插值。"
 type: docs
 weight: 30
 url: /zh/net/aspose.ocr.filters/

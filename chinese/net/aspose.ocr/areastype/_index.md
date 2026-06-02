@@ -1,7 +1,7 @@
 ---
-title: AreasType
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 确定模型检测到的区域类型。
+title: "AreasType"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "确定模型检测到的区域类型。"
 type: docs
 weight: 50
 url: /zh/net/aspose.ocr/areastype/
@@ -24,9 +24,9 @@ public enum AreasType
 
 ### 备注
 
-在 !:AsposeOcr.GetRectangles(string, AreasType, bool) 中使用，以指示将获得的结果——段落坐标或行坐标。
+在 [`DetectRectangles`](../asposeocr/detectrectangles) 中使用，以指示将获得的结果是段落坐标还是行坐标。
 
-### 另请参见
+### 另见
 
 * namespace [Aspose.OCR](../../aspose.ocr)
 * assembly [Aspose.OCR](../../)

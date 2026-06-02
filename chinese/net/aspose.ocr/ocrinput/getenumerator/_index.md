@@ -1,7 +1,7 @@
 ---
-title: GetEnumerator
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 返回集合枚举器。
+title: "GetEnumerator"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "返回集合枚举器。"
 type: docs
 weight: 90
 url: /zh/net/aspose.ocr/ocrinput/getenumerator/
@@ -18,7 +18,7 @@ public IEnumerator<ImageData> GetEnumerator()
 
 [`ImageData`](../../imagedata) 的集合。
 
-### 另请参见
+### 另见
 
 * class [ImageData](../../imagedata)
 * class [OcrInput](../../ocrinput)

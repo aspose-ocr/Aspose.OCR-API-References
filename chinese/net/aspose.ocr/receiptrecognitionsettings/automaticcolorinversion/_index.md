@@ -1,20 +1,20 @@
 ---
-title: 自动颜色反转
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 检测白色文字位于深色/黑色背景上的图像，并自动为其选择专用 OCR 算法。
+title: "AutomaticColorInversion"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "检测白色文字位于深色/黑色背景的图像，并自动为其选择特殊的 OCR 算法。"
 type: docs
 weight: 30
 url: /zh/net/aspose.ocr/receiptrecognitionsettings/automaticcolorinversion/
 ---
 ## ReceiptRecognitionSettings.AutomaticColorInversion property
 
-检测白色文字位于深色/黑色背景上的图像，并自动为其选择专用 OCR 算法。
+检测白色文字位于深色/黑色背景的图像，并自动为其选择特殊的 OCR 算法。
 
 ```csharp
 public bool AutomaticColorInversion { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * class [ReceiptRecognitionSettings](../../receiptrecognitionsettings)
 * namespace [Aspose.OCR](../../receiptrecognitionsettings)

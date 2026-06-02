@@ -1,7 +1,7 @@
 ---
-title: Page
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 多页图像的页码。
+title: "页"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "多页图像的页码。"
 type: docs
 weight: 70
 url: /zh/net/aspose.ocr/layoutoutput/page/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr/layoutoutput/page/
 public int Page { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * class [LayoutOutput](../../layoutoutput)
 * namespace [Aspose.OCR](../../layoutoutput)

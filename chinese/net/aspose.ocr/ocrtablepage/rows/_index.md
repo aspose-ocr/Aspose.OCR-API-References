@@ -1,7 +1,7 @@
 ---
-title: Rows
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 此页面上已识别表格行的集合。
+title: "Rows"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "此页面上已识别表格行的集合。"
 type: docs
 weight: 30
 url: /zh/net/aspose.ocr/ocrtablepage/rows/
@@ -16,9 +16,9 @@ public List<OCRTableRow> Rows { get; set; }
 
 ### 备注
 
-每行包含一个或多个 [`OCRTableCell`](../../ocrtablecell) 对象，这些对象具有已识别的文本值。
+每行包含一个或多个 [`OCRTableCell`](../../ocrtablecell) 对象，具有已识别的文本值。
 
-### 另请参见
+### 另见
 
 * class [OCRTableRow](../../ocrtablerow)
 * class [OCRTablePage](../../ocrtablepage)

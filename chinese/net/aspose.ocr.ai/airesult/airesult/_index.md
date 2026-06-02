@@ -1,7 +1,7 @@
 ---
-title: AIResult
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 默认构造函数。
+title: "AIResult"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "默认构造函数。"
 type: docs
 weight: 10
 url: /zh/net/aspose.ocr.ai/airesult/airesult/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr.ai/airesult/airesult/
 public AIResult()
 ```
 
-### 另请参见
+### 另见
 
 * class [AIResult](../../airesult)
 * namespace [Aspose.OCR.AI](../../airesult)

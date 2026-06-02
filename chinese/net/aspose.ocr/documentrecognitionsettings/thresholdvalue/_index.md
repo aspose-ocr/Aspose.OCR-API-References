@@ -1,7 +1,7 @@
 ---
-title: ThresholdValue
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 获取或设置图像二值化的自定义阈值。范围为 1 到 255。
+title: "ThresholdValue"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "获取或设置图像二值化的自定义阈值。范围为 1 到 255。"
 type: docs
 weight: 140
 url: /zh/net/aspose.ocr/documentrecognitionsettings/thresholdvalue/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr/documentrecognitionsettings/thresholdvalue/
 public int ThresholdValue { set; }
 ```
 
-### 另请参见
+### 另见
 
 * class [DocumentRecognitionSettings](../../documentrecognitionsettings)
 * namespace [Aspose.OCR](../../documentrecognitionsettings)

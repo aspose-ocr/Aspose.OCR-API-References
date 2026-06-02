@@ -1,7 +1,7 @@
 ---
-title: 旋转
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 旋转原始图像。
+title: "旋转"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "旋转原始图像。"
 type: docs
 weight: 130
 url: /zh/net/aspose.ocr.models.preprocessingfilters/preprocessingfilter/rotate/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr.models.preprocessingfilters/preprocessingfilter/rotate/
 public static PreprocessingFilter Rotate(float angle)
 ```
 
-| Parameter | Type | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | 角度 | 单精度 | 旋转角度。范围从 -360 到 360 |
 
@@ -22,7 +22,7 @@ public static PreprocessingFilter Rotate(float angle)
 
 RotateFilter 对象。
 
-### 另请参见
+### 另见
 
 * class [PreprocessingFilter](../../preprocessingfilter)
 * namespace [Aspose.OCR.Models.PreprocessingFilters](../../preprocessingfilter)
@@ -38,7 +38,7 @@ RotateFilter 对象。
 public static PreprocessingFilter Rotate(float angle, Rectangle area)
 ```
 
-| Parameter | Type | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | 角度 | 单精度 | 旋转角度。范围从 -360 到 360 |
 | 区域 | Rectangle | 要校正的图像部分的坐标。 |
@@ -47,7 +47,7 @@ public static PreprocessingFilter Rotate(float angle, Rectangle area)
 
 RotateFilter 对象。
 
-### 另请参见
+### 另见
 
 * class [PreprocessingFilter](../../preprocessingfilter)
 * namespace [Aspose.OCR.Models.PreprocessingFilters](../../preprocessingfilter)

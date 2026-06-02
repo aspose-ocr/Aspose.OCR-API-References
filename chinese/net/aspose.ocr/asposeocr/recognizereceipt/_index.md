@@ -1,22 +1,22 @@
 ---
-title: RecognizeReceipt
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 识别收据上的文本。
+title: "RecognizeReceipt"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "识别收据上的文字。"
 type: docs
-weight: 240
+weight: 250
 url: /zh/net/aspose.ocr/asposeocr/recognizereceipt/
 ---
 ## RecognizeReceipt(OcrInput) {#recognizereceipt}
 
-识别收据上的文本。
+识别收据上的文字。
 
 ```csharp
 public OcrOutput RecognizeReceipt(OcrInput images)
 ```
 
-| Parameter | Type | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| images | OcrInput | 包含源的容器[`OcrInput`](../../ocrinput)。 |
+| images | OcrInput | 包含源的容器。[`OcrInput`](../../ocrinput) |
 
 ### 返回值
 
@@ -24,9 +24,9 @@ public OcrOutput RecognizeReceipt(OcrInput images)
 
 ### 备注
 
-识别发票，并可指定 [`ReceiptRecognitionSettings`](../../receiptrecognitionsettings)。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF、流、目录、数组、存档。
+识别发票，并可指定 [`ReceiptRecognitionSettings`](../../receiptrecognitionsettings)。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF、流、目录、数组、归档。
 
-### 另请参见
+### 另见
 
 * class [OcrOutput](../../ocroutput)
 * class [OcrInput](../../ocrinput)
@@ -38,15 +38,15 @@ public OcrOutput RecognizeReceipt(OcrInput images)
 
 ## RecognizeReceipt(OcrInput, ReceiptRecognitionSettings) {#recognizereceipt_1}
 
-识别收据上的文本。
+识别收据上的文字。
 
 ```csharp
 public OcrOutput RecognizeReceipt(OcrInput images, ReceiptRecognitionSettings settings)
 ```
 
-| Parameter | Type | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| images | OcrInput | 包含源的容器[`OcrInput`](../../ocrinput)。 |
+| images | OcrInput | 包含源的容器。[`OcrInput`](../../ocrinput) |
 | settings | ReceiptRecognitionSettings | 识别设置 [`ReceiptRecognitionSettings`](../../receiptrecognitionsettings)。 |
 
 ### 返回值
@@ -55,9 +55,9 @@ public OcrOutput RecognizeReceipt(OcrInput images, ReceiptRecognitionSettings se
 
 ### 备注
 
-识别发票，并可指定 [`ReceiptRecognitionSettings`](../../receiptrecognitionsettings)。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF、流、目录、数组、存档。
+识别发票，并可指定 [`ReceiptRecognitionSettings`](../../receiptrecognitionsettings)。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF、流、目录、数组、归档。
 
-### 另请参见
+### 另见
 
 * class [OcrOutput](../../ocroutput)
 * class [OcrInput](../../ocrinput)

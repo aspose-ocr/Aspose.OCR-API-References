@@ -1,14 +1,14 @@
 ---
-title: AutoDewarping
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 自动校正图像中的几何畸变。极度占用资源。
+title: "自动去畸变"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "自动校正图像中的几何畸变。资源消耗极大"
 type: docs
 weight: 50
 url: /zh/net/aspose.ocr.models.preprocessingfilters/preprocessingfilter/autodewarping/
 ---
 ## PreprocessingFilter.AutoDewarping method
 
-自动校正图像中的几何失真。资源消耗极大！
+自动校正图像中的几何畸变。资源消耗极大！
 
 ```csharp
 public static PreprocessingFilter AutoDewarping()
@@ -18,7 +18,7 @@ public static PreprocessingFilter AutoDewarping()
 
 AutoDewarpingFilter 对象。
 
-### 另请参见
+### 另见
 
 * class [PreprocessingFilter](../../preprocessingfilter)
 * namespace [Aspose.OCR.Models.PreprocessingFilters](../../preprocessingfilter)

@@ -1,7 +1,7 @@
 ---
-title: 允许的字符
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 允许字符集。确定识别结果允许的字符类型。
+title: "AllowedCharacters"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "允许字符集。确定识别结果允许的字符类型。"
 type: docs
 weight: 20
 url: /zh/net/aspose.ocr/recognitionsettings/allowedcharacters/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr/recognitionsettings/allowedcharacters/
 public CharactersAllowedType AllowedCharacters { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * enum [CharactersAllowedType](../../charactersallowedtype)
 * class [RecognitionSettings](../../recognitionsettings)

@@ -1,7 +1,7 @@
 ---
-title: SetKeywords
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 设置用于搜索 OCR 识别文本的关键字。
+title: "SetKeywords"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "设置用于搜索 OCR 识别文本的关键字。"
 type: docs
 weight: 60
 url: /zh/net/aspose.ocr.ai/keywordsaiprocessor/setkeywords/
@@ -14,9 +14,9 @@ url: /zh/net/aspose.ocr.ai/keywordsaiprocessor/setkeywords/
 public void SetKeywords(string[] keywords)
 ```
 
-| Parameter | Type | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| keywords | String[] | 要搜索的关键字。匹配不区分大小写且顺序无关。 |
+| keywords | String[] | 要搜索的关键字。匹配时不区分大小写且顺序无关。 |
 
 ### 示例
 
@@ -25,7 +25,7 @@ var processor = new KeywordsAIProcessor();
 processor.SetKeywords(new[] { "Total", "Subtotal", "Discount", "Quantity" });
 ```
 
-### 另请参见
+### 另见
 
 * class [KeywordsAIProcessor](../../keywordsaiprocessor)
 * namespace [Aspose.OCR.AI](../../keywordsaiprocessor)

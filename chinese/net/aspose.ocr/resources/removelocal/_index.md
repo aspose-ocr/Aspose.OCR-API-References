@@ -1,7 +1,7 @@
 ---
-title: RemoveLocal
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 删除本地存储的 Aspose.OCR 资源。
+title: "RemoveLocal"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "删除本地存储的 Aspose.OCR 资源。"
 type: docs
 weight: 110
 url: /zh/net/aspose.ocr/resources/removelocal/
@@ -14,11 +14,11 @@ url: /zh/net/aspose.ocr/resources/removelocal/
 public static void RemoveLocal(string name)
 ```
 
-| Parameter | Type | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| name | String | 包含资源名称的字符串。参见 ListRemote 方法。 |
+| 名称 | String | 包含资源名称的字符串。参见 ListRemote 方法。 |
 
-### 另请参见
+### 另见
 
 * class [Resources](../../resources)
 * namespace [Aspose.OCR](../../resources)

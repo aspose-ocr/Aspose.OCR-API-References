@@ -1,7 +1,7 @@
 ---
-title: 矩形
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 检测到的文本区域或行的列表。
+title: "矩形"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "检测到的文本区域或行的列表。"
 type: docs
 weight: 30
 url: /zh/net/aspose.ocr/rectangleoutput/rectangles/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr/rectangleoutput/rectangles/
 public List<Rectangle> Rectangles { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * class [RectangleOutput](../../rectangleoutput)
 * namespace [Aspose.OCR](../../rectangleoutput)

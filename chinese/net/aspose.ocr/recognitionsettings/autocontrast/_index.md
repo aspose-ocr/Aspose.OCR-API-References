@@ -1,7 +1,7 @@
 ---
-title: 自动对比度
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 允许在识别前对图像使用额外的对比度校正算法。
+title: "AutoContrast"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "允许在识别前对图像使用额外的对比度校正算法。"
 type: docs
 weight: 30
 url: /zh/net/aspose.ocr/recognitionsettings/autocontrast/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr/recognitionsettings/autocontrast/
 public bool AutoContrast { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * class [RecognitionSettings](../../recognitionsettings)
 * namespace [Aspose.OCR](../../recognitionsettings)

@@ -1,7 +1,7 @@
 ---
-title: 宽度
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 图像的宽度。
+title: "Width"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "图像的宽度。"
 type: docs
 weight: 50
 url: /zh/net/aspose.ocr/imagedata/width/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr/imagedata/width/
 public int Width { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * class [ImageData](../../imagedata)
 * namespace [Aspose.OCR](../../imagedata)

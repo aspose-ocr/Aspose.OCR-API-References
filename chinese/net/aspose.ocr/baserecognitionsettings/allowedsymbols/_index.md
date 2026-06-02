@@ -1,7 +1,7 @@
 ---
-title: 允许的符号
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 使用 alphabet 属性设置允许的字符。
+title: "AllowedSymbols"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "使用 alphabet 属性设置允许的字符。"
 type: docs
 weight: 30
 url: /zh/net/aspose.ocr/baserecognitionsettings/allowedsymbols/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr/baserecognitionsettings/allowedsymbols/
 public string AllowedSymbols { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * class [BaseRecognitionSettings](../../baserecognitionsettings)
 * namespace [Aspose.OCR](../../baserecognitionsettings)

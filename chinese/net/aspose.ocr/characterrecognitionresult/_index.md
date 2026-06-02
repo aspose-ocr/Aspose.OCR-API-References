@@ -1,9 +1,9 @@
 ---
-title: CharacterRecognitionResult
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 包含检测字符数据的页面。
+title: "CharacterRecognitionResult"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "包含检测字符数据的页面。"
 type: docs
-weight: 400
+weight: 410
 url: /zh/net/aspose.ocr/characterrecognitionresult/
 ---
 ## CharacterRecognitionResult class
@@ -28,7 +28,7 @@ public class CharacterRecognitionResult
 | [Page](../../aspose.ocr/characterrecognitionresult/page) { get; set; } | 页码。 |
 | [Source](../../aspose.ocr/characterrecognitionresult/source) { get; set; } | 文件或 URL 的完整路径（如果有）。对于流、字节数组、base64 为空。 |
 
-### 另请参见
+### 另见
 
 * namespace [Aspose.OCR](../../aspose.ocr)
 * assembly [Aspose.OCR](../../)

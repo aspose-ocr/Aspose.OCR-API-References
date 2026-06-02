@@ -1,7 +1,7 @@
 ---
-title: 值
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 检测到的字符。
+title: "值"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "检测到的字符。"
 type: docs
 weight: 30
 url: /zh/net/aspose.ocr/character/value/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr/character/value/
 public char Value { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * class [Character](../../character)
 * namespace [Aspose.OCR](../../character)

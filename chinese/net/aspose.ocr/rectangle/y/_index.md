@@ -1,7 +1,7 @@
 ---
-title: Y
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 矩形的 y 位置。
+title: "Y"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "矩形的 y 位置。"
 type: docs
 weight: 110
 url: /zh/net/aspose.ocr/rectangle/y/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr/rectangle/y/
 public int Y;
 ```
 
-### 另请参见
+### 另见
 
 * struct [Rectangle](../../rectangle)
 * namespace [Aspose.OCR](../../rectangle)

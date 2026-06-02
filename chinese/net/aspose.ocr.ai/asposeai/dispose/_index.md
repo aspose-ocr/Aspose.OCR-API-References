@@ -1,7 +1,7 @@
 ---
-title: Dispose
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 释放 AsposeAI 实例使用的内部资源。
+title: "Dispose"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "释放 AsposeAI 实例使用的内部资源。"
 type: docs
 weight: 20
 url: /zh/net/aspose.ocr.ai/asposeai/dispose/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr.ai/asposeai/dispose/
 public void Dispose()
 ```
 
-### 另请参见
+### 另见
 
 * class [AsposeAI](../../asposeai)
 * namespace [Aspose.OCR.AI](../../asposeai)

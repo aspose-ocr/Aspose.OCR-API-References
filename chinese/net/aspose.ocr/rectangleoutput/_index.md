@@ -1,9 +1,9 @@
 ---
-title: RectangleOutput
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 检测到的文本区域或行的数据。
+title: "RectangleOutput"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "检测到的文本区域或行的数据。"
 type: docs
-weight: 360
+weight: 370
 url: /zh/net/aspose.ocr/rectangleoutput/
 ---
 ## RectangleOutput class
@@ -28,7 +28,7 @@ public class RectangleOutput
 | [Rectangles](../../aspose.ocr/rectangleoutput/rectangles) { get; set; } | 检测到的文本区域或行的列表。 |
 | [Source](../../aspose.ocr/rectangleoutput/source) { get; set; } | 文件或 URL 的完整路径（如果有）。对于流、字节数组、base64 为空。 |
 
-### 另请参见
+### 另见
 
 * namespace [Aspose.OCR](../../aspose.ocr)
 * assembly [Aspose.OCR](../../)

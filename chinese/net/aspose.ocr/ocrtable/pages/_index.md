@@ -1,7 +1,7 @@
 ---
-title: Pages
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 包含已识别表格数据的页面集合。
+title: "页面"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "包含已识别表格数据的页面集合。"
 type: docs
 weight: 20
 url: /zh/net/aspose.ocr/ocrtable/pages/
@@ -18,7 +18,7 @@ public List<OCRTablePage> Pages { get; set; }
 
 每个元素对应单个 OCR 页面，并包含检测到的行和单元格。
 
-### 另请参见
+### 另见
 
 * class [OCRTablePage](../../ocrtablepage)
 * class [OCRTable](../../ocrtable)

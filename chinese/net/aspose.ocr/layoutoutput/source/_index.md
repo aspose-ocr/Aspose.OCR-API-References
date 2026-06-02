@@ -1,20 +1,20 @@
 ---
-title: Source
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 文件或 URL（如适用）的完整路径。如果图像以流字节数组或 Base64 提供，则为空。
+title: "来源"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "文件的完整路径或（如果适用）URL。如果是以流字节数组或 Base64 提供的图像，则为空。"
 type: docs
 weight: 90
 url: /zh/net/aspose.ocr/layoutoutput/source/
 ---
 ## LayoutOutput.Source property
 
-文件或 URL 的完整路径（如果适用）。对于以流、字节数组或 Base64 提供的图像，此字段为空。
+文件或 URL 的完整路径（如适用）。对于以流、字节数组或 Base64 提供的图像，此字段为空。
 
 ```csharp
 public string Source { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * class [LayoutOutput](../../layoutoutput)
 * namespace [Aspose.OCR](../../layoutoutput)

@@ -1,7 +1,7 @@
 ---
-title: defectType
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 缺陷类型。
+title: "defectType"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "缺陷类型。"
 type: docs
 weight: 20
 url: /zh/net/aspose.ocr/defectareas/defecttype/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr/defectareas/defecttype/
 public DefectType defectType { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * enum [DefectType](../../defecttype)
 * class [DefectAreas](../../defectareas)

@@ -1,9 +1,9 @@
 ---
-title: 图像
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 获取或设置用于 PDF 创建的图像。
+title: "Image"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "获取或设置用于 PDF 创建的图像。"
 type: docs
-weight: 20
+weight: 30
 url: /zh/net/aspose.ocr/recognitionresult/image/
 ---
 ## RecognitionResult.Image property
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr/recognitionresult/image/
 public byte[][] Image { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * class [RecognitionResult](../../recognitionresult)
 * namespace [Aspose.OCR](../../recognitionresult)

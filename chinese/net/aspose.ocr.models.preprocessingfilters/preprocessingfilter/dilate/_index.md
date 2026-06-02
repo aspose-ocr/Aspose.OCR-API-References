@@ -1,7 +1,7 @@
 ---
-title: 膨胀
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 膨胀会向图像中对象的边界添加像素。
+title: "Dilate"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "膨胀会向图像中对象的边界添加像素。"
 type: docs
 weight: 90
 url: /zh/net/aspose.ocr.models.preprocessingfilters/preprocessingfilter/dilate/
@@ -18,7 +18,7 @@ public static PreprocessingFilter Dilate()
 
 DilateFilter 对象。
 
-### 另请参见
+### 另见
 
 * class [PreprocessingFilter](../../preprocessingfilter)
 * namespace [Aspose.OCR.Models.PreprocessingFilters](../../preprocessingfilter)
@@ -28,13 +28,13 @@ DilateFilter 对象。
 
 ## Dilate(Rectangle) {#dilate_1}
 
-膨胀会向图像部分中对象的边界添加像素。
+膨胀会在图像的一部分中向对象的边界添加像素。
 
 ```csharp
 public static PreprocessingFilter Dilate(Rectangle area)
 ```
 
-| Parameter | Type | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | 区域 | Rectangle | 要校正的图像部分的坐标。 |
 
@@ -42,7 +42,7 @@ public static PreprocessingFilter Dilate(Rectangle area)
 
 DilateFilter 对象。
 
-### 另请参见
+### 另见
 
 * class [PreprocessingFilter](../../preprocessingfilter)
 * namespace [Aspose.OCR.Models.PreprocessingFilters](../../preprocessingfilter)

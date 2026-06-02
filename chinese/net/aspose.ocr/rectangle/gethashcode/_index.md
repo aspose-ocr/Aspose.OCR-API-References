@@ -1,7 +1,7 @@
 ---
-title: GetHashCode
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 返回此 Rectangleaspose.ocr/rectangle 结构的哈希码。
+title: "GetHashCode"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "返回此 Rectangleaspose.ocr/rectangle 结构的哈希码。"
 type: docs
 weight: 140
 url: /zh/net/aspose.ocr/rectangle/gethashcode/
@@ -18,7 +18,7 @@ public override int GetHashCode()
 
 一个整数，表示此矩形的哈希码。
 
-### 另请参见
+### 另见
 
 * struct [Rectangle](../../rectangle)
 * namespace [Aspose.OCR](../../rectangle)

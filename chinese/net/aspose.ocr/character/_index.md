@@ -1,9 +1,9 @@
 ---
-title: 字符
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 检测到的字符数据。
+title: "字符"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "检测到的字符数据。"
 type: docs
-weight: 390
+weight: 400
 url: /zh/net/aspose.ocr/character/
 ---
 ## Character class
@@ -27,7 +27,7 @@ public class Character
 | [Coordinates](../../aspose.ocr/character/coordinates) { get; set; } | 字符坐标。 |
 | [Value](../../aspose.ocr/character/value) { get; set; } | 检测到的字符。 |
 
-### 另请参见
+### 另见
 
 * namespace [Aspose.OCR](../../aspose.ocr)
 * assembly [Aspose.OCR](../../)

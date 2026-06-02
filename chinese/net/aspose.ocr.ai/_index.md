@@ -1,6 +1,6 @@
 ---
-title: Aspose.OCR.AI
-second_title: Aspose.OCR 适用于 .NET API 参考
+title: "Aspose.OCR.AI"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
 description: 
 type: docs
 weight: 20

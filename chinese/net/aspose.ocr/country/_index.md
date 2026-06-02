@@ -1,9 +1,9 @@
 ---
-title: 国家
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 为了更好的护照识别，请指明护照所属国家。
+title: "国家"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "为了更好的护照识别，请指明护照所属国家。"
 type: docs
-weight: 250
+weight: 260
 url: /zh/net/aspose.ocr/country/
 ---
 ## Country enumeration
@@ -20,9 +20,9 @@ public enum Country
 | --- | --- | --- |
 | USA | `0` | 从美国护照图像中提取关键细节。 |
 | MADAGASCAR | `1` | 从马达加斯加护照图像中提取关键细节。 |
-| NONE | `2` | 不要解析已识别的文本。 |
+| NONE | `2` | 不要解析识别的文本。 |
 
-### 另请参见
+### 另见
 
 * namespace [Aspose.OCR](../../aspose.ocr)
 * assembly [Aspose.OCR](../../)

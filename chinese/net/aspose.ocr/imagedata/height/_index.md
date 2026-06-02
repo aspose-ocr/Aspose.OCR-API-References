@@ -1,7 +1,7 @@
 ---
-title: 高度
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 图像的高度。
+title: "Height"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "图像的高度。"
 type: docs
 weight: 20
 url: /zh/net/aspose.ocr/imagedata/height/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr/imagedata/height/
 public int Height { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * class [ImageData](../../imagedata)
 * namespace [Aspose.OCR](../../imagedata)

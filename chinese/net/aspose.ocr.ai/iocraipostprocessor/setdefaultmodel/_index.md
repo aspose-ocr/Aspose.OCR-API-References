@@ -1,7 +1,7 @@
 ---
-title: SetDefaultModel
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 设置此处理器使用的默认 AI 模型配置。
+title: "SetDefaultModel"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "设置此处理器使用的默认 AI 模型配置。"
 type: docs
 weight: 30
 url: /zh/net/aspose.ocr.ai/iocraipostprocessor/setdefaultmodel/
@@ -14,11 +14,11 @@ url: /zh/net/aspose.ocr.ai/iocraipostprocessor/setdefaultmodel/
 public void SetDefaultModel(AsposeAIModelConfig customSettings)
 ```
 
-| Parameter | Type | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| customSettings | AsposeAIModelConfig | 要加载和应用的自定义模型配置。 |
+| customSettings | AsposeAIModelConfig | 用于加载和应用的自定义模型配置。 |
 
-### 另请参见
+### 另见
 
 * class [AsposeAIModelConfig](../../asposeaimodelconfig)
 * interface [IOcrAIPostProcessor](../../iocraipostprocessor)

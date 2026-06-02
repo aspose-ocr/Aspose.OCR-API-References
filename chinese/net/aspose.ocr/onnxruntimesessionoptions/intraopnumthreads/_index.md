@@ -1,20 +1,20 @@
 ---
-title: IntraOpNumThreads
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 单个操作使用的线程数。
+title: "IntraOpNumThreads"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "单个操作的线程数。"
 type: docs
 weight: 60
 url: /zh/net/aspose.ocr/onnxruntimesessionoptions/intraopnumthreads/
 ---
 ## OnnxRuntimeSessionOptions.IntraOpNumThreads property
 
-单个操作使用的线程数。
+单个操作的线程数。
 
 ```csharp
 public static int IntraOpNumThreads { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * class [OnnxRuntimeSessionOptions](../../onnxruntimesessionoptions)
 * namespace [Aspose.OCR](../../onnxruntimesessionoptions)

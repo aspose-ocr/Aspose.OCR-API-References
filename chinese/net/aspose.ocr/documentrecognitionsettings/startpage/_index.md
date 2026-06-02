@@ -1,14 +1,14 @@
 ---
-title: StartPage
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 设置要识别的起始页。
+title: "StartPage"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "设置识别的起始页。"
 type: docs
 weight: 30
 url: /zh/net/aspose.ocr/documentrecognitionsettings/startpage/
 ---
 ## DocumentRecognitionSettings.StartPage property
 
-设置要识别的起始页。
+设置识别的起始页。
 
 ```csharp
 public int StartPage { get; set; }
@@ -18,7 +18,7 @@ public int StartPage { get; set; }
 
 默认值为 `0`。
 
-### 另请参见
+### 另见
 
 * class [DocumentRecognitionSettings](../../documentrecognitionsettings)
 * namespace [Aspose.OCR](../../documentrecognitionsettings)

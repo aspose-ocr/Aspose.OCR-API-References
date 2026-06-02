@@ -1,7 +1,7 @@
 ---
-title: GetResult
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 返回 AI 处理后的识别结果。识别输出以 JSON 格式的字符串返回，结构如下：
+title: "GetResult"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "返回 AI 处理后的识别结果。识别输出以 JSON 格式的字符串返回，结构如下："
 type: docs
 weight: 20
 url: /zh/net/aspose.ocr.ai/keywordsaiprocessor/getresult/
@@ -28,7 +28,7 @@ public List<AIResult> GetResult()
 
 包含 JSON 格式字符串的 [`AIResult`](../../airesult) 对象列表。
 
-### 另请参见
+### 另见
 
 * class [AIResult](../../airesult)
 * class [KeywordsAIProcessor](../../keywordsaiprocessor)

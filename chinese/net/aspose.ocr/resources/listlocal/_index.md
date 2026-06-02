@@ -1,7 +1,7 @@
 ---
-title: ListLocal
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 列出本地目录中存储的所有 Aspose.OCR 资源。
+title: "ListLocal"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "列出本地目录中存储的所有 Aspose.OCR 资源。"
 type: docs
 weight: 80
 url: /zh/net/aspose.ocr/resources/listlocal/
@@ -18,7 +18,7 @@ public static List<string> ListLocal()
 
 列出本地目录中存储的所有 Aspose.OCR 资源。
 
-### 另请参见
+### 另见
 
 * class [Resources](../../resources)
 * namespace [Aspose.OCR](../../resources)

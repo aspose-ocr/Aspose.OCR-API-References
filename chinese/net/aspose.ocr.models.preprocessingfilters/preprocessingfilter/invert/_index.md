@@ -1,14 +1,14 @@
 ---
-title: 反转
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 自动反转文档图像的颜色。
+title: "反转"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "自动反转文档图像中的颜色。"
 type: docs
 weight: 100
 url: /zh/net/aspose.ocr.models.preprocessingfilters/preprocessingfilter/invert/
 ---
 ## Invert() {#invert}
 
-自动反转文档图像的颜色。
+自动反转文档图像中的颜色。
 
 ```csharp
 public static PreprocessingFilter Invert()
@@ -18,7 +18,7 @@ public static PreprocessingFilter Invert()
 
 InvertFilter 对象。
 
-### 另请参见
+### 另见
 
 * class [PreprocessingFilter](../../preprocessingfilter)
 * namespace [Aspose.OCR.Models.PreprocessingFilters](../../preprocessingfilter)
@@ -28,13 +28,13 @@ InvertFilter 对象。
 
 ## Invert(Rectangle) {#invert_1}
 
-自动反转图像部分的颜色。
+自动反转图像的一部分中的颜色。
 
 ```csharp
 public static PreprocessingFilter Invert(Rectangle area)
 ```
 
-| Parameter | Type | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | 区域 | Rectangle | 要校正的图像部分的坐标。 |
 
@@ -42,7 +42,7 @@ public static PreprocessingFilter Invert(Rectangle area)
 
 InvertFilter 对象。
 
-### 另请参见
+### 另见
 
 * class [PreprocessingFilter](../../preprocessingfilter)
 * namespace [Aspose.OCR.Models.PreprocessingFilters](../../preprocessingfilter)

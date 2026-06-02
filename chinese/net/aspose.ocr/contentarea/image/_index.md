@@ -1,7 +1,7 @@
 ---
-title: 图像
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 包含内容的图像区域。
+title: "image"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "包含内容的图像区域。"
 type: docs
 weight: 30
 url: /zh/net/aspose.ocr/contentarea/image/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr/contentarea/image/
 public MemoryStream image;
 ```
 
-### 另请参见
+### 另见
 
 * class [ContentArea](../../contentarea)
 * namespace [Aspose.OCR](../../contentarea)

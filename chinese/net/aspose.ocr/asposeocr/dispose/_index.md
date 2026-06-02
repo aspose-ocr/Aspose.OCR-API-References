@@ -1,9 +1,9 @@
 ---
-title: Dispose
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 清除识别资源。
+title: "Dispose"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "清除识别资源。"
 type: docs
-weight: 100
+weight: 110
 url: /zh/net/aspose.ocr/asposeocr/dispose/
 ---
 ## AsposeOcr.Dispose method
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr/asposeocr/dispose/
 public void Dispose()
 ```
 
-### 另请参见
+### 另见
 
 * class [AsposeOcr](../../asposeocr)
 * namespace [Aspose.OCR](../../asposeocr)

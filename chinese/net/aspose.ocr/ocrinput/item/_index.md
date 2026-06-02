@@ -1,20 +1,20 @@
 ---
-title: 项
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 返回已处理/已识别图像的信息。
+title: "项"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "返回有关已处理/已识别图像的信息。"
 type: docs
 weight: 20
 url: /zh/net/aspose.ocr/ocrinput/item/
 ---
 ## OcrInput indexer
 
-返回已处理/已识别图像的信息。
+返回有关已处理/已识别图像的信息。
 
 ```csharp
 public ImageData this[int index] { get; set; }
 ```
 
-| Parameter | 描述 |
+| 参数 | 描述 |
 | --- | --- |
 | index | 图像在列表中的位置。 |
 
@@ -22,7 +22,7 @@ public ImageData this[int index] { get; set; }
 
 [`ImageData`](../../imagedata) 的对象
 
-### 另请参见
+### 另见
 
 * class [ImageData](../../imagedata)
 * class [OcrInput](../../ocrinput)

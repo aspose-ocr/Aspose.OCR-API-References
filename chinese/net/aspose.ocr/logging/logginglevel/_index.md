@@ -1,7 +1,7 @@
 ---
-title: LoggingLevel
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 设置或获取日志级别
+title: "LoggingLevel"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "设置或获取日志级别"
 type: docs
 weight: 40
 url: /zh/net/aspose.ocr/logging/logginglevel/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr/logging/logginglevel/
 public static LoggingLevel LoggingLevel { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * enum [LoggingLevel](../../logginglevel)
 * class [Logging](../../logging)

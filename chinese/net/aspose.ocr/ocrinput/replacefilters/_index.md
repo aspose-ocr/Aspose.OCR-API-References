@@ -1,24 +1,24 @@
 ---
-title: ReplaceFilters
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 移除旧过滤器并设置新过滤器。
+title: "ReplaceFilters"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "删除旧过滤器并设置新过滤器。"
 type: docs
 weight: 110
 url: /zh/net/aspose.ocr/ocrinput/replacefilters/
 ---
 ## OcrInput.ReplaceFilters method
 
-移除旧过滤器并设置新过滤器。
+删除旧过滤器并设置新过滤器。
 
 ```csharp
 public void ReplaceFilters(PreprocessingFilter filters)
 ```
 
-| Parameter | Type | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 过滤器 | PreprocessingFilter | 设置预处理过滤器将用于后续处理或识别。 |
+| filters | PreprocessingFilter | 设置的预处理过滤器将用于后续处理或识别。 |
 
-### 另请参见
+### 另见
 
 * class [PreprocessingFilter](../../../aspose.ocr.models.preprocessingfilters/preprocessingfilter)
 * class [OcrInput](../../ocrinput)

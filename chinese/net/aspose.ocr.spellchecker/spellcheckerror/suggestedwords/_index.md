@@ -1,7 +1,7 @@
 ---
-title: SuggestedWords
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 包含建议正确拼写的对象列表
+title: "SuggestedWords"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "包含建议正确拼写的对象列表"
 type: docs
 weight: 30
 url: /zh/net/aspose.ocr.spellchecker/spellcheckerror/suggestedwords/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr.spellchecker/spellcheckerror/suggestedwords/
 public List<SuggestedWord> SuggestedWords { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * struct [SuggestedWord](../../suggestedword)
 * struct [SpellCheckError](../../spellcheckerror)

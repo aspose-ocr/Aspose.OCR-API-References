@@ -1,7 +1,7 @@
 ---
-title: DirectoryModelPath
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 可选路径，用于缓存已下载或已处理的模型。如果未设置，将使用默认系统位置。
+title: "DirectoryModelPath"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "可选的路径，用于缓存已下载或已处理的模型。如果未设置，将使用默认系统位置。"
 type: docs
 weight: 40
 url: /zh/net/aspose.ocr.ai/asposeaimodelconfig/directorymodelpath/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr.ai/asposeaimodelconfig/directorymodelpath/
 public string? DirectoryModelPath { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * class [AsposeAIModelConfig](../../asposeaimodelconfig)
 * namespace [Aspose.OCR.AI](../../asposeaimodelconfig)

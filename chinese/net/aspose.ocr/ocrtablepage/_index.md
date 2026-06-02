@@ -1,9 +1,9 @@
 ---
-title: OCRTablePage
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 表示整个 OCR 文档页面的结构化表格数据。
+title: "OCRTablePage"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "表示整个 OCR 文档页面的结构化表格数据。"
 type: docs
-weight: 450
+weight: 460
 url: /zh/net/aspose.ocr/ocrtablepage/
 ---
 ## OCRTablePage class
@@ -28,9 +28,9 @@ public class OCRTablePage
 
 ### 备注
 
-此对象聚合了单个处理页面上所有已识别的表格。页面可能包含一个或多个检测到的表格，以 [`OCRTable`](../ocrtable) 条目表示。
+此对象聚合了单个处理页面上所有已识别的表格。页面可能包含一个或多个检测到的表格，以 [`OCRTable`](../ocrtable) 条目形式表示。
 
-### 另请参见
+### 另见
 
 * namespace [Aspose.OCR](../../aspose.ocr)
 * assembly [Aspose.OCR](../../)

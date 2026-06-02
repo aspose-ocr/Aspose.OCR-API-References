@@ -1,7 +1,7 @@
 ---
-title: defectAreas
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 图像缺陷及其发现区域的列表。
+title: "缺陷区域"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "图像缺陷及其发现区域的列表。"
 type: docs
 weight: 20
 url: /zh/net/aspose.ocr/defectoutput/defectareas/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr/defectoutput/defectareas/
 public List<DefectAreas> defectAreas { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * class [DefectAreas](../../defectareas)
 * class [DefectOutput](../../defectoutput)

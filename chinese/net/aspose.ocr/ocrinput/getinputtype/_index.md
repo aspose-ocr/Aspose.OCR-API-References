@@ -1,14 +1,14 @@
 ---
-title: GetInputType
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 可用于识别的图像类型。
+title: "GetInputType"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "允许用于识别的图像类型。"
 type: docs
 weight: 100
 url: /zh/net/aspose.ocr/ocrinput/getinputtype/
 ---
 ## OcrInput.GetInputType method
 
-可用于识别的图像类型。
+允许用于识别的图像类型。
 
 ```csharp
 public InputType GetInputType()
@@ -18,7 +18,7 @@ public InputType GetInputType()
 
 InputType。
 
-### 另请参见
+### 另见
 
 * enum [InputType](../../inputtype)
 * class [OcrInput](../../ocrinput)

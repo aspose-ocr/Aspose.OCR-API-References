@@ -1,20 +1,20 @@
 ---
-title: UpscaleSmallFont
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 允许使用专用于小字体识别的额外算法。适用于字符尺寸较小的图像。
+title: "UpscaleSmallFont"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "允许您使用专门针对小字体识别的额外算法。对包含小字符的图像很有用。"
 type: docs
 weight: 110
 url: /zh/net/aspose.ocr/baserecognitionsettings/upscalesmallfont/
 ---
 ## BaseRecognitionSettings.UpscaleSmallFont property
 
-允许使用专用于小字体识别的额外算法。适用于字符尺寸较小的图像。
+允许您使用专门针对小字体识别的额外算法。对包含小字符的图像很有用。
 
 ```csharp
 public bool UpscaleSmallFont { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * class [BaseRecognitionSettings](../../baserecognitionsettings)
 * namespace [Aspose.OCR](../../baserecognitionsettings)

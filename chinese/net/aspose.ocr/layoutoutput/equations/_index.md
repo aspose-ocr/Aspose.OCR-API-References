@@ -1,7 +1,7 @@
 ---
-title: 公式
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 检测到的公式。
+title: "公式"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "检测到的公式。"
 type: docs
 weight: 30
 url: /zh/net/aspose.ocr/layoutoutput/equations/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr/layoutoutput/equations/
 public List<ContentArea> Equations { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * class [ContentArea](../../contentarea)
 * class [LayoutOutput](../../layoutoutput)

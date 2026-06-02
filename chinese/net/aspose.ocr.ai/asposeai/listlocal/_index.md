@@ -1,7 +1,7 @@
 ---
-title: ListLocal
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 列出配置目录中可用的所有本地模型。
+title: "ListLocal"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "列出配置目录中可用的所有本地模型。"
 type: docs
 weight: 60
 url: /zh/net/aspose.ocr.ai/asposeai/listlocal/
@@ -18,7 +18,7 @@ public List<string> ListLocal()
 
 模型名称或路径的列表。
 
-### 另请参见
+### 另见
 
 * class [AsposeAI](../../asposeai)
 * namespace [Aspose.OCR.AI](../../asposeai)

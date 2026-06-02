@@ -1,7 +1,7 @@
 ---
-title: language
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 检测到的语言。
+title: "language"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "检测到的语言。"
 type: docs
 weight: 20
 url: /zh/net/aspose.ocr/languagedetectionoutput.detectedlanguage/language/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr/languagedetectionoutput.detectedlanguage/language/
 public Language language;
 ```
 
-### 另请参见
+### 另见
 
 * enum [Language](../../language)
 * class [DetectedLanguage](../../languagedetectionoutput.detectedlanguage)

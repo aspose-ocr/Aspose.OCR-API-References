@@ -1,7 +1,7 @@
 ---
-title: BaseRecognitionSettings
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 使用完整属性集初始化 RecognitionSettingsaspose.ocr/recognitionsettings 类的新实例。
+title: "BaseRecognitionSettings"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "初始化 RecognitionSettingsaspose.ocr/recognitionsettings 类的新实例，并包含完整的属性集。"
 type: docs
 weight: 10
 url: /zh/net/aspose.ocr/baserecognitionsettings/baserecognitionsettings/
@@ -14,11 +14,11 @@ url: /zh/net/aspose.ocr/baserecognitionsettings/baserecognitionsettings/
 public BaseRecognitionSettings(Language language = Language.Latin)
 ```
 
-| Parameter | Type | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | language | 语言 | 用于 OCR 的语言。 |
 
-### 另请参见
+### 另见
 
 * enum [Language](../../language)
 * class [BaseRecognitionSettings](../../baserecognitionsettings)

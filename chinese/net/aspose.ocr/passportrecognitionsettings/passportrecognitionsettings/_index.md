@@ -1,7 +1,7 @@
 ---
-title: PassportRecognitionSettings
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 使用完整属性集初始化 PassportRecognitionSettingsaspose.ocr/passportrecognitionsettings 类的新实例。
+title: "PassportRecognitionSettings"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "使用完整属性集初始化 PassportRecognitionSettingsaspose.ocr/passportrecognitionsettings 类的新实例。"
 type: docs
 weight: 10
 url: /zh/net/aspose.ocr/passportrecognitionsettings/passportrecognitionsettings/
@@ -14,11 +14,11 @@ url: /zh/net/aspose.ocr/passportrecognitionsettings/passportrecognitionsettings/
 public PassportRecognitionSettings(Language language)
 ```
 
-| Parameter | Type | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | language | 语言 | 用于 OCR 的语言。 |
 
-### 另请参见
+### 另见
 
 * enum [Language](../../language)
 * class [PassportRecognitionSettings](../../passportrecognitionsettings)
@@ -35,7 +35,7 @@ public PassportRecognitionSettings(Language language)
 public PassportRecognitionSettings()
 ```
 
-### 另请参见
+### 另见
 
 * class [PassportRecognitionSettings](../../passportrecognitionsettings)
 * namespace [Aspose.OCR](../../passportrecognitionsettings)

@@ -1,7 +1,7 @@
 ---
-title: LogFilePath
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 设置或获取日志文件的路径和名称。
+title: "LogFilePath"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "设置或获取日志文件的路径和名称。"
 type: docs
 weight: 30
 url: /zh/net/aspose.ocr/logging/logfilepath/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr/logging/logfilepath/
 public static string LogFilePath { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * class [Logging](../../logging)
 * namespace [Aspose.OCR](../../logging)

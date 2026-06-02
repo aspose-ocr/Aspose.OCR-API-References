@@ -1,7 +1,7 @@
 ---
-title: SetLicense
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 为组件授权。
+title: "SetLicense"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "为组件授权。"
 type: docs
 weight: 30
 url: /zh/net/aspose.ocr/license/setlicense/
@@ -49,7 +49,7 @@ License license = new License();
 license.SetLicense("MyLicense.lic");
 ```
 
-组件的 jar 文件：
+组件 jar 文件：
 
 ```csharp
 License license = new License();
@@ -58,7 +58,7 @@ license.setLicense("MyLicense.lic");
 
 可以是完整或简短的文件名，或嵌入资源的名称。使用空字符串切换到评估模式。
 
-### 另请参见
+### 另见
 
 * class [License](../../license)
 * namespace [Aspose.OCR](../../license)
@@ -74,9 +74,9 @@ license.setLicense("MyLicense.lic");
 public void SetLicense(Stream stream)
 ```
 
-| Parameter | Type | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 流 | 流 | 包含许可证的流。 |
+| 流 | Stream | 包含许可证的流。 |
 
 ### 备注
 
@@ -94,7 +94,7 @@ License license = new License();
 license.setLicense(myStream);
 ```
 
-### 另请参见
+### 另见
 
 * class [License](../../license)
 * namespace [Aspose.OCR](../../license)
