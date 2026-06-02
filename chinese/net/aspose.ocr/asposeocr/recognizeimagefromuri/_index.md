@@ -1,23 +1,23 @@
 ---
-title: RecognizeImageFromUri
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 识别通过 URI 链接提供的图像中的文字。
+title: "RecognizeImageFromUri"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "识别由 URI 链接提供的图像上的文本。"
 type: docs
 weight: 170
 url: /zh/net/aspose.ocr/asposeocr/recognizeimagefromuri/
 ---
 ## AsposeOcr.RecognizeImageFromUri method
 
-识别通过 URI 链接提供的图像中的文字。
+识别由 URI 链接提供的图像上的文本。
 
 ```csharp
 public RecognitionResult RecognizeImageFromUri(string uri, RecognitionSettings settings = null)
 ```
 
-| Parameter | Type | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| uri | String | URI link to the image. |
-| settings | RecognitionSettings | Recognition settings. |
+| uri | String | 指向图像的 URI 链接。 |
+| settings | RecognitionSettings | 识别设置。 |
 
 ### 返回值
 
@@ -25,9 +25,9 @@ public RecognitionResult RecognizeImageFromUri(string uri, RecognitionSettings s
 
 ### 备注
 
-识别图像并可指定[`RecognitionSettings`](../../recognitionsettings)。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF。
+识别图像并可以指定 [`RecognitionSettings`](../../recognitionsettings)。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF。
 
-### 另请参见
+### 另见
 
 * class [RecognitionResult](../../recognitionresult)
 * class [RecognitionSettings](../../recognitionsettings)

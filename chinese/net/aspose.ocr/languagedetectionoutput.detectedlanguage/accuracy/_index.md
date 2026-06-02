@@ -1,7 +1,7 @@
 ---
-title: 准确度
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 检测到的准确度。
+title: "准确度"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "检测到的准确度。"
 type: docs
 weight: 10
 url: /zh/net/aspose.ocr/languagedetectionoutput.detectedlanguage/accuracy/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr/languagedetectionoutput.detectedlanguage/accuracy/
 public float accuracy;
 ```
 
-### 另请参见
+### 另见
 
 * class [DetectedLanguage](../../languagedetectionoutput.detectedlanguage)
 * namespace [Aspose.OCR](../../languagedetectionoutput.detectedlanguage)

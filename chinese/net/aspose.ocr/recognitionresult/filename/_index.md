@@ -1,9 +1,9 @@
 ---
-title: FileName
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 文件的完整路径。
+title: "FileName"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "文件的完整路径。"
 type: docs
-weight: 10
+weight: 20
 url: /zh/net/aspose.ocr/recognitionresult/filename/
 ---
 ## RecognitionResult.FileName property
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr/recognitionresult/filename/
 public string FileName { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * class [RecognitionResult](../../recognitionresult)
 * namespace [Aspose.OCR](../../recognitionresult)

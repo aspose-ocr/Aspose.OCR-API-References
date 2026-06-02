@@ -1,7 +1,7 @@
 ---
-title: 许可证
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 初始化此类的新实例。
+title: "许可证"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "初始化此类的新实例。"
 type: docs
 weight: 10
 url: /zh/net/aspose.ocr/license/license/
@@ -25,14 +25,14 @@ License license = new License();
 license.SetLicense("MyLicense.lic");
 ```
 
-组件的 jar 文件：
+组件 jar 文件：
 
 ```csharp
 License license = new License();
 license.setLicense("MyLicense.lic");
 ```
 
-### 另请参见
+### 另见
 
 * class [License](../../license)
 * namespace [Aspose.OCR](../../license)

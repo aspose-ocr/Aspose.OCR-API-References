@@ -1,7 +1,7 @@
 ---
-title: FileModelPath
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 本地路径，指向包含模型文件的文件夹。如果指定，将使用该路径而不是下载。默认为空。
+title: "FileModelPath"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "本地路径，指向包含模型文件的文件夹。如果指定，将使用该路径而非下载。默认为空。"
 type: docs
 weight: 50
 url: /zh/net/aspose.ocr.ai/asposeaimodelconfig/filemodelpath/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr.ai/asposeaimodelconfig/filemodelpath/
 public string? FileModelPath { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * class [AsposeAIModelConfig](../../asposeaimodelconfig)
 * namespace [Aspose.OCR.AI](../../asposeaimodelconfig)

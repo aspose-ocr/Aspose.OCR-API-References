@@ -1,7 +1,7 @@
 ---
-title: CompareImageTexts
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 检查两幅图像是否包含相同的文本。
+title: "CompareImageTexts"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "检查两幅图像是否包含相同的文本。"
 type: docs
 weight: 40
 url: /zh/net/aspose.ocr/asposeocr/compareimagetexts/
@@ -15,18 +15,18 @@ public bool CompareImageTexts(string fullPath1, string fullPath2,
     RecognitionSettings settings = null, bool ignoreCase = true)
 ```
 
-| Parameter | Type | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| fullPath1 | String | Path to the first image. |
-| fullPath2 | String | Path to the second image. |
-| settings | RecognitionSettings | Recognition settings. |
-| ignoreCase | Boolean | True - means a case-insensitive search. |
+| fullPath1 | String | 第一张图像的路径。 |
+| fullPath2 | String | 第二张图像的路径。 |
+| settings | RecognitionSettings | 识别设置。 |
+| ignoreCase | Boolean | True - 表示不区分大小写的搜索。 |
 
 ### 返回值
 
-True if images have the same text (90% similarity).
+如果图像的文本相同（相似度 90%），则为 True。
 
-### 另请参见
+### 另见
 
 * class [RecognitionSettings](../../recognitionsettings)
 * class [AsposeOcr](../../asposeocr)

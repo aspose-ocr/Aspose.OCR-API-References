@@ -1,20 +1,20 @@
 ---
-title: Dispose
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 将处理/识别的项目数量设为 0。清空集合。
+title: "Dispose"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "将用于处理/识别的项目数量设置为 0。清空集合。"
 type: docs
 weight: 80
 url: /zh/net/aspose.ocr/ocrinput/dispose/
 ---
 ## OcrInput.Dispose method
 
-将处理/识别的项目数量设为 0。清空集合。
+将用于处理/识别的项目数量设置为 0。清空集合。
 
 ```csharp
 public void Dispose()
 ```
 
-### 另请参见
+### 另见
 
 * class [OcrInput](../../ocrinput)
 * namespace [Aspose.OCR](../../ocrinput)

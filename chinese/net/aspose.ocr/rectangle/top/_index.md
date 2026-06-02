@@ -1,7 +1,7 @@
 ---
-title: 上
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 获取或设置此 Rectangleaspose.ocr/rectangle 结构顶部边缘的 y 坐标。
+title: "Top"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "获取或设置此 Rectangleaspose.ocr/rectangle 结构顶部边缘的 y 坐标。"
 type: docs
 weight: 70
 url: /zh/net/aspose.ocr/rectangle/top/
@@ -18,7 +18,7 @@ public int Top { get; set; }
 
 此 [`Rectangle`](../../rectangle) 结构顶部边缘的 y 坐标。
 
-### 另请参见
+### 另见
 
 * struct [Rectangle](../../rectangle)
 * namespace [Aspose.OCR](../../rectangle)

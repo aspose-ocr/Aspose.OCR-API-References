@@ -1,7 +1,7 @@
 ---
-title: DetectAreasMode
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 允许为文档类型（区域、文档、照片、纯文本、列、图像）选择最佳模式。
+title: "DetectAreasMode"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "允许为文档、区域、照片、纯文本、列、图像等类型选择最佳模式。"
 type: docs
 weight: 50
 url: /zh/net/aspose.ocr/baserecognitionsettings/detectareasmode/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr/baserecognitionsettings/detectareasmode/
 public DetectAreasMode DetectAreasMode { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * enum [DetectAreasMode](../../detectareasmode)
 * class [BaseRecognitionSettings](../../baserecognitionsettings)

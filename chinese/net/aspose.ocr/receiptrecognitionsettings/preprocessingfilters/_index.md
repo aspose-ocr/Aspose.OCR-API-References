@@ -1,20 +1,20 @@
 ---
-title: 预处理过滤器
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 允许通过调整预处理方法来准备图像进行 OCR。
+title: "PreprocessingFilters"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "允许通过调整预处理方法为 OCR 准备图像。"
 type: docs
 weight: 60
 url: /zh/net/aspose.ocr/receiptrecognitionsettings/preprocessingfilters/
 ---
 ## ReceiptRecognitionSettings.PreprocessingFilters property
 
-允许通过调整预处理方法来准备图像进行 OCR。
+允许通过调整预处理方法为 OCR 准备图像。
 
 ```csharp
 public PreprocessingFilter PreprocessingFilters { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * class [PreprocessingFilter](../../../aspose.ocr.models.preprocessingfilters/preprocessingfilter)
 * class [ReceiptRecognitionSettings](../../receiptrecognitionsettings)

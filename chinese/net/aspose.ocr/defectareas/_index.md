@@ -1,9 +1,9 @@
 ---
-title: DefectAreas
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 包含特定类型缺陷的图像区域。
+title: "DefectAreas"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "包含特定类型缺陷的图像区域。"
 type: docs
-weight: 350
+weight: 360
 url: /zh/net/aspose.ocr/defectareas/
 ---
 ## DefectAreas class
@@ -27,7 +27,7 @@ public class DefectAreas
 | [defectType](../../aspose.ocr/defectareas/defecttype) { get; set; } | 缺陷类型。 |
 | [rectangles](../../aspose.ocr/defectareas/rectangles) { get; set; } | 发现缺陷的图像区域 |
 
-### 另请参见
+### 另见
 
 * namespace [Aspose.OCR](../../aspose.ocr)
 * assembly [Aspose.OCR](../../)

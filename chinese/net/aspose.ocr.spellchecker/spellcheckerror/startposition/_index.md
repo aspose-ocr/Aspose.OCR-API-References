@@ -1,7 +1,7 @@
 ---
-title: StartPosition
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 输入文本中单词的位置。
+title: "StartPosition"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "单词在输入文本中的位置。"
 type: docs
 weight: 20
 url: /zh/net/aspose.ocr.spellchecker/spellcheckerror/startposition/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr.spellchecker/spellcheckerror/startposition/
 public int StartPosition { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * struct [SpellCheckError](../../spellcheckerror)
 * namespace [Aspose.OCR.SpellChecker](../../spellcheckerror)

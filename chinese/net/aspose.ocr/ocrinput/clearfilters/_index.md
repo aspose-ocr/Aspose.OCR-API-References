@@ -1,7 +1,7 @@
 ---
-title: ClearFilters
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 移除所有过滤器。
+title: "ClearFilters"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "移除所有过滤器。"
 type: docs
 weight: 60
 url: /zh/net/aspose.ocr/ocrinput/clearfilters/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr/ocrinput/clearfilters/
 public void ClearFilters()
 ```
 
-### 另请参见
+### 另见
 
 * class [OcrInput](../../ocrinput)
 * namespace [Aspose.OCR](../../ocrinput)

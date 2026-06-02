@@ -1,7 +1,7 @@
 ---
-title: LanguageDetectionLevel
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 定义图像中文本识别的语言检测级别。
+title: "LanguageDetectionLevel"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "定义图像中文本识别的语言检测级别。"
 type: docs
 weight: 110
 url: /zh/net/aspose.ocr/languagedetectionlevel/
@@ -22,7 +22,7 @@ public enum LanguageDetectionLevel
 | ByParagraph | `1` | 分别检测每个段落的语言。 |
 | ByWord | `2` | 分别检测每个单词的语言。 |
 
-### 另请参见
+### 另见
 
 * namespace [Aspose.OCR](../../aspose.ocr)
 * assembly [Aspose.OCR](../../)

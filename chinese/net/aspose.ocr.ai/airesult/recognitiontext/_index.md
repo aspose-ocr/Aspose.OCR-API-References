@@ -1,7 +1,7 @@
 ---
-title: RecognitionText
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 获取或设置文本识别的转换后处理结果。
+title: "RecognitionText"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "获取或设置文本识别的转换后处理结果。"
 type: docs
 weight: 30
 url: /zh/net/aspose.ocr.ai/airesult/recognitiontext/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr.ai/airesult/recognitiontext/
 public string RecognitionText { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * class [AIResult](../../airesult)
 * namespace [Aspose.OCR.AI](../../airesult)

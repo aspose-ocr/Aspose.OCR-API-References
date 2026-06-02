@@ -1,20 +1,20 @@
 ---
-title: 值
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 护照字段的值文本和坐标。
+title: "值"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "护照字段的值文本和坐标。"
 type: docs
 weight: 20
 url: /zh/net/aspose.ocr/recognitionresult.keyword/value/
 ---
 ## RecognitionResult.Keyword.Value field
 
-护照字段的 Value（文本和坐标）。
+护照字段的值（文本和坐标）。
 
 ```csharp
 public LinesResult Value;
 ```
 
-### 另请参见
+### 另见
 
 * class [LinesResult](../../recognitionresult.linesresult)
 * class [Keyword](../../recognitionresult.keyword)

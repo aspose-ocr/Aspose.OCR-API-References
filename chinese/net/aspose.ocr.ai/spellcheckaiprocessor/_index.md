@@ -1,9 +1,9 @@
 ---
-title: SpellCheckAIProcessor
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 使用 AsposeAI 对 OCR 识别结果进行拼写纠正的 AI 后处理器。
+title: "SpellCheckAIProcessor"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "使用 AsposeAI 对 OCR 识别结果进行拼写纠正的 AI 后处理器。"
 type: docs
-weight: 600
+weight: 610
 url: /zh/net/aspose.ocr.ai/spellcheckaiprocessor/
 ---
 ## SpellCheckAIProcessor class
@@ -20,14 +20,14 @@ public class SpellCheckAIProcessor : IOcrAIPostProcessor
 | --- | --- |
 | [SpellCheckAIProcessor](spellcheckaiprocessor)() | 默认构造函数。 |
 
-## 方法
+## Methods
 
 | 名称 | 描述 |
 | --- | --- |
-| [GetResult](../../aspose.ocr.ai/spellcheckaiprocessor/getresult)() | 获取已应用拼写纠正后的 OCR 结果。 |
-| [SaveTxt](../../aspose.ocr.ai/spellcheckaiprocessor/savetxt)(string) | 将纠正后的 OCR 结果保存到 TXT 文件中。 |
+| [GetResult](../../aspose.ocr.ai/spellcheckaiprocessor/getresult)() | 获取已应用拼写校正后的 OCR 结果。 |
+| [SaveTxt](../../aspose.ocr.ai/spellcheckaiprocessor/savetxt)(string) | 将校正后的 OCR 结果保存为 TXT 文件。 |
 
-### 另请参见
+### 另见
 
 * interface [IOcrAIPostProcessor](../iocraipostprocessor)
 * namespace [Aspose.OCR.AI](../../aspose.ocr.ai)

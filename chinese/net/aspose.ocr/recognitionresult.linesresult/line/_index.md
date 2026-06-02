@@ -1,7 +1,7 @@
 ---
-title: 行
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 行坐标。
+title: "行"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "行坐标。"
 type: docs
 weight: 30
 url: /zh/net/aspose.ocr/recognitionresult.linesresult/line/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr/recognitionresult.linesresult/line/
 public Rectangle Line { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * class [LinesResult](../../recognitionresult.linesresult)
 * namespace [Aspose.OCR](../../recognitionresult.linesresult)

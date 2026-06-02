@@ -1,7 +1,7 @@
 ---
-title: IsInitialized
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 检查 AI 引擎是否已初始化。
+title: "IsInitialized"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "检查 AI 引擎是否已初始化。"
 type: docs
 weight: 50
 url: /zh/net/aspose.ocr.ai/asposeai/isinitialized/
@@ -16,9 +16,9 @@ public bool IsInitialized()
 
 ### 返回值
 
-如果已初始化则为 True；否则为 false。
+如果已初始化则为 true；否则为 false。
 
-### 另请参见
+### 另见
 
 * class [AsposeAI](../../asposeai)
 * namespace [Aspose.OCR.AI](../../asposeai)

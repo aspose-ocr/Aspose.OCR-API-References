@@ -1,7 +1,7 @@
 ---
-title: Empty
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 获取一个新的 Rectangleaspose.ocr/rectangle 结构实例，其 Xaspose.ocr/rectangle/x、Yaspose.ocr/rectangle/y、Widthaspose.ocr/rectangle/width 和 Heightaspose.ocr/rectangle/height 值均设为零。
+title: "空"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "获取一个新的 Rectangleaspose.ocr/rectangle 结构实例，其 Xaspose.ocr/rectangle/x、Yaspose.ocr/rectangle/y、Widthaspose.ocr/rectangle/width 和 Heightaspose.ocr/rectangle/height 值均设为零。"
 type: docs
 weight: 20
 url: /zh/net/aspose.ocr/rectangle/empty/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr/rectangle/empty/
 public static Rectangle Empty { get; }
 ```
 
-### 另请参见
+### 另见
 
 * struct [Rectangle](../../rectangle)
 * namespace [Aspose.OCR](../../rectangle)

@@ -1,7 +1,7 @@
 ---
-title: CorrectSpelling
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: Corrects text replaces misspelled words.
+title: "CorrectSpelling"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "纠正文本，替换拼写错误的单词。"
 type: docs
 weight: 50
 url: /zh/net/aspose.ocr/asposeocr/correctspelling/
@@ -15,17 +15,17 @@ public string CorrectSpelling(string text, SpellCheckLanguage language = SpellCh
     string dictionaryPath = null)
 ```
 
-| Parameter | Type | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| text | String | Text for correction. |
-| language | SpellCheckLanguage | Dictionary to use. |
-| dictionaryPath | String | Optionally. Full path to the user dictionary (frequency dictionary). Dictionary file format: Plain text file in UTF-8 encoding. Word and Word Frequency are separated by space or tab.Per default, the word is expected in the first column and the frequency in the second column. Every word-frequency-pair in a separate line.A line is defined as a sequence of characters followed by a line feed ("\n"), a carriage return ("\r"), or a carriage return immediately followed by a line feed("\r\n"). Every word is expected to be in lower case. |
+| 文本 | String | 待纠正的文本。 |
+| language | SpellCheckLanguage | 使用的词典。 |
+| dictionaryPath | String | 可选。用户词典（频率词典）的完整路径。词典文件格式：UTF-8 编码的纯文本文件。单词和词频之间用空格或制表符分隔。默认情况下，单词应位于第一列，词频位于第二列。每个单词-词频对占一行。行的定义是以换行符（"\n"）、回车符（"\r"）或回车紧跟换行符（"\r\n"）结束的字符序列。所有单词应为小写。 |
 
 ### 返回值
 
-Text with replaced words.
+已替换单词的文本。
 
-### 另请参见
+### 另见
 
 * enum [SpellCheckLanguage](../../../aspose.ocr.spellchecker/spellchecklanguage)
 * class [AsposeOcr](../../asposeocr)

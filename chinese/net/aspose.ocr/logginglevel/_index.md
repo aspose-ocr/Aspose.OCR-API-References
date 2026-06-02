@@ -1,9 +1,9 @@
 ---
-title: LoggingLevel
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 定义要显示的日志类型。
+title: "LoggingLevel"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "定义要显示的日志类型。"
 type: docs
-weight: 210
+weight: 220
 url: /zh/net/aspose.ocr/logginglevel/
 ---
 ## LoggingLevel enumeration
@@ -18,12 +18,12 @@ public enum LoggingLevel
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| Debug | `0` | 将显示所有日志。 |
-| Warning | `1` | 将显示一些非关键点和所有错误。 |
+| Debug | `0` | 所有日志都将显示。 |
+| Warning | `1` | 一些非关键点和所有错误都将显示。 |
 | Error | `2` | 仅显示错误。 |
 | None | `3` | 禁用日志记录（默认）。 |
 
-### 另请参见
+### 另见
 
 * namespace [Aspose.OCR](../../aspose.ocr)
 * assembly [Aspose.OCR](../../)

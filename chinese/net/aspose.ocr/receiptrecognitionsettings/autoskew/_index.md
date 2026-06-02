@@ -1,20 +1,20 @@
 ---
-title: 自动倾斜校正
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 获取或设置一个标志，指示是否应启用自动图像倾斜校正。默认启用（true）。
+title: "AutoSkew"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "获取或设置一个标志，指示是否应启用自动图像倾斜校正。默认情况下启用为 true。"
 type: docs
 weight: 30
 url: /zh/net/aspose.ocr/receiptrecognitionsettings/autoskew/
 ---
 ## ReceiptRecognitionSettings.AutoSkew property
 
-获取或设置一个标志，指示是否应启用自动图像倾斜校正。默认启用（true）。
+获取或设置指示是否应启用自动图像倾斜校正的标志。默认启用（true）。
 
 ```csharp
 public bool AutoSkew { set; }
 ```
 
-### 另请参见
+### 另见
 
 * class [ReceiptRecognitionSettings](../../receiptrecognitionsettings)
 * namespace [Aspose.OCR](../../receiptrecognitionsettings)

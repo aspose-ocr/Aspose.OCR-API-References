@@ -1,9 +1,9 @@
 ---
-title: OcrPageRecognizeEventsArgs
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 用于 OcrProgress 事件识别参数的类。
+title: "OcrPageRecognizeEventsArgs"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "用于 OcrProgress 事件识别参数的类。"
 type: docs
-weight: 530
+weight: 540
 url: /zh/net/aspose.ocr.models.events/ocrpagerecognizeeventsargs/
 ---
 ## OcrPageRecognizeEventsArgs class
@@ -23,7 +23,7 @@ public class OcrPageRecognizeEventsArgs : EventArgs
 | [FileName](../../aspose.ocr.models.events/ocrpagerecognizeeventsargs/filename) { get; set; } | 已处理的文件名。 |
 | [OperationName](../../aspose.ocr.models.events/ocrpagerecognizeeventsargs/operationname) { get; set; } | 正在进行的事务名称。 |
 
-### 另请参见
+### 另见
 
 * namespace [Aspose.OCR.Models.Events](../../aspose.ocr.models.events)
 * assembly [Aspose.OCR](../../)

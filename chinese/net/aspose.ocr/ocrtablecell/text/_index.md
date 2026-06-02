@@ -1,14 +1,14 @@
 ---
-title: Text
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 单元格的已识别文本内容。
+title: "文本"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "单元格中识别的文本内容。"
 type: docs
 weight: 30
 url: /zh/net/aspose.ocr/ocrtablecell/text/
 ---
 ## OCRTableCell.Text property
 
-单元格的已识别文本内容。
+单元格中识别的文本内容。
 
 ```csharp
 public string Text { get; set; }
@@ -18,7 +18,7 @@ public string Text { get; set; }
 
 如果 OCR 引擎检测到空单元格或空白，则可能是空字符串。
 
-### 另请参见
+### 另见
 
 * class [OCRTableCell](../../ocrtablecell)
 * namespace [Aspose.OCR](../../ocrtablecell)

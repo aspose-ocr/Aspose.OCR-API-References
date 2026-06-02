@@ -1,9 +1,9 @@
 ---
-title: SpellCheckLanguage
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 用于拼写检查现有词典的语言。
+title: "SpellCheckLanguage"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "用于拼写检查现有词典的语言。"
 type: docs
-weight: 510
+weight: 520
 url: /zh/net/aspose.ocr.spellchecker/spellchecklanguage/
 ---
 ## SpellCheckLanguage enumeration
@@ -18,7 +18,7 @@ public enum SpellCheckLanguage
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| Eng | `0` | 英语词典 |
+| Eng | `0` | 英文词典 |
 | Deu | `1` | 德语词典 |
 | Spa | `2` | 西班牙语词典 |
 | Fra | `3` | 法语词典 |
@@ -37,7 +37,7 @@ public enum SpellCheckLanguage
 | Slv | `16` | 斯洛文尼亚语词典 |
 | Swe | `17` | 瑞典语词典 |
 
-### 另请参见
+### 另见
 
 * namespace [Aspose.OCR.SpellChecker](../../aspose.ocr.spellchecker)
 * assembly [Aspose.OCR](../../)

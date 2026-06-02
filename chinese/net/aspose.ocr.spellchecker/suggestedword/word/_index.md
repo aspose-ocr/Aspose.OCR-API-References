@@ -1,7 +1,7 @@
 ---
-title: 单词
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 建议的正确拼写单词。
+title: "单词"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "建议的正确拼写单词。"
 type: docs
 weight: 20
 url: /zh/net/aspose.ocr.spellchecker/suggestedword/word/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr.spellchecker/suggestedword/word/
 public string Word { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * struct [SuggestedWord](../../suggestedword)
 * namespace [Aspose.OCR.SpellChecker](../../suggestedword)

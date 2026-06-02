@@ -1,9 +1,9 @@
 ---
-title: ImageHasText
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 检查图像是否包含提供的文本片段。
+title: "ImageHasText"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "检查图像是否包含提供的文本片段。"
 type: docs
-weight: 110
+weight: 120
 url: /zh/net/aspose.ocr/asposeocr/imagehastext/
 ---
 ## ImageHasText(string, string, RecognitionSettings, bool, bool) {#imagehastext}
@@ -15,12 +15,12 @@ public bool ImageHasText(string fullPath, string text, RecognitionSettings setti
     bool ignoreCase = true, bool autoSkew = true)
 ```
 
-| Parameter | Type | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | fullPath | String | 图像的路径。 |
-| text | String | 用于在图像上搜索的文本片段。 |
-| settings | RecognitionSettings | Recognition settings. |
-| ignoreCase | Boolean | True - means a case-insensitive search. |
+| 文本 | String | 用于在图像上搜索的文本片段。 |
+| settings | RecognitionSettings | 识别设置。 |
+| ignoreCase | Boolean | True - 表示不区分大小写的搜索。 |
 | autoSkew | Boolean | 启用自动图像倾斜校正。 |
 
 ### 返回值
@@ -29,9 +29,9 @@ public bool ImageHasText(string fullPath, string text, RecognitionSettings setti
 
 ### 备注
 
-识别图像并可指定[`RecognitionSettings`](../../recognitionsettings)。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF。
+识别图像并可以指定 [`RecognitionSettings`](../../recognitionsettings)。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF。
 
-### 另请参见
+### 另见
 
 * class [RecognitionSettings](../../recognitionsettings)
 * class [AsposeOcr](../../asposeocr)
@@ -49,22 +49,22 @@ public bool ImageHasText(string fullPath, Regex regex, RecognitionSettings setti
     bool autoSkew = true)
 ```
 
-| Parameter | Type | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | fullPath | String | 图像的路径。 |
-| 正则表达式 | 正则表达式 | 具有提供的模式和选项的 System.Text.RegularExpressions 对象。 |
-| settings | RecognitionSettings | Recognition settings. |
+| 正则表达式 | 正则表达式 | 使用提供的模式和选项的 System.Text.RegularExpressions 对象。 |
+| settings | RecognitionSettings | 识别设置。 |
 | autoSkew | Boolean | 启用自动图像倾斜校正。 |
 
 ### 返回值
 
-如果图像文本匹配提供的正则表达式则为 True。
+如果图像文本匹配提供的正则表达式，则为 True。
 
 ### 备注
 
-识别图像并可指定[`RecognitionSettings`](../../recognitionsettings)。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF。
+识别图像并可以指定 [`RecognitionSettings`](../../recognitionsettings)。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF。
 
-### 另请参见
+### 另见
 
 * class [RecognitionSettings](../../recognitionsettings)
 * class [AsposeOcr](../../asposeocr)

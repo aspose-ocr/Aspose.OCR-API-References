@@ -1,7 +1,7 @@
 ---
-title: ListRemote
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 列出在线仓库中的所有兼容资源。
+title: "ListRemote"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "列出在线仓库中的所有兼容资源。"
 type: docs
 weight: 90
 url: /zh/net/aspose.ocr/resources/listremote/
@@ -18,7 +18,7 @@ public static List<string> ListRemote()
 
 资源名称列表。
 
-### 另请参见
+### 另见
 
 * class [Resources](../../resources)
 * namespace [Aspose.OCR](../../resources)

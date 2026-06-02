@@ -1,7 +1,7 @@
 ---
-title: Metered
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 初始化此类的新实例。
+title: "Metered"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "初始化此类的新实例。"
 type: docs
 weight: 10
 url: /zh/net/aspose.ocr/metered/metered/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr/metered/metered/
 public Metered()
 ```
 
-### 另请参见
+### 另见
 
 * class [Metered](../../metered)
 * namespace [Aspose.OCR](../../metered)

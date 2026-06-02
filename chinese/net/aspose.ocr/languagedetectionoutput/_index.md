@@ -1,9 +1,9 @@
 ---
-title: LanguageDetectionOutput
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 图像文本中检测到的语言。
+title: "LanguageDetectionOutput"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "图像文本中检测到的语言。"
 type: docs
-weight: 340
+weight: 350
 url: /zh/net/aspose.ocr/languagedetectionoutput/
 ---
 ## LanguageDetectionOutput class
@@ -24,11 +24,11 @@ public class LanguageDetectionOutput
 
 | 名称 | 描述 |
 | --- | --- |
-| [Languages](../../aspose.ocr/languagedetectionoutput/languages) { get; set; } | 按可能性排序的图像文本中检测到的语言排名列表。 |
+| [Languages](../../aspose.ocr/languagedetectionoutput/languages) { get; set; } | 按可能性排序的图像文本中检测到的语言列表。 |
 | [Page](../../aspose.ocr/languagedetectionoutput/page) { get; set; } | 页码。 |
 | [Source](../../aspose.ocr/languagedetectionoutput/source) { get; set; } | 文件或 URL 的完整路径（如果有）。对于流、字节数组、base64 为空。 |
 
-### 另请参见
+### 另见
 
 * namespace [Aspose.OCR](../../aspose.ocr)
 * assembly [Aspose.OCR](../../)

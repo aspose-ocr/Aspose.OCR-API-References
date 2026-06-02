@@ -1,7 +1,7 @@
 ---
-title: 长度
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 输入文本中 Msspelled 单词的长度。
+title: "长度"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "输入文本中拼写错误的单词长度。"
 type: docs
 weight: 10
 url: /zh/net/aspose.ocr.spellchecker/spellcheckerror/length/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr.spellchecker/spellcheckerror/length/
 public int Length { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * struct [SpellCheckError](../../spellcheckerror)
 * namespace [Aspose.OCR.SpellChecker](../../spellcheckerror)

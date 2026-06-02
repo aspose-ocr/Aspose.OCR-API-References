@@ -1,7 +1,7 @@
 ---
-title: OCRTableCell
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 默认构造函数。
+title: "OCRTableCell"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "默认构造函数。"
 type: docs
 weight: 10
 url: /zh/net/aspose.ocr/ocrtablecell/ocrtablecell/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr/ocrtablecell/ocrtablecell/
 public OCRTableCell()
 ```
 
-### 另请参见
+### 另见
 
 * class [OCRTableCell](../../ocrtablecell)
 * namespace [Aspose.OCR](../../ocrtablecell)

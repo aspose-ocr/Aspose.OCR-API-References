@@ -1,7 +1,7 @@
 ---
-title: LinesResult
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: LinesResult 对象的构造函数。
+title: "LinesResult"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "LinesResult 对象的构造函数。"
 type: docs
 weight: 10
 url: /zh/net/aspose.ocr/recognitionresult.linesresult/linesresult/
@@ -14,7 +14,7 @@ LinesResult 对象的构造函数。
 public LinesResult()
 ```
 
-### 另请参见
+### 另见
 
 * class [LinesResult](../../recognitionresult.linesresult)
 * namespace [Aspose.OCR](../../recognitionresult.linesresult)

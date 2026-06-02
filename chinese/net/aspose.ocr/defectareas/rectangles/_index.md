@@ -1,7 +1,7 @@
 ---
-title: rectangles
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 发现缺陷的图像区域
+title: "矩形"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "发现缺陷的图像区域"
 type: docs
 weight: 30
 url: /zh/net/aspose.ocr/defectareas/rectangles/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr/defectareas/rectangles/
 public Rectangle[] rectangles { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * struct [Rectangle](../../rectangle)
 * class [DefectAreas](../../defectareas)

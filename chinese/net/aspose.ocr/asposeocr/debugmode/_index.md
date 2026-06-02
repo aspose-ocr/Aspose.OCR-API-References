@@ -1,20 +1,20 @@
 ---
-title: DebugMode
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: Enables debug mode. When enabled the system saves intermediate image processing results such as preprocessed images and images with drawn text-line rectangles.
+title: "DebugMode"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "启用调试模式。启用后，系统会保存中间图像处理结果，例如预处理图像和带有文本行矩形框的图像。"
 type: docs
-weight: 260
+weight: 270
 url: /zh/net/aspose.ocr/asposeocr/debugmode/
 ---
 ## AsposeOcr.DebugMode field
 
-启用调试模式。启用后，系统会保存中间图像处理结果，例如预处理图像和绘制了文本行矩形的图像。
+启用调试模式。启用后，系统会保存中间图像处理结果，例如预处理图像和带有绘制文本行矩形的图像。
 
 ```csharp
 public static bool DebugMode;
 ```
 
-### 另请参见
+### 另见
 
 * class [AsposeOcr](../../asposeocr)
 * namespace [Aspose.OCR](../../asposeocr)

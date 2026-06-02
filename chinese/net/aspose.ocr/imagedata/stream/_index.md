@@ -1,7 +1,7 @@
 ---
-title: 流
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 流中的图像。
+title: "Stream"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "流中的图像。"
 type: docs
 weight: 60
 url: /zh/net/aspose.ocr/imagedata/stream/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr/imagedata/stream/
 public MemoryStream Stream;
 ```
 
-### 另请参见
+### 另见
 
 * class [ImageData](../../imagedata)
 * namespace [Aspose.OCR](../../imagedata)

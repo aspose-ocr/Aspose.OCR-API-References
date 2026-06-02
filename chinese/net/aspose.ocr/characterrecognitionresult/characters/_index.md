@@ -1,7 +1,7 @@
 ---
-title: Characters
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 页面上检测到的字符数据。
+title: "字符"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "页面上检测到的字符数据。"
 type: docs
 weight: 20
 url: /zh/net/aspose.ocr/characterrecognitionresult/characters/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr/characterrecognitionresult/characters/
 public List<Character> Characters { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * class [Character](../../character)
 * class [CharacterRecognitionResult](../../characterrecognitionresult)

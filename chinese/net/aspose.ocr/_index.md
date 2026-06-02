@@ -1,7 +1,7 @@
 ---
-title: Aspose.OCR
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 该 Aspose.OCR 包含用于图像识别、倾斜校正、文本区域检测和拼写检查的工具。
+title: "Aspose.OCR"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "该 Aspose.OCR 包含用于图像识别、倾斜校正、文本区域检测和拼写检查的工具。"
 type: docs
 weight: 10
 url: /zh/net/aspose.ocr/
@@ -12,7 +12,7 @@ url: /zh/net/aspose.ocr/
 
 | 类 | 描述 |
 | --- | --- |
-| [AsposeOcr](./asposeocr) | Aspose OCR 库的主要 API |
+| [AsposeOcr](./asposeocr) | Aspose OCR 库的主 API |
 | [AsposeOcrPresets](./asposeocrpresets) | 表示一组预定义的 OCR 预设，用于常见的识别场景。允许在无需手动参数调优的情况下快速配置识别设置。 |
 | [BaseRecognitionSettings](./baserecognitionsettings) | 图像识别的设置。包含允许自定义识别过程的元素。 |
 | [CarPlateRecognitionSettings](./carplaterecognitionsettings) | 车牌识别的设置。包含允许自定义识别过程的元素。 |
@@ -20,14 +20,14 @@ url: /zh/net/aspose.ocr/
 | [CharacterRecognitionResult](./characterrecognitionresult) | 包含检测字符数据的页面。 |
 | [ContentArea](./contentarea) | 图像中检测到的内容区域。 |
 | [DefectAreas](./defectareas) | 包含特定类型缺陷的图像区域。 |
-| [DefectOutput](./defectoutput) | 图像中已识别的缺陷区域。 |
+| [DefectOutput](./defectoutput) | 图像中已识别缺陷的区域。 |
 | [IDCardRecognitionSettings](./idcardrecognitionsettings) | 身份证识别的设置。包含允许自定义识别过程的元素。 |
-| [ImageData](./imagedata) | 已处理/已识别图像的信息。 |
-| [ImageProcessing](./imageprocessing) | Aspose OCR 库的辅助类。允许对图像进行预处理并保存。 |
-| [InvoiceRecognitionSettings](./invoicerecognitionsettings) | 发票识别的设置。包含可自定义识别过程的元素。 |
+| [ImageData](./imagedata) | 有关已处理/已识别图像的信息。 |
+| [ImageProcessing](./imageprocessing) | Aspose OCR 库的帮助类。允许对图像进行预处理和保存。 |
+| [InvoiceRecognitionSettings](./invoicerecognitionsettings) | 发票识别的设置。包含允许自定义识别过程的元素。 |
 | [LanguageDetectionOutput](./languagedetectionoutput) | 图像文本中检测到的语言。 |
 | [LayoutOutput](./layoutoutput) | 图像中检测到的内容区域信息。 |
-| [License](./license) | 提供对组件进行授权的方法。 |
+| [License](./license) | 提供对组件授权的方法。 |
 | [Logging](./logging) | 用于创建日志配置的类。 |
 | [Metered](./metered) | 提供设置计量密钥的方法。 |
 | [OcrInput](./ocrinput) | 用于收集所有图像/文档以进行预处理/识别的容器。 |
@@ -37,13 +37,13 @@ url: /zh/net/aspose.ocr/
 | [OCRTableCell](./ocrtablecell) | 表示包含已识别文本和位置信息的单元格。 |
 | [OCRTablePage](./ocrtablepage) | 表示整个 OCR 文档页面的结构化表格数据。 |
 | [OCRTableRow](./ocrtablerow) | 表示已识别表格中的单行。 |
-| [OnnxRuntimeSessionOptions](./onnxruntimesessionoptions) | 创建 ONNX InferenceSession 的配置选项。除非您对修改非常确定，否则建议保留优化的默认值。有关技术细节，请参阅 ONNX Runtime 文档。 |
-| [PassportRecognitionSettings](./passportrecognitionsettings) | 护照识别的设置。包含可自定义识别过程的元素。 |
-| [ReceiptRecognitionSettings](./receiptrecognitionsettings) | 收据识别的设置。包含可自定义识别过程的元素。 |
+| [OnnxRuntimeSessionOptions](./onnxruntimesessionoptions) | 创建 ONNX InferenceSession 的配置选项。我们建议保留优化后的默认值，除非您对修改绝对确定。有关技术细节，请参阅 ONNX Runtime 文档。 |
+| [PassportRecognitionSettings](./passportrecognitionsettings) | 护照识别的设置。包含允许自定义识别过程的元素。 |
+| [ReceiptRecognitionSettings](./receiptrecognitionsettings) | 收据识别的设置。包含允许自定义识别过程的元素。 |
 | [RecognitionResult](./recognitionresult) | 图像识别的结果。包含带有识别信息的元素以及用于导出结果的方法。 |
 | [RecognitionSettings](./recognitionsettings) | 图像识别的设置。包含允许自定义识别过程的元素。 |
 | [RectangleOutput](./rectangleoutput) | 检测到的文本区域或行的数据。 |
-| [Resources](./resources) | 管理可下载资源，以增强 Aspose.OCR 的识别能力。 |
+| [Resources](./resources) | 管理可下载的资源，以增强 Aspose.OCR 的识别能力。 |
 | [SkewOutput](./skewoutput) | 关于倾斜角度（度）和文件名的数据。 |
 ## 枚举
 
@@ -62,6 +62,7 @@ url: /zh/net/aspose.ocr/
 | [LoggingLevel](./logginglevel) | 定义要显示的日志类型。 |
 | [PdfOptimizationMode](./pdfoptimizationmode) | 在降低图像质量的代价下显著减小 PDF 文件大小。 |
 | [PixelType](./pixeltype) | 确定图像识别的像素数据类型。 |
+| [RegionTypes](./regiontypes) | 布局/区域检测模型检测到的区域类型。 |
 | [SaveFormat](./saveformat) | 用于保存识别结果 |
 
 <!-- 请勿编辑：由 xmldocmd 为 Aspose.OCR.dll 生成 -->

@@ -1,9 +1,9 @@
 ---
-title: OCRTable
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 表示包含已识别表格数据的单个表格。
+title: "OCRTable"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "表示包含已识别表格数据的单个表格。"
 type: docs
-weight: 460
+weight: 470
 url: /zh/net/aspose.ocr/ocrtable/
 ---
 ## OCRTable class
@@ -31,7 +31,7 @@ public class OCRTable
 
 每个表格存储表格行的列表。
 
-### 另请参见
+### 另见
 
 * namespace [Aspose.OCR](../../aspose.ocr)
 * assembly [Aspose.OCR](../../)

@@ -1,22 +1,22 @@
 ---
-title: RecognizeHandwrittenText
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 识别图像上的手写文本。
+title: "RecognizeHandwrittenText"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "识别图像中的手写文字。"
 type: docs
-weight: 190
+weight: 200
 url: /zh/net/aspose.ocr/asposeocr/recognizehandwrittentext/
 ---
 ## AsposeOcr.RecognizeHandwrittenText method
 
-识别图像上的手写文本。
+识别图像中的手写文字。
 
 ```csharp
 public OcrOutput RecognizeHandwrittenText(OcrInput images)
 ```
 
-| Parameter | Type | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| images | OcrInput | 包含源的容器[`OcrInput`](../../ocrinput)。 |
+| images | OcrInput | 包含源的容器。[`OcrInput`](../../ocrinput) |
 
 ### 返回值
 
@@ -26,7 +26,7 @@ public OcrOutput RecognizeHandwrittenText(OcrInput images)
 
 支持 GIF、PNG、JPEG、BMP、TIFF、JFIF、流、目录、数组、存档。
 
-### 另请参见
+### 另见
 
 * class [OcrOutput](../../ocroutput)
 * class [OcrInput](../../ocrinput)

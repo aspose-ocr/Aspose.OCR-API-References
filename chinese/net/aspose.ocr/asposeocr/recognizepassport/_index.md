@@ -1,22 +1,22 @@
 ---
-title: RecognizePassport
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 识别护照上的文本。
+title: "RecognizePassport"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "识别护照上的文字。"
 type: docs
-weight: 230
+weight: 240
 url: /zh/net/aspose.ocr/asposeocr/recognizepassport/
 ---
 ## RecognizePassport(OcrInput) {#recognizepassport}
 
-识别护照上的文本。
+识别护照上的文字。
 
 ```csharp
 public OcrOutput RecognizePassport(OcrInput images)
 ```
 
-| Parameter | Type | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| images | OcrInput | 包含源的容器[`OcrInput`](../../ocrinput)。 |
+| images | OcrInput | 包含源的容器。[`OcrInput`](../../ocrinput) |
 
 ### 返回值
 
@@ -24,9 +24,9 @@ public OcrOutput RecognizePassport(OcrInput images)
 
 ### 备注
 
-识别护照，并可指定 [`PassportRecognitionSettings`](../../passportrecognitionsettings)。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF、流、目录、数组、存档。
+识别护照，并能够指定 [`PassportRecognitionSettings`](../../passportrecognitionsettings)。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF、流、目录、数组和归档。
 
-### 另请参见
+### 另见
 
 * class [OcrOutput](../../ocroutput)
 * class [OcrInput](../../ocrinput)
@@ -38,15 +38,15 @@ public OcrOutput RecognizePassport(OcrInput images)
 
 ## RecognizePassport(OcrInput, PassportRecognitionSettings) {#recognizepassport_1}
 
-识别护照上的文本。
+识别护照上的文字。
 
 ```csharp
 public OcrOutput RecognizePassport(OcrInput images, PassportRecognitionSettings settings)
 ```
 
-| Parameter | Type | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| images | OcrInput | 包含源的容器[`OcrInput`](../../ocrinput)。 |
+| images | OcrInput | 包含源的容器。[`OcrInput`](../../ocrinput) |
 | settings | PassportRecognitionSettings | 识别设置 [`PassportRecognitionSettings`](../../passportrecognitionsettings)。 |
 
 ### 返回值
@@ -55,9 +55,9 @@ public OcrOutput RecognizePassport(OcrInput images, PassportRecognitionSettings 
 
 ### 备注
 
-识别护照，并可指定 [`PassportRecognitionSettings`](../../passportrecognitionsettings)。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF、流、目录、数组、存档。
+识别护照，并能够指定 [`PassportRecognitionSettings`](../../passportrecognitionsettings)。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF、流、目录、数组和归档。
 
-### 另请参见
+### 另见
 
 * class [OcrOutput](../../ocroutput)
 * class [OcrInput](../../ocrinput)

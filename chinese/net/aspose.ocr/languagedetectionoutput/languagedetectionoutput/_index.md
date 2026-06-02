@@ -1,7 +1,7 @@
 ---
-title: LanguageDetectionOutput
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 默认构造函数。
+title: "LanguageDetectionOutput"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "默认构造函数。"
 type: docs
 weight: 10
 url: /zh/net/aspose.ocr/languagedetectionoutput/languagedetectionoutput/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr/languagedetectionoutput/languagedetectionoutput/
 public LanguageDetectionOutput()
 ```
 
-### 另请参见
+### 另见
 
 * class [LanguageDetectionOutput](../../languagedetectionoutput)
 * namespace [Aspose.OCR](../../languagedetectionoutput)

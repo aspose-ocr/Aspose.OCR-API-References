@@ -1,7 +1,7 @@
 ---
-title: 中值
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 中值滤波器遍历图像的每个元素，并用相邻像素的中值替换每个像素。
+title: "Median"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "中值滤波器遍历图像的每个元素，并用相邻像素的中值替换每个像素。"
 type: docs
 weight: 110
 url: /zh/net/aspose.ocr.models.preprocessingfilters/preprocessingfilter/median/
@@ -18,7 +18,7 @@ public static PreprocessingFilter Median()
 
 MedianFilter 对象。
 
-### 另请参见
+### 另见
 
 * class [PreprocessingFilter](../../preprocessingfilter)
 * namespace [Aspose.OCR.Models.PreprocessingFilters](../../preprocessingfilter)
@@ -34,7 +34,7 @@ MedianFilter 对象。
 public static PreprocessingFilter Median(Rectangle area)
 ```
 
-| Parameter | Type | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | 区域 | Rectangle | 要校正的图像部分的坐标。 |
 
@@ -42,7 +42,7 @@ public static PreprocessingFilter Median(Rectangle area)
 
 MedianFilter 对象。
 
-### 另请参见
+### 另见
 
 * class [PreprocessingFilter](../../preprocessingfilter)
 * namespace [Aspose.OCR.Models.PreprocessingFilters](../../preprocessingfilter)

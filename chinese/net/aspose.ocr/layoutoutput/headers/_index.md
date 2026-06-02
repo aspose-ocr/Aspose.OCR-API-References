@@ -1,20 +1,20 @@
 ---
-title: 标题
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 检测到的标题。
+title: "页眉"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "检测到的页眉。"
 type: docs
 weight: 40
 url: /zh/net/aspose.ocr/layoutoutput/headers/
 ---
 ## LayoutOutput.Headers property
 
-检测到的标题。
+检测到的页眉。
 
 ```csharp
 public List<ContentArea> Headers { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * class [ContentArea](../../contentarea)
 * class [LayoutOutput](../../layoutoutput)

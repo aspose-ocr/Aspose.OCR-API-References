@@ -1,7 +1,7 @@
 ---
-title: Cells
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 此行中已识别单元格的列表。
+title: "单元格"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "此行中已识别单元格的列表。"
 type: docs
 weight: 20
 url: /zh/net/aspose.ocr/ocrtablerow/cells/
@@ -18,7 +18,7 @@ public List<OCRTableCell> Cells { get; set; }
 
 每个单元格包含已识别的文本及其对应的列索引。
 
-### 另请参见
+### 另见
 
 * class [OCRTableCell](../../ocrtablecell)
 * class [OCRTableRow](../../ocrtablerow)

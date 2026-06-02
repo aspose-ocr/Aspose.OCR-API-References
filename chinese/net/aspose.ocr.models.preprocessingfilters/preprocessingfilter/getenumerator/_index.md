@@ -1,7 +1,7 @@
 ---
-title: GetEnumerator
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 用于 IEnumarable 接口的实现。
+title: "GetEnumerator"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "用于 IEnumarable 接口的实现。"
 type: docs
 weight: 180
 url: /zh/net/aspose.ocr.models.preprocessingfilters/preprocessingfilter/getenumerator/
@@ -18,7 +18,7 @@ public IEnumerator GetEnumerator()
 
 IEnumerator
 
-### 另请参见
+### 另见
 
 * class [PreprocessingFilter](../../preprocessingfilter)
 * namespace [Aspose.OCR.Models.PreprocessingFilters](../../preprocessingfilter)

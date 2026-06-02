@@ -1,7 +1,7 @@
 ---
-title: Console
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 设置或获取 - 日志显示在控制台上。
+title: "控制台"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "设置或获取 - 日志显示在控制台上。"
 type: docs
 weight: 10
 url: /zh/net/aspose.ocr/logging/console/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr/logging/console/
 public static bool Console { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * class [Logging](../../logging)
 * namespace [Aspose.OCR](../../logging)

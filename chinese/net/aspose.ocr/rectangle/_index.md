@@ -1,9 +1,9 @@
 ---
-title: Rectangle
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 存储一组四个整数，表示矩形的位置和大小。
+title: "Rectangle"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "存储一组四个整数，表示矩形的位置和大小。"
 type: docs
-weight: 430
+weight: 440
 url: /zh/net/aspose.ocr/rectangle/
 ---
 ## Rectangle structure
@@ -27,11 +27,11 @@ public struct Rectangle
 | static [Empty](../../aspose.ocr/rectangle/empty) { get; } | 获取一个新的 [`Rectangle`](../rectangle) 结构实例，其 [`X`](./x)、[`Y`](./y)、[`Width`](./width) 和 [`Height`](./height) 值均为零。 |
 | [Bottom](../../aspose.ocr/rectangle/bottom) { get; set; } | 获取或设置此 [`Rectangle`](../rectangle) 结构的 y 坐标，该坐标为 [`Y`](./y) 与 [`Height`](./height) 属性值之和。 |
 | [IsEmpty](../../aspose.ocr/rectangle/isempty) { get; } | 获取一个值，指示此 [`Rectangle`](../rectangle) 的所有数值属性是否为零。 |
-| [Left](../../aspose.ocr/rectangle/left) { get; set; } | 获取或设置此 !:Aspose.OCR..Rectangle 结构左边缘的 x 坐标。 |
+| [Left](../../aspose.ocr/rectangle/left) { get; set; } | 获取或设置此 [`Rectangle`](../rectangle) 结构左边缘的 x 坐标。 |
 | [Right](../../aspose.ocr/rectangle/right) { get; set; } | 获取或设置此 [`Rectangle`](../rectangle) 结构的 x 坐标，该坐标为 [`X`](./x) 与 [`Width`](./width) 属性值之和。 |
-| [Top](../../aspose.ocr/rectangle/top) { get; set; } | 获取或设置此 [`Rectangle`](../rectangle) 结构顶部边缘的 y 坐标。 |
+| [Top](../../aspose.ocr/rectangle/top) { get; set; } | 获取或设置此 [`Rectangle`](../rectangle) 结构的顶部边缘的 y 坐标。 |
 
-## 方法
+## Methods
 
 | 名称 | 描述 |
 | --- | --- |
@@ -51,7 +51,7 @@ public struct Rectangle
 | [X](../../aspose.ocr/rectangle/x) | 矩形的 x 位置。 |
 | [Y](../../aspose.ocr/rectangle/y) | 矩形的 y 位置。 |
 
-### 另请参见
+### 另见
 
 * namespace [Aspose.OCR](../../aspose.ocr)
 * assembly [Aspose.OCR](../../)

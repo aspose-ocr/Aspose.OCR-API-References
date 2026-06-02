@@ -1,9 +1,9 @@
 ---
-title: RecognitionLinesResult
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 获取带有行矩形列表的识别结果列表。
+title: "RecognitionLinesResult"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "获取包含行矩形列表的识别结果列表。"
 type: docs
-weight: 40
+weight: 50
 url: /zh/net/aspose.ocr/recognitionresult/recognitionlinesresult/
 ---
 ## RecognitionResult.RecognitionLinesResult property
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr/recognitionresult/recognitionlinesresult/
 public List<LinesResult> RecognitionLinesResult { get; }
 ```
 
-### 另请参见
+### 另见
 
 * class [LinesResult](../../recognitionresult.linesresult)
 * class [RecognitionResult](../../recognitionresult)

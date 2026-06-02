@@ -1,7 +1,7 @@
 ---
-title: GetResult
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 获取表格检测和结构化后的处理 OCR 结果。
+title: "GetResult"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "获取表格检测和结构化后的处理 OCR 结果。"
 type: docs
 weight: 20
 url: /zh/net/aspose.ocr.ai/tableaiprocessor/getresult/
@@ -16,9 +16,9 @@ public List<AIResult> GetResult()
 
 ### 返回值
 
-一个包含已提取和格式化表格的[`AIResult`](../../airesult)对象列表。
+包含提取并格式化表格的 [`AIResult`](../../airesult) 对象列表。
 
-### 另请参见
+### 另见
 
 * class [AIResult](../../airesult)
 * class [TableAIProcessor](../../tableaiprocessor)

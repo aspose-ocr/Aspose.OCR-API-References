@@ -1,7 +1,7 @@
 ---
-title: 当前页面
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 开始被识别的页面。
+title: "CurrentPage"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "开始被识别的页面。"
 type: docs
 weight: 10
 url: /zh/net/aspose.ocr.models.events/ocrpagerecognizeeventsargs/currentpage/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr.models.events/ocrpagerecognizeeventsargs/currentpage/
 public int CurrentPage { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * class [OcrPageRecognizeEventsArgs](../../ocrpagerecognizeeventsargs)
 * namespace [Aspose.OCR.Models.Events](../../ocrpagerecognizeeventsargs)

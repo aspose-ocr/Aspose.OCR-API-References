@@ -1,9 +1,9 @@
 ---
-title: RecognitionText
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 以单个字符串获取识别结果。
+title: "RecognitionText"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "以单个字符串获取识别结果。"
 type: docs
-weight: 50
+weight: 70
 url: /zh/net/aspose.ocr/recognitionresult/recognitiontext/
 ---
 ## RecognitionResult.RecognitionText property
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr/recognitionresult/recognitiontext/
 public string RecognitionText { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * class [RecognitionResult](../../recognitionresult)
 * namespace [Aspose.OCR](../../recognitionresult)

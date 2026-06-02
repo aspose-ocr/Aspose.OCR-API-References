@@ -1,7 +1,7 @@
 ---
-title: PixelType
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 确定图像识别的像素数据类型。
+title: "PixelType"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "确定图像识别的像素数据类型。"
 type: docs
 weight: 130
 url: /zh/net/aspose.ocr/pixeltype/
@@ -25,9 +25,9 @@ public enum PixelType
 
 ### 备注
 
-用于 !:AsposeOcr.RecognizeImage(byte[], int, int, PixelType, RecognitionSettings) 中，以设置数据数组中的字节序列。
+用于 !:AsposeOcr.RecognizeImage(byte[], int, int, PixelType, RecognitionSettings) 以设置数据数组中的字节序列。
 
-### 另请参见
+### 另见
 
 * namespace [Aspose.OCR](../../aspose.ocr)
 * assembly [Aspose.OCR](../../)

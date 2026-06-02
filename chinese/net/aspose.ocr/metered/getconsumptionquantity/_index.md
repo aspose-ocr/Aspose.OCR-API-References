@@ -1,7 +1,7 @@
 ---
-title: GetConsumptionQuantity
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 获取消费文件大小。
+title: "GetConsumptionQuantity"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "获取消费文件大小。"
 type: docs
 weight: 40
 url: /zh/net/aspose.ocr/metered/getconsumptionquantity/
@@ -18,7 +18,7 @@ public static decimal GetConsumptionQuantity()
 
 消费数量。
 
-### 另请参见
+### 另见
 
 * class [Metered](../../metered)
 * namespace [Aspose.OCR](../../metered)

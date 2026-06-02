@@ -1,7 +1,7 @@
 ---
-title: 高度
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 矩形的宽度。
+title: "Height"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "矩形的宽度。"
 type: docs
 weight: 80
 url: /zh/net/aspose.ocr/rectangle/height/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr/rectangle/height/
 public int Height;
 ```
 
-### 另请参见
+### 另见
 
 * struct [Rectangle](../../rectangle)
 * namespace [Aspose.OCR](../../rectangle)

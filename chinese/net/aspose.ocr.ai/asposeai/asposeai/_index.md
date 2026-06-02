@@ -1,7 +1,7 @@
 ---
-title: AsposeAI
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 使用默认设置初始化 AsposeAI 类的新实例。已启用自动模型下载。
+title: "AsposeAI"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "使用默认设置初始化 AsposeAI 类的新实例。已启用自动模型下载。"
 type: docs
 weight: 10
 url: /zh/net/aspose.ocr.ai/asposeai/asposeai/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr.ai/asposeai/asposeai/
 public AsposeAI()
 ```
 
-### 另请参见
+### 另见
 
 * class [AsposeAI](../../asposeai)
 * namespace [Aspose.OCR.AI](../../asposeai)
@@ -30,11 +30,11 @@ public AsposeAI()
 public AsposeAI(ILogger customLogger)
 ```
 
-| Parameter | Type | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| customLogger | ILogger | 要使用的自定义日志实例。必须继承自 ILogger 抽象类，并实现其抽象方法。ILogger |
+| customLogger | ILogger | 要使用的自定义日志记录器实例。必须继承自 ILogger 抽象类，并实现其抽象方法。ILogger |
 
-### 另请参见
+### 另见
 
 * class [AsposeAI](../../asposeai)
 * namespace [Aspose.OCR.AI](../../asposeai)

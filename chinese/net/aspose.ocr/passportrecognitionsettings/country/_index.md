@@ -1,7 +1,7 @@
 ---
-title: 国家
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 设置护照识别的模板并提取关键字。
+title: "国家"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "设置护照识别的模板并提取关键字。"
 type: docs
 weight: 20
 url: /zh/net/aspose.ocr/passportrecognitionsettings/country/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr/passportrecognitionsettings/country/
 public Country Country { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * enum [Country](../../country)
 * class [PassportRecognitionSettings](../../passportrecognitionsettings)

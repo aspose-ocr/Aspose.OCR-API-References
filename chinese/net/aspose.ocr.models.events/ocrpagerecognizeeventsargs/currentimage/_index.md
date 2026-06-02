@@ -1,7 +1,7 @@
 ---
-title: 当前图像
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 页面上的图像。
+title: "CurrentImage"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "页面上的图像。"
 type: docs
 weight: 10
 url: /zh/net/aspose.ocr.models.events/ocrpagerecognizeeventsargs/currentimage/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr.models.events/ocrpagerecognizeeventsargs/currentimage/
 public int CurrentImage { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * class [OcrPageRecognizeEventsArgs](../../ocrpagerecognizeeventsargs)
 * namespace [Aspose.OCR.Models.Events](../../ocrpagerecognizeeventsargs)

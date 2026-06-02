@@ -1,7 +1,7 @@
 ---
-title: 说明文字
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 检测到的标题。
+title: "标题"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "检测到的标题。"
 type: docs
 weight: 20
 url: /zh/net/aspose.ocr/layoutoutput/captions/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr/layoutoutput/captions/
 public List<ContentArea> Captions { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * class [ContentArea](../../contentarea)
 * class [LayoutOutput](../../layoutoutput)

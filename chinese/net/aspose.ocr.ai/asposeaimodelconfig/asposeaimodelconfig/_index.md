@@ -1,7 +1,7 @@
 ---
-title: AsposeAIModelConfig
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 默认构造函数。
+title: "AsposeAIModelConfig"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "默认构造函数。"
 type: docs
 weight: 10
 url: /zh/net/aspose.ocr.ai/asposeaimodelconfig/asposeaimodelconfig/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr.ai/asposeaimodelconfig/asposeaimodelconfig/
 public AsposeAIModelConfig()
 ```
 
-### 另请参见
+### 另见
 
 * class [AsposeAIModelConfig](../../asposeaimodelconfig)
 * namespace [Aspose.OCR.AI](../../asposeaimodelconfig)

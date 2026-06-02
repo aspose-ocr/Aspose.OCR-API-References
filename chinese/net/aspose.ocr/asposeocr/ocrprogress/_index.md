@@ -1,7 +1,7 @@
 ---
-title: OcrProgress
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 用于跟踪多页图像识别进度的事件。
+title: "OcrProgress"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "用于跟踪多页图像识别进度的事件。"
 type: docs
 weight: 20
 url: /zh/net/aspose.ocr/asposeocr/ocrprogress/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr/asposeocr/ocrprogress/
 public event OcrRecognizeEventHandler OcrProgress;
 ```
 
-### 另请参见
+### 另见
 
 * delegate [OcrRecognizeEventHandler](../../ocrrecognizeeventhandler)
 * class [AsposeOcr](../../asposeocr)

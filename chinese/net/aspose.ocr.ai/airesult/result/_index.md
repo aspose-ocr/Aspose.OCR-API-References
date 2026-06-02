@@ -1,7 +1,7 @@
 ---
-title: Result
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 获取或设置 AI 处理后的结果。该值可能包含纯文本或 JSON 格式的结构化数据，具体取决于所使用的 AI 处理器。
+title: "Result"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "获取或设置 AI 处理后的结果。根据所应用的 AI 处理器，值可能包含纯文本或 JSON 格式的结构化数据。"
 type: docs
 weight: 30
 url: /zh/net/aspose.ocr.ai/airesult/result/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr.ai/airesult/result/
 public string Result { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * class [AIResult](../../airesult)
 * namespace [Aspose.OCR.AI](../../airesult)

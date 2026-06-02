@@ -1,7 +1,7 @@
 ---
-title: GetRepository
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 返回下载 Aspose.OCR 资源的在线仓库的 URL。
+title: "GetRepository"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "返回下载 Aspose.OCR 资源的在线仓库的 URL。"
 type: docs
 weight: 70
 url: /zh/net/aspose.ocr/resources/getrepository/
@@ -18,7 +18,7 @@ public static string GetRepository()
 
 在线仓库的 URL。
 
-### 另请参见
+### 另见
 
 * class [Resources](../../resources)
 * namespace [Aspose.OCR](../../resources)

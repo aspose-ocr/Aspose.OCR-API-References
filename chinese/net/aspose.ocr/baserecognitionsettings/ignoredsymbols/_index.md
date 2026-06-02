@@ -1,7 +1,7 @@
 ---
-title: 忽略的符号
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 设置识别符号的黑名单。
+title: "IgnoredSymbols"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "设置识别符号的黑名单。"
 type: docs
 weight: 50
 url: /zh/net/aspose.ocr/baserecognitionsettings/ignoredsymbols/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr/baserecognitionsettings/ignoredsymbols/
 public string IgnoredSymbols { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * class [BaseRecognitionSettings](../../baserecognitionsettings)
 * namespace [Aspose.OCR](../../baserecognitionsettings)

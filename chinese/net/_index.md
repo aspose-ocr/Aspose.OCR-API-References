@@ -1,10 +1,10 @@
 ---
-title: Aspose.OCR 适用于 .NET
+title: "Aspose.OCR 适用于 .NET"
 type: docs
 weight: 10
 url: /zh/net/
 keywords: "Aspose.OCR for .NET, Aspose OCR, Aspose API Reference."
-description: Aspose.OCR 适用于 .NET 是一个字符识别组件，允许开发人员使用一组简单的类向其 .NET 应用程序添加 OCR 功能。
+description: "Aspose.OCR 适用于 .NET 是一个字符识别组件，允许开发者使用一组简单的类向其 .NET 应用程序添加 OCR 功能。"
 is_root: true
 ---
 ## 命名空间

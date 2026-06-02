@@ -1,9 +1,9 @@
 ---
-title: GetXml
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 生成包含识别结果的 XML 字符串。
+title: "GetXml"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "生成包含识别结果的 XML 字符串。"
 type: docs
-weight: 110
+weight: 140
 url: /zh/net/aspose.ocr/recognitionresult/getxml/
 ---
 ## RecognitionResult.GetXml method
@@ -16,9 +16,9 @@ public string GetXml()
 
 ### 返回值
 
-识别结果以字符串形式 XML 序列化。
+以字符串形式 XML 序列化的识别结果。
 
-### 另请参见
+### 另见
 
 * class [RecognitionResult](../../recognitionresult)
 * namespace [Aspose.OCR](../../recognitionresult)

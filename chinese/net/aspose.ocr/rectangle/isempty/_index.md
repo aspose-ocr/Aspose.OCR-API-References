@@ -1,7 +1,7 @@
 ---
-title: IsEmpty
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 获取一个值，指示此 Rectangleaspose.ocr/rectangle 的所有数值属性是否为零。
+title: "IsEmpty"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "获取一个值，指示此 Rectangleaspose.ocr/rectangle 的所有数值属性是否为零。"
 type: docs
 weight: 40
 url: /zh/net/aspose.ocr/rectangle/isempty/
@@ -18,7 +18,7 @@ public bool IsEmpty { get; }
 
 如果此 [`Rectangle`](../../rectangle) 的 [`Width`](../width)、[`Height`](../height)、[`X`](../x) 和 [`Y`](../y) 属性全部为零，则此属性返回 true；否则返回 false。
 
-### 另请参见
+### 另见
 
 * struct [Rectangle](../../rectangle)
 * namespace [Aspose.OCR](../../rectangle)

@@ -1,7 +1,7 @@
 ---
-title: Coordinates
-second_title: Aspose.OCR 适用于 .NET API 参考
-description: 字符坐标。
+title: "Coordinates"
+second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
+description: "字符坐标。"
 type: docs
 weight: 20
 url: /zh/net/aspose.ocr/character/coordinates/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.ocr/character/coordinates/
 public Rectangle Coordinates { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * class [Character](../../character)
 * namespace [Aspose.OCR](../../character)
