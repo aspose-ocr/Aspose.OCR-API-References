@@ -1,0 +1,31 @@
+---
+title: "TableAIProcessor"
+second_title: "Aspose.OCR Python के लिए via .NET API संदर्भ"
+description: 
+type: docs
+weight: 60
+url: /hi/python-net/aspose.ocr.ai/tableaiprocessor/
+---
+
+## TableAIProcessor class
+
+
+
+TableAIProcessor प्रकार निम्नलिखित सदस्यों को उजागर करता है:
+## निर्माता
+| नाम | विवरण |
+| :- | :- |
+| TableAIProcessor(mode) | TableAIProcessor वर्ग की एक नई इंस्टेंस को प्रारंभ करता है |
+## विधियाँ
+| नाम | विवरण |
+| :- | :- |
+| get_result() |  |
+| save_txt(filename) |  |
+| save_xlsx(filename) |  |
+| save_md(filename) |  |
+
+### संबंधित देखें
+
+* namespace [aspose.ocr.ai](/ocr/python-net/aspose.ocr.ai/)
+* assembly [Aspose.ocr](/ocr/python-net/)
+
