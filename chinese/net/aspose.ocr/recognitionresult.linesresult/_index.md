@@ -24,9 +24,9 @@ public class LinesResult
 
 | 名称 | 描述 |
 | --- | --- |
-| [Confidence](../../aspose.ocr/linesresult/confidence) { get; set; } | 分配给已识别文本行的置信度分数，以 0.0 到 1.0 之间的浮点值表示。得分为 1.0 表示最高的识别确定性。使用临时许可证时，此值始终设为 0。置信度仅针对以下语言计算：中文语言组、阿拉伯语、印地语、欧洲语言、韩语、日语、泰卢固语、泰米尔语和卡纳达语。对于 ExtLatin 或包含变音符号的语言不计算置信度。 |
+| [Confidence](../../aspose.ocr/linesresult/confidence) { get; set; } | 分配给已识别文本行的置信度分数，以 0.0 到 1.0 之间的浮点值表示。分数为 1.0 表示最高的识别确定性。使用临时许可证时，此值始终设为 0。置信度仅针对以下语言计算：中文语言组、阿拉伯语、印地语、欧洲语言、韩语、日语、泰卢固语、泰米尔语和卡纳达语。对 ExtLatin 或包含变音符号的语言不计算置信度。 |
 | [Line](../../aspose.ocr/linesresult/line) { get; set; } | 行坐标。 |
-| [TextInLine](../../aspose.ocr/linesresult/textinline) { get; set; } | 来自行的识别文本。 |
+| [TextInLine](../../aspose.ocr/linesresult/textinline) { get; set; } | 行中识别的文本。 |
 
 ### 另见
 

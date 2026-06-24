@@ -24,7 +24,7 @@ public bool CompareImageTexts(string fullPath1, string fullPath2,
 
 ### 返回值
 
-如果图像的文本相同（相似度 90%），则为 True。
+如果图像具有相同的文本（相似度 90%），则为 True。
 
 ### 另见
 

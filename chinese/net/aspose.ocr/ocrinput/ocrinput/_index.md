@@ -17,7 +17,7 @@ public OcrInput(InputType type, PreprocessingFilter filters = null)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | 类型 | InputType | 设置图像/文档类型将被添加到容器中。 |
-| filters | PreprocessingFilter | 设置的预处理过滤器将用于后续处理或识别。 |
+| filters | PreprocessingFilter | 设置预处理过滤器将用于后续处理或识别。 |
 
 ### 另见
 

@@ -1,14 +1,14 @@
 ---
 title: "RecognizePassport"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
-description: "识别护照上的文字。"
+description: "识别护照上的文本。"
 type: docs
 weight: 240
 url: /zh/net/aspose.ocr/asposeocr/recognizepassport/
 ---
 ## RecognizePassport(OcrInput) {#recognizepassport}
 
-识别护照上的文字。
+识别护照上的文本。
 
 ```csharp
 public OcrOutput RecognizePassport(OcrInput images)
@@ -20,11 +20,11 @@ public OcrOutput RecognizePassport(OcrInput images)
 
 ### 返回值
 
-包含图像识别结果的 [`RecognitionResult`](../../recognitionresult) 对象列表。
+[`RecognitionResult`](../../recognitionresult) 对象列表，包含图像识别结果。
 
 ### 备注
 
-识别护照，并能够指定 [`PassportRecognitionSettings`](../../passportrecognitionsettings)。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF、流、目录、数组和归档。
+识别护照，并可指定 [`PassportRecognitionSettings`](../../passportrecognitionsettings)。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF、流、目录、数组和归档文件。
 
 ### 另见
 
@@ -38,7 +38,7 @@ public OcrOutput RecognizePassport(OcrInput images)
 
 ## RecognizePassport(OcrInput, PassportRecognitionSettings) {#recognizepassport_1}
 
-识别护照上的文字。
+识别护照上的文本。
 
 ```csharp
 public OcrOutput RecognizePassport(OcrInput images, PassportRecognitionSettings settings)
@@ -51,11 +51,11 @@ public OcrOutput RecognizePassport(OcrInput images, PassportRecognitionSettings 
 
 ### 返回值
 
-包含图像识别结果的 [`RecognitionResult`](../../recognitionresult) 对象列表。
+[`RecognitionResult`](../../recognitionresult) 对象列表，包含图像识别结果。
 
 ### 备注
 
-识别护照，并能够指定 [`PassportRecognitionSettings`](../../passportrecognitionsettings)。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF、流、目录、数组和归档。
+识别护照，并可指定 [`PassportRecognitionSettings`](../../passportrecognitionsettings)。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF、流、目录、数组和归档文件。
 
 ### 另见
 

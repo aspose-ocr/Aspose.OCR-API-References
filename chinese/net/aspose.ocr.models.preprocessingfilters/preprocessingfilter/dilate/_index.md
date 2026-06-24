@@ -28,7 +28,7 @@ DilateFilter 对象。
 
 ## Dilate(Rectangle) {#dilate_1}
 
-膨胀会在图像的一部分中向对象的边界添加像素。
+膨胀会在图像的一部分对象的边界添加像素。
 
 ```csharp
 public static PreprocessingFilter Dilate(Rectangle area)

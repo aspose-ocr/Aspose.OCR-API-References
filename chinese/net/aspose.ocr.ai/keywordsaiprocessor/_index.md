@@ -1,14 +1,14 @@
 ---
 title: "KeywordsAIProcessor"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
-description: "分析 OCR 结果并提取关键字和数值的 AI 后处理器。"
+description: "分析 OCR 结果并提取关键字和值的 AI 后处理器。"
 type: docs
 weight: 600
 url: /zh/net/aspose.ocr.ai/keywordsaiprocessor/
 ---
 ## KeywordsAIProcessor class
 
-分析 OCR 结果并提取关键字和数值的 AI 后处理器。
+分析 OCR 结果并提取关键字和值的 AI 后处理器。
 
 ```csharp
 public class KeywordsAIProcessor : IOcrAIPostProcessor

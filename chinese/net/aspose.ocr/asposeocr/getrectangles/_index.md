@@ -1,7 +1,7 @@
 ---
 title: "GetRectangles"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
-description: "检测图像上的文本区域。未应用自动图像倾斜校正。支持 GIF PNG JPEG BMP TIFF JFIF。"
+description: "检测图像上的文本区域。未应用自动图像倾斜校正。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF。"
 type: docs
 weight: 70
 url: /zh/net/aspose.ocr/asposeocr/getrectangles/

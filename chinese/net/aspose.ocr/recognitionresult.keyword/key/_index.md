@@ -1,5 +1,5 @@
 ---
-title: "键"
+title: "Key"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
 description: "护照字段的键。"
 type: docs

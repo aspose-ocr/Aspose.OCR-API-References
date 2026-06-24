@@ -1,14 +1,14 @@
 ---
 title: "SaveMultipageDocument"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
-description: "允许从 RecognitionResult 对象列表中获取多页文档"
+description: "允许从 RecognitionResult 对象列表获取多页文档"
 type: docs
 weight: 290
 url: /zh/net/aspose.ocr/asposeocr/savemultipagedocument/
 ---
 ## SaveMultipageDocument(string, SaveFormat, List&lt;RecognitionResult&gt;, string, PdfOptimizationMode) {#savemultipagedocument_3}
 
-允许从 RecognitionResult 对象列表中获取多页文档
+允许从 RecognitionResult 对象列表获取多页文档
 
 ```csharp
 public static void SaveMultipageDocument(string fullFileName, SaveFormat saveFormat, 
@@ -18,9 +18,9 @@ public static void SaveMultipageDocument(string fullFileName, SaveFormat saveFor
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| fullFileName | String | 用于保存所选格式识别结果的带路径的文件名。 |
+| fullFileName | String | 文件名（包含路径），用于以所选格式保存识别结果。 |
 | saveFormat | SaveFormat | 文档格式（Docx、Txt、Pdf、Xlsx、Rtf、Json、Xml）。 |
-| results | List`1 | 包含 [`RecognitionResult`](../../recognitionresult) 对象的列表。 |
+| results | List`1 | [`RecognitionResult`](../../recognitionresult) 对象的列表。 |
 | embeddedFontPath | String | 可选。用户字体的完整路径。 |
 | optimizePdf | PdfOptimizationMode | 通过降低背景图像的质量来减小 PDF 文件大小。默认情况下，保留原始图像质量。 |
 
@@ -37,7 +37,7 @@ public static void SaveMultipageDocument(string fullFileName, SaveFormat saveFor
 
 ## SaveMultipageDocument(string, SaveFormat, List&lt;RecognitionResult&gt;, bool, SpellCheckLanguage, string, string, PdfOptimizationMode) {#savemultipagedocument_2}
 
-允许从 RecognitionResult 对象列表中获取多页文档
+允许从 RecognitionResult 对象列表获取多页文档
 
 ```csharp
 public static void SaveMultipageDocument(string fullFileName, SaveFormat saveFormat, 
@@ -49,9 +49,9 @@ public static void SaveMultipageDocument(string fullFileName, SaveFormat saveFor
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| fullFileName | String | 用于保存所选格式识别结果的带路径的文件名。 |
+| fullFileName | String | 文件名（包含路径），用于以所选格式保存识别结果。 |
 | saveFormat | SaveFormat | 文档格式（Docx、Txt、Pdf、Xlsx、Rtf、Json、Xml）。 |
-| results | List`1 | 包含 [`RecognitionResult`](../../recognitionresult) 对象的列表。 |
+| results | List`1 | [`RecognitionResult`](../../recognitionresult) 对象的列表。 |
 | applySpellingCorrection | Boolean | 设置为 true 以纠正识别结果中可能出现的拼写错误。 |
 | language | SpellCheckLanguage | 拼写检查词典（可选）。 |
 | dictionaryPath | String | 可选。用户词典的完整路径，采用 .txt 格式。格式为 [单词 - 空格 - 频率(数字)]。示例：the 23135851162\nthat 3400031103\n |
@@ -72,7 +72,7 @@ public static void SaveMultipageDocument(string fullFileName, SaveFormat saveFor
 
 ## SaveMultipageDocument(MemoryStream, SaveFormat, List&lt;RecognitionResult&gt;, string, PdfOptimizationMode) {#savemultipagedocument_1}
 
-允许从 RecognitionResult 对象列表中获取多页文档
+允许从 RecognitionResult 对象列表获取多页文档
 
 ```csharp
 public static void SaveMultipageDocument(MemoryStream stream, SaveFormat saveFormat, 
@@ -82,9 +82,9 @@ public static void SaveMultipageDocument(MemoryStream stream, SaveFormat saveFor
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 流 | MemoryStream | 用于以所选格式保存识别结果的 MemoryStream。 |
+| 流 | MemoryStream | MemoryStream，用于以所选格式保存识别结果。 |
 | saveFormat | SaveFormat | 文档格式（Docx、Txt、Pdf、Xlsx、Rtf、Json、Xml）。 |
-| results | List`1 | 包含 [`RecognitionResult`](../../recognitionresult) 对象的列表。 |
+| results | List`1 | [`RecognitionResult`](../../recognitionresult) 对象的列表。 |
 | embeddedFontPath | String | 可选。用户字体的完整路径。 |
 | optimizePdf | PdfOptimizationMode | 通过降低背景图像的质量来减小 PDF 文件大小。默认情况下，保留原始图像质量。 |
 
@@ -101,7 +101,7 @@ public static void SaveMultipageDocument(MemoryStream stream, SaveFormat saveFor
 
 ## SaveMultipageDocument(MemoryStream, SaveFormat, List&lt;RecognitionResult&gt;, bool, SpellCheckLanguage, string, string, PdfOptimizationMode) {#savemultipagedocument}
 
-允许从 RecognitionResult 对象列表中获取多页文档
+允许从 RecognitionResult 对象列表获取多页文档
 
 ```csharp
 public static void SaveMultipageDocument(MemoryStream stream, SaveFormat saveFormat, 
@@ -113,9 +113,9 @@ public static void SaveMultipageDocument(MemoryStream stream, SaveFormat saveFor
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 流 | MemoryStream | 用于以所选格式保存识别结果的 MemoryStream。 |
+| 流 | MemoryStream | MemoryStream，用于以所选格式保存识别结果。 |
 | saveFormat | SaveFormat | 文档格式（Docx、Txt、Pdf、Xlsx、Rtf、Json、Xml）。 |
-| results | List`1 | 包含 [`RecognitionResult`](../../recognitionresult) 对象的列表。 |
+| results | List`1 | [`RecognitionResult`](../../recognitionresult) 对象的列表。 |
 | applySpellingCorrection | Boolean | 设置为 true 以纠正识别结果中可能出现的拼写错误。 |
 | language | SpellCheckLanguage | 拼写检查词典（可选）。 |
 | dictionaryPath | String | 可选。用户词典的完整路径，采用 .txt 格式。格式为 [单词 - 空格 - 频率(数字)]。示例：the 23135851162\nthat 3400031103\n |

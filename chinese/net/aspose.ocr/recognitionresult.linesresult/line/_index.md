@@ -1,5 +1,5 @@
 ---
-title: "行"
+title: "Line"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
 description: "行坐标。"
 type: docs

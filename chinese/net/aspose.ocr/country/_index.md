@@ -1,14 +1,14 @@
 ---
 title: "国家"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
-description: "为了更好的护照识别，请指明护照所属国家。"
+description: "为了更好的护照识别，请指明护照国家。"
 type: docs
 weight: 260
 url: /zh/net/aspose.ocr/country/
 ---
 ## Country enumeration
 
-为了更好的护照识别，请指明护照所属国家。
+为了更好的护照识别，请指明护照国家。
 
 ```csharp
 public enum Country

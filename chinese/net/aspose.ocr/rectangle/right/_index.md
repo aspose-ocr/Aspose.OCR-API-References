@@ -1,14 +1,14 @@
 ---
-title: "Right"
+title: "右"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
-description: "获取或设置 x 坐标，该坐标是此 Rectangleaspose.ocr/rectangle 结构的 Xaspose.ocr/rectangle/x 和 Widthaspose.ocr/rectangle/width 属性值的和。"
+description: "获取或设置此 Rectangleaspose.ocr/rectangle 结构中 x 坐标，该坐标是 Xaspose.ocr/rectangle/x 和 Widthaspose.ocr/rectangle/width 属性值的总和。"
 type: docs
 weight: 60
 url: /zh/net/aspose.ocr/rectangle/right/
 ---
 ## Rectangle.Right property
 
-获取或设置 x 坐标，该坐标是此 [`Rectangle`](../../rectangle) 结构的 [`X`](../x) 和 [`Width`](../width) 属性值的和。
+获取或设置此 [`Rectangle`](../../rectangle) 结构中 x 坐标，该坐标是 [`X`](../x) 和 [`Width`](../width) 属性值的总和。
 
 ```csharp
 public int Right { get; set; }
@@ -16,7 +16,7 @@ public int Right { get; set; }
 
 ### Property Value
 
-此 [`Rectangle`](../../rectangle) 的 x 坐标是 [`X`](../x) 和 [`Width`](../width) 的和。
+此 [`Rectangle`](../../rectangle) 的 x 坐标，为 [`X`](../x) 和 [`Width`](../width) 的总和。
 
 ### 另见
 

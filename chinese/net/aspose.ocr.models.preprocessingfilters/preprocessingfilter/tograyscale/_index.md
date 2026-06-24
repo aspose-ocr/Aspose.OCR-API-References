@@ -8,7 +8,7 @@ url: /zh/net/aspose.ocr.models.preprocessingfilters/preprocessingfilter/tograysc
 ---
 ## PreprocessingFilter.ToGrayscale method
 
-将图像转换为灰度图像。灰度图像在图像中具有 256 个亮度级别（0 到 255）。
+将图像转换为灰度图像。灰度图像在图像中具有 256 级亮度（0 到 255）。
 
 ```csharp
 public static PreprocessingFilter ToGrayscale()

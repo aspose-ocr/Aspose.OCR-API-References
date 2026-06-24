@@ -26,7 +26,7 @@ public class AsposeAI : IDisposable
 | 名称 | 描述 |
 | --- | --- |
 | [Dispose](../../aspose.ocr.ai/asposeai/dispose)() | 释放 AsposeAI 实例使用的内部资源。 |
-| [FreeResources](../../aspose.ocr.ai/asposeai/freeresources)() | 释放所有 AI 相关资源并处理已加载的模型。 |
+| [FreeResources](../../aspose.ocr.ai/asposeai/freeresources)() | 释放所有与 AI 相关的资源并处理已加载的模型。 |
 | [GetLocalPath](../../aspose.ocr.ai/asposeai/getlocalpath)() | 获取当前配置的本地模型目录路径。 |
 | [IsInitialized](../../aspose.ocr.ai/asposeai/isinitialized)() | 检查 AI 引擎是否已初始化。 |
 | [ListLocal](../../aspose.ocr.ai/asposeai/listlocal)() | 列出配置目录中可用的所有本地模型。 |
@@ -36,7 +36,7 @@ public class AsposeAI : IDisposable
 
 ### 备注
 
-⚠️ **Disclaimer:** 使用 AI 驱动的功能时，您须自行确保遵守所有适用的法律、许可条款、第三方 AI 模型使用政策以及数据隐私法规。Aspose 不对外部 AI 模型的准确性、许可或可靠性承担责任。
+⚠️ **Disclaimer:** 使用 AI 驱动的功能时，您需自行确保遵守所有适用的法律、许可条款、第三方 AI 模型使用政策以及数据隐私法规。Aspose 不对外部 AI 模型的准确性、许可或可靠性承担责任。
 
 ### 另见
 

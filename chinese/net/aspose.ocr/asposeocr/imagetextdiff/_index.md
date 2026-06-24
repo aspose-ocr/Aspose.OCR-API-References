@@ -8,7 +8,7 @@ url: /zh/net/aspose.ocr/asposeocr/imagetextdiff/
 ---
 ## AsposeOcr.ImageTextDiff method
 
-比较两幅图像上的文本，并返回表示相似度的数值（0 到 1）。
+比较两幅图像上的文本并返回一个表示相似度的数字（0 到 1）。
 
 ```csharp
 public float ImageTextDiff(string fullPath1, string fullPath2, RecognitionSettings settings = null, 

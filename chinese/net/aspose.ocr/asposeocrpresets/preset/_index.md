@@ -1,5 +1,5 @@
 ---
-title: "预设"
+title: "Preset"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
 description: "当前选定的 OCR 预设。"
 type: docs

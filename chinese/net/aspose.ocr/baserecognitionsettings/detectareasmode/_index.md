@@ -1,7 +1,7 @@
 ---
 title: "DetectAreasMode"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
-description: "允许为文档、区域、照片、纯文本、列、图像等类型选择最佳模式。"
+description: "允许选择文档类型区域、文档照片、纯文本、列、图像的最佳模式。"
 type: docs
 weight: 50
 url: /zh/net/aspose.ocr/baserecognitionsettings/detectareasmode/

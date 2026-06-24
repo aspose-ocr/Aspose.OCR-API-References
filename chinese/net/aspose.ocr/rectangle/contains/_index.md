@@ -1,14 +1,14 @@
 ---
 title: "包含"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
-description: "确定指定的点是否包含在此 Rectangleaspose.ocr/rectangle 结构中。"
+description: "确定指定的点是否位于此 Rectangleaspose.ocr/rectangle 结构中。"
 type: docs
 weight: 120
 url: /zh/net/aspose.ocr/rectangle/contains/
 ---
 ## Rectangle.Contains method
 
-确定指定的点是否包含在此 [`Rectangle`](../../rectangle) 结构中。
+确定指定的点是否位于此 [`Rectangle`](../../rectangle) 结构中。
 
 ```csharp
 public bool Contains(int x, int y)
@@ -21,7 +21,7 @@ public bool Contains(int x, int y)
 
 ### 返回值
 
-如果由 *x* 和 *y* 定义的点包含在此 [`Rectangle`](../../rectangle) 结构中，则此方法返回 true；否则返回 false。
+如果由 *x* 和 *y* 定义的点位于此 [`Rectangle`](../../rectangle) 结构中，则此方法返回 true；否则返回 false。
 
 ### 另见
 

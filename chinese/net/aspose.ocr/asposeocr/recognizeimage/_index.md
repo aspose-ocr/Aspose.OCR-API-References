@@ -49,11 +49,11 @@ public RecognitionResult RecognizeImage(string fullPath, RecognitionSettings set
 
 ### 返回值
 
-包含图像识别结果的 [`RecognitionResult`](../../recognitionresult) 对象。
+[`RecognitionResult`](../../recognitionresult) 对象，包含图像识别结果。
 
 ### 备注
 
-识别图像并可以指定 [`RecognitionSettings`](../../recognitionsettings)。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF。
+识别图像，并可指定 [`RecognitionSettings`](../../recognitionsettings)。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF。
 
 ### 另见
 
@@ -108,7 +108,7 @@ public RecognitionResult RecognizeImage(MemoryStream stream, RecognitionSettings
 
 ### 返回值
 
-包含图像识别结果的 [`RecognitionResult`](../../recognitionresult) 对象。
+[`RecognitionResult`](../../recognitionresult) 对象，包含图像识别结果。
 
 ### 另见
 
@@ -139,11 +139,11 @@ public RecognitionResult RecognizeImage(byte[] imageData, int width, int height,
 
 ### 返回值
 
-包含图像识别结果的 [`RecognitionResult`](../../recognitionresult) 对象。
+[`RecognitionResult`](../../recognitionresult) 对象，包含图像识别结果。
 
 ### 备注
 
-识别图像并能够指定 [`RecognitionSettings`](../../recognitionsettings)。支持逐行解码的字节数据。
+识别图像并能够指定 [`RecognitionSettings`](../../recognitionsettings)。支持行解码字节数据。
 
 ### 另见
 
@@ -167,18 +167,18 @@ public RecognitionResult RecognizeImage(Color[] imageData, int width, int height
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| imageData | Color[] | 已解码的 Aspose.Drawing.Color 数组图像。 |
+| imageData | Color[] | 已解码的图像，以 Aspose.Drawing.Color 数组形式。 |
 | 宽度 | Int32 | 图像宽度。 |
 | 高度 | Int32 | 图像高度。 |
 | settings | RecognitionSettings | 识别设置。 |
 
 ### 返回值
 
-包含图像识别结果的 [`RecognitionResult`](../../recognitionresult) 对象。
+[`RecognitionResult`](../../recognitionresult) 对象，包含图像识别结果。
 
 ### 备注
 
-识别图像并能够指定 [`RecognitionSettings`](../../recognitionsettings)。支持逐行解码的字节数据。
+识别图像并能够指定 [`RecognitionSettings`](../../recognitionsettings)。支持行解码字节数据。
 
 ### 另见
 

@@ -1,14 +1,14 @@
 ---
 title: "FreeResources"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
-description: "释放所有 AI 相关资源并处理已加载的模型。"
+description: "释放所有与 AI 相关的资源并处理已加载的模型。"
 type: docs
 weight: 30
 url: /zh/net/aspose.ocr.ai/asposeai/freeresources/
 ---
 ## AsposeAI.FreeResources method
 
-释放所有 AI 相关资源并处理已加载的模型。
+释放所有与 AI 相关的资源并处理已加载的模型。
 
 ```csharp
 public void FreeResources()

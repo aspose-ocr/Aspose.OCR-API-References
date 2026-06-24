@@ -27,15 +27,15 @@ public class RecognitionSettings : BaseRecognitionSettings
 | --- | --- |
 | [AllowedCharacters](../../aspose.ocr/baserecognitionsettings/allowedcharacters) { get; set; } | 允许字符集。确定识别结果允许的字符类型。 |
 | [AllowedSymbols](../../aspose.ocr/baserecognitionsettings/allowedsymbols) { get; set; } | 使用 alphabet 属性设置允许的字符。 |
-| [AutomaticColorInversion](../../aspose.ocr/baserecognitionsettings/automaticcolorinversion) { get; set; } | 检测白色文字位于深色/黑色背景的图像，并自动为其选择特殊的 OCR 算法。 |
+| [AutomaticColorInversion](../../aspose.ocr/baserecognitionsettings/automaticcolorinversion) { get; set; } | 检测白色文字位于深色/黑色背景的图像，并自动为其选择专用的 OCR 算法。 |
 | [DetectAreasMode](../../aspose.ocr/recognitionsettings/detectareasmode) { get; set; } | 允许为文档类型区域选择最佳模式：文档、照片、纯文本、列、图像。 |
 | [IgnoredSymbols](../../aspose.ocr/baserecognitionsettings/ignoredsymbols) { get; set; } | 设置识别符号的黑名单。 |
 | [Language](../../aspose.ocr/baserecognitionsettings/language) { get; set; } | 获取或设置 OCR 使用的语言。确定识别期间使用的字母表。默认多语言。 |
-| [LanguageDetectionLevel](../../aspose.ocr/recognitionsettings/languagedetectionlevel) { get; set; } | 指定文本识别的语言检测级别。仅在所选语言为 Multilanguage、Auto 或 Universal 时有效。此过程耗时且会显著降低整体识别速度。 |
-| [LinesFiltration](../../aspose.ocr/recognitionsettings/linesfiltration) { get; set; } | 允许识别表格中的文本（被线条围绕的区域）。 |
-| [RecognitionAreas](../../aspose.ocr/recognitionsettings/recognitionareas) { get; set; } | 获取或设置用于处理的文本区域列表。允许手动指定带有文本的区域以获得更准确的识别。禁用 AutoSkew。 |
-| [RecognizeSingleLine](../../aspose.ocr/recognitionsettings/recognizesingleline) { get; set; } | 设置单行图像识别。默认情况下禁用（false）。禁用所有与拆分为行相关的处理步骤。如果图像仅包含一行，请将此参数设为 true。禁用 RecognitionAreas 设置，所有区域设置将被忽略。 |
-| [RecognizeVerticalLines](../../aspose.ocr/baserecognitionsettings/recognizeverticallines) { get; set; } | 获取或设置一个值，指示是否应在检测和识别水平文本行之外，检测并识别垂直文本行。默认值为 `false`。 |
+| [LanguageDetectionLevel](../../aspose.ocr/recognitionsettings/languagedetectionlevel) { get; set; } | 指定文本识别的语言检测级别。仅在所选语言为 Multilanguage、Auto 或 Universal 时有效。此过程耗时，并显著降低整体识别速度。 |
+| [LinesFiltration](../../aspose.ocr/recognitionsettings/linesfiltration) { get; set; } | 允许识别表格中的文本（被线条包围的区域）。 |
+| [RecognitionAreas](../../aspose.ocr/recognitionsettings/recognitionareas) { get; set; } | 获取或设置用于处理的文本区域列表。允许手动指定包含文本的区域以获得更准确的识别。禁用 AutoSkew。 |
+| [RecognizeSingleLine](../../aspose.ocr/recognitionsettings/recognizesingleline) { get; set; } | 设置单行图像识别。默认禁用（false）。禁用所有与行分割相关的处理步骤。如果图像仅包含一行，请将此参数设为 true。禁用 RecognitionAreas 设置，所有区域设置将被忽略。 |
+| [RecognizeVerticalLines](../../aspose.ocr/baserecognitionsettings/recognizeverticallines) { get; set; } | 获取或设置一个值，指示是否应在检测和识别水平文本行的基础上检测和识别垂直文本行。默认值为 `false`。 |
 | [ThreadsCount](../../aspose.ocr/baserecognitionsettings/threadscount) { get; set; } | 获取或设置处理的线程数。默认情况下，0 表示图像将使用等于处理器数量的线程数进行处理。ThreadsCount = 1 表示图像将在主线程中处理。 |
 | [UpscaleSmallFont](../../aspose.ocr/recognitionsettings/upscalesmallfont) { get; set; } | 允许您使用专门针对小字体识别的额外算法。对包含小字符的图像很有用。 |
 

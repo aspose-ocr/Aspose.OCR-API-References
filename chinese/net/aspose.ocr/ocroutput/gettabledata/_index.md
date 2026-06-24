@@ -1,14 +1,14 @@
 ---
 title: "GetTableData"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
-description: "返回从所有已识别页面提取的结构化表格数据。如果整页都是一个表格，则此功能非常有用。"
+description: "返回从所有已识别页面提取的结构化表格数据。如果整页都是一个表格，则此功能很有用。"
 type: docs
 weight: 40
 url: /zh/net/aspose.ocr/ocroutput/gettabledata/
 ---
 ## OcrOutput.GetTableData method
 
-返回从所有已识别页面提取的结构化表格数据。如果整页都是一个表格，则此功能非常有用。
+返回从所有已识别页面提取的结构化表格数据。如果整页都是一个表格，则此功能很有用。
 
 ```csharp
 public List<OCRTablePage> GetTableData()

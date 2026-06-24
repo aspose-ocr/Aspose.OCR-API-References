@@ -1,7 +1,7 @@
 ---
 title: "文件系统"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
-description: "设置或获取 - 日志保存在默认路径 Aspose.OCR.log.txt 文件中。"
+description: "设置或获取 - 日志保存于默认路径 Aspose.OCR.log.txt 文件中。"
 type: docs
 weight: 20
 url: /zh/net/aspose.ocr/logging/filesystem/

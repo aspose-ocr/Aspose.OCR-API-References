@@ -1,14 +1,14 @@
 ---
 title: "CharacterRecognitionResult"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
-description: "包含检测字符数据的页面。"
+description: "检测字符数据的页面。"
 type: docs
 weight: 410
 url: /zh/net/aspose.ocr/characterrecognitionresult/
 ---
 ## CharacterRecognitionResult class
 
-包含检测字符数据的页面。
+检测字符数据的页面。
 
 ```csharp
 public class CharacterRecognitionResult

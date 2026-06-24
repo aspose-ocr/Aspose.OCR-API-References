@@ -27,12 +27,12 @@ public class DocumentRecognitionSettings : BaseRecognitionSettings
 | --- | --- |
 | [AllowedCharacters](../../aspose.ocr/baserecognitionsettings/allowedcharacters) { get; set; } | 允许字符集。确定识别结果允许的字符类型。 |
 | [AutoContrast](../../aspose.ocr/baserecognitionsettings/autocontrast) { get; set; } | 允许在识别前对图像使用额外的对比度校正算法。 |
-| [AutoDenoising](../../aspose.ocr/baserecognitionsettings/autodenoising) { get; set; } | 启用额外神经网络以改进图像——降低噪声。适用于带有扫描伪影、失真、斑点、耀斑、渐变、外来元素的图像。 |
-| [AutoSkew](../../aspose.ocr/baserecognitionsettings/autoskew) { set; } | 获取或设置指示是否应启用自动图像倾斜校正的标志。默认启用（true）。 |
+| [AutoDenoising](../../aspose.ocr/baserecognitionsettings/autodenoising) { get; set; } | 启用额外神经网络以改进图像——降低噪声。对带有扫描伪影、失真、斑点、耀斑、渐变、外来元素的图像有帮助。 |
+| [AutoSkew](../../aspose.ocr/baserecognitionsettings/autoskew) { set; } | 获取或设置一个标志，指示是否应启用自动图像倾斜校正。默认启用（true）。 |
 | [DetectAreasMode](../../aspose.ocr/baserecognitionsettings/detectareasmode) { get; set; } | 允许为文档类型区域选择最佳模式：文档、照片、纯文本、列、图像。 |
 | [IgnoredCharacters](../../aspose.ocr/baserecognitionsettings/ignoredcharacters) { get; set; } | 设置识别符号的黑名单。 |
 | [Language](../../aspose.ocr/baserecognitionsettings/language) { set; } | 获取或设置 OCR 使用的语言。确定识别期间使用的字母表。默认多语言。 |
-| [LinesFiltration](../../aspose.ocr/baserecognitionsettings/linesfiltration) { get; set; } | 允许识别表格中的文本（被线条围绕的区域）。 |
+| [LinesFiltration](../../aspose.ocr/baserecognitionsettings/linesfiltration) { get; set; } | 允许识别表格中的文本（被线条包围的区域）。 |
 | [PagesNumber](../../aspose.ocr/documentrecognitionsettings/pagesnumber) { get; set; } | 设置多页 PDF 文件的识别页数。 |
 | [PreprocessingFilters](../../aspose.ocr/baserecognitionsettings/preprocessingfilters) { get; set; } | 允许通过调整预处理方法为 OCR 准备图像。 |
 | [SkewAngle](../../aspose.ocr/baserecognitionsettings/skewangle) { set; } | 获取或设置图像旋转的角度（度）。设置此值将禁用 [`AutoSkew`](../baserecognitionsettings/autoskew) 属性，从而不应用自动倾斜校正。默认值为零。 |

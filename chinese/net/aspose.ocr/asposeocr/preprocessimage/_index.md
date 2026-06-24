@@ -1,14 +1,14 @@
 ---
 title: "PreprocessImage"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
-description: "使用图像预处理来提高 OCR 的准确性。创建一个过滤器列表，这些过滤器将按照您指定的顺序应用于输入图像。例如创建过滤器：PreprocessingFilter filters  new PreprocessingFilter  PreprocessingFilter.Invert PreprocessingFilter.Threshold150 PreprocessingFilter.Binarize PreprocessingFilter.Rotate180 PreprocessingFilter.Resize30003000 Aspose.OCR.Filters.InterpolationFilterType.Box PreprocessingFilter.Scale6f PreprocessingFilter.Dilate  您不需要全部过滤器，只设置您需要的即可。"
+description: "使用图像预处理来提高 OCR 的准确性。创建一个过滤器列表，这些过滤器将按您指定的顺序应用于输入图像。示例创建过滤器：PreprocessingFilter filters  new PreprocessingFilter  PreprocessingFilter.Invert PreprocessingFilter.Threshold150 PreprocessingFilter.Binarize PreprocessingFilter.Rotate180 PreprocessingFilter.Resize30003000 Aspose.OCR.Filters.InterpolationFilterType.Box PreprocessingFilter.Scale6f PreprocessingFilter.Dilate  您不需要全部。仅设置您需要的。"
 type: docs
 weight: 100
 url: /zh/net/aspose.ocr/asposeocr/preprocessimage/
 ---
 ## PreprocessImage(string, PreprocessingFilter) {#preprocessimage_1}
 
-使用图像预处理来提高 OCR 的准确性。创建一个过滤器列表，这些过滤器将按照您指定的顺序应用于输入图像。例如创建过滤器：PreprocessingFilter filters = new PreprocessingFilter { PreprocessingFilter.Invert(), PreprocessingFilter.Threshold(150), PreprocessingFilter.Binarize(), PreprocessingFilter.Rotate(180), PreprocessingFilter.Resize(3000,3000, Aspose.OCR.Filters.InterpolationFilterType.Box), PreprocessingFilter.Scale(6f), PreprocessingFilter.Dilate() }; 您不需要全部过滤器，只设置您需要的即可。
+使用图像预处理来提高 OCR 的准确性。创建一个过滤器列表，这些过滤器将按您指定的顺序应用于输入图像。示例创建过滤器：PreprocessingFilter filters = new PreprocessingFilter { PreprocessingFilter.Invert(), PreprocessingFilter.Threshold(150), PreprocessingFilter.Binarize(), PreprocessingFilter.Rotate(180), PreprocessingFilter.Resize(3000,3000, Aspose.OCR.Filters.InterpolationFilterType.Box), PreprocessingFilter.Scale(6f), PreprocessingFilter.Dilate() }; 您不需要全部。仅设置您需要的。
 
 ```csharp
 public MemoryStream PreprocessImage(string fullPath, PreprocessingFilter filters)
@@ -34,7 +34,7 @@ public MemoryStream PreprocessImage(string fullPath, PreprocessingFilter filters
 
 ## PreprocessImage(MemoryStream, PreprocessingFilter) {#preprocessimage}
 
-使用图像预处理来提高 OCR 的准确性。创建一个过滤器列表，这些过滤器将按照您指定的顺序应用于输入图像。例如创建过滤器：PreprocessingFilter filters = new PreprocessingFilter { PreprocessingFilter.Invert(), PreprocessingFilter.Threshold(150), PreprocessingFilter.Binarize(), PreprocessingFilter.Rotate(180), PreprocessingFilter.Resize(3000,3000, Aspose.OCR.Filters.InterpolationFilterType.Box), PreprocessingFilter.Scale(6f), PreprocessingFilter.Dilate() }; 您不需要全部过滤器，只设置您需要的即可。
+使用图像预处理来提高 OCR 的准确性。创建一个过滤器列表，这些过滤器将按您指定的顺序应用于输入图像。示例创建过滤器：PreprocessingFilter filters = new PreprocessingFilter { PreprocessingFilter.Invert(), PreprocessingFilter.Threshold(150), PreprocessingFilter.Binarize(), PreprocessingFilter.Rotate(180), PreprocessingFilter.Resize(3000,3000, Aspose.OCR.Filters.InterpolationFilterType.Box), PreprocessingFilter.Scale(6f), PreprocessingFilter.Dilate() }; 您不需要全部。仅设置您需要的。
 
 ```csharp
 public MemoryStream PreprocessImage(MemoryStream stream, PreprocessingFilter filters)

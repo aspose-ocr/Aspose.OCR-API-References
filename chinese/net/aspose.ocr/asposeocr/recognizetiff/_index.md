@@ -21,7 +21,7 @@ public List<RecognitionResult> RecognizeTiff(string fullPath, DocumentRecognitio
 
 ### 返回值
 
-包含图像识别结果的对象列表 [`RecognitionResult`](../../recognitionresult)。
+`[`RecognitionResult`](../../recognitionresult)` 列表，包含图像识别结果的对象。
 
 ### 另见
 
@@ -49,7 +49,7 @@ public List<RecognitionResult> RecognizeTiff(MemoryStream stream,
 
 ### 返回值
 
-包含图像识别结果的对象列表 [`RecognitionResult`](../../recognitionresult)。
+`[`RecognitionResult`](../../recognitionresult)` 列表，包含图像识别结果的对象。
 
 ### 另见
 

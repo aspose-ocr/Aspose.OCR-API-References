@@ -8,7 +8,7 @@ url: /zh/net/aspose.ocr.ai/asposeaimodelconfig/directorymodelpath/
 ---
 ## AsposeAIModelConfig.DirectoryModelPath property
 
-可选的路径，用于缓存已下载或已处理的模型。如果未设置，将使用默认系统位置。
+可选的路径，用于缓存已下载或已处理的模型。如果未设置，将使用默认的系统位置。
 
 ```csharp
 public string? DirectoryModelPath { get; set; }

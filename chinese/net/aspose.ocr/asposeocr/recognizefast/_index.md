@@ -8,7 +8,7 @@ url: /zh/net/aspose.ocr/asposeocr/recognizefast/
 ---
 ## AsposeOcr.RecognizeFast method
 
-识别图像/文档上的文本。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF、流、目录、数组、归档。
+识别图像/文档上的文本。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF、流、目录、数组、存档。
 
 ```csharp
 public List<string> RecognizeFast(OcrInput images)

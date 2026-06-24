@@ -8,7 +8,7 @@ url: /zh/net/aspose.ocr.spellchecker/spellcheckerror/length/
 ---
 ## SpellCheckError.Length property
 
-输入文本中拼写错误单词的长度。
+输入文本中 Msspelled 单词的长度。
 
 ```csharp
 public int Length { get; set; }

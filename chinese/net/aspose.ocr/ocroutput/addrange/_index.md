@@ -1,14 +1,14 @@
 ---
 title: "AddRange"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
-description: "将指定集合的元素添加到 OcrOutputaspose.ocr/ocroutput 列表的末尾。如果需要，此方法会覆盖默认的 AddRange 行为以执行额外操作。"
+description: "将指定集合的元素添加到 OcrOutputaspose.ocr/ocroutput 列表的末尾。此方法覆盖默认的 AddRange 行为，以在需要时执行额外操作。"
 type: docs
 weight: 30
 url: /zh/net/aspose.ocr/ocroutput/addrange/
 ---
 ## OcrOutput.AddRange method
 
-将指定集合的元素添加到 [`OcrOutput`](../../ocroutput) 列表的末尾。如果需要，此方法会覆盖默认的 AddRange 行为以执行额外操作。
+将指定集合的元素添加到 [`OcrOutput`](../../ocroutput) 列表的末尾。此方法覆盖默认的 AddRange 行为，以在需要时执行额外操作。
 
 ```csharp
 public void AddRange(IEnumerable<RecognitionResult> collection)

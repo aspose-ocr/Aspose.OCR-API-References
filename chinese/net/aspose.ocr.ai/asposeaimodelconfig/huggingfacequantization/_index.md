@@ -1,14 +1,14 @@
 ---
 title: "HuggingFaceQuantization"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
-description: "从 HuggingFace 下载时可选的量化类型。例如 int8、fp16、none。默认值 q4_k_m。"
+description: "从 HuggingFace 下载时可选的量化类型。例如 int8、fp16、none。默认值为 q4_k_m。"
 type: docs
 weight: 70
 url: /zh/net/aspose.ocr.ai/asposeaimodelconfig/huggingfacequantization/
 ---
 ## AsposeAIModelConfig.HuggingFaceQuantization property
 
-从 HuggingFace 下载时可选的量化类型。例如："int8", "fp16", "none"。默认值 q4_k_m。
+Optional quantization type to use when downloading from HuggingFace. Examples: "int8", "fp16", "none". Default q4_k_m.
 
 ```csharp
 public string? HuggingFaceQuantization { get; set; }

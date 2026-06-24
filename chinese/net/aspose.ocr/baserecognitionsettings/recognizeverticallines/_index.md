@@ -8,7 +8,7 @@ url: /zh/net/aspose.ocr/baserecognitionsettings/recognizeverticallines/
 ---
 ## BaseRecognitionSettings.RecognizeVerticalLines property
 
-获取或设置一个值，指示是否应在检测和识别水平文本行之外，检测并识别垂直文本行。默认值为 `false`。
+获取或设置一个值，指示是否应在检测和识别水平文本行的基础上检测和识别垂直文本行。默认值为 `false`。
 
 ```csharp
 public bool RecognizeVerticalLines { get; set; }

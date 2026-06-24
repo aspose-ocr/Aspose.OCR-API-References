@@ -16,7 +16,7 @@ public string GetJson(bool isReadable = false)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| isReadable | Boolean | 确定 json 是否可读（人类可读）。 |
+| isReadable | Boolean | 确定 JSON 是否可读（人类可读）。 |
 
 ### 返回值
 

@@ -24,7 +24,7 @@ public enum AreasType
 
 ### 备注
 
-在 [`DetectRectangles`](../asposeocr/detectrectangles) 中使用，以指示将获得的结果是段落坐标还是行坐标。
+在 [`DetectRectangles`](../asposeocr/detectrectangles) 中使用，以指示将获得哪种结果——段落坐标或行坐标。
 
 ### 另见
 

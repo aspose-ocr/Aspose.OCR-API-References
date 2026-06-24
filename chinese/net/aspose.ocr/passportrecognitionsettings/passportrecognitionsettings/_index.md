@@ -1,14 +1,14 @@
 ---
 title: "PassportRecognitionSettings"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
-description: "使用完整属性集初始化 PassportRecognitionSettingsaspose.ocr/passportrecognitionsettings 类的新实例。"
+description: "初始化 PassportRecognitionSettingsaspose.ocr/passportrecognitionsettings 类的一个新实例，包含完整的属性集合。"
 type: docs
 weight: 10
 url: /zh/net/aspose.ocr/passportrecognitionsettings/passportrecognitionsettings/
 ---
 ## PassportRecognitionSettings(Language) {#constructor_1}
 
-使用完整属性集初始化 [`PassportRecognitionSettings`](../../passportrecognitionsettings) 类的新实例。
+初始化 [`PassportRecognitionSettings`](../../passportrecognitionsettings) 类的一个新实例，包含完整的属性集合。
 
 ```csharp
 public PassportRecognitionSettings(Language language)
@@ -29,7 +29,7 @@ public PassportRecognitionSettings(Language language)
 
 ## PassportRecognitionSettings() {#constructor}
 
-使用默认属性集初始化 [`PassportRecognitionSettings`](../../passportrecognitionsettings) 类的新实例。
+初始化 [`PassportRecognitionSettings`](../../passportrecognitionsettings) 类的一个新实例，使用默认的属性集合。
 
 ```csharp
 public PassportRecognitionSettings()

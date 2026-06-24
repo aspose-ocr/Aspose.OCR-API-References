@@ -18,7 +18,7 @@ public void Save(string fullFileName, SaveFormat saveFormat = SaveFormat.Text,
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| fullFileName | String | 用于保存所选格式识别结果的带路径的文件名。 |
+| fullFileName | String | 文件名（包含路径），用于以所选格式保存识别结果。 |
 | saveFormat | SaveFormat | 文档格式（Docx、Txt、Pdf、Xlsx、Rtf、Json、Xml、Epub）。 |
 | embeddedFontPath | String | 可选。用户字体的完整路径。 |
 | optimizePdf | PdfOptimizationMode | 通过降低背景图像的质量来减小 PDF 文件大小。默认情况下，保留原始图像质量。 |
@@ -45,7 +45,7 @@ public void Save(MemoryStream stream, SaveFormat saveFormat = SaveFormat.Text,
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 流 | MemoryStream | 用于以所选格式保存识别结果的 MemoryStream。 |
+| 流 | MemoryStream | MemoryStream，用于以所选格式保存识别结果。 |
 | saveFormat | SaveFormat | 文档格式（Docx、Txt、Pdf、Xlsx、Rtf、Json、Xml、Epub）。 |
 | embeddedFontPath | String | 可选。用户字体的完整路径。 |
 | optimizePdf | PdfOptimizationMode | 通过降低背景图像的质量来减小 PDF 文件大小。默认情况下，保留原始图像质量。 |

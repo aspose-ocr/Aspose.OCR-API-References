@@ -24,7 +24,7 @@ public class License
 
 | 名称 | 描述 |
 | --- | --- |
-| [IsLicensed](../../aspose.ocr/license/islicensed) { get; } | 获取指示产品是否已授权的值。 |
+| [IsLicensed](../../aspose.ocr/license/islicensed) { get; } | 获取一个值，指示产品是否已获得许可证。 |
 
 ## Methods
 

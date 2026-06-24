@@ -16,7 +16,7 @@ public List<OCRTable> Tables { get; set; }
 
 ### 备注
 
-每个元素对应一个 OCR 表，并包含检测到的行和单元格。
+每个元素对应一个 OCR 表格，并包含检测到的行和单元格。
 
 ### 另见
 

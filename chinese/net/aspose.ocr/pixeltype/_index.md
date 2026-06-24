@@ -25,7 +25,7 @@ public enum PixelType
 
 ### 备注
 
-用于 !:AsposeOcr.RecognizeImage(byte[], int, int, PixelType, RecognitionSettings) 以设置数据数组中的字节序列。
+用于在 !:AsposeOcr.RecognizeImage(byte[], int, int, PixelType, RecognitionSettings) 中设置数据数组中的字节序列。
 
 ### 另见
 

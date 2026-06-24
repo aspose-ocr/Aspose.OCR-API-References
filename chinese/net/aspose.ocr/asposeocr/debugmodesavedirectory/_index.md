@@ -1,7 +1,7 @@
 ---
 title: "DebugModeSaveDirectory"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
-description: "调试结果保存的目录。如果未设置，则默认使用当前工作目录。"
+description: "保存调试结果的目录。如果未设置，则默认使用当前工作目录。"
 type: docs
 weight: 280
 url: /zh/net/aspose.ocr/asposeocr/debugmodesavedirectory/

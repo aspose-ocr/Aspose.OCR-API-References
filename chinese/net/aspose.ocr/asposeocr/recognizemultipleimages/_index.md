@@ -1,14 +1,14 @@
 ---
 title: "RecognizeMultipleImages"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
-description: "从列表中识别多个图像。不支持归档和文件夹。最大处理图像数量为 20。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF。"
+description: "从列表中识别多个图像。不支持存档和文件夹。最大处理图像数量为 20。支持 GIF PNG JPEG BMP TIFF JFIF。"
 type: docs
 weight: 200
 url: /zh/net/aspose.ocr/asposeocr/recognizemultipleimages/
 ---
 ## RecognizeMultipleImages(List&lt;string&gt;, RecognitionSettings) {#recognizemultipleimages_1}
 
-从列表中识别多个图像。不支持归档和文件夹。最大处理图像数量为 20。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF。
+从列表中识别多个图像。不支持存档和文件夹。最大处理图像数量为 20。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF。
 
 ```csharp
 public List<RecognitionResult> RecognizeMultipleImages(List<string> files, 
@@ -36,7 +36,7 @@ public List<RecognitionResult> RecognizeMultipleImages(List<string> files,
 
 ## RecognizeMultipleImages(List&lt;string&gt;) {#recognizemultipleimages}
 
-使用默认设置识别列表中的多张图像。 不支持存档和文件夹。 最大处理图像数量为 20。 支持 GIF、PNG、JPEG、BMP、TIFF、JFIF。
+使用默认设置识别列表中的多张图像。不支持存档和文件夹。最大处理图像数量为20。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF。
 
 ```csharp
 public List<RecognitionResult> RecognizeMultipleImages(List<string> files)
@@ -61,7 +61,7 @@ public List<RecognitionResult> RecognizeMultipleImages(List<string> files)
 
 ## RecognizeMultipleImages(string, RecognitionSettings) {#recognizemultipleimages_3}
 
-识别压缩为 ZIP 存档或位于文件夹中的多张图像。 不支持嵌套存档和文件夹。 最大处理图像数量为 20。 支持 GIF、PNG、JPEG、BMP、TIFF、JFIF。
+识别压缩为 ZIP 存档或位于文件夹中的多张图像。不支持嵌套存档和文件夹。最大处理图像数量为20。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF。
 
 ```csharp
 public List<RecognitionResult> RecognizeMultipleImages(string path, RecognitionSettings settings)
@@ -88,7 +88,7 @@ public List<RecognitionResult> RecognizeMultipleImages(string path, RecognitionS
 
 ## RecognizeMultipleImages(string) {#recognizemultipleimages_2}
 
-使用默认设置识别压缩为 ZIP 存档或位于文件夹中的多张图像。 不支持嵌套存档和文件夹。 最大处理图像数量为 20。 支持 GIF、PNG、JPEG、BMP、TIFF、JFIF。
+使用默认设置识别压缩为 ZIP 存档或位于文件夹中的多张图像。不支持嵌套存档和文件夹。最大处理图像数量为20。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF。
 
 ```csharp
 public List<RecognitionResult> RecognizeMultipleImages(string path)

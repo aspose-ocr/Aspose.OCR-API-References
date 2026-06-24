@@ -21,7 +21,7 @@ public class OcrPageRecognizeEventsArgs : EventArgs
 | [CurrentPage](../../aspose.ocr.models.events/ocrpagerecognizeeventsargs/currentpage) { get; set; } | 开始被识别的页面。 |
 | [Duration](../../aspose.ocr.models.events/ocrpagerecognizeeventsargs/duration) { get; set; } | 从识别过程开始到当前图像被识别的时刻的时间。 |
 | [FileName](../../aspose.ocr.models.events/ocrpagerecognizeeventsargs/filename) { get; set; } | 已处理的文件名。 |
-| [OperationName](../../aspose.ocr.models.events/ocrpagerecognizeeventsargs/operationname) { get; set; } | 正在进行的事务名称。 |
+| [OperationName](../../aspose.ocr.models.events/ocrpagerecognizeeventsargs/operationname) { get; set; } | 进行中的事务名称。 |
 
 ### 另见
 

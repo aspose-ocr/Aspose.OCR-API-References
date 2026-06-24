@@ -1,14 +1,14 @@
 ---
 title: "ExecutionMode"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
-description: "会话的执行模式。默认情况下，运算符会在可能的情况下并发执行。"
+description: "会话的执行模式。默认情况下，运算符会在可能时并发执行。"
 type: docs
 weight: 30
 url: /zh/net/aspose.ocr/onnxruntimesessionoptions/executionmode/
 ---
 ## OnnxRuntimeSessionOptions.ExecutionMode property
 
-会话的执行模式。默认情况下，运算符会在可能时并发执行。
+会话的执行模式。默认情况下，运算符会在可能的情况下并发执行。
 
 ```csharp
 public static ExecutionModeOnnx ExecutionMode { get; set; }

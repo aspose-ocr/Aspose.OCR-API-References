@@ -1,14 +1,14 @@
 ---
 title: "DocumentRecognitionSettings"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
-description: "初始化 DocumentRecognitionSettingsaspose.ocr/documentrecognitionsettings 类的一个新实例，具有简短的属性集。"
+description: "使用简短属性集初始化 DocumentRecognitionSettingsaspose.ocr/documentrecognitionsettings 类的新实例。"
 type: docs
 weight: 10
 url: /zh/net/aspose.ocr/documentrecognitionsettings/documentrecognitionsettings/
 ---
 ## DocumentRecognitionSettings(int, int) {#constructor}
 
-初始化 [`DocumentRecognitionSettings`](../../documentrecognitionsettings) 类的一个新实例，具有简短的属性集。
+使用简短属性集初始化 [`DocumentRecognitionSettings`](../../documentrecognitionsettings) 类的新实例。
 
 ```csharp
 public DocumentRecognitionSettings(int startPage = 0, int pagesNumber = 1)
@@ -29,7 +29,7 @@ public DocumentRecognitionSettings(int startPage = 0, int pagesNumber = 1)
 
 ## DocumentRecognitionSettings(int, int, Language, bool, bool, int) {#constructor_1}
 
-初始化一个新的 [`DocumentRecognitionSettings`](../../documentrecognitionsettings) 类实例，并包含完整的属性集合。
+初始化一个新的 [`DocumentRecognitionSettings`](../../documentrecognitionsettings) 类实例，包含完整的属性集合。
 
 ```csharp
 public DocumentRecognitionSettings(int startPage, int pagesNumber, 
