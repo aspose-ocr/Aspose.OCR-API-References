@@ -1,14 +1,14 @@
 ---
 title: "RecognizeIDCard"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
-description: "识别身份证上的文字。"
+description: "识别身份证上的文本。"
 type: docs
 weight: 210
 url: /zh/net/aspose.ocr/asposeocr/recognizeidcard/
 ---
 ## RecognizeIDCard(OcrInput) {#recognizeidcard}
 
-识别身份证上的文字。
+识别身份证上的文本。
 
 ```csharp
 public OcrOutput RecognizeIDCard(OcrInput images)
@@ -20,11 +20,11 @@ public OcrOutput RecognizeIDCard(OcrInput images)
 
 ### 返回值
 
-包含图像识别结果的 [`RecognitionResult`](../../recognitionresult) 对象列表。
+[`RecognitionResult`](../../recognitionresult) 对象列表，包含图像识别结果。
 
 ### 备注
 
-识别身份证，并可指定 [`IDCardRecognitionSettings`](../../idcardrecognitionsettings)。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF、流、目录、数组、归档。
+识别身份证，并可指定 [`IDCardRecognitionSettings`](../../idcardrecognitionsettings)。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF、流、目录、数组和归档。
 
 ### 另见
 
@@ -38,7 +38,7 @@ public OcrOutput RecognizeIDCard(OcrInput images)
 
 ## RecognizeIDCard(OcrInput, IDCardRecognitionSettings) {#recognizeidcard_1}
 
-识别身份证上的文字。
+识别身份证上的文本。
 
 ```csharp
 public OcrOutput RecognizeIDCard(OcrInput images, IDCardRecognitionSettings settings)
@@ -51,11 +51,11 @@ public OcrOutput RecognizeIDCard(OcrInput images, IDCardRecognitionSettings sett
 
 ### 返回值
 
-包含图像识别结果的 [`RecognitionResult`](../../recognitionresult) 对象列表。
+[`RecognitionResult`](../../recognitionresult) 对象列表，包含图像识别结果。
 
 ### 备注
 
-识别身份证，并可指定 [`IDCardRecognitionSettings`](../../idcardrecognitionsettings)。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF、流、目录、数组、归档。
+识别身份证，并可指定 [`IDCardRecognitionSettings`](../../idcardrecognitionsettings)。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF、流、目录、数组和归档。
 
 ### 另见
 

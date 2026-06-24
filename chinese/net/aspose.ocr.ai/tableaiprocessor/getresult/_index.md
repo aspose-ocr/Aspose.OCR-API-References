@@ -1,14 +1,14 @@
 ---
 title: "GetResult"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
-description: "获取表格检测和结构化后的处理 OCR 结果。"
+description: "获取表格检测和结构化后的处理过的 OCR 结果。"
 type: docs
 weight: 20
 url: /zh/net/aspose.ocr.ai/tableaiprocessor/getresult/
 ---
 ## TableAIProcessor.GetResult method
 
-获取表格检测和结构化后的处理 OCR 结果。
+获取表格检测和结构化后的处理过的 OCR 结果。
 
 ```csharp
 public List<AIResult> GetResult()

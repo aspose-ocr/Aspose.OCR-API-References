@@ -1,7 +1,7 @@
 ---
 title: "自动去畸变"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
-description: "自动校正图像中的几何畸变。资源消耗极大"
+description: "自动校正图像中的几何畸变。极度占用资源"
 type: docs
 weight: 50
 url: /zh/net/aspose.ocr.models.preprocessingfilters/preprocessingfilter/autodewarping/

@@ -1,5 +1,5 @@
 ---
-title: "建议词"
+title: "SuggestedWord"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
 description: "从 GetSpellCheckErrorList 返回的拼写建议。"
 type: docs

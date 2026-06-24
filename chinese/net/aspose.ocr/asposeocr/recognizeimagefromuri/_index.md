@@ -21,11 +21,11 @@ public RecognitionResult RecognizeImageFromUri(string uri, RecognitionSettings s
 
 ### 返回值
 
-包含图像识别结果的 [`RecognitionResult`](../../recognitionresult) 对象。
+[`RecognitionResult`](../../recognitionresult) 对象，包含图像识别结果。
 
 ### 备注
 
-识别图像并可以指定 [`RecognitionSettings`](../../recognitionsettings)。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF。
+识别图像，并可指定 [`RecognitionSettings`](../../recognitionsettings)。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF。
 
 ### 另见
 

@@ -15,7 +15,7 @@ url: /zh/net/aspose.ocr.ai/
 | [AIResult](./airesult) | 表示 AI 处理后的识别结果。 |
 | [AsposeAI](./asposeai) | Aspose OCR 库中 AI 组件的主要 API。提供与 AI 驱动的后处理器（如拼写检查、表格提取和布局校正）的集成。 |
 | [AsposeAIModelConfig](./asposeaimodelconfig) | 表示加载 LLM 模型的配置设置。 |
-| [KeywordsAIProcessor](./keywordsaiprocessor) | 分析 OCR 结果并提取关键字和数值的 AI 后处理器。 |
+| [KeywordsAIProcessor](./keywordsaiprocessor) | 分析 OCR 结果并提取关键字和值的 AI 后处理器。 |
 | [SpellCheckAIProcessor](./spellcheckaiprocessor) | 使用 AsposeAI 对 OCR 识别结果进行拼写纠正的 AI 后处理器。 |
 | [TableAIProcessor](./tableaiprocessor) | 分析 OCR 结果并提取结构化表格的 AI 后处理器。使用基于 AI 的处理来改进表格布局检测和格式化。 |
 ## 接口

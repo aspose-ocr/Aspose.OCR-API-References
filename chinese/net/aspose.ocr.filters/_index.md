@@ -12,6 +12,6 @@ url: /zh/net/aspose.ocr.filters/
 
 | 枚举 | 描述 |
 | --- | --- |
-| [InterpolationFilterType](./interpolationfiltertype) | 插值，用于缩放图像。 |
+| [InterpolationFilterType](./interpolationfiltertype) | 用于缩放图像的插值。 |
 
 <!-- 请勿编辑：由 xmldocmd 为 Aspose.OCR.dll 生成 -->

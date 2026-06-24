@@ -1,14 +1,14 @@
 ---
 title: "AddBase64"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
-description: "添加包含图像的 base64 字符串以进行识别/处理。图像的类型必须与构造函数中指定的类型对应。"
+description: "添加包含图像的 base64 字符串以进行识别/处理。图像的类型必须与构造函数中指定的类型相对应。"
 type: docs
 weight: 40
 url: /zh/net/aspose.ocr/ocrinput/addbase64/
 ---
 ## OcrInput.AddBase64 method
 
-添加包含图像的 base64 字符串以进行识别/处理。图像的类型必须与构造函数中指定的类型对应。
+添加包含图像的 base64 字符串以进行识别/处理。图像的类型必须与构造函数中指定的类型相对应。
 
 ```csharp
 public void AddBase64(string base64)

@@ -1,14 +1,14 @@
 ---
 title: "二值化"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
-description: "将图像转换为黑白图像。二值图像是像素仅具有两种可能强度值的图像。它们通常显示为黑白。数值上，这两个值通常为 0 表示黑，255 表示白。二值图像是通过对图像进行自动阈值处理产生的。"
+description: "将图像转换为黑白图像。二值图像是像素仅具有两种可能强度值的图像。它们通常显示为黑白。数值上，这两个值通常为 0 表示黑，255 表示白。二值图像是通过对图像进行自动阈值处理生成的。"
 type: docs
 weight: 70
 url: /zh/net/aspose.ocr.models.preprocessingfilters/preprocessingfilter/binarize/
 ---
 ## Binarize() {#binarize}
 
-将图像转换为黑白图像。二值图像是像素仅具有两种可能强度值的图像，通常显示为黑白。数值上，这两个值通常为 0 表示黑，255 表示白。二值图像是通过对图像进行自动阈值处理生成的。
+将图像转换为黑白图像。二值图像是像素仅具有两种可能强度值的图像，通常显示为黑白。数值上，这两个值通常为黑色的 0 和白色的 255。二值图像通过对图像进行自动阈值处理生成。
 
 ```csharp
 public static PreprocessingFilter Binarize()
@@ -28,7 +28,7 @@ BinarizeFilter 对象。
 
 ## Binarize(Rectangle) {#binarize_1}
 
-将图像的一部分转换为黑白图像。二值图像是像素仅具有两种可能强度值的图像，通常显示为黑白。数值上，这两个值通常为 0 表示黑，255 表示白。二值图像是通过对图像进行自动阈值处理生成的。
+将图像的一部分转换为黑白图像。二值图像是像素仅具有两种可能强度值的图像，通常显示为黑白。数值上，这两个值通常为黑色的 0 和白色的 255。二值图像通过对图像进行自动阈值处理生成。
 
 ```csharp
 public static PreprocessingFilter Binarize(Rectangle area)

@@ -1,14 +1,14 @@
 ---
 title: "DetectRectangles"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
-description: "检测图像上的文本区域。 支持 GIF、PNG、JPEG、BMP、TIFF、JFIF、流、文件夹、数组和归档。"
+description: "检测图像上的文本区域。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF、流、文件夹、数组和归档。"
 type: docs
 weight: 90
 url: /zh/net/aspose.ocr/asposeocr/detectrectangles/
 ---
 ## DetectRectangles(OcrInput) {#detectrectangles}
 
-检测图像上的文本区域。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF、流、文件夹、数组、归档。
+检测图像上的文本区域。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF、流、文件夹、数组、存档。
 
 ```csharp
 public List<RectangleOutput> DetectRectangles(OcrInput images)
@@ -34,7 +34,7 @@ public List<RectangleOutput> DetectRectangles(OcrInput images)
 
 ## DetectRectangles(OcrInput, AreasType, bool) {#detectrectangles_1}
 
-检测图像上的文本区域。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF、流、文件夹、数组、归档。
+检测图像上的文本区域。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF、流、文件夹、数组、存档。
 
 ```csharp
 public List<RectangleOutput> DetectRectangles(OcrInput images, AreasType areasType, 

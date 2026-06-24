@@ -1,5 +1,5 @@
 ---
-title: "设置"
+title: "Settings"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
 description: "获取或设置识别设置。如果未手动设置，设置将从所选预设生成。"
 type: docs
@@ -8,7 +8,7 @@ url: /zh/net/aspose.ocr/asposeocrpresets/settings/
 ---
 ## AsposeOcrPresets.Settings property
 
-获取或设置识别设置。如果未手动设置，将根据所选预设生成设置。
+获取或设置识别设置。如果未手动设置，设置将从所选预设生成。
 
 ```csharp
 public BaseRecognitionSettings Settings { get; set; }

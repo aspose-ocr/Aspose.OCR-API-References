@@ -8,7 +8,7 @@ url: /zh/net/aspose.ocr/documentrecognitionsettings/autoskew/
 ---
 ## DocumentRecognitionSettings.AutoSkew property
 
-获取或设置指示是否应启用自动图像倾斜校正的标志。默认启用（true）。
+获取或设置一个标志，指示是否应启用自动图像倾斜校正。默认启用（true）。
 
 ```csharp
 public bool AutoSkew { set; }

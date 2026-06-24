@@ -1,14 +1,14 @@
 ---
 title: "GetConsumptionCredit"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
-description: "获取消费积分。"
+description: "获取消耗信用。"
 type: docs
 weight: 30
 url: /zh/net/aspose.ocr/metered/getconsumptioncredit/
 ---
 ## Metered.GetConsumptionCredit method
 
-获取消费积分。
+获取消耗信用。
 
 ```csharp
 public static decimal GetConsumptionCredit()

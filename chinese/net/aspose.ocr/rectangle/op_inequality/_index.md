@@ -16,12 +16,12 @@ public static bool operator !=(Rectangle left, Rectangle right)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| left | Rectangle | 不等式运算符左侧的 [`Rectangle`](../../rectangle) 结构。 |
-| right | Rectangle | 不等式运算符右侧的 [`Rectangle`](../../rectangle) 结构。 |
+| left | Rectangle | 位于不等式运算符左侧的 [`Rectangle`](../../rectangle) 结构。 |
+| right | Rectangle | 位于不等式运算符右侧的 [`Rectangle`](../../rectangle) 结构。 |
 
 ### 返回值
 
-如果两个 [`Rectangle`](../../rectangle) 结构的 [`X`](../x)、[`Y`](../y)、[`Width`](../width) 或 [`Height`](../height) 属性中有任意不相等，则此运算符返回 true；否则返回 false。
+如果两个 [`Rectangle`](../../rectangle) 结构的 [`X`](../x)、[`Y`](../y)、[`Width`](../width) 或 [`Height`](../height) 属性中有任何不相等，则此运算符返回 true；否则返回 false。
 
 ### 另见
 

@@ -1,14 +1,14 @@
 ---
 title: "OcrOutput"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
-description: "使用空集合初始化 OcrOutputaspose.ocr/ocroutput 类的新实例。此构造函数调用基类构造函数来初始化空的 RecognitionResultaspose.ocr/recognitionresult 列表。"
+description: "初始化 OcrOutputaspose.ocr/ocroutput 类的一个新实例，使用空集合。此构造函数调用基类构造函数来初始化一个空的 RecognitionResultaspose.ocr/recognitionresult 列表。"
 type: docs
 weight: 10
 url: /zh/net/aspose.ocr/ocroutput/ocroutput/
 ---
 ## OcrOutput() {#constructor}
 
-使用空集合初始化 [`OcrOutput`](../../ocroutput) 类的新实例。此构造函数调用基类构造函数来初始化空的 [`RecognitionResult`](../../recognitionresult) 列表。
+初始化 [`OcrOutput`](../../ocroutput) 类的一个新实例，使用空集合。此构造函数调用基类构造函数来初始化一个空的 [`RecognitionResult`](../../recognitionresult) 列表。
 
 ```csharp
 public OcrOutput()
@@ -24,7 +24,7 @@ public OcrOutput()
 
 ## OcrOutput(IEnumerable&lt;RecognitionResult&gt;, OcrInput) {#constructor_2}
 
-使用指定的 [`RecognitionResult`](../../recognitionresult) 集合初始化 [`OcrOutput`](../../ocroutput) 类的新实例。此构造函数通过复制提供的集合中的元素来创建新的 [`OcrOutput`](../../ocroutput)。
+初始化 [`OcrOutput`](../../ocroutput) 类的一个新实例，使用指定的 [`RecognitionResult`](../../recognitionresult) 集合。此构造函数通过复制提供的集合中的元素来创建新的 [`OcrOutput`](../../ocroutput)。
 
 ```csharp
 public OcrOutput(IEnumerable<RecognitionResult> collection, OcrInput input)
@@ -47,7 +47,7 @@ public OcrOutput(IEnumerable<RecognitionResult> collection, OcrInput input)
 
 ## OcrOutput(int) {#constructor_1}
 
-使用指定的初始容量初始化 [`OcrOutput`](../../ocroutput) 类的新实例。此构造函数创建一个预分配了固定数量元素的 [`OcrOutput`](../../ocroutput)，在事先已知大小时可优化性能。
+使用指定的初始容量初始化 [`OcrOutput`](../../ocroutput) 类的一个新实例。此构造函数创建一个预分配了固定数量元素的 [`OcrOutput`](../../ocroutput)，在提前知道大小时可优化性能。
 
 ```csharp
 public OcrOutput(int capacity)
@@ -55,7 +55,7 @@ public OcrOutput(int capacity)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 容量 | Int32 | 列表的初始容量。该数字表示在重新分配之前列表能够容纳的最大元素数量。 |
+| 容量 | Int32 | 列表的初始容量。该数字表示在重新分配之前，列表能够容纳的最大元素数量。 |
 
 ### 另见
 

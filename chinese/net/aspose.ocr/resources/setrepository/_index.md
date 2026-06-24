@@ -1,7 +1,7 @@
 ---
 title: "SetRepository"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
-description: "指定在线仓库的 URL，以下载 Aspose.OCR 资源。默认情况下，资源从 https//github.com/aspose-ocr/resources/ 下载。"
+description: "指定在线仓库的 URL，Aspose.OCR 资源将从该仓库下载。默认情况下，资源从 https//github.com/aspose-ocr/resources/ 下载。"
 type: docs
 weight: 130
 url: /zh/net/aspose.ocr/resources/setrepository/

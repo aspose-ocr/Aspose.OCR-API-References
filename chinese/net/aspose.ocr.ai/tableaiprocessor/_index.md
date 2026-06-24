@@ -24,7 +24,7 @@ public class TableAIProcessor : IOcrAIPostProcessor
 
 | 名称 | 描述 |
 | --- | --- |
-| [GetResult](../../aspose.ocr.ai/tableaiprocessor/getresult)() | 获取表格检测和结构化后的处理 OCR 结果。 |
+| [GetResult](../../aspose.ocr.ai/tableaiprocessor/getresult)() | 获取表格检测和结构化后的处理过的 OCR 结果。 |
 | [SaveMd](../../aspose.ocr.ai/tableaiprocessor/savemd)(string) | 将提取的结构化表格保存为 Markdown（.md）文件。 |
 | [SaveTxt](../../aspose.ocr.ai/tableaiprocessor/savetxt)(string) | 将提取的表格和处理后的文本结果保存为 TXT 文件。 |
 | [SaveXlsx](../../aspose.ocr.ai/tableaiprocessor/savexlsx)(string) | 将提取的结构化表格保存为 XLSX（Excel）文件。 |

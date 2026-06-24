@@ -16,7 +16,7 @@ public bool IsInitialized()
 
 ### 返回值
 
-如果已初始化则为 true；否则为 false。
+如果已初始化则为 True；否则为 False。
 
 ### 另见
 

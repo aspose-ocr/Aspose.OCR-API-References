@@ -8,7 +8,7 @@ url: /zh/net/aspose.ocr.ai/asposeaimodelconfig/gpulayers/
 ---
 ## AsposeAIModelConfig.GpuLayers property
 
-模型使用的 GPU 层数。如果未指定，将使用默认值（40）。设置为 0 则完全在 CPU 上运行。
+模型使用的 GPU 层数。如果未指定，将使用默认值（40）。设置为 0 可完全在 CPU 上运行。
 
 ```csharp
 public int? GpuLayers { get; set; }

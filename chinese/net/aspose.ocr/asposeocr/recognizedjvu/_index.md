@@ -1,14 +1,14 @@
 ---
 title: "RecognizeDjvu"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
-description: "识别多页 DJVU 图像中的文本。可以指定 DocumentRecognitionSettingsaspose.ocr/documentrecognitionsettings 来识别 DJVU 文件。仅支持 DJVU，不支持其他图像类型。"
+description: "从多页 DJVU 图像中识别文本。识别 DJVU 文件，并可指定 DocumentRecognitionSettings aspose.ocr/documentrecognitionsettings。仅支持 DJVU。不支持其他图像类型。"
 type: docs
 weight: 120
 url: /zh/net/aspose.ocr/asposeocr/recognizedjvu/
 ---
 ## RecognizeDjvu(string, DocumentRecognitionSettings) {#recognizedjvu_1}
 
-识别多页 DJVU 图像中的文本。可以指定 [`DocumentRecognitionSettings`](../../documentrecognitionsettings) 来识别 DJVU 文件。仅支持 DJVU，不支持其他图像类型。
+从多页 DJVU 图像中识别文本。识别 DJVU 文件，并可指定 [`DocumentRecognitionSettings`](../../documentrecognitionsettings)。仅支持 DJVU。不支持其他图像类型。
 
 ```csharp
 public List<RecognitionResult> RecognizeDjvu(string fullPath, DocumentRecognitionSettings settings)
@@ -21,7 +21,7 @@ public List<RecognitionResult> RecognizeDjvu(string fullPath, DocumentRecognitio
 
 ### 返回值
 
-包含图像识别结果的对象列表 [`RecognitionResult`](../../recognitionresult)。
+`[`RecognitionResult`](../../recognitionresult)` 列表，包含图像识别结果的对象。
 
 ### 另见
 
@@ -35,7 +35,7 @@ public List<RecognitionResult> RecognizeDjvu(string fullPath, DocumentRecognitio
 
 ## RecognizeDjvu(MemoryStream, DocumentRecognitionSettings) {#recognizedjvu}
 
-识别多页 DJVU 图像中的文本。可以指定 [`DocumentRecognitionSettings`](../../documentrecognitionsettings) 来识别 DJVU 文件。仅支持 DJVU，不支持其他图像类型。
+从多页 DJVU 图像中识别文本。识别 DJVU 文件，并可指定 [`DocumentRecognitionSettings`](../../documentrecognitionsettings)。仅支持 DJVU。不支持其他图像类型。
 
 ```csharp
 public List<RecognitionResult> RecognizeDjvu(MemoryStream stream, 
@@ -49,7 +49,7 @@ public List<RecognitionResult> RecognizeDjvu(MemoryStream stream,
 
 ### 返回值
 
-包含图像识别结果的对象列表 [`RecognitionResult`](../../recognitionresult)。
+`[`RecognitionResult`](../../recognitionresult)` 列表，包含图像识别结果的对象。
 
 ### 另见
 

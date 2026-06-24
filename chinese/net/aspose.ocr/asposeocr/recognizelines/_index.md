@@ -1,14 +1,14 @@
 ---
 title: "RecognizeLines"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
-description: "识别包含单行文本的图像。 支持 GIF、PNG、JPEG、BMP、TIFF、JFIF、流、文件夹、数组和归档。"
+description: "识别包含单行文本的图像。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF、流、文件夹、数组和归档。"
 type: docs
 weight: 230
 url: /zh/net/aspose.ocr/asposeocr/recognizelines/
 ---
 ## RecognizeLines(OcrInput) {#recognizelines}
 
-识别包含单行文字的图像。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF、流、文件夹、数组、存档。
+识别包含单行文本的图像。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF、流、文件夹、数组、存档。
 
 ```csharp
 public OcrOutput RecognizeLines(OcrInput images)
@@ -20,7 +20,7 @@ public OcrOutput RecognizeLines(OcrInput images)
 
 ### 返回值
 
-包含图像识别结果的 [`RecognitionResult`](../../recognitionresult) 对象列表。
+[`RecognitionResult`](../../recognitionresult) 对象列表，包含图像识别结果。
 
 ### 另见
 
@@ -34,7 +34,7 @@ public OcrOutput RecognizeLines(OcrInput images)
 
 ## RecognizeLines(OcrInput, RecognitionSettings) {#recognizelines_1}
 
-识别包含单行文字的图像。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF、流、文件夹、数组、存档。
+识别包含单行文本的图像。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF、流、文件夹、数组、存档。
 
 ```csharp
 public OcrOutput RecognizeLines(OcrInput images, RecognitionSettings settings)
@@ -47,7 +47,7 @@ public OcrOutput RecognizeLines(OcrInput images, RecognitionSettings settings)
 
 ### 返回值
 
-包含图像识别结果的 [`RecognitionResult`](../../recognitionresult) 对象列表。
+[`RecognitionResult`](../../recognitionresult) 对象列表，包含图像识别结果。
 
 ### 另见
 

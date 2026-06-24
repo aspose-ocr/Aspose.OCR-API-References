@@ -20,11 +20,11 @@ public List<RecognitionResult> RecognizeStreetPhoto(OcrInput input)
 
 ### 返回值
 
-包含图像识别结果的 [`RecognitionResult`](../../recognitionresult) 对象列表。
+[`RecognitionResult`](../../recognitionresult) 对象列表，包含图像识别结果。
 
 ### 备注
 
-从街景照片、交通摄像头图像、身份证、驾驶执照以及其他文本稀疏且背景嘈杂/彩色的图像中提取文本。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF、流、目录、数组和归档。
+从街景照片、交通摄像头图像、身份证、驾驶证以及其他文本稀疏且背景嘈杂/彩色的图像中提取文本。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF、流、目录、数组和归档。
 
 ### 另见
 

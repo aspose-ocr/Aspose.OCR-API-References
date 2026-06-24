@@ -1,7 +1,7 @@
 ---
 title: "RecognizeTables"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
-description: "检测表格并结构化识别文本单元格。 支持 GIF、PNG、JPEG、BMP、TIFF、JFIF 流、目录、数组、存档。"
+description: "检测表格并结构化识别文本单元格。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF 流、目录、数组、存档。"
 type: docs
 weight: 260
 url: /zh/net/aspose.ocr/asposeocr/recognizetables/

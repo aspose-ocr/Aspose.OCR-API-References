@@ -16,7 +16,7 @@ public void ReplaceFilters(PreprocessingFilter filters)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| filters | PreprocessingFilter | 设置的预处理过滤器将用于后续处理或识别。 |
+| filters | PreprocessingFilter | 设置预处理过滤器将用于后续处理或识别。 |
 
 ### 另见
 

@@ -25,7 +25,7 @@ public class AsposeOcrPresets
 | 名称 | 描述 |
 | --- | --- |
 | [Preset](../../aspose.ocr/asposeocrpresets/preset) { get; set; } | 当前选定的 OCR 预设。 |
-| [Settings](../../aspose.ocr/asposeocrpresets/settings) { get; set; } | 获取或设置识别设置。如果未手动设置，将根据所选预设生成设置。 |
+| [Settings](../../aspose.ocr/asposeocrpresets/settings) { get; set; } | 获取或设置识别设置。如果未手动设置，设置将从所选预设生成。 |
 
 ### 另见
 

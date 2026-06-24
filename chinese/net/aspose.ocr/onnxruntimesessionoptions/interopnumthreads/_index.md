@@ -1,14 +1,14 @@
 ---
 title: "InterOpNumThreads"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
-description: "用于并行运行多个操作的线程数。 如果在 ExecutionMode 属性中启用了顺序执行 ExecutionModeOnnx.ORT_SEQUENTIAL，则此值将被忽略。"
+description: "用于并行运行多个操作的线程数。如果在 ExecutionMode 属性中启用了顺序执行 ExecutionModeOnnx.ORT_SEQUENTIAL，则此值将被忽略。"
 type: docs
 weight: 50
 url: /zh/net/aspose.ocr/onnxruntimesessionoptions/interopnumthreads/
 ---
 ## OnnxRuntimeSessionOptions.InterOpNumThreads property
 
-并行运行多个操作的线程数。如果在 ExecutionMode 属性中启用了顺序执行 (ExecutionModeOnnx.ORT_SEQUENTIAL)，则此值会被忽略。
+并行运行多个操作的线程数。如果在 ExecutionMode 属性中启用了顺序执行 (ExecutionModeOnnx.ORT_SEQUENTIAL)，此值将被忽略。
 
 ```csharp
 public static int InterOpNumThreads { get; set; }

@@ -8,7 +8,7 @@ url: /zh/net/aspose.ocr.ai/tableaiprocessor/tableaiprocessor/
 ---
 ## TableAIProcessor constructor
 
-使用指定的表格检测模式初始化 [`TableAIProcessor`](../../tableaiprocessor) 类的新实例。该模式定义了如何检测、结构化并处理识别文本中的表格。
+使用指定的表格检测模式初始化 [`TableAIProcessor`](../../tableaiprocessor) 类的新实例。该模式定义了如何检测、结构化和处理识别文本中的表格。
 
 ```csharp
 public TableAIProcessor(AITableDetectionMode mode = AITableDetectionMode.NONE)
@@ -16,7 +16,7 @@ public TableAIProcessor(AITableDetectionMode mode = AITableDetectionMode.NONE)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| mode | AITableDetectionMode | 要使用的表格检测模式。使用 NONE 将整幅图像作为一个表格处理，且不进行显式检测；使用 AUTO 将自动检测并结构化表格。 |
+| mode | AITableDetectionMode | 要使用的表格检测模式。使用 NONE 将整个图像作为一个表格处理而不进行显式检测，或使用 AUTO 自动检测并结构化表格。 |
 
 ### 另见
 

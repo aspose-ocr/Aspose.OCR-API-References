@@ -31,7 +31,7 @@ public class RecognitionResult
 | [RecognitionRegionsResult](../../aspose.ocr/recognitionresult/recognitionregionsresult) { get; } | 获取包含区域列表（矩形）的识别结果列表。 |
 | [RecognitionText](../../aspose.ocr/recognitionresult/recognitiontext) { get; set; } | 以单个字符串获取识别结果。 |
 | [SerializableImage](../../aspose.ocr/recognitionresult/serializableimage) { get; set; } | 用于 RecognitionResult JSON/二进制序列化的序列化图像负载。存储与 [`Image`](./image) 相同的图像数据，但以一维形式。 |
-| [Warnings](../../aspose.ocr/recognitionresult/warnings) { get; } | 获取描述生成期间出现的非关键故障的警告消息列表。 |
+| [Warnings](../../aspose.ocr/recognitionresult/warnings) { get; } | 获取描述生成过程中出现的非关键错误的警告消息列表。 |
 
 ## Methods
 
@@ -46,7 +46,7 @@ public class RecognitionResult
 | [Save](../../aspose.ocr/recognitionresult/save#save_3)(string, SaveFormat, string, PdfOptimizationMode) | 将文档保存为纯文本、PDF 或 Microsoft Word 文档。 |
 | [Save](../../aspose.ocr/recognitionresult/save#save)(MemoryStream, SaveFormat, bool, SpellCheckLanguage, string, string, PdfOptimizationMode) | 将文档保存为纯文本、PDF 或 Microsoft Word 文档。 |
 | [Save](../../aspose.ocr/recognitionresult/save#save_2)(string, SaveFormat, bool, SpellCheckLanguage, string, string, PdfOptimizationMode) | 将文档保存为纯文本、PDF 或 Microsoft Word 文档。 |
-| [operator +](../../aspose.ocr/recognitionresult/op_addition) | 从识别的片段（行）完成完整结果。 |
+| [operator +](../../aspose.ocr/recognitionresult/op_addition) | 从已识别的片段（行）完成完整结果。 |
 
 ## 其他成员
 

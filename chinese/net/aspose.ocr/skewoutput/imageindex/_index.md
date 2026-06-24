@@ -1,14 +1,14 @@
 ---
 title: "ImageIndex"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
-description: "页面上图像的序号。"
+description: "页面上图像的序列号。"
 type: docs
 weight: 30
 url: /zh/net/aspose.ocr/skewoutput/imageindex/
 ---
 ## SkewOutput.ImageIndex property
 
-页面上图像的序号。
+页面上图像的序列号。
 
 ```csharp
 public int ImageIndex { get; set; }

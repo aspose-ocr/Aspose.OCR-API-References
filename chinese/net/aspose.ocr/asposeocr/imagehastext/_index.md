@@ -29,7 +29,7 @@ public bool ImageHasText(string fullPath, string text, RecognitionSettings setti
 
 ### 备注
 
-识别图像并可以指定 [`RecognitionSettings`](../../recognitionsettings)。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF。
+识别图像，并可指定 [`RecognitionSettings`](../../recognitionsettings)。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF。
 
 ### 另见
 
@@ -52,7 +52,7 @@ public bool ImageHasText(string fullPath, Regex regex, RecognitionSettings setti
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | fullPath | String | 图像的路径。 |
-| 正则表达式 | 正则表达式 | 使用提供的模式和选项的 System.Text.RegularExpressions 对象。 |
+| 正则表达式 | 正则表达式 | 具有提供的模式和选项的 System.Text.RegularExpressions 对象。 |
 | settings | RecognitionSettings | 识别设置。 |
 | autoSkew | Boolean | 启用自动图像倾斜校正。 |
 
@@ -62,7 +62,7 @@ public bool ImageHasText(string fullPath, Regex regex, RecognitionSettings setti
 
 ### 备注
 
-识别图像并可以指定 [`RecognitionSettings`](../../recognitionsettings)。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF。
+识别图像，并可指定 [`RecognitionSettings`](../../recognitionsettings)。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF。
 
 ### 另见
 

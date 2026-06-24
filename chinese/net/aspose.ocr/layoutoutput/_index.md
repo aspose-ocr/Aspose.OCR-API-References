@@ -31,7 +31,7 @@ public class LayoutOutput
 | [Lists](../../aspose.ocr/layoutoutput/lists) { get; set; } | 检测到的列表。 |
 | [Page](../../aspose.ocr/layoutoutput/page) { get; set; } | 多页图像的页码。 |
 | [Paragraphs](../../aspose.ocr/layoutoutput/paragraphs) { get; set; } | 检测到的段落。 |
-| [Source](../../aspose.ocr/layoutoutput/source) { get; set; } | 文件或 URL 的完整路径（如适用）。对于以流、字节数组或 Base64 提供的图像，此字段为空。 |
+| [Source](../../aspose.ocr/layoutoutput/source) { get; set; } | 文件或 URL 的完整路径（如适用）。对于以流、字节数组或 Base64 提供的图像，此项为空。 |
 | [Tables](../../aspose.ocr/layoutoutput/tables) { get; set; } | 检测到的表格。 |
 
 ### 另见

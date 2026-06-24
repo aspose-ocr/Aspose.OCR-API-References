@@ -8,7 +8,7 @@ url: /zh/net/aspose.ocr/asposeocr/recognize/
 ---
 ## Recognize(OcrInput) {#recognize}
 
-识别图像/文档上的文本。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF、流、目录、数组、归档。
+识别图像/文档上的文本。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF、流、目录、数组、存档。
 
 ```csharp
 public OcrOutput Recognize(OcrInput images)
@@ -20,7 +20,7 @@ public OcrOutput Recognize(OcrInput images)
 
 ### 返回值
 
-包含图像识别结果的 [`RecognitionResult`](../../recognitionresult) 对象列表。
+[`RecognitionResult`](../../recognitionresult) 对象列表，包含图像识别结果。
 
 ### 另见
 
@@ -43,7 +43,7 @@ public OcrOutput Recognize(OcrInput images, AsposeOcrPresets preset)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | 图像 | OcrInput | OCR 输入数据（图像、PDF 等）。 |
-| 预设 | AsposeOcrPresets | 所选的包含识别设置的 OCR 预设。 |
+| 预设 | AsposeOcrPresets | 所选的 OCR 预设，包含识别设置。 |
 
 ### 返回值
 
@@ -66,7 +66,7 @@ public OcrOutput Recognize(OcrInput images, AsposeOcrPresets preset)
 
 ## Recognize(OcrInput, RecognitionSettings, CancellationToken) {#recognize_3}
 
-识别图像/文档上的文本。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF、流、目录、数组、归档。
+识别图像/文档上的文本。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF、流、目录、数组、存档。
 
 ```csharp
 public OcrOutput Recognize(OcrInput images, RecognitionSettings settings, 
@@ -81,7 +81,7 @@ public OcrOutput Recognize(OcrInput images, RecognitionSettings settings,
 
 ### 返回值
 
-包含图像识别结果的 [`RecognitionResult`](../../recognitionresult) 对象列表。
+[`RecognitionResult`](../../recognitionresult) 对象列表，包含图像识别结果。
 
 ### 另见
 
@@ -96,7 +96,7 @@ public OcrOutput Recognize(OcrInput images, RecognitionSettings settings,
 
 ## Recognize(OcrInput, RecognitionSettings) {#recognize_2}
 
-识别图像/文档上的文本。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF、流、目录、数组、归档。
+识别图像/文档上的文本。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF、流、目录、数组、存档。
 
 ```csharp
 public OcrOutput Recognize(OcrInput images, RecognitionSettings settings)
@@ -109,7 +109,7 @@ public OcrOutput Recognize(OcrInput images, RecognitionSettings settings)
 
 ### 返回值
 
-包含图像识别结果的 [`RecognitionResult`](../../recognitionresult) 对象列表。
+[`RecognitionResult`](../../recognitionresult) 对象列表，包含图像识别结果。
 
 ### 另见
 

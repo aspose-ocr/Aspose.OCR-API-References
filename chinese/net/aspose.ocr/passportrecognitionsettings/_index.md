@@ -18,8 +18,8 @@ public class PassportRecognitionSettings : BaseRecognitionSettings
 
 | 名称 | 描述 |
 | --- | --- |
-| [PassportRecognitionSettings](passportrecognitionsettings#constructor)() | 使用默认属性集初始化 [`PassportRecognitionSettings`](../passportrecognitionsettings) 类的新实例。 |
-| [PassportRecognitionSettings](passportrecognitionsettings#constructor_1)(Language) | 使用完整属性集初始化 [`PassportRecognitionSettings`](../passportrecognitionsettings) 类的新实例。 |
+| [PassportRecognitionSettings](passportrecognitionsettings#constructor)() | 使用默认属性集初始化一个新的 [`PassportRecognitionSettings`](../passportrecognitionsettings) 类实例。 |
+| [PassportRecognitionSettings](passportrecognitionsettings#constructor_1)(Language) | 使用完整属性集初始化一个新的 [`PassportRecognitionSettings`](../passportrecognitionsettings) 类实例。 |
 
 ## 属性
 
@@ -27,11 +27,11 @@ public class PassportRecognitionSettings : BaseRecognitionSettings
 | --- | --- |
 | [AllowedCharacters](../../aspose.ocr/baserecognitionsettings/allowedcharacters) { get; set; } | 允许字符集。确定识别结果允许的字符类型。 |
 | [AllowedSymbols](../../aspose.ocr/baserecognitionsettings/allowedsymbols) { get; set; } | 使用 alphabet 属性设置允许的字符。 |
-| [AutomaticColorInversion](../../aspose.ocr/baserecognitionsettings/automaticcolorinversion) { get; set; } | 检测白色文字位于深色/黑色背景的图像，并自动为其选择特殊的 OCR 算法。 |
+| [AutomaticColorInversion](../../aspose.ocr/baserecognitionsettings/automaticcolorinversion) { get; set; } | 检测白色文字位于深色/黑色背景的图像，并自动为其选择专用的 OCR 算法。 |
 | [Country](../../aspose.ocr/passportrecognitionsettings/country) { get; set; } | 设置护照识别的模板并提取关键字。 |
 | [IgnoredSymbols](../../aspose.ocr/baserecognitionsettings/ignoredsymbols) { get; set; } | 设置识别符号的黑名单。 |
 | [Language](../../aspose.ocr/baserecognitionsettings/language) { get; set; } | 获取或设置 OCR 使用的语言。确定识别期间使用的字母表。默认多语言。 |
-| [RecognizeVerticalLines](../../aspose.ocr/baserecognitionsettings/recognizeverticallines) { get; set; } | 获取或设置一个值，指示是否应在检测和识别水平文本行之外，检测并识别垂直文本行。默认值为 `false`。 |
+| [RecognizeVerticalLines](../../aspose.ocr/baserecognitionsettings/recognizeverticallines) { get; set; } | 获取或设置一个值，指示是否应在检测和识别水平文本行的基础上检测和识别垂直文本行。默认值为 `false`。 |
 | [ThreadsCount](../../aspose.ocr/baserecognitionsettings/threadscount) { get; set; } | 获取或设置处理的线程数。默认情况下，0 表示图像将使用等于处理器数量的线程数进行处理。ThreadsCount = 1 表示图像将在主线程中处理。 |
 
 ### 另见

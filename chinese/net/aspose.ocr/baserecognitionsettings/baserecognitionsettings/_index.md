@@ -1,7 +1,7 @@
 ---
 title: "BaseRecognitionSettings"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
-description: "初始化 RecognitionSettingsaspose.ocr/recognitionsettings 类的新实例，并包含完整的属性集。"
+description: "使用完整属性集初始化 RecognitionSettingsaspose.ocr/recognitionsettings 类的新实例。"
 type: docs
 weight: 10
 url: /zh/net/aspose.ocr/baserecognitionsettings/baserecognitionsettings/

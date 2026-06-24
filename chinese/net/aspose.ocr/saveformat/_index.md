@@ -20,14 +20,14 @@ public enum SaveFormat
 | --- | --- | --- |
 | Text | `0` | 以纯文本格式保存文档。 |
 | Docx | `1` | 将文档保存为 Office Open XML WordprocessingML 文档（无宏）。 |
-| Pdf | `2` | 将文档保存为可搜索的 PDF（Adobe Portable Document）文档。 |
-| Xlsx | `3` | 将文档保存为 Excel（2007 及更高版本）工作簿文档。 |
+| Pdf | `2` | 将文档保存为 Searchable PDF（Adobe Portable Document）文档。 |
+| Xlsx | `3` | 将文档保存为 Excel（2007 及以后）工作簿文档。 |
 | Xml | `4` | 将文档保存为 XML 文件。 |
 | Json | `5` | 将文档保存为 JSON 文件。 |
 | HTML | `6` | 将文档保存为 HTML 文件。 |
 | EPUB | `7` | 将文档保存为 EPUB 文件。 |
 | RTF | `8` | 将文档保存为 rtf 文件。 |
-| PdfNoImg | `9` | 将文档保存为不含图像的可搜索 PDF（Adobe Portable Document）文档。 |
+| PdfNoImg | `9` | 将文档保存为不含图像的 Searchable PDF（Adobe Portable Document）文档。 |
 | HOCR | `10` | 将文档保存为 hOCR（.html）文件。 |
 | Md | `11` | 将文档保存为 Markdown（.md）文件。如果使用 MULTICOLUMN，图像也将被提取。 |
 | Csv | `12` | 将文档保存为 CSV（.csv）文件。 |

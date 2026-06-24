@@ -1,7 +1,7 @@
 ---
 title: "SetPostProcessor"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
-description: "添加一个将在 OCR 结果上应用的 AI 后处理器。如果提供了 customSettings，将在应用后处理器之前自动加载并配置指定的或默认的 AI 模型。"
+description: "添加一个将在 OCR 结果上应用的 AI 后处理器。如果提供了 customSettings，则将在应用后处理器之前自动加载并配置指定的或默认的 AI 模型。"
 type: docs
 weight: 80
 url: /zh/net/aspose.ocr.ai/asposeai/setpostprocessor/

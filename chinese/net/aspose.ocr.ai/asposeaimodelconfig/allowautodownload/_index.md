@@ -8,7 +8,7 @@ url: /zh/net/aspose.ocr.ai/asposeaimodelconfig/allowautodownload/
 ---
 ## AsposeAIModelConfig.AllowAutoDownload property
 
-如果为 true，则模型将在本地不可用时自动下载。
+如果为 true，模型将在本地不可用时自动下载。
 
 ```csharp
 public bool AllowAutoDownload { get; set; }

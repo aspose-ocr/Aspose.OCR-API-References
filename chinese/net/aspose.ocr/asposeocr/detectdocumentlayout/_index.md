@@ -8,7 +8,7 @@ url: /zh/net/aspose.ocr/asposeocr/detectdocumentlayout/
 ---
 ## AsposeOcr.DetectDocumentLayout method
 
-分析图像并识别其中不同类型的内容区域。支持来自文件、流和像素数组的 PNG、JPEG、BMP、TIFF、JFIF 和 GIF 图像。可以批量处理文件夹和归档。
+分析图像并识别其中不同类型的内容区域。支持来自文件、流和像素数组的 PNG、JPEG、BMP、TIFF、JFIF 和 GIF 图像。可以批量处理文件夹和存档。
 
 ```csharp
 public List<LayoutOutput> DetectDocumentLayout(OcrInput images)

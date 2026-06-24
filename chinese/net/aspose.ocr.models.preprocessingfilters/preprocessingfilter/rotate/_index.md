@@ -16,7 +16,7 @@ public static PreprocessingFilter Rotate(float angle)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 角度 | 单精度 | 旋转角度。范围从 -360 到 360 |
+| 角度 | 单精度 | 旋转角度。范围 -360 到 360 |
 
 ### 返回值
 
@@ -40,7 +40,7 @@ public static PreprocessingFilter Rotate(float angle, Rectangle area)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 角度 | 单精度 | 旋转角度。范围从 -360 到 360 |
+| 角度 | 单精度 | 旋转角度。范围 -360 到 360 |
 | 区域 | Rectangle | 要校正的图像部分的坐标。 |
 
 ### 返回值

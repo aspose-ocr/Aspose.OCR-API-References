@@ -21,11 +21,11 @@ public enum OcrPreset
 | None | `0` | 无预设。使用默认设置。 |
 | StandardDocument | `1` | 具有多列的标准文档，例如文章或书籍。 |
 | Receipt | `2` | 包含总金额和项目的收据或账单布局。 |
-| CarPlate | `3` | 字符集受限的车辆牌照。 |
+| CarPlate | `3` | 具有受限字符集的车辆车牌。 |
 | HandwrittenNote | `4` | 手写笔记和非正式文本。 |
 | TableForm | `5` | 表格文档，例如表单或电子表格。 |
 | Passport | `6` | 护照的机器可读区（MRZ）和个人数据。 |
-| FastText | `7` | 快速识别，最小化布局分析。 |
+| FastText | `7` | 快速识别，布局分析最小化。 |
 | StreetPhoto | `8` | 包含文字的街景照片（例如，标志、店面）。 |
 
 ### 另见

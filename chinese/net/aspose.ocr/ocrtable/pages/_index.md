@@ -16,7 +16,7 @@ public List<OCRTablePage> Pages { get; set; }
 
 ### 备注
 
-每个元素对应单个 OCR 页面，并包含检测到的行和单元格。
+每个元素对应一个 OCR 页面，并包含检测到的行和单元格。
 
 ### 另见
 

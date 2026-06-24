@@ -1,7 +1,7 @@
 ---
 title: "RunPostprocessor"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
-description: "将已注册的 AI 后处理器应用于给定的结构化 OCR 结果。这可能包括拼写纠正、表格检测、表格格式化以及其他基于 AI 的增强功能，具体取决于配置的处理器。"
+description: "对给定的结构化 OCR 结果应用已注册的 AI 后处理器。这可能包括拼写纠正、表格检测、表格格式化以及其他基于 AI 的增强功能，具体取决于配置的处理器。"
 type: docs
 weight: 70
 url: /zh/net/aspose.ocr.ai/asposeai/runpostprocessor/
@@ -37,7 +37,7 @@ public void RunPostprocessor(List<string> res)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| res | List`1 | 识别字符串的列表。 |
+| res | List`1 | 已识别字符串的列表。 |
 
 ### 另见
 

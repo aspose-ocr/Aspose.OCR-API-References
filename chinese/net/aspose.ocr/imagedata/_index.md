@@ -1,14 +1,14 @@
 ---
 title: "ImageData"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
-description: "有关已处理/已识别图像的信息。"
+description: "已处理/已识别图像的信息。"
 type: docs
 weight: 300
 url: /zh/net/aspose.ocr/imagedata/
 ---
 ## ImageData class
 
-有关已处理/已识别图像的信息。
+已处理/已识别图像的信息。
 
 ```csharp
 public class ImageData

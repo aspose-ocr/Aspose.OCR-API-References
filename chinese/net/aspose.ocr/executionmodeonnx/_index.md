@@ -1,14 +1,14 @@
 ---
 title: "ExecutionModeOnnx"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
-description: "控制是逐个执行图中的算子还是并发执行。"
+description: "控制是逐个执行图中的算子还是并行执行。"
 type: docs
 weight: 240
 url: /zh/net/aspose.ocr/executionmodeonnx/
 ---
 ## ExecutionModeOnnx enumeration
 
-控制是逐个执行图中的算子还是并发执行。
+控制是逐个执行图中的算子还是并行执行。
 
 ```csharp
 public enum ExecutionModeOnnx

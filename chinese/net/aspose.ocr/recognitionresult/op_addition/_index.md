@@ -1,14 +1,14 @@
 ---
 title: "op_Addition"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
-description: "完成来自已识别片段行的完整结果。"
+description: "完成已识别片段行的完整结果。"
 type: docs
 weight: 160
 url: /zh/net/aspose.ocr/recognitionresult/op_addition/
 ---
 ## RecognitionResult Addition operator
 
-从识别的片段（行）完成完整结果。
+从已识别的片段（行）完成完整结果。
 
 ```csharp
 public static RecognitionResult operator +(RecognitionResult main, RecognitionResult part)

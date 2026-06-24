@@ -1,14 +1,14 @@
 ---
 title: "Process"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
-description: "使用此 AI 后处理器处理 OCR 结果，可选地在指定模式或区域中检测表格。"
+description: "使用此 AI 后处理器处理 OCR 结果，可选地在指定模式或区域内检测表格。"
 type: docs
 weight: 10
 url: /zh/net/aspose.ocr.ai/iocraipostprocessor/process/
 ---
 ## Process(OcrOutput) {#process}
 
-使用此 AI 后处理器处理 OCR 结果，可选地在指定模式或区域检测表格。
+使用此 AI 后处理器处理 OCR 结果，可选地在指定模式或区域内检测表格。
 
 ```csharp
 public void Process(OcrOutput results)

@@ -1,14 +1,14 @@
 ---
 title: "RecognizeInvoice"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
-description: "识别发票上的文字。"
+description: "识别发票上的文本。"
 type: docs
 weight: 220
 url: /zh/net/aspose.ocr/asposeocr/recognizeinvoice/
 ---
 ## RecognizeInvoice(OcrInput) {#recognizeinvoice}
 
-识别发票上的文字。
+识别发票上的文本。
 
 ```csharp
 public OcrOutput RecognizeInvoice(OcrInput images)
@@ -20,11 +20,11 @@ public OcrOutput RecognizeInvoice(OcrInput images)
 
 ### 返回值
 
-包含图像识别结果的 [`RecognitionResult`](../../recognitionresult) 对象列表。
+[`RecognitionResult`](../../recognitionresult) 对象列表，包含图像识别结果。
 
 ### 备注
 
-识别发票并可以指定 [`InvoiceRecognitionSettings`](../../invoicerecognitionsettings)。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF、流、目录、数组、存档。
+识别发票，并可指定 [`InvoiceRecognitionSettings`](../../invoicerecognitionsettings)。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF、流、目录、数组、存档。
 
 ### 另见
 
@@ -38,7 +38,7 @@ public OcrOutput RecognizeInvoice(OcrInput images)
 
 ## RecognizeInvoice(OcrInput, InvoiceRecognitionSettings) {#recognizeinvoice_1}
 
-识别发票上的文字。
+识别发票上的文本。
 
 ```csharp
 public OcrOutput RecognizeInvoice(OcrInput images, InvoiceRecognitionSettings settings)
@@ -51,11 +51,11 @@ public OcrOutput RecognizeInvoice(OcrInput images, InvoiceRecognitionSettings se
 
 ### 返回值
 
-包含图像识别结果的 [`RecognitionResult`](../../recognitionresult) 对象列表。
+[`RecognitionResult`](../../recognitionresult) 对象列表，包含图像识别结果。
 
 ### 备注
 
-识别发票并可以指定 [`InvoiceRecognitionSettings`](../../invoicerecognitionsettings)。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF、流、目录、数组、存档。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF、流、目录、数组、存档。
+识别发票，并可指定 [`InvoiceRecognitionSettings`](../../invoicerecognitionsettings)。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF、流、目录、数组、存档。支持 GIF、PNG、JPEG、BMP、TIFF、JFIF、流、目录、数组、存档。
 
 ### 另见
 

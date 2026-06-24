@@ -1,14 +1,14 @@
 ---
 title: "DetectAreas"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
-description: "获取或设置一个标志，指示是否应启用自动文本区域检测。启用文档结构识别模块。这会增加处理图像的时间和内存消耗，但在复杂情况下提供更准确的结果。将其设置为 false 可加快图像处理速度，或在结构简单的图像情况下使用。"
+description: "获取或设置一个标志，指示是否应启用自动文本区域检测。启用文档结构识别模块。这会增加处理图像的时间和内存消耗，但在复杂情况下提供更准确的结果。将其设为 false 可加快图像处理，或在图像结构简单时使用。"
 type: docs
 weight: 20
 url: /zh/net/aspose.ocr/recognitionsettings/detectareas/
 ---
 ## RecognitionSettings.DetectAreas property
 
-获取或设置一个标志，指示是否应启用自动文本区域检测。启用文档结构识别模块。这会增加处理图像的时间和内存消耗，但在复杂情况下提供更准确的结果。禁用（设置为 false）可加快图像处理速度，或在结构简单的图像情况下使用。
+获取或设置一个标志，指示是否应启用自动文本区域检测。启用文档结构识别模块。这会增加处理图像的时间和内存消耗，但在复杂情况下提供更准确的结果。禁用（设为 false）可加快图像处理，或在图像结构简单时使用。
 
 ```csharp
 public bool DetectAreas { set; }

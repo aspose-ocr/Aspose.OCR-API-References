@@ -25,7 +25,7 @@ public class OCRTableCell
 | 名称 | 描述 |
 | --- | --- |
 | [ColumnIndex](../../aspose.ocr/ocrtablecell/columnindex) { get; set; } | 此单元格所属列的零基索引。 |
-| [Text](../../aspose.ocr/ocrtablecell/text) { get; set; } | 单元格中识别的文本内容。 |
+| [Text](../../aspose.ocr/ocrtablecell/text) { get; set; } | 单元格识别的文本内容。 |
 
 ### 备注
 

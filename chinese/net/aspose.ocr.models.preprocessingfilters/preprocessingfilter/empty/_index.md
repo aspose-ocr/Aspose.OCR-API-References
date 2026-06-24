@@ -1,14 +1,14 @@
 ---
 title: "空"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
-description: "空过滤器集合"
+description: "空的过滤器集合"
 type: docs
 weight: 30
 url: /zh/net/aspose.ocr.models.preprocessingfilters/preprocessingfilter/empty/
 ---
 ## PreprocessingFilter.Empty property
 
-空过滤器集合
+空的过滤器集合
 
 ```csharp
 public static PreprocessingFilter Empty { get; }

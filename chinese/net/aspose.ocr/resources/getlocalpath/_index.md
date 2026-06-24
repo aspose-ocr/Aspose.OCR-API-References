@@ -1,14 +1,14 @@
 ---
 title: "GetLocalPath"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
-description: "返回资源将被下载到的目录的完整路径。"
+description: "返回资源将被下载的目录的完整路径。"
 type: docs
 weight: 60
 url: /zh/net/aspose.ocr/resources/getlocalpath/
 ---
 ## Resources.GetLocalPath method
 
-返回资源将被下载到的目录的完整路径。
+返回资源将被下载的目录的完整路径。
 
 ```csharp
 public static string GetLocalPath()

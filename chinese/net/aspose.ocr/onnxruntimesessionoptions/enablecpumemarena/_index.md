@@ -1,14 +1,14 @@
 ---
 title: "EnableCpuMemArena"
 second_title: "Aspose.OCR 适用于 .NET 的 API 参考"
-description: "启用或禁用 ONNX Runtime 使用的 CPU 内存 arena 分配器。 启用时，内存会被池化并复用以提升性能，但在多线程场景下可能导致内存消耗增加。 禁用可在牺牲性能的情况下降低峰值内存使用。"
+description: "启用或禁用 ONNX Runtime 使用的 CPU 内存 arena 分配器。启用后，内存会被池化并复用以提升性能，但在多线程场景下可能导致内存消耗增加。禁用可在牺牲性能的情况下降低峰值内存使用。"
 type: docs
 weight: 10
 url: /zh/net/aspose.ocr/onnxruntimesessionoptions/enablecpumemarena/
 ---
 ## OnnxRuntimeSessionOptions.EnableCpuMemArena property
 
-启用或禁用 ONNX Runtime 使用的 CPU 内存 arena 分配器。启用后，内存会被池化并重复使用以提升性能，但在多线程场景下可能导致内存消耗增加。禁用可在性能下降的情况下降低峰值内存使用。
+启用或禁用 ONNX Runtime 使用的 CPU 内存 arena 分配器。启用后，内存会被池化并复用以获得更好性能，但在多线程场景下可能导致内存消耗增加。禁用可在牺牲性能的情况下降低峰值内存使用。
 
 ```csharp
 public static bool EnableCpuMemArena { get; set; }

@@ -16,7 +16,7 @@ public static void RemoveLocal(string name)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 名称 | String | 包含资源名称的字符串。参见 ListRemote 方法。 |
+| 名称 | String | 包含资源名称的字符串。请参阅 ListRemote 方法。 |
 
 ### 另见
 
