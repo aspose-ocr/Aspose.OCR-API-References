@@ -1,13 +1,13 @@
 ---
 title: "RecognitionSettings"
-second_title: "مرجع API لـ Aspose.OCR للبايثون عبر جافا"
+second_title: "Aspose.OCR للـ Python عبر Java مرجع API"
 description: 
 type: docs
 weight: 191
 url: /ar/python-java/aspose/recognitionsettings/
 ---
 
-Module recognitionsettings
+الوحدة recognitionsettings
 ==========================
 
 الفئات
@@ -21,7 +21,7 @@ Module recognitionsettings
 `JAVA_CLASS_NAME`
 :
 
-### طرق
+### الطرق
 
 `set_allowed_characters(self, allowedCharacters: str)`
 :
@@ -35,7 +35,7 @@ Module recognitionsettings
 
 `set_language(self, language: aspose.models.Language)`
 :
-يضبط اللغة المستخدمة للتعرف الضوئي على الأحرف.
+يضبط اللغة المستخدمة في OCR.
 متعدد اللغات (بدون) بشكل افتراضي.
 @param language: يحتوي على قيمة تعداد Language.
 
@@ -54,7 +54,7 @@ ThreadsCount = 1 يعني أن الصورة ستُعالج في الخيط ال�
 `JAVA_CLASS_NAME`
 :
 
-### طرق
+### الطرق
 
 `set_allowed_characters(self, allowedCharacters: str)`
 :
@@ -63,7 +63,7 @@ ThreadsCount = 1 يعني أن الصورة ستُعالج في الخيط ال�
 
 `set_automatic_color_inversion(self, automaticColorInversion: bool)`
 :
-يكشف عن الصور التي تحتوي على نص أبيض على خلفية داكنة/سوداء ويختار تلقائيًا خوارزمية OCR خاصة لها.
+يكتشف الصور التي تحتوي على نص أبيض على خلفية داكنة/سوداء ويختار تلقائيًا خوارزمية OCR خاصة لها.
 @param automaticColorInversion: يحتوي على قيمة منطقية - تم تعيين automaticColorInversion. صحيح بشكل افتراضي.
 
 `set_ignored_characters(self, ignoredCharacters: str)`
@@ -73,7 +73,7 @@ ThreadsCount = 1 يعني أن الصورة ستُعالج في الخيط ال�
 
 `set_language(self, language: aspose.models.Language)`
 :
-يضبط اللغة المستخدمة للتعرف الضوئي على الأحرف.
+يضبط اللغة المستخدمة في OCR.
 متعدد اللغات (بدون) بشكل افتراضي.
 @param language: يحتوي على قيمة تعداد Language.
 
@@ -98,7 +98,7 @@ ThreadsCount = 1 يعني أن الصورة ستُعالج في الخيط ال�
 `JAVA_CLASS_NAME`
 :
 
-### طرق
+### الطرق
 
 `set_allowed_characters(self, allowedCharacters: str)`
 :
@@ -107,7 +107,7 @@ ThreadsCount = 1 يعني أن الصورة ستُعالج في الخيط ال�
 
 `set_automatic_color_inversion(self, automaticColorInversion: bool)`
 :
-يكشف عن الصور التي تحتوي على نص أبيض على خلفية داكنة/سوداء ويختار تلقائيًا خوارزمية OCR خاصة لها.
+يكتشف الصور التي تحتوي على نص أبيض على خلفية داكنة/سوداء ويختار تلقائيًا خوارزمية OCR خاصة لها.
 @param automaticColorInversion: يحتوي على قيمة منطقية - تم تعيين automaticColorInversion. صحيح بشكل افتراضي.
 
 `set_ignored_characters(self, ignoredCharacters: str)`
@@ -117,7 +117,7 @@ ThreadsCount = 1 يعني أن الصورة ستُعالج في الخيط ال�
 
 `set_language(self, language: aspose.models.Language)`
 :
-يضبط اللغة المستخدمة للتعرف الضوئي على الأحرف.
+يضبط اللغة المستخدمة في OCR.
 متعدد اللغات (بدون) بشكل افتراضي.
 @param language: يحتوي على قيمة تعداد Language.
 
@@ -142,7 +142,7 @@ ThreadsCount = 1 يعني أن الصورة ستُعالج في الخيط ال�
 `JAVA_CLASS_NAME`
 :
 
-### طرق
+### الطرق
 
 `set_allowed_characters(self, allowedCharacters: str)`
 :
@@ -151,7 +151,7 @@ ThreadsCount = 1 يعني أن الصورة ستُعالج في الخيط ال�
 
 `set_automatic_color_inversion(self, automaticColorInversion: bool)`
 :
-يكشف عن الصور التي تحتوي على نص أبيض على خلفية داكنة/سوداء ويختار تلقائيًا خوارزمية OCR خاصة لها.
+يكتشف الصور التي تحتوي على نص أبيض على خلفية داكنة/سوداء ويختار تلقائيًا خوارزمية OCR خاصة لها.
 @param automaticColorInversion: يحتوي على قيمة منطقية - تم تعيين automaticColorInversion. صحيح بشكل افتراضي.
 
 `set_ignored_characters(self, ignoredCharacters: str)`
@@ -161,7 +161,7 @@ ThreadsCount = 1 يعني أن الصورة ستُعالج في الخيط ال�
 
 `set_language(self, language: aspose.models.Language)`
 :
-يضبط اللغة المستخدمة للتعرف الضوئي على الأحرف.
+يضبط اللغة المستخدمة في OCR.
 متعدد اللغات (بدون) بشكل افتراضي.
 @param language: يحتوي على قيمة تعداد Language.
 
@@ -186,7 +186,7 @@ ThreadsCount = 1 يعني أن الصورة ستُعالج في الخيط ال�
 `JAVA_CLASS_NAME`
 :
 
-### طرق
+### الطرق
 
 `set_allowed_characters(self, allowedCharacters: str)`
 :
@@ -195,7 +195,7 @@ ThreadsCount = 1 يعني أن الصورة ستُعالج في الخيط ال�
 
 `set_automatic_color_inversion(self, automaticColorInversion: bool)`
 :
-يكشف عن الصور التي تحتوي على نص أبيض على خلفية داكنة/سوداء ويختار تلقائيًا خوارزمية OCR خاصة لها.
+يكتشف الصور التي تحتوي على نص أبيض على خلفية داكنة/سوداء ويختار تلقائيًا خوارزمية OCR خاصة لها.
 @param automaticColorInversion: يحتوي على قيمة منطقية - تم تعيين automaticColorInversion. صحيح بشكل افتراضي.
 
 `set_ignored_characters(self, ignoredCharacters: str)`
@@ -205,7 +205,7 @@ ThreadsCount = 1 يعني أن الصورة ستُعالج في الخيط ال�
 
 `set_language(self, language: aspose.models.Language)`
 :
-يضبط اللغة المستخدمة للتعرف الضوئي على الأحرف.
+يضبط اللغة المستخدمة في OCR.
 متعدد اللغات (بدون) بشكل افتراضي.
 @param language: يحتوي على قيمة تعداد Language.
 
@@ -235,7 +235,7 @@ ThreadsCount = 1 يعني أن الصورة ستُعالج في الخيط ال�
 `JAVA_CLASS_NAME`
 :
 
-### طرق
+### الطرق
 
 `set_allowed_characters(self, allowedCharacters: str)`
 :
@@ -244,7 +244,7 @@ ThreadsCount = 1 يعني أن الصورة ستُعالج في الخيط ال�
 
 `set_automatic_color_inversion(self, automaticColorInversion: bool)`
 :
-يكشف عن الصور التي تحتوي على نص أبيض على خلفية داكنة/سوداء ويختار تلقائيًا خوارزمية OCR خاصة لها.
+يكتشف الصور التي تحتوي على نص أبيض على خلفية داكنة/سوداء ويختار تلقائيًا خوارزمية OCR خاصة لها.
 @param automaticColorInversion: يحتوي على قيمة منطقية - تم تعيين automaticColorInversion. صحيح بشكل افتراضي.
 
 `set_detect_areas_mode(self, detectAreasMode: aspose.models.DetectAreasMode)`
@@ -259,17 +259,17 @@ ThreadsCount = 1 يعني أن الصورة ستُعالج في الخيط ال�
 
 `set_language(self, language: aspose.models.Language)`
 :
-يضبط اللغة المستخدمة للتعرف الضوئي على الأحرف.
+يضبط اللغة المستخدمة في OCR.
 متعدد اللغات (بدون) بشكل افتراضي.
 @param language: يحتوي على قيمة تعداد Language.
 
 `set_recognize_single_line(self, recognizeSingleLine: bool)`
 :
-يضبط التعرف على الصورة ذات السطر الواحد.
+يضبط التعرف على الصور ذات السطر الواحد.
 معطل (false) بشكل افتراضي.
 تعطيل جميع خطوات المعالجة المرتبطة بتقسيم الصورة إلى أسطر.
-عيّن هذا المعامل إلى true إذا كانت صورتك تحتوي على سطر واحد فقط. يعطل إعدادات set_recognition_areas، لذا سيتم تجاهل جميع إعدادات المناطق.
-@param recognizeSingleLine: True لصورة سطر واحد
+قم بتعيين هذه المعلمة إلى true إذا كانت صورتك تحتوي على سطر واحد فقط. يعطل إعدادات set_recognition_areas، لذا سيتم تجاهل جميع إعدادات المناطق.
+@param recognizeSingleLine: True للصور ذات السطر الواحد
 
 `set_threads_count(self, threadsCount: int)`
 :

@@ -1,6 +1,6 @@
 ---
 title: "RecognitionResult"
-second_title: "مرجع API لـ Aspose.OCR للبايثون عبر جافا"
+second_title: "Aspose.OCR للـ Python عبر Java مرجع API"
 description: 
 type: docs
 weight: 171
@@ -20,7 +20,7 @@ url: /ar/python-java/aspose/recognitionresult/
 
     * aspose.helper.BaseJavaClass
 
-### طرق
+### الطرق
 
 `initParams(self)`
 :
@@ -30,7 +30,7 @@ url: /ar/python-java/aspose/recognitionresult/
 نتائج التعرف على الصورة. يحتوي على عناصر مع التعرف
 معلومات وطرق لتصدير النتيجة.
 
-### طرق ثابتة
+### الطرق الثابتة
 
 `save_multipage_document(self, fullPath: str)`
 :
@@ -44,14 +44,14 @@ url: /ar/python-java/aspose/recognitionresult/
 `recognition_lines_result`
 :   يحصل على قائمة نتائج التعرف مع قائمة من الصفوف (مستطيلات).
 
-### طرق
+### الطرق
 
 `getJavaClass(self)`
 :
 
 `get_json(self)`
 :
-شكل سلسلة JSON مع نتائج التعرف.
+تكوين سلسلة JSON مع نتائج التعرف.
 @return: نتائج التعرف كسلسلة JSON.
 
 `get_spell_check_corrected_text(self, language: aspose.models.SpellCheckLanguage) ‑> str`
@@ -62,14 +62,14 @@ url: /ar/python-java/aspose/recognitionresult/
 
 `get_spell_check_error_list(self, language: aspose.models.SpellCheckLanguage = SpellCheckLanguage.ENG)`
 :
-ابحث عن الكلمات المكتوبة بشكل خاطئ مع الاقتراحات الإملائية لنص الإدخال المعطى.
+ابحث عن الكلمات المكتوبة خطأ مع الاقتراحات الإملائية لنص الإدخال المعطى.
 @param language: القاموس للاستخدام.
-@return: قائمة من كائن SpellCheckError تمثل الكلمات المكتوبة بشكل خاطئ مع قوائم الاقتراحات الصحيحة لكل كلمة مكتوبة بشكل خاطئ،
+@return: قائمة كائنات SpellCheckError تمثل الكلمات المكتوبة خطأ مع قوائم الاقتراحات الصحيحة لكل كلمة مكتوبة خطأ،
 ومع مسافة التحرير.
 
 `get_xml(self)`
 :
-شكل سلسلة JSON مع نتائج التعرف.
+تكوين سلسلة JSON مع نتائج التعرف.
 @return: نتائج التعرف كسلسلة XML.
 
 `init(self)`
@@ -87,22 +87,22 @@ url: /ar/python-java/aspose/recognitionresult/
 يحفظ النص المصحح في المستند كنص عادي أو بأي تنسيق آخر.
 @param fullFileName: اسم الملف مع المسار لحفظ نتيجة التعرف
 @param format: نوع تعداد تنسيق المستند من Format.
-@param language: القاموس لتصحيح الإملاء.
+@param language: القاموس لتدقيق الإملاء.
 
 `use_user_dictionary(self, dictionaryPath: str)`
 :
-يسمح باستخدام القاموس الخاص لتصحيح الأخطاء الإملائية.
-@param dictionaryPath: المسار الكامل إلى القاموس المستخدم (قاموس التردد).
+يسمح باستخدام القاموس الخاص لتصحيح التدقيق الإملائي.
+@param dictionaryPath: المسار الكامل إلى قاموس المستخدم (قاموس التردد).
 تنسيق ملف القاموس:
 ملف نص عادي بترميز UTF-8.
 الكلمة وتردد الكلمة مفصولان بفاصلة، من المتوقع أن تكون الكلمة في العمود الأول والتردد في العمود الثاني.
-كل زوج كلمة‑تردد في سطر منفصل. يُعرّف السطر على أنه تسلسل من الأحرف يتبعه إشارة سطر جديد ("
-"), إشارة عودة السطر ("
-\"),
-أو عودة سطر متبوعة مباشرةً بانتقال سطر(\"
+كل زوج كلمة-تردد في سطر منفصل. يُعرّف السطر بأنه تسلسل من الأحرف يتبعه تغذية سطر (\"
+\"), عودة السطر (\"
+"),
+أو عودة سطر متبوعة مباشرةً بانتقال سطر("
 
-\").
-من المتوقع أن تكون كل كلمة بأحرف صغيرة.
+").
+من المتوقع أن تكون كل كلمة بحروف صغيرة.
 مثال:
 \code
 كلمة,5984819
@@ -112,38 +112,38 @@ url: /ar/python-java/aspose/recognitionresult/
 
 `RectangleOutput(javaClass)`
 :
-بيانات حول مناطق النص أو السطور المكتشفة.
+بيانات حول مناطق النص المكتشفة أو الأسطر.
 \code
-source - المسار الكامل للملف أو URL، إن وجد. فارغ للمُدَخلات، مصفوفات البايت، base64.
-page - رقم الصفحة.
+المصدر - المسار الكامل للملف أو URL، إذا كان موجودًا. فارغ للتيارات، مصفوفات البايت، base64.
+الصفحة - رقم الصفحة.
 image_index - رقم تسلسل الصورة في الصفحة.
-rectangles - قائمة المناطق النصية المكتشفة أو الخطوط.
+المستطيلات - قائمة المناطق النصية المكتشفة أو الخطوط.
 \endcode
 
 ### الأسلاف (في MRO)
 
     * aspose.helper.BaseJavaClass
 
-### طرق
+### الطرق
 
 `initParams(self)`
 :
 
 `SkewOutput(javaClass)`
 :
-بيانات حول زاوية الانحراف بالدرجات واسم الملف.
+بيانات حول زاوية الميل بالدرجات واسم الملف.
 \code
-source - المسار الكامل للملف أو URL، إن وجد. فارغ للمُدَخلات، مصفوفات البايت، base64.
-page - رقم الصفحة.
+المصدر - المسار الكامل للملف أو URL، إذا كان موجودًا. فارغ للتيارات، مصفوفات البايت، base64.
+الصفحة - رقم الصفحة.
 image_index - رقم تسلسل الصورة في الصفحة.
-angle - زاوية الانحراف بالدرجات.
+الزاوية - زاوية الميل بالدرجات.
 \endcode
 
 ### الأسلاف (في MRO)
 
     * aspose.helper.BaseJavaClass
 
-### طرق
+### الطرق
 
 `initParams(self)`
 :
