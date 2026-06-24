@@ -1,6 +1,6 @@
 ---
-title: "Aspose.OCR 用于 Python 通过 Java"
-second_title: "Aspose.OCR 用于 Python 通过 Java API 参考"
+title: "Aspose.OCR 用于 Python via Java"
+second_title: "Aspose.OCR 用于 Python via Java API 参考"
 description: 
 type: docs
 weight: 11
