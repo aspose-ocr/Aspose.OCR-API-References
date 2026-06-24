@@ -15,10 +15,10 @@ url: /ar/python-net/aspose.ocr/regionresult
 ## الخصائص
 | الاسم | الوصف |
 | :- | :- |
-| text_in_region | النص المعترف به من المنطقة. |
+| text_in_region | النص المُعترف به من المنطقة. |
 | region | إحداثيات المنطقة. (مستطيلات). |
 
-### انظر أيضاً
+### انظر أيضًا
 
 * namespace [aspose.ocr](/ocr/python-net/aspose.ocr/)
 * assembly [Aspose.ocr](/ocr/python-net/)

@@ -11,13 +11,13 @@ url: /ar/python-net/aspose.ocr/ocroutput/
 
 
 
-نوع OcrOutput يعرض الأعضاء التالية:
-## المُنشئات
+يعرض نوع OcrOutput الأعضاء التالية:
+## المنشئات
 | الاسم | الوصف |
 | :- | :- |
-| OcrOutput() | ينشئ مثيلاً جديداً لفئة OcrOutput |
-| OcrOutput(collection, input) | ينشئ مثيلاً جديداً لفئة OcrOutput |
-| OcrOutput(capacity) | ينشئ مثيلاً جديداً لفئة OcrOutput |
+| OcrOutput() | ينشئ مثلاً جديداً من الفئة OcrOutput |
+| OcrOutput(collection, input) | ينشئ مثلاً جديداً من الفئة OcrOutput |
+| OcrOutput(capacity) | ينشئ مثلاً جديداً من الفئة OcrOutput |
 ## Methods
 | الاسم | الوصف |
 | :- | :- |
@@ -32,7 +32,7 @@ url: /ar/python-net/aspose.ocr/ocroutput/
 | add_range(collection) |  |
 | get_table_data() |  |
 
-### انظر أيضاً
+### انظر أيضًا
 
 * namespace [aspose.ocr](/ocr/python-net/aspose.ocr/)
 * assembly [Aspose.ocr](/ocr/python-net/)

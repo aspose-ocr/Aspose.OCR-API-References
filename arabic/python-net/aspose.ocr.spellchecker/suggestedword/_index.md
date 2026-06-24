@@ -12,7 +12,7 @@ url: /ar/python-net/aspose.ocr.spellchecker/suggestedword/
 اقتراح إملائي تم إرجاعه من GetSpellCheckErrorList.
 
 يعرض نوع SuggestedWord الأعضاء التالية:
-## المُنشئات
+## المنشئات
 | الاسم | الوصف |
 | :- | :- |
 | SuggestedWord() | ينشئ مثيلاً جديداً من الفئة SuggestedWord |
@@ -22,7 +22,7 @@ url: /ar/python-net/aspose.ocr.spellchecker/suggestedword/
 | كلمة | الكلمة المقترحة المكتوبة بشكل صحيح. |
 | المسافة | المسافة بين البحث والاقتراح. |
 
-### انظر أيضاً
+### انظر أيضًا
 
 * namespace [aspose.ocr.spellchecker](/ocr/python-net/aspose.ocr.spellchecker/)
 * assembly [Aspose.ocr](/ocr/python-net/)

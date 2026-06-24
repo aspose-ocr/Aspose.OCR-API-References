@@ -12,7 +12,7 @@ url: /ar/python-net/aspose.ocr/contentarea/
 
 
 نوع ContentArea يعرض الأعضاء التالية:
-## المُنشئات
+## المنشئات
 | الاسم | الوصف |
 | :- | :- |
 | ContentArea() | ينشئ مثيلاً جديداً من الفئة ContentArea |
@@ -22,7 +22,7 @@ url: /ar/python-net/aspose.ocr/contentarea/
 | index |  |
 | rectangle |  |
 
-### انظر أيضاً
+### انظر أيضًا
 
 * namespace [aspose.ocr](/ocr/python-net/aspose.ocr/)
 * assembly [Aspose.ocr](/ocr/python-net/)

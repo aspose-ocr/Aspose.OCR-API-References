@@ -19,7 +19,7 @@ url: /ar/python-net/aspose.ocr/logginglevel/
 | ERROR | سيتم عرض الأخطاء فقط. |
 | بدون | تعطيل التسجيل (الافتراضي). |
 
-### انظر أيضاً
+### انظر أيضًا
 
 * namespace [aspose.ocr](/ocr/python-net/aspose.ocr/)
 * assembly [Aspose.OCR](/ocr/python-net/)

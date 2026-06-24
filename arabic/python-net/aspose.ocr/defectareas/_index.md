@@ -12,17 +12,17 @@ url: /ar/python-net/aspose.ocr/defectareas/
 مناطق الصورة التي تحتوي على نوع معين من العيوب.
 
 نوع DefectAreas يعرض الأعضاء التالية:
-## المُنشئات
+## المنشئات
 | الاسم | الوصف |
 | :- | :- |
-| DefectAreas() | ينشئ مثيلاً جديداً من فئة DefectAreas |
+| DefectAreas() | ينشئ مثيلاً جديدًا لفئة DefectAreas |
 ## الخصائص
 | الاسم | الوصف |
 | :- | :- |
-| defect_type | نوع العيب. |
+| نوع_الخلل | نوع العيب. |
 | مستطيلات | مناطق الصورة التي تم العثور على العيب فيها |
 
-### انظر أيضاً
+### انظر أيضًا
 
 * namespace [aspose.ocr](/ocr/python-net/aspose.ocr/)
 * assembly [Aspose.ocr](/ocr/python-net/)

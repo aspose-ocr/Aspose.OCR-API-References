@@ -11,19 +11,19 @@ url: /ar/python-net/aspose.ocr/characterrecognitionresult/
 
 صفحات تحتوي على بيانات الأحرف المكتشفة.
 
-نوع CharacterRecognitionResult يكشف عن الأعضاء التالية:
-## المُنشئات
+نوع CharacterRecognitionResult يعرض الأعضاء التالية:
+## المنشئات
 | الاسم | الوصف |
 | :- | :- |
-| CharacterRecognitionResult() | يقوم بإنشاء نسخة جديدة من فئة CharacterRecognitionResult |
+| CharacterRecognitionResult() | ينشئ مثيلًا جديدًا من فئة CharacterRecognitionResult |
 ## الخصائص
 | الاسم | الوصف |
 | :- | :- |
-| المصدر | المسار الكامل إلى الملف أو URL، إذا كان موجوداً. فارغ للتيارات، مصفوفات البايت، base64. |
+| المصدر | المسار الكامل للملف أو URL، إن وجد. فارغ للتيارات، مصفوفات البايت، base64. |
 | الصفحة | رقم الصفحة. |
 | الأحرف | بيانات حول الأحرف المكتشفة في الصفحة. |
 
-### انظر أيضاً
+### انظر أيضًا
 
 * namespace [aspose.ocr](/ocr/python-net/aspose.ocr/)
 * assembly [Aspose.ocr](/ocr/python-net/)

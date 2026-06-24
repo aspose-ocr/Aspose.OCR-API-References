@@ -12,17 +12,17 @@ url: /ar/python-net/aspose.ocr/asposeocrpresets/
 
 
 يعرض نوع AsposeOcrPresets الأعضاء التالية:
-## المُنشئات
+## المنشئات
 | الاسم | الوصف |
 | :- | :- |
-| AsposeOcrPresets() | ينشئ مثيلاً جديداً من فئة AsposeOcrPresets |
+| AsposeOcrPresets() | ينشئ مثيلاً جديداً لفئة AsposeOcrPresets |
 ## الخصائص
 | الاسم | الوصف |
 | :- | :- |
 | preset |  | [OcrPreset](/ocr/python-net/aspose.ocr/ocrpreset/) |
 | settings | [BaseRecognitionSettings](/ocr/python-net/aspose.ocr/baserecognitionsettings/) |
 
-### انظر أيضاً
+### انظر أيضًا
 
 * namespace [aspose.ocr](/ocr/python-net/aspose.ocr/)
 * assembly [Aspose.ocr](/ocr/python-net/)

@@ -19,10 +19,10 @@ url: /ar/python-net/aspose.ocr/recognitionresult/
 | :- | :- |
 | recognition_regions_result | يحصل على قائمة بنتائج التعرف مع قائمة بالمناطق (مستطيلات). |
 | recognition_lines_result | يحصل على قائمة من نتائج التعرف مع قائمة من الصفوف (المستطيلات). |
-| recognition_characters_list | مجموعة من الأحرف التي وجدها خوارزمية التعرف وتم ترتيبها بترتيب تنازلي حسب الاحتمال. |
+| recognition_characters_list | مجموعة من الأحرف التي وجدت بواسطة خوارزمية التعرف ومرتبة بترتيب تنازلي حسب الاحتمال. |
 | recognition_text | يحصل على نتيجة التعرف في سلسلة واحدة. |
 | file_name | المسار الكامل للملف. |
-| warnings | يحصل على قائمة رسائل التحذير التي تصف الأخطاء غير الحرجة التي ظهرت أثناء الإنشاء. |
+| warnings | يحصل على قائمة برسائل التحذير التي تصف الأخطاء غير الحرجة التي ظهرت أثناء الإنشاء. |
 | serializable_image |  |
 ## Methods
 | الاسم | الوصف |
@@ -36,9 +36,9 @@ url: /ar/python-net/aspose.ocr/recognitionresult/
 | get_spell_check_error_list(language, dictionary_path) | ابحث عن الكلمات المكتوبة خطأ مع الاقتراحات الإملائية لنص مدخل معين. |
 | get_json(is_readable) | كوّن سلسلة JSON مع نتائج التعرف. |
 | get_xml() | كوّن سلسلة XML مع نتائج التعرف. |
-| get_keywords() | احصل على الكلمات المفتاحية من جواز السفر (وضع الاختبار. يعمل فقط لجوازات السفر الأمريكية ومدغشقر). |
+| get_keywords() | احصل على الكلمات المفتاحية من جواز السفر (وضع الاختبار. يعمل فقط لجوازات السفر الأمريكية وماداغاسكار). |
 
-### انظر أيضاً
+### انظر أيضًا
 
 * namespace [aspose.ocr](/ocr/python-net/aspose.ocr/)
 * assembly [Aspose.ocr](/ocr/python-net/)

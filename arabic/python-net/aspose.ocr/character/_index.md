@@ -11,18 +11,18 @@ url: /ar/python-net/aspose.ocr/character/
 
 بيانات حول الحرف المكتشف.
 
-يظهر نوع Character الأعضاء التالية:
-## المُنشئات
+يُظهر نوع Character الأعضاء التالية:
+## المنشئات
 | الاسم | الوصف |
 | :- | :- |
-| Character() | ينشئ مثيلًا جديدًا من فئة Character. |
+| Character() | يُنشئ مثيلًا جديدًا من فئة Character |
 ## الخصائص
 | الاسم | الوصف |
 | :- | :- |
 | value | تم اكتشاف الحرف. |
 | الإحداثيات | إحداثيات الحرف. |
 
-### انظر أيضاً
+### انظر أيضًا
 
 * namespace [aspose.ocr](/ocr/python-net/aspose.ocr/)
 * assembly [Aspose.ocr](/ocr/python-net/)

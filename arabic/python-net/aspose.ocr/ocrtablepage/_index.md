@@ -12,16 +12,16 @@ url: /ar/python-net/aspose.ocr/ocrtablepage/
 
 
 يعرض نوع OCRTablePage الأعضاء التالية:
-## المُنشئات
+## المنشئات
 | الاسم | الوصف |
 | :- | :- |
-| OCRTablePage() | ينشئ مثيلاً جديداً من فئة OCRTablePage |
+| OCRTablePage() | ينشئ مثيلاً جديداً لفئة OCRTablePage |
 ## الخصائص
 | الاسم | الوصف |
 | :- | :- |
 | جداول |  |
 
-### انظر أيضاً
+### انظر أيضًا
 
 * namespace [aspose.ocr](/ocr/python-net/aspose.ocr/)
 * assembly [Aspose.ocr](/ocr/python-net/)
