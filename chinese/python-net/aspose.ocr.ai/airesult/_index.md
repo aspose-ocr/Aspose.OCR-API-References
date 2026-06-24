@@ -1,6 +1,6 @@
 ---
 title: "AIResult"
-second_title: "Aspose.OCR 用于 Python via .NET API 参考"
+second_title: "适用于 Python via .NET 的 Aspose.OCR API 参考"
 description: 
 type: docs
 weight: 10
@@ -11,7 +11,7 @@ url: /zh/python-net/aspose.ocr.ai/airesult/
 
 
 
-该 AIResult 类型公开以下成员:
+AIResult 类型公开以下成员：
 ## 构造函数
 | 名称 | 描述 |
 | :- | :- |

@@ -1,6 +1,6 @@
 ---
-title: "Aspose.OCR 用于 Python via .NET"
-second_title: "Aspose.OCR 用于 Python via .NET API 参考"
+title: "适用于 Python via .NET 的 Aspose.OCR"
+second_title: "适用于 Python via .NET 的 Aspose.OCR API 参考"
 description: 
 type: docs
 weight: 10
@@ -15,4 +15,4 @@ url: /zh/python-net/
 | [aspose.ocr.filters](/ocr/python-net/aspose.ocr.filters/) | 包含插值，用于缩放图像。 |
 |[aspose.ocr.models](/ocr/python-net/aspose.ocr.models/)||
 | [aspose.ocr.models.preprocessingfilters](/ocr/python-net/aspose.ocr.models.preprocessingfilters/) | 包含图像处理命令的基类。 |
-| [aspose.ocr.spellchecker](/ocr/python-net/aspose.ocr.spellchecker/) | 包含用于纠正拼写错误文本的类。 |
+| [aspose.ocr.spellchecker](/ocr/python-net/aspose.ocr.spellchecker/) | 包含用于拼写错误文本校正的类。 |

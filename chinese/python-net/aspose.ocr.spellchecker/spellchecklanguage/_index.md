@@ -1,6 +1,6 @@
 ---
 title: "SpellCheckLanguage"
-second_title: "Aspose.OCR 用于 Python via .NET API 参考"
+second_title: "适用于 Python via .NET 的 Aspose.OCR API 参考"
 description: 
 type: docs
 weight: 30
@@ -9,7 +9,7 @@ url: /zh/python-net/aspose.ocr.spellchecker/spellchecklanguage/
 
 ## SpellCheckLanguage enumeration
 
-用于拼写检查的语言（现有词典）。
+用于 SpellCheck 的语言（现有字典）。
 
 ## Members
 | 成员名称 | 描述 |

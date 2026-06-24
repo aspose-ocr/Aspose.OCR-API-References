@@ -1,6 +1,6 @@
 ---
 title: "AsposeAI"
-second_title: "Aspose.OCR 用于 Python via .NET API 参考"
+second_title: "适用于 Python via .NET 的 Aspose.OCR API 参考"
 description: 
 type: docs
 weight: 20
@@ -11,13 +11,13 @@ url: /zh/python-net/aspose.ocr.ai/asposeai/
 
 
 
-该 AsposeAI 类型公开以下成员:
+AsposeAI 类型公开以下成员：
 ## 构造函数
 | 名称 | 描述 |
 | :- | :- |
 | AsposeAI() | 初始化 AsposeAI 类的新实例 |
 | AsposeAI(logging) | 初始化 AsposeAI 类的新实例 |
-## 方法
+## Methods
 | 名称 | 描述 |
 | :- | :- |
 | run_postprocessor(res) |  |

@@ -1,6 +1,6 @@
 ---
 title: "CharacterRecognitionResult"
-second_title: "Aspose.OCR 用于 Python via .NET API 参考"
+second_title: "适用于 Python via .NET 的 Aspose.OCR API 参考"
 description: 
 type: docs
 weight: 60
@@ -21,7 +21,7 @@ CharacterRecognitionResult 类型公开以下成员：
 | :- | :- |
 | source | 文件或 URL 的完整路径（如果有）。对于流、字节数组、base64 为空。 |
 | page | 页码。 |
-| 字符 | 页面上检测到的字符数据。 |
+| characters | 页面上检测到的字符数据。 |
 
 ### 另请参见
 

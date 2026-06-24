@@ -1,6 +1,6 @@
 ---
 title: "OCRTableCell"
-second_title: "Aspose.OCR 用于 Python via .NET API 参考"
+second_title: "适用于 Python via .NET 的 Aspose.OCR API 参考"
 description: 
 type: docs
 weight: 210
@@ -15,7 +15,7 @@ OCRTableCell 类型公开以下成员：
 ## 构造函数
 | 名称 | 描述 |
 | :- | :- |
-| OCRTableCell() | 初始化 OCRTableCell 类的新实例。 |
+| OCRTableCell() | 初始化 OCRTableCell 类的新实例 |
 ## 属性
 | 名称 | 描述 |
 | :- | :- |

@@ -1,6 +1,6 @@
 ---
 title: "LoggingLevel"
-second_title: "Aspose.OCR 用于 Python via .NET API 参考"
+second_title: "适用于 Python via .NET 的 Aspose.OCR API 参考"
 description: 
 type: docs
 weight: 600
@@ -14,8 +14,8 @@ url: /zh/python-net/aspose.ocr/logginglevel/
 ## Members
 | 成员名称 | 描述 |
 | :- | :- |
-| DEBUG | 将显示所有日志。 |
-| WARNING | 将显示一些非关键点和所有错误。 |
+| DEBUG | 所有日志将被显示。 |
+| WARNING | 一些非关键点和所有错误将被显示。 |
 | ERROR | 仅显示错误。 |
 | NONE | 禁用日志记录（默认）。 |
 

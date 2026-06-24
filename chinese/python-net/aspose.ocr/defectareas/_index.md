@@ -1,6 +1,6 @@
 ---
 title: "DefectAreas"
-second_title: "Aspose.OCR 用于 Python via .NET API 参考"
+second_title: "适用于 Python via .NET 的 Aspose.OCR API 参考"
 description: 
 type: docs
 weight: 80
@@ -11,7 +11,7 @@ url: /zh/python-net/aspose.ocr/defectareas/
 
 包含特定类型缺陷的图像区域。
 
-DefectAreas 类型公开以下成员：
+该 DefectAreas 类型公开以下成员：
 ## 构造函数
 | 名称 | 描述 |
 | :- | :- |

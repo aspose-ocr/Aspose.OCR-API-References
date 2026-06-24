@@ -1,6 +1,6 @@
 ---
 title: "Logging"
-second_title: "Aspose.OCR 用于 Python via .NET API 参考"
+second_title: "适用于 Python via .NET 的 Aspose.OCR API 参考"
 description: 
 type: docs
 weight: 180
@@ -17,7 +17,7 @@ Logging 类型公开以下成员：
 | :- | :- |
 | logging_level | 设置或获取日志级别 |
 | console | 设置或获取 - 日志显示在控制台上。 |
-| file_system | 设置或获取 - 日志保存到文件中（默认路径 "Aspose.OCR.log.txt"）。 |
+| file_system | 设置或获取 - 日志保存到文件中（默认路径为 "Aspose.OCR.log.txt"）。 |
 | log_file_path | 设置或获取日志文件的路径和名称。 |
 
 ### 另请参见

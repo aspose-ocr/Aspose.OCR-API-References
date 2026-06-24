@@ -1,6 +1,6 @@
 ---
 title: "IOcrAIPostProcessor"
-second_title: "Aspose.OCR 用于 Python via .NET API 参考"
+second_title: "适用于 Python via .NET 的 Aspose.OCR API 参考"
 description: 
 type: docs
 weight: 40
@@ -12,7 +12,7 @@ url: /zh/python-net/aspose.ocr.ai/iocraipostprocessor/
 
 
 IOcrAIPostProcessor 类型公开以下成员：
-## 方法
+## Methods
 | 名称 | 描述 |
 | :- | :- |
 | process(results) |  |

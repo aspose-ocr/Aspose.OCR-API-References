@@ -1,6 +1,6 @@
 ---
 title: "SpellCheckAIProcessor"
-second_title: "Aspose.OCR 用于 Python via .NET API 参考"
+second_title: "适用于 Python via .NET 的 Aspose.OCR API 参考"
 description: 
 type: docs
 weight: 30
@@ -11,12 +11,12 @@ url: /zh/python-net/aspose.ocr.ai/spellcheckaiprocessor/
 
 
 
-该 SpellCheckAIProcessor 类型公开以下成员:
+SpellCheckAIProcessor 类型公开以下成员：
 ## 构造函数
 | 名称 | 描述 |
 | :- | :- |
 | SpellCheckAIProcessor() | 初始化 SpellCheckAIProcessor 类的新实例 |
-## 方法
+## Methods
 | 名称 | 描述 |
 | :- | :- |
 | get_result() |  |

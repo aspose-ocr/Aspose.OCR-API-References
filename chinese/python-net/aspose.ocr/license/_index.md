@@ -1,6 +1,6 @@
 ---
-title: "License"
-second_title: "Aspose.OCR 用于 Python via .NET API 参考"
+title: "许可证"
+second_title: "适用于 Python via .NET 的 Aspose.OCR API 参考"
 description: 
 type: docs
 weight: 170
@@ -20,7 +20,7 @@ License 类型公开以下成员：
 | 名称 | 描述 |
 | :- | :- |
 | is_licensed | 获取一个值，指示产品是否已授权。 |
-## 方法
+## Methods
 | 名称 | 描述 |
 | :- | :- |
 | set_license(license_name) | 为组件授权。 |

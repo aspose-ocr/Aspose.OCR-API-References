@@ -1,6 +1,6 @@
 ---
 title: "aspose.ocr.spellchecker"
-second_title: "Aspose.OCR 用于 Python via .NET API 参考"
+second_title: "适用于 Python via .NET 的 Aspose.OCR API 参考"
 description: 
 type: docs
 weight: 70
@@ -8,7 +8,7 @@ url: /zh/python-net/aspose.ocr.spellchecker/
 ---
 
 
-包含用于纠正拼写错误文本的类。
+包含用于拼写错误文本校正的类。
 
 ## 类
 | 类 | 描述 |
@@ -18,4 +18,4 @@ url: /zh/python-net/aspose.ocr.spellchecker/
 ## 枚举
 | 枚举类型 | 描述 |
 | :- | :- |
-| [SpellCheckLanguage](/ocr/python-net/aspose.ocr.spellchecker/spellchecklanguage/) | 用于拼写检查的语言（现有词典）。 |
+| [SpellCheckLanguage](/ocr/python-net/aspose.ocr.spellchecker/spellchecklanguage/) | 用于 SpellCheck 的语言（现有字典）。 |

@@ -1,6 +1,6 @@
 ---
 title: "CharactersAllowedType"
-second_title: "Aspose.OCR 用于 Python via .NET API 参考"
+second_title: "适用于 Python via .NET 的 Aspose.OCR API 参考"
 description: 
 type: docs
 weight: 510
@@ -14,7 +14,7 @@ url: /zh/python-net/aspose.ocr/charactersallowedtype/
 ## Members
 | 成员名称 | 描述 |
 | :- | :- |
-| 全部 | 识别所有字符。 |
+| ALL | 识别所有字符。 |
 | LATIN_ALPHABET | 仅在字符是拉丁字母时进行识别。 |
 | 数字 | 仅在字符是十六进制数字时进行识别。 |
 

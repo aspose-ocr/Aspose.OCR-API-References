@@ -1,6 +1,6 @@
 ---
 title: "SuggestedWord"
-second_title: "Aspose.OCR 用于 Python via .NET API 参考"
+second_title: "适用于 Python via .NET 的 Aspose.OCR API 参考"
 description: 
 type: docs
 weight: 20
@@ -19,7 +19,7 @@ SuggestedWord 类型公开以下成员：
 ## 属性
 | 名称 | 描述 |
 | :- | :- |
-| 单词 | 建议的正确拼写单词。 |
+| word | 建议的正确拼写单词。 |
 | distance | 搜索词与建议之间的距离。 |
 
 ### 另请参见

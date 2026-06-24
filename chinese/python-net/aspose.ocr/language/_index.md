@@ -1,6 +1,6 @@
 ---
 title: "Language"
-second_title: "Aspose.OCR 用于 Python via .NET API 参考"
+second_title: "适用于 Python via .NET 的 Aspose.OCR API 参考"
 description: 
 type: docs
 weight: 580
@@ -9,7 +9,7 @@ url: /zh/python-net/aspose.ocr/language/
 
 ## Language enumeration
 
-用于 OCR 的语言。<br/>            ISO 939-3 代码。
+用于 OCR 的语言。<br/> ISO 939-3 代码。
 
 ## Members
 | 成员名称 | 描述 |
@@ -33,11 +33,11 @@ url: /zh/python-net/aspose.ocr/language/
 | NOR | 挪威字母表 |
 | POL | 波兰字母表 |
 | RON | 罗马尼亚字母表 |
-| HBS | 塞尔维亚-克罗地亚字母表 |
+| HBS | 塞尔维亚克罗地亚字母表 |
 | SLK | 斯洛伐克字母表 |
 | SLV | 斯洛文尼亚字母表 |
 | SWE | 瑞典字母表 |
-| CHINESE |  |
+| 中文 |  |
 | BEL | 白俄罗斯字母表 |
 | BUL | 保加利亚字母表 |
 | KAZ | 哈萨克字母表 |
@@ -61,7 +61,7 @@ url: /zh/python-net/aspose.ocr/language/
 | HAK | 客家语字母表 |
 | BHO | 博杰普里语字母表 |
 | MAI | 迈蒂利语字母表 |
-| TGL | 塔加洛语（菲律宾语）字母表 |
+| TGL | 塔加路语（Pilipino）字母表 |
 | YOR | 约鲁巴语字母表 |
 | GAX | 奥罗莫语字母表 |
 | CEB | 宿务语字母表 |
@@ -77,7 +77,7 @@ url: /zh/python-net/aspose.ocr/language/
 | TUK | 土库曼语字母表 |
 | SOM | 索马里语字母表 |
 | RWR | 马尔瓦里语字母表 |
-| MAG | 马嘎希语字母表 |
+| MAG | 马加希语字母表 |
 | BGC | 哈里亚纳语字母表 |
 | HUN | 匈牙利语（马扎尔语）字母表 |
 | HNE | Chattisgarhi (Laria, Khaltahi) 字母表 |
@@ -93,38 +93,38 @@ url: /zh/python-net/aspose.ocr/language/
 | HMN | Hmong 字母表 |
 | SNA | Shona (Karanga) 字母表 |
 | KNN | Konkani 字母表 |
-| XHO | 科萨语字母表 |
-| BEW | 巴塔维语字母表 |
-| BJJ | 卡纳乌吉语字母表 |
-| ALN | 阿尔巴尼亚语字母表 |
-| CAT | 加泰罗尼亚语字母表 |
-| AFR | 阿非利卡语字母表 |
-| MIN | 米南佳保语字母表 |
-| SOT | 索托语（南部）字母表 |
-| BCL | 比科尔语字母表 |
-| WTM | 梅瓦蒂语字母表 |
-| VMW | 马库亚语（马库瓦）字母表 |
-| KNC | 卡努里语字母表 |
-| TSN | 茨瓦纳字母表 |
-| KON | 基孔戈字母表 |
-| LUO | 卢奥字母表 |
-| SUK | 苏库马字母表 |
-| TSO | 聪加字母表 |
-| BEM | 班巴 (Chibemba) 字母表 |
-| KLN | 南迪字母表 |
-| PLM | 巴勒姆邦字母表 |
-| UMB | 翁本杜字母表 |
-| NSO | 索托 (Northern) 字母表 |
-| WAR | 瓦赖-瓦赖字母表 |
-| RJB | 拉贾班什字母表 |
-| GBM | 加尔瓦利字母表 |
-| LMN | Lamani（Lambadi）字母表 |
+| XHO | Xhosa 字母表 |
+| BEW | Betawi 字母表 |
+| BJJ | Kanauji 字母表 |
+| ALN | Albanian 字母表 |
+| CAT | Catalan 字母表 |
+| AFR | Afrikaans 字母表 |
+| MIN | Minangkabau 字母表 |
+| SOT | Sotho (南部) 字母表 |
+| BCL | Bikol 字母表 |
+| WTM | Mewati 字母表 |
+| VMW | Makua (Makhuwa) 字母表 |
+| KNC | Kanuri 字母表 |
+| TSN | Tswana 字母表 |
+| KON | Kikongo 字母表 |
+| LUO | Luo 字母表 |
+| SUK | Sukuma 字母表 |
+| TSO | Tsonga 字母表 |
+| BEM | Bemba (Chibemba) 字母表 |
+| KLN | Nandi 字母表 |
+| PLM | Palembang 字母表 |
+| UMB | Umbundu 字母表 |
+| NSO | Sotho (Northern) 字母表 |
+| WAR | Waray-Waray 字母表 |
+| RJB | Rajbanshi 字母表 |
+| GBM | Garhwali 字母表 |
+| LMN | Lamani (Lambadi) 字母表 |
 | NDS | 低地德语字母表 |
 | GLK | 吉拉基字母表 |
 | MUI | 穆西字母表 |
 | CPX | 莆仙字母表 |
 | PAM | 卡潘潘甘字母表 |
-| PCC | Bouyei（Buyi, Giáy）字母表 |
+| PCC | Bouyei (Buyi, Giáy) 字母表 |
 | KFY | 库马尼字母表 |
 | GLG | 加利西亚字母表 |
 | NBL | 恩德贝勒字母表 |
@@ -144,7 +144,7 @@ url: /zh/python-net/aspose.ocr/language/
 | LNC | 奥克语字母表 |
 | CHE | 车臣语字母表 |
 | TOI | 汤加字母表 |
-| MTQ | 蒙字母表 |
+| MTQ | 莫翁字母表 |
 | QUC | 基切字母表 |
 | MUP | 马尔维字母表 |
 | MTR | 梅瓦蒂字母表 |

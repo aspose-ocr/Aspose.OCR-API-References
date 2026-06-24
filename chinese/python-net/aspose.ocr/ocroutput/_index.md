@@ -1,6 +1,6 @@
 ---
 title: "OcrOutput"
-second_title: "Aspose.OCR 用于 Python via .NET API 参考"
+second_title: "适用于 Python via .NET 的 Aspose.OCR API 参考"
 description: 
 type: docs
 weight: 250
@@ -17,8 +17,8 @@ OcrOutput 类型公开以下成员：
 | :- | :- |
 | OcrOutput() | 初始化 OcrOutput 类的新实例 |
 | OcrOutput(collection, input) | 初始化 OcrOutput 类的新实例 |
-| OcrOutput(capacity) | 初始化 OcrOutput 类的新实例 |
-## 方法
+| OcrOutput(容量) | 初始化 OcrOutput 类的新实例 |
+## Methods
 | 名称 | 描述 |
 | :- | :- |
 | save_pdf(full_file_name, embedded_font_path, optimize_pdf) |  |
