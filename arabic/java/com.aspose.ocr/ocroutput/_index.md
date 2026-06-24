@@ -12,17 +12,17 @@ java.lang.Object, java.util.AbstractCollection, java.util.AbstractList, java.uti
 ```
 public class OcrOutput extends ArrayList<RecognitionResult>
 ```
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [OcrOutput()](#OcrOutput) | ينشئ نسخة جديدة من فئة OcrOutput بمجموعة فارغة. |
-## الطرق
+| [OcrOutput()](#OcrOutput) | يفّتح مثيلًا جديدًا من فئة OcrOutput بمجموعة فارغة. |
+## الدوال
 
-| طريقة | الوصف |
+| الدالة | الوصف |
 | --- | --- |
 
-| [getTableData()](#getTableData) | يرجع بيانات جدولية منظمة مستخرجة من جميع الصفحات المعترف بها. |
+| [getTableData()](#getTableData) | يعيد بيانات جدولية منظمة مستخرجة من جميع الصفحات المعترف بها. |
 | [save(OutputStream stream)](#save-java.io.OutputStream) | احفظ جميع نتائج التعرف إلى تدفق ذاكرة بالصيغة المحددة. |
 | [save(OutputStream stream, Format saveFormat)](#save-java.io.OutputStream-com.aspose.ocr.models.Format) | احفظ جميع نتائج التعرف إلى تدفق ذاكرة بالصيغة المحددة. |
 | [save(OutputStream stream, Format saveFormat, String embeddedFontPath, PdfOptimizationMode optimizePdf)](#save-java.io.OutputStream-com.aspose.ocr.models.Format-java.lang.String-com.aspose.ocr.models.PdfOptimizationMode) | احفظ جميع نتائج التعرف إلى تدفق ذاكرة بالصيغة المحددة. |
@@ -31,8 +31,8 @@ public class OcrOutput extends ArrayList<RecognitionResult>
 | [save(String fullFileName, Format saveFormat, String embeddedFontPath, PdfOptimizationMode optimizePdf)](#save-java.lang.String-com.aspose.ocr.models.Format-java.lang.String-com.aspose.ocr.models.PdfOptimizationMode) | احفظ جميع نتائج التعرف في ملف. |
 | [savePdf(OutputStream stream)](#savePdf-java.io.OutputStream) | احفظ جميع نتائج التعرف في مستند PDF قابل للبحث في الذاكرة، مع تضمين الصور الأصلية كخلفية. |
 | [savePdf(OutputStream stream, String embeddedFontPath, PdfOptimizationMode optimizePdf)](#savePdf-java.io.OutputStream-java.lang.String-com.aspose.ocr.models.PdfOptimizationMode) | احفظ جميع نتائج التعرف في مستند PDF قابل للبحث في الذاكرة، مع تضمين الصور الأصلية كخلفية. |
-| [savePdf(String fullFileName)](#savePdf-java.lang.String) | احفظ جميع نتائج التعرف في ملف PDF قابل للبحث، مع وضع الصور الأصلية كخلفية. |
-| [savePdf(String fullFileName, String embeddedFontPath, PdfOptimizationMode optimizePdf)](#savePdf-java.lang.String-java.lang.String-com.aspose.ocr.models.PdfOptimizationMode) | احفظ جميع نتائج التعرف في ملف PDF قابل للبحث، مع وضع الصور الأصلية كخلفية. |
+| [savePdf(String fullFileName)](#savePdf-java.lang.String) | احفظ جميع نتائج التعرف في ملف PDF قابل للبحث، مع تعيين الصور الأصلية كخلفية. |
+| [savePdf(String fullFileName, String embeddedFontPath, PdfOptimizationMode optimizePdf)](#savePdf-java.lang.String-java.lang.String-com.aspose.ocr.models.PdfOptimizationMode) | احفظ جميع نتائج التعرف في ملف PDF قابل للبحث، مع تعيين الصور الأصلية كخلفية. |
 
 ### getTableData() {#getTableData}
 ```
@@ -40,9 +40,9 @@ public OCRTable getTableData()
 ```
 
 
-يرجع بيانات جدولية منظمة مستخرجة من جميع الصفحات المعترف بها.
+يعيد بيانات جدولية منظمة مستخرجة من جميع الصفحات المعترف بها.
 
-كل صفحة تحتوي على صفوف، وكل صف يحتوي على خلايا بنص مُعترف به ومعلومات موقع اختيارية.
+كل صفحة تحتوي على صفوف، وكل صف يحتوي على خلايا بالنص المعترف به ومعلومات الموقع الاختيارية.
 
 **Returns:**
 [OCRTable](../../com.aspose.ocr.models/ocrtable/) - an [OCRTable](../../com.aspose.ocr.models/ocrtable/) structure representing all tables in the document
@@ -102,7 +102,7 @@ public void save(String fullFileName)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| fullFileName | java.lang.String | اسم الملف مع المسار لحفظ نتيجة التعرف بالتنسيق المحدد. |
+| fullFileName | java.lang.String | اسم الملف مع مسار لحفظ نتيجة التعرف بالتنسيق المحدد. |
 
 ### save(String fullFileName, Format saveFormat) {#save-java.lang.String-com.aspose.ocr.models.Format}
 ```
@@ -115,7 +115,7 @@ public void save(String fullFileName, Format saveFormat)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| fullFileName | java.lang.String | اسم الملف مع المسار لحفظ نتيجة التعرف بالتنسيق المحدد. |
+| fullFileName | java.lang.String | اسم الملف مع مسار لحفظ نتيجة التعرف بالتنسيق المحدد. |
 | saveFormat | [Format](../../com.aspose.ocr.models/format/) | تنسيق المستند (Docx, Txt, Pdf, Xlsx, Rtf, Json, Xml, Epub). |
 
 ### save(String fullFileName, Format saveFormat, String embeddedFontPath, PdfOptimizationMode optimizePdf) {#save-java.lang.String-com.aspose.ocr.models.Format-java.lang.String-com.aspose.ocr.models.PdfOptimizationMode}
@@ -129,7 +129,7 @@ public void save(String fullFileName, Format saveFormat, String embeddedFontPath
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| fullFileName | java.lang.String | اسم الملف مع المسار لحفظ نتيجة التعرف بالتنسيق المحدد. |
+| fullFileName | java.lang.String | اسم الملف مع مسار لحفظ نتيجة التعرف بالتنسيق المحدد. |
 | saveFormat | [Format](../../com.aspose.ocr.models/format/) | تنسيق المستند (Docx, Txt, Pdf, Xlsx, Rtf, Json, Xml, Epub). |
 | embeddedFontPath | java.lang.String | اختياري. المسار الكامل إلى خط المستخدم. |
 | optimizePdf | [PdfOptimizationMode](../../com.aspose.ocr.models/pdfoptimizationmode/) | قلل حجم ملف PDF عن طريق خفض جودة الصور الخلفية. بشكل افتراضي، يتم الحفاظ على جودة الصورة الأصلية. |
@@ -168,12 +168,12 @@ public void savePdf(String fullFileName)
 ```
 
 
-احفظ جميع نتائج التعرف في ملف PDF قابل للبحث، مع وضع الصور الأصلية كخلفية.
+احفظ جميع نتائج التعرف في ملف PDF قابل للبحث، مع تعيين الصور الأصلية كخلفية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| fullFileName | java.lang.String | اسم الملف مع المسار لحفظ نتيجة التعرف بالتنسيق المحدد. |
+| fullFileName | java.lang.String | اسم الملف مع مسار لحفظ نتيجة التعرف بالتنسيق المحدد. |
 
 ### savePdf(String fullFileName, String embeddedFontPath, PdfOptimizationMode optimizePdf) {#savePdf-java.lang.String-java.lang.String-com.aspose.ocr.models.PdfOptimizationMode}
 ```
@@ -181,12 +181,12 @@ public void savePdf(String fullFileName, String embeddedFontPath, PdfOptimizatio
 ```
 
 
-احفظ جميع نتائج التعرف في ملف PDF قابل للبحث، مع وضع الصور الأصلية كخلفية.
+احفظ جميع نتائج التعرف في ملف PDF قابل للبحث، مع تعيين الصور الأصلية كخلفية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| fullFileName | java.lang.String | اسم الملف مع المسار لحفظ نتيجة التعرف بالتنسيق المحدد. |
+| fullFileName | java.lang.String | اسم الملف مع مسار لحفظ نتيجة التعرف بالتنسيق المحدد. |
 | embeddedFontPath | java.lang.String | اختياري. المسار الكامل إلى خط المستخدم. |
 | optimizePdf | [PdfOptimizationMode](../../com.aspose.ocr.models/pdfoptimizationmode/) | قلل حجم ملف PDF عن طريق خفض جودة الصور الخلفية. بشكل افتراضي، يتم الحفاظ على جودة الصورة الأصلية. |
 

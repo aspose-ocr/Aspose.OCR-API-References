@@ -14,16 +14,16 @@ public class LayoutOutput
 ```
 
 معلومات حول مناطق المحتوى المكتشفة في الصورة.
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
 | [LayoutOutput()](#LayoutOutput) |  |
 ## الحقول
 
-| حقل | الوصف |
+| الحقل | الوصف |
 | --- | --- |
-| [captions](#captions) | العناوين المكتشفة. |
+| [captions](#captions) | التعليقات التوضيحية المكتشفة. |
 | [equations](#equations) | المعادلات المكتشفة. |
 | [headers](#headers) | العناوين الرئيسية المكتشفة. |
 | [images](#images) | الصور/الرسوم التوضيحية المكتشفة. |
@@ -45,7 +45,7 @@ public ArrayList<ContentArea> captions
 ```
 
 
-العناوين المكتشفة.
+التعليقات التوضيحية المكتشفة.
 
 ### equations {#equations}
 ```

@@ -14,19 +14,19 @@ public enum Format extends Enum<Format>
 ```
 ## الحقول
 
-| حقل | الوصف |
+| الحقل | الوصف |
 | --- | --- |
 | [Csv](#Csv) | يحفظ المستند كملف CSV (.csv). |
-| [Docx](#Docx) | يحفظ النتيجة كمستند Office Open XML Word processing ML Document (بدون ماكرو). |
+| [Docx](#Docx) | يحفظ النتيجة كمستند Office Open XML لمعالجة النصوص (بدون ماكرو). |
 | [Epub](#Epub) | يحفظ المستند كملف EPUB. |
 | [Html](#Html) | يحفظ المستند كملف HTML. |
-| [Json](#Json) | يحفظ النتيجة كنص عادي مكتوب بصيغة JavaScript object notation. |
+| [Json](#Json) | يحفظ النتيجة كنص عادي مكتوب بصيغة JSON (JavaScript Object Notation). |
 | [Md](#Md) | يحفظ المستند كملف Markdown. |
 | [Pdf](#Pdf) | يحفظ النتيجة كملف PDF (Adobe Portable Document). |
 | [PdfNoImg](#PdfNoImg) | يحفظ المستند كملف PDF قابل للبحث (Adobe Portable Document) بدون صورة. |
 | [Rtf](#Rtf) | يحفظ المستند كملف rtf. |
 | [Text](#Text) | يحفظ النتيجة بتنسيق النص العادي. |
-| [Xlsx](#Xlsx) | يحفظ النتيجة كملف Excel (2007 وما بعده). |
+| [Xlsx](#Xlsx) | يحفظ النتيجة كملف عمل Excel (2007 وما بعده). |
 | [Xml](#Xml) | يحفظ النتيجة كملف XML. |
 | [hOcr](#hOcr) | يحفظ المستند كملف hOCR (.html). |
 
@@ -44,7 +44,7 @@ public static final Format Docx
 ```
 
 
-يحفظ النتيجة كمستند Office Open XML Word processing ML Document (بدون ماكرو).
+يحفظ النتيجة كمستند Office Open XML لمعالجة النصوص (بدون ماكرو).
 
 ### Epub {#Epub}
 ```
@@ -68,7 +68,7 @@ public static final Format Json
 ```
 
 
-يحفظ النتيجة كنص عادي مكتوب بصيغة JavaScript object notation.
+يحفظ النتيجة كنص عادي مكتوب بصيغة JSON (JavaScript Object Notation).
 
 ### Md {#Md}
 ```
@@ -116,7 +116,7 @@ public static final Format Xlsx
 ```
 
 
-يحفظ النتيجة كملف Excel (2007 وما بعده).
+يحفظ النتيجة كملف عمل Excel (2007 وما بعده).
 
 ### Xml {#Xml}
 ```

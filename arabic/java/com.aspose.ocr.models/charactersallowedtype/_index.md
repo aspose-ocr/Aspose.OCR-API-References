@@ -13,10 +13,10 @@ java.lang.Object, java.lang.Enum
 public enum CharactersAllowedType extends Enum<CharactersAllowedType>
 ```
 
-يحدد نوع الأحرف المسموح بها لنتيجة التعرف. يُستخدم في @see RecognitionSettings\#RecognitionSettings لتحديد الأحرف التي سيتم التعرف عليها.
+يحدد نوع الأحرف المسموح بها لنتيجة التعرف. يُستخدم في @see RecognitionSettings\#RecognitionSettings للإشارة إلى الأحرف التي سيتم التعرف عليها.
 ## الحقول
 
-| حقل | الوصف |
+| الحقل | الوصف |
 | --- | --- |
 | [ALL](#ALL) | التعرف على جميع الأحرف. |
 | [DIGITS](#DIGITS) | التعرف فقط إذا كان الحرف رقمًا سداسيًا عشريًا. |

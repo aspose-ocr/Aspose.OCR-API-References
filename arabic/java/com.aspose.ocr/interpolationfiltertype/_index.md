@@ -14,7 +14,7 @@ public enum InterpolationFilterType extends Enum<InterpolationFilterType>
 ```
 ## الحقول
 
-| حقل | الوصف |
+| الحقل | الوصف |
 | --- | --- |
 | [Bicubic](#Bicubic) |  |
 | [Box](#Box) | مرشح 'Box' أو 'Nearest Neighbor' |

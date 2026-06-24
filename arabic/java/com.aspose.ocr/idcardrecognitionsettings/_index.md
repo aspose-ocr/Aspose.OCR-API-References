@@ -14,23 +14,23 @@ public class IDCardRecognitionSettings extends ReceiptRecognitionSettings
 ```
 
 إعدادات التعرف على بطاقة الهوية تحتوي على عناصر تسمح بتخصيص عملية التعرف.
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
 | [IDCardRecognitionSettings()](#IDCardRecognitionSettings) | المنشئ الافتراضي: اضبط autoSkew إلى true. |
-## الطرق
+## الدوال
 
-| طريقة | الوصف |
+| الدالة | الوصف |
 | --- | --- |
 | [setAllowedCharacters(CharactersAllowedType allowedCharacters)](#setAllowedCharacters-com.aspose.ocr.models.CharactersAllowedType) | مجموعة الأحرف المسموح بها. |
 | [setAllowedCharacters(String allowedCharacters)](#setAllowedCharacters-java.lang.String) | مجموعة الأحرف المسموح بها. |
 | [setAutomaticColorInversion(boolean automaticColorInversion)](#setAutomaticColorInversion-boolean) | اكتشف الصور التي تحتوي على نص أبيض على خلفية داكنة/سوداء واختر تلقائيًا خوارزمية OCR خاصة لها. |
 | [setIgnoredCharacters(String characters)](#setIgnoredCharacters-java.lang.String) | يضبط القائمة السوداء لرموز التعرف. |
 | [setLanguage(Language language)](#setLanguage-com.aspose.ocr.models.Language) |  |
-| [setLanguageDetectionLevel(LanguageDetectionLevel languageDetectionLevel)](#setLanguageDetectionLevel-com.aspose.ocr.models.LanguageDetectionLevel) | يحدد مستوى اكتشاف اللغة للتعرف على النص. |
+| [setLanguageDetectionLevel(LanguageDetectionLevel languageDetectionLevel)](#setLanguageDetectionLevel-com.aspose.ocr.models.LanguageDetectionLevel) | يحدد مستوى اكتشاف اللغة لتعرف النص. |
 | [setThreadsCount(int threadsCount)](#setThreadsCount-int) | يحصل أو يضبط عدد الخيوط للمعالجة. |
-| [setUpscaleSmallFont(boolean upscaleSmallFont)](#setUpscaleSmallFont-boolean) | يسمح لك باستخدام خوارزميات إضافية خصيصًا للتعرف على الخطوط الصغيرة. |
+| [setUpscaleSmallFont(boolean upscaleSmallFont)](#setUpscaleSmallFont-boolean) | يسمح لك باستخدام خوارزميات إضافية خصيصًا لتعرف الخط الصغير. |
 ### IDCardRecognitionSettings() {#IDCardRecognitionSettings}
 ```
 public IDCardRecognitionSettings()
@@ -78,7 +78,7 @@ public void setAutomaticColorInversion(boolean automaticColorInversion)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| automaticColorInversion | boolean | يحتوي على قيمة منطقية - تم ضبط automaticColorInversion. |
+| automaticColorInversion | boolean | يحتوي على قيمة منطقية - تم تعيين automaticColorInversion. |
 
 ### setIgnoredCharacters(String characters) {#setIgnoredCharacters-java.lang.String}
 ```
@@ -112,12 +112,12 @@ public void setLanguageDetectionLevel(LanguageDetectionLevel languageDetectionLe
 ```
 
 
-يحدد مستوى اكتشاف اللغة للتعرف على النص. يعمل فقط إذا كانت اللغة المحددة هي Language.MULTILANGUAGE أو Language.AUTO أو Language.UNIVERSAL. هذه العملية تستغرق وقتًا طويلاً وتبطئ بشكل كبير التعرف العام.
+يحدد مستوى اكتشاف اللغة لتعرف النص. يعمل فقط إذا كانت اللغة المختارة هي Language.MULTILANGUAGE أو Language.AUTO أو Language.UNIVERSAL. هذه العملية تستغرق وقتًا طويلاً وتبطئ بشكل كبير التعرف العام.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| languageDetectionLevel | [LanguageDetectionLevel](../../com.aspose.ocr.models/languagedetectionlevel/) | قيمة تعداد لتعيين المستوى (Paragraph, Word, Page). |
+| languageDetectionLevel | [LanguageDetectionLevel](../../com.aspose.ocr.models/languagedetectionlevel/) | قيمة تعداد لتحديد المستوى (Paragraph, Word, Page). |
 
 ### setThreadsCount(int threadsCount) {#setThreadsCount-int}
 ```
@@ -138,10 +138,10 @@ public void setUpscaleSmallFont(boolean upscaleSmallFont)
 ```
 
 
-يسمح لك باستخدام خوارزميات إضافية خصيصًا للتعرف على الخطوط الصغيرة. مفيد للصور التي تحتوي على أحرف صغيرة الحجم.
+يسمح لك باستخدام خوارزميات إضافية خصيصًا لتعرف الخط الصغير. مفيد للصور التي تحتوي على أحرف صغيرة الحجم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| upscaleSmallFont | boolean | يحتوي على قيمة منطقية - تم ضبط upscaleSmallFont. |
+| upscaleSmallFont | boolean | يحتوي على قيمة منطقية - تم تعيين upscaleSmallFont. |
 

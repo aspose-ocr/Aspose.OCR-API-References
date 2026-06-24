@@ -14,7 +14,7 @@ public enum ExecutionModeOnnx extends Enum<ExecutionModeOnnx>
 ```
 ## الحقول
 
-| حقل | الوصف |
+| الحقل | الوصف |
 | --- | --- |
 | [ORT_PARALLEL](#ORT-PARALLEL) |  |
 | [ORT_SEQUENTIAL](#ORT-SEQUENTIAL) |  |

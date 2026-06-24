@@ -16,11 +16,11 @@ public enum InputType extends Enum<InputType>
 أنواع الصور/ المستندات للمعالجة / التعرف.
 ## الحقول
 
-| حقل | الوصف |
+| الحقل | الوصف |
 | --- | --- |
 | [Base64](#Base64) | سلسلة base64 مع الصورة أو المسار إلى ملف .txt الذي يحتوي على محتوى base64. |
 | [Directory](#Directory) | المسار إلى الدليل. |
-| [PDF](#PDF) | مستند PDF ممسوح ضوئياً من ملف أو من InputStream. |
+| [PDF](#PDF) | مستند PDF ممسوح ضوئيًا من ملف أو من InputStream. |
 | [SingleImage](#SingleImage) | يدعم GIF، PNG، JPEG، BMP، TIFF، JFIF، InputStream، BufferedImage. |
 | [TIFF](#TIFF) | مستند TIFF متعدد الصفحات، TIF من ملف أو من InputStream. |
 | [URL](#URL) | رابط على الصورة. |
@@ -40,7 +40,7 @@ public static final InputType Directory
 ```
 
 
-المسار إلى الدليل. الأرشيفات والمجلدات المتداخلة غير مدعومة. يدعم GIF، PNG، JPEG، BMP، TIFF. العدد الافتراضي للصور المعالجة هو جميعها.
+المسار إلى الدليل. لا يتم دعم الأرشيفات والمجلدات المتداخلة. يدعم GIF، PNG، JPEG، BMP، TIFF. العدد الافتراضي للصور المعالجة هو الكل.
 
 ### PDF {#PDF}
 ```
@@ -48,7 +48,7 @@ public static final InputType PDF
 ```
 
 
-مستند PDF ممسوح ضوئياً من ملف أو من InputStream.
+مستند PDF ممسوح ضوئيًا من ملف أو من InputStream.
 
 ### SingleImage {#SingleImage}
 ```
@@ -80,4 +80,4 @@ public static final InputType Zip
 ```
 
 
-الاسم الكامل لأرشيف ZIP. الأرشيفات والمجلدات المتداخلة غير مدعومة. يدعم GIF، PNG، JPEG، BMP، TIFF، JFIF. العدد الافتراضي للصور المعالجة هو جميعها.
+الاسم الكامل لأرشيف ZIP. لا يتم دعم الأرشيفات والمجلدات المتداخلة. يدعم GIF، PNG، JPEG، BMP، TIFF، JFIF. العدد الافتراضي للصور المعالجة هو الكل.

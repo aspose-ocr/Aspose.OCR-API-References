@@ -14,7 +14,7 @@ public enum LoggingLevel extends Enum<LoggingLevel>
 ```
 ## الحقول
 
-| حقل | الوصف |
+| الحقل | الوصف |
 | --- | --- |
 | [Debug](#Debug) | سيتم عرض جميع السجلات. |
 | [Error](#Error) | سيتم عرض الأخطاء فقط. |

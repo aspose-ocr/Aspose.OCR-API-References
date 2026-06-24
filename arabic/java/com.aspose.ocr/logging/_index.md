@@ -12,17 +12,17 @@ java.lang.Object
 ```
 public class Logging
 ```
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
 | [Logging()](#Logging) |  |
 ## الحقول
 
-| حقل | الوصف |
+| الحقل | الوصف |
 | --- | --- |
-| [console](#console) | ضبط أو الحصول - السجلات تُعرض على وحدة التحكم. |
-| [fileSystem](#fileSystem) | ضبط أو الحصول - السجلات تُحفظ في الملف (المسار الافتراضي \"Aspose.OCR.log.txt\"). |
+| [console](#console) | ضبط أو الحصول - يتم عرض السجلات على وحدة التحكم. |
+| [fileSystem](#fileSystem) | ضبط أو الحصول - يتم حفظ السجلات في الملف (المسار الافتراضي \"Aspose.OCR.log.txt\"). |
 | [logFilePath](#logFilePath) | تعيين أو الحصول على مسار واسم ملف السجل. |
 | [loggingLevel](#loggingLevel) | تعيين أو الحصول على مستوى السجل |
 
@@ -38,7 +38,7 @@ public static boolean console
 ```
 
 
-ضبط أو الحصول - السجلات تُعرض على وحدة التحكم.
+ضبط أو الحصول - يتم عرض السجلات على وحدة التحكم.
 
 ### fileSystem {#fileSystem}
 ```
@@ -46,7 +46,7 @@ public static boolean fileSystem
 ```
 
 
-ضبط أو الحصول - السجلات تُحفظ في الملف (المسار الافتراضي \"Aspose.OCR.log.txt\").
+ضبط أو الحصول - يتم حفظ السجلات في الملف (المسار الافتراضي \"Aspose.OCR.log.txt\").
 
 ### logFilePath {#logFilePath}
 ```

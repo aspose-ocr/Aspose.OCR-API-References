@@ -16,7 +16,7 @@ public enum SpellCheckLanguage extends Enum<SpellCheck.SpellCheckLanguage>
 اللغات المستخدمة في التدقيق الإملائي (القواميس الموجودة).
 ## الحقول
 
-| حقل | الوصف |
+| الحقل | الوصف |
 | --- | --- |
 | [Ces](#Ces) | القاموس التشيكي |
 | [Dan](#Dan) | القاموس الدنماركي |

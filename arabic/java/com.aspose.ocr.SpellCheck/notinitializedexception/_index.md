@@ -12,9 +12,9 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception
 ```
 public class NotInitializedException extends Exception
 ```
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
 | [NotInitializedException(String message)](#NotInitializedException-java.lang.String-) |  |
 | [NotInitializedException(String message, Throwable cause)](#NotInitializedException-java.lang.String-java.lang.Throwable-) |  |

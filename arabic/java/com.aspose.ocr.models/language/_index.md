@@ -14,38 +14,38 @@ public enum Language extends Enum<Language>
 ```
 ## الحقول
 
-| حقل | الوصف |
+| الحقل | الوصف |
 | --- | --- |
-| [Afr](#Afr) | أبجدية الأفريكانية |
-| [Aln](#Aln) | أبجدية الألبانية |
+| [Afr](#Afr) | الأبجدية الأفريكانية |
+| [Aln](#Aln) | الأبجدية الألبانية |
 | [Ara](#Ara) | الأبجدية العربية |
 | [Auto](#Auto) | يكتشف تلقائيًا اللغة في المستند أو الصورة المدخلة. |
-| [Awa](#Awa) | أبجدية الأوادية |
-| [Azb](#Azb) | أبجدية الأذربيجانية (الأذرية) |
-| [Bcl](#Bcl) | أبجدية البيكول |
-| [Bel](#Bel) | أبجدية البيلاروسية |
-| [Bem](#Bem) | أبجدية البمبا (تشيبمبا) |
-| [Bew](#Bew) | أبجدية البتاوي |
-| [Bgc](#Bgc) | أبجدية الهاريانية |
-| [Bho](#Bho) | أبجدية البهوجبرية |
-| [Bhr](#Bhr) | أبجدية المالاجاشية |
-| [Bjj](#Bjj) | أبجدية الكاناوجي |
-| [Bos](#Bos) | أبجدية البوسنية |
-| [Bul](#Bul) | أبجدية البلغارية |
-| [Cat](#Cat) | أبجدية الكاتالانية |
-| [Ccx](#Ccx) | أبجدية الزوانغ |
-| [Cdo](#Cdo) | أبجدية مين دونغ |
-| [Ceb](#Ceb) | أبجدية السيبوانية |
-| [Ces](#Ces) | أبجدية التشيكية |
-| [Che](#Che) | أبجدية الشيشانية |
-| [Chinese](#Chinese) | التعرف الشامل على اللغات القائمة على الصينية، بما في ذلك النصوص المختلطة الصينية-الإنجليزية |
-| [Cmn](#Cmn) | أبجدية الماندرين (الصينية) |
-| [Cpx](#Cpx) | أبجدية بو-شيان |
-| [Cyrillic](#Cyrillic) | دعم متعدد اللغات (الأبجدية السيريلية) |
+| [Awa](#Awa) | الأبجدية الأوادية |
+| [Azb](#Azb) | الأبجدية الأذربيجانية�(Azeri) |
+| [Bcl](#Bcl) | الأبجدية البيكول |
+| [Bel](#Bel) | الأبجدية البيلاروسية |
+| [Bem](#Bem) | الأبجدية البمبا�(Chibemba) |
+| [Bew](#Bew) | الأبجدية البتاوية |
+| [Bgc](#Bgc) | الأبجدية الهاريانفية |
+| [Bho](#Bho) | الأبجدية البهوجبرية |
+| [Bhr](#Bhr) | الأبجدية المالاجاشية |
+| [Bjj](#Bjj) | الأبجدية الكاناوجية |
+| [Bos](#Bos) | الأبجدية البوسنية |
+| [Bul](#Bul) | الأبجدية البلغارية |
+| [Cat](#Cat) | الأبجدية الكاتالونية |
+| [Ccx](#Ccx) | الأبجدية الزهوانغ |
+| [Cdo](#Cdo) | الأبجدية مين دونغ |
+| [Ceb](#Ceb) | الأبجدية السيبوانية |
+| [Ces](#Ces) | الأبجدية التشيكية |
+| [Che](#Che) | الأبجدية الشيشانية |
+| [Chinese](#Chinese) | التعرف الشامل على اللغات المستندة إلى الصينية، بما في ذلك النصوص المختلطة الصينية-الإنجليزية |
+| [Cmn](#Cmn) | الأبجدية الماندرين�(Chinese) |
+| [Cpx](#Cpx) | الأبجدية بو-شيان |
+| [Cyrillic](#Cyrillic) | دعم متعدد اللغات (الأبجدية السيريالية) |
 | [Dan](#Dan) | الأبجدية الدنماركية |
 | [Deu](#Deu) | الأبجدية الألمانية |
 | [Devanagari](#Devanagari) | التعرف الشامل على اللغات الهندية بناءً على الخط الديفاناغاري، بما في ذلك النصوص التي تحتوي على أحرف إنجليزية مختلطة |
-| [Dhd](#Dhd) | الأبجدية الدوندارية |
+| [Dhd](#Dhd) | الأبجدية الدهندارية |
 | [Diq](#Diq) | الأبجدية الديملية |
 | [Doc](#Doc) | الأبجدية الدونغ |
 | [Eng](#Eng) | الأبجدية الإنجليزية |
@@ -60,113 +60,113 @@ public enum Language extends Enum<Language>
 | [Glg](#Glg) | الأبجدية الجاليكية |
 | [Glk](#Glk) | الأبجدية الجيلكية |
 | [Guz](#Guz) | الأبجدية الجوسية |
-| [Hak](#Hak) | الأبجدية الهاكا |
-| [Hau](#Hau) | الأبجدية الهوسية |
+| [Hak](#Hak) | الأبجدية الهكا |
+| [Hau](#Hau) | الأبجدية الهوسا |
 | [Hbs](#Hbs) | الأبجدية الصربية-الكرواتية |
-| [Hil](#Hil) | الأبجدية الهليغايونية |
+| [Hil](#Hil) | الأبجدية الهليغايون |
 | [Hin](#Hin) | الأبجدية الهندية |
 | [Hmn](#Hmn) | الأبجدية الهونغ |
-| [Hne](#Hne) | Chattisgarhi�(Laria, Khaltahi) أبجدية |
-| [Hrv](#Hrv) | Croatian أبجدية |
-| [Hsn](#Hsn) | Xiang أبجدية |
-| [Hun](#Hun) | Hungarian�(Magyar) أبجدية |
-| [Ilo](#Ilo) | Ilocano أبجدية |
-| [Ind](#Ind) | Indonesian أبجدية |
+| [Hne](#Hne) | تشاتيسغاري�(Laria, Khaltahi) أبجدية |
+| [Hrv](#Hrv) | الكرواتية أبجدية |
+| [Hsn](#Hsn) | شيانغ أبجدية |
+| [Hun](#Hun) | الهنغارية�(Magyar) أبجدية |
+| [Ilo](#Ilo) | الإيلوكانية أبجدية |
+| [Ind](#Ind) | الإندونيسية أبجدية |
 | [Indic](#Indic) | التعرف الشامل على اللغات الهندية بناءً على الخط الديفاناغاري، بما في ذلك النصوص التي تحتوي على أحرف إنجليزية مختلطة |
-| [Islamic](#Islamic) | Universal Perso-Arabic أبجدية |
-| [Ita](#Ita) | Italian أبجدية |
-| [Jpn](#Jpn) | Japanese أبجدية |
-| [Kan](#Kan) | Kannada أبجدية |
-| [Kaz](#Kaz) | Kazakh أبجدية |
-| [Kbd](#Kbd) | Kabardian أبجدية |
-| [Kfy](#Kfy) | Kumauni أبجدية |
-| [Kin](#Kin) | Rwanda أبجدية |
-| [Kln](#Kln) | Nandi أبجدية |
-| [Kmr](#Kmr) | Kurdish�(Kurmanji) أبجدية |
-| [Knc](#Knc) | Kanuri أبجدية |
-| [Knn](#Knn) | Konkani أبجدية |
-| [Kon](#Kon) | Kikongo أبجدية |
-| [Kor](#Kor) | Korean أبجدية |
-| [Latin](#Latin) | Latin أبجدية |
-| [Lav](#Lav) | Latvian أبجدية |
-| [Lit](#Lit) | Lithuanian أبجدية |
-| [Lmn](#Lmn) | Lamani�(Lambadi) أبجدية |
-| [Lnc](#Lnc) | Occitan أبجدية |
-| [Luo](#Luo) | أبجدية لوو |
-| [Mag](#Mag) | أبجدية ماغاهي |
-| [Mai](#Mai) | أبجدية مايثيلي |
-| [Mak](#Mak) | ماكاسار�(Makasar) الأبجدية |
-| [Mar](#Mar) | أبجدية ماراثي |
-| [Mer](#Mer) | أبجدية ميرو |
-| [Min](#Min) | أبجدية مينانغكاباو |
-| [Mly](#Mly) | مالاي�(Melayu) الأبجدية |
-| [Mnp](#Mnp) | أبجدية مين بي |
-| [Mon](#Mon) | أبجدية منغوليان |
-| [Mtq](#Mtq) | أبجدية موونغ |
-| [Mtr](#Mtr) | أبجدية ميواري |
-| [Mui](#Mui) | أبجدية موسي |
+| [Islamic](#Islamic) | الفارسية-العربية العالمية أبجدية |
+| [Ita](#Ita) | الإيطالية أبجدية |
+| [Jpn](#Jpn) | اليابانية أبجدية |
+| [Kan](#Kan) | الكانادا أبجدية |
+| [Kaz](#Kaz) | الكازاخية أبجدية |
+| [Kbd](#Kbd) | القباردية أبجدية |
+| [Kfy](#Kfy) | الكومونية أبجدية |
+| [Kin](#Kin) | الرواندية أبجدية |
+| [Kln](#Kln) | الناندية أبجدية |
+| [Kmr](#Kmr) | الكردية (Kurmanji) أبجدية |
+| [Knc](#Knc) | الكنورية أبجدية |
+| [Knn](#Knn) | الكونكانية أبجدية |
+| [Kon](#Kon) | الكيكونغو أبجدية |
+| [Kor](#Kor) | الكورية أبجدية |
+| [Latin](#Latin) | اللاتينية أبجدية |
+| [Lav](#Lav) | اللاتفية أبجدية |
+| [Lit](#Lit) | الليتوانية أبجدية |
+| [Lmn](#Lmn) | اللامانية (Lambadi) أبجدية |
+| [Lnc](#Lnc) | الأوكيتانية أبجدية |
+| [Luo](#Luo) | أبجدية Luo |
+| [Mag](#Mag) | أبجدية Magahi |
+| [Mai](#Mai) | أبجدية Maithili |
+| [Mak](#Mak) | أبجدية Makassar�(Makasar) |
+| [Mar](#Mar) | أبجدية Marathi |
+| [Mer](#Mer) | أبجدية Meru |
+| [Min](#Min) | أبجدية Minangkabau |
+| [Mly](#Mly) | أبجدية Malay�(Melayu) |
+| [Mnp](#Mnp) | أبجدية Min Bei |
+| [Mon](#Mon) | أبجدية Mongolean |
+| [Mtq](#Mtq) | أبجدية Muong |
+| [Mtr](#Mtr) | أبجدية Mewari |
+| [Mui](#Mui) | أبجدية Musi |
 | [Multilanguage](#Multilanguage) | يكتشف تلقائيًا اللغة في المستند أو الصورة المدخلة. |
-| [Mup](#Mup) | أبجدية مالفي |
-| [Nan](#Nan) | أبجدية مين نان |
-| [Nbl](#Nbl) | أبجدية ندبيلي |
-| [Nds](#Nds) | أبجدية الألمانية المنخفضة |
-| [Nep](#Nep) | أبجدية نيبالية |
-| [Nld](#Nld) | أبجدية هولندية |
-| [Nor](#Nor) | أبجدية نرويجية |
-| [Nso](#Nso) | سوثو�(Northern) الأبجدية |
-| [Nya](#Nya) | تشيتشو�(Chewa, Nyanja) الأبجدية |
-| [Pag](#Pag) | أبجدية بانغاسينان |
-| [Pam](#Pam) | أبجدية كابامبانغن |
-| [Pcc](#Pcc) | بويي�(Buyi, Gi?y) الأبجدية |
-| [PersoArabic](#PersoArabic) | Universal Perso-Arabic أبجدية |
-| [Pes](#Pes) | Persian�(Farsi) أبجدية |
-| [Plm](#Plm) | Palembang أبجدية |
-| [Pol](#Pol) | Polish أبجدية |
-| [Por](#Por) | Portuguese أبجدية |
-| [Quc](#Quc) | K'iche' أبجدية |
-| [Qxa](#Qxa) | Quechua أبجدية |
-| [Rjb](#Rjb) | Rajbanshi أبجدية |
-| [Ron](#Ron) | Romanian أبجدية |
-| [Ruf](#Ruf) | Luguru أبجدية |
-| [Rus](#Rus) | Russian أبجدية |
-| [Rwr](#Rwr) | Marwari أبجدية |
-| [Sas](#Sas) | Sasak أبجدية |
-| [Slk](#Slk) | Slovak أبجدية |
-| [Slv](#Slv) | Slovene أبجدية |
-| [Sna](#Sna) | Shona�(Karanga) أبجدية |
-| [Som](#Som) | Somali أبجدية |
-| [Sot](#Sot) | Sotho�(Southern) أبجدية |
-| [Spa](#Spa) | Spanish أبجدية |
-| [Srp](#Srp) | Serbian أبجدية |
-| [Srr](#Srr) | Serer-Sine أبجدية |
-| [Ssw](#Ssw) | Swati�(Swazi) أبجدية |
-| [Suk](#Suk) | Sukuma أبجدية |
-| [Sun](#Sun) | Sundanese�(Sunda) أبجدية |
-| [Swe](#Swe) | Swedish أبجدية |
-| [Swh](#Swh) | Swahili أبجدية |
+| [Mup](#Mup) | أبجدية Malvi |
+| [Nan](#Nan) | أبجدية Min Nan |
+| [Nbl](#Nbl) | أبجدية Ndebele |
+| [Nds](#Nds) | أبجدية Low German |
+| [Nep](#Nep) | أبجدية Nepali |
+| [Nld](#Nld) | أبجدية Dutch |
+| [Nor](#Nor) | أبجدية Norwegian |
+| [Nso](#Nso) | أبجدية Sotho�(Northern) |
+| [Nya](#Nya) | أبجدية Chichewa�(Chewa, Nyanja) |
+| [Pag](#Pag) | أبجدية Pangasinan |
+| [Pam](#Pam) | أبجدية Kapampangan |
+| [Pcc](#Pcc) | أبجدية Bouyei�(Buyi, Gi?y) |
+| [PersoArabic](#PersoArabic) | الفارسية-العربية العالمية أبجدية |
+| [Pes](#Pes) | الأبجدية الفارسية (الفارسية) |
+| [Plm](#Plm) | الأبجدية باليمبانغ |
+| [Pol](#Pol) | الأبجدية البولندية |
+| [Por](#Por) | الأبجدية البرتغالية |
+| [Quc](#Quc) | الأبجدية كيتشي |
+| [Qxa](#Qxa) | الأبجدية الكتشوية |
+| [Rjb](#Rjb) | الأبجدية رجبانشي |
+| [Ron](#Ron) | الأبجدية الرومانية |
+| [Ruf](#Ruf) | الأبجدية اللوغورو |
+| [Rus](#Rus) | الأبجدية الروسية |
+| [Rwr](#Rwr) | الأبجدية الماروارية |
+| [Sas](#Sas) | الأبجدية الساساك |
+| [Slk](#Slk) | الأبجدية السلوفاكية |
+| [Slv](#Slv) | الأبجدية السلوفينية |
+| [Sna](#Sna) | الأبجدية الشونا (كارانجا) |
+| [Som](#Som) | الأبجدية الصومالية |
+| [Sot](#Sot) | الأبجدية السوثو (الجنوبية) |
+| [Spa](#Spa) | الأبجدية الإسبانية |
+| [Srp](#Srp) | الأبجدية الصربية |
+| [Srr](#Srr) | الأبجدية سيرير-سين |
+| [Ssw](#Ssw) | الأبجدية السواتية (السوازي) |
+| [Suk](#Suk) | الأبجدية السوكومة |
+| [Sun](#Sun) | الأبجدية السوندانية (سندا) |
+| [Swe](#Swe) | الأبجدية السويدية |
+| [Swh](#Swh) | الأبجدية السواحيلية |
 | [Tam](#Tam) | أبجدية التاميل |
-| [Tel](#Tel) | أبجدية التيلوغو |
-| [Tgl](#Tgl) | أبجدية Tagalog�(Pilipino) |
+| [Tel](#Tel) | أبجدية التيلجو |
+| [Tgl](#Tgl) | أبجدية التاغالوغ�(بيلبينيو) |
 | [Toi](#Toi) | أبجدية التونجا |
-| [Tsn](#Tsn) | أبجدية التسوانية |
+| [Tsn](#Tsn) | أبجدية التسوانا |
 | [Tso](#Tso) | أبجدية التسونجا |
 | [Tuk](#Tuk) | أبجدية التركمان |
 | [Tum](#Tum) | أبجدية التومبوكا |
 | [Tur](#Tur) | أبجدية التركية |
 | [Uig](#Uig) | أبجدية الأويغورية |
 | [Ukr](#Ukr) | أبجدية الأوكرانية |
-| [Umb](#Umb) | أبجدية الأومبندو |
+| [Umb](#Umb) | أبجدية الأمبندو |
 | [Universal](#Universal) | يكتشف تلقائيًا اللغة في المستند أو الصورة المدخلة. |
 | [Urd](#Urd) | أبجدية الأردية |
 | [Vie](#Vie) | أبجدية الفيتنامية |
-| [Vmw](#Vmw) | أبجدية Makua�(Makhuwa) |
-| [Wal](#Wal) | أبجدية الوولايطة |
+| [Vmw](#Vmw) | أبجدية الماكوا�(ماكهووا) |
+| [Wal](#Wal) | أبجدية الوولايتا |
 | [War](#War) | أبجدية الواري-واراي |
 | [Wbr](#Wbr) | أبجدية الواجدي |
 | [Wtm](#Wtm) | أبجدية الميواتي |
 | [Wuu](#Wuu) | أبجدية تشانغتشو |
 | [Xho](#Xho) | أبجدية الخوسا |
-| [Yao](#Yao) | أبجدية الياو |
+| [Yao](#Yao) | أبجدية ياو |
 | [Yor](#Yor) | أبجدية اليوروبا |
 | [Yue](#Yue) | أبجدية الكانتونية |
 | [Zul](#Zul) | أبجدية الزولو |
@@ -177,7 +177,7 @@ public static final Language Afr
 ```
 
 
-أبجدية الأفريكانية
+الأبجدية الأفريكانية
 
 ### Aln {#Aln}
 ```
@@ -185,7 +185,7 @@ public static final Language Aln
 ```
 
 
-أبجدية الألبانية
+الأبجدية الألبانية
 
 ### Ara {#Ara}
 ```
@@ -201,7 +201,7 @@ public static final Language Auto
 ```
 
 
-يكتشف تلقائيًا اللغة في المستند أو الصورة المدخلة. يدعم عائلات لغات متعددة، بما في ذلك اللاتينية، السيريلية، العربية، وأكثر.
+يكتشف تلقائيًا اللغة في المستند أو الصورة المدخلة. يدعم عائلات لغات متعددة، بما في ذلك اللاتينية والسيريلية والعربية، وغيرها.
 
 ### Awa {#Awa}
 ```
@@ -209,7 +209,7 @@ public static final Language Awa
 ```
 
 
-أبجدية الأوادية
+الأبجدية الأوادية
 
 ### Azb {#Azb}
 ```
@@ -217,7 +217,7 @@ public static final Language Azb
 ```
 
 
-أبجدية الأذربيجانية (الأذرية)
+الأبجدية الأذربيجانية�(Azeri)
 
 ### Bcl {#Bcl}
 ```
@@ -225,7 +225,7 @@ public static final Language Bcl
 ```
 
 
-أبجدية البيكول
+الأبجدية البيكول
 
 ### Bel {#Bel}
 ```
@@ -233,7 +233,7 @@ public static final Language Bel
 ```
 
 
-أبجدية البيلاروسية
+الأبجدية البيلاروسية
 
 ### Bem {#Bem}
 ```
@@ -241,7 +241,7 @@ public static final Language Bem
 ```
 
 
-أبجدية البمبا (تشيبمبا)
+الأبجدية البمبا�(Chibemba)
 
 ### Bew {#Bew}
 ```
@@ -249,7 +249,7 @@ public static final Language Bew
 ```
 
 
-أبجدية البتاوي
+الأبجدية البتاوية
 
 ### Bgc {#Bgc}
 ```
@@ -257,7 +257,7 @@ public static final Language Bgc
 ```
 
 
-أبجدية الهاريانية
+الأبجدية الهاريانفية
 
 ### Bho {#Bho}
 ```
@@ -265,7 +265,7 @@ public static final Language Bho
 ```
 
 
-أبجدية البهوجبرية
+الأبجدية البهوجبرية
 
 ### Bhr {#Bhr}
 ```
@@ -273,7 +273,7 @@ public static final Language Bhr
 ```
 
 
-أبجدية المالاجاشية
+الأبجدية المالاجاشية
 
 ### Bjj {#Bjj}
 ```
@@ -281,7 +281,7 @@ public static final Language Bjj
 ```
 
 
-أبجدية الكاناوجي
+الأبجدية الكاناوجية
 
 ### Bos {#Bos}
 ```
@@ -289,7 +289,7 @@ public static final Language Bos
 ```
 
 
-أبجدية البوسنية
+الأبجدية البوسنية
 
 ### Bul {#Bul}
 ```
@@ -297,7 +297,7 @@ public static final Language Bul
 ```
 
 
-أبجدية البلغارية
+الأبجدية البلغارية
 
 ### Cat {#Cat}
 ```
@@ -305,7 +305,7 @@ public static final Language Cat
 ```
 
 
-أبجدية الكاتالانية
+الأبجدية الكاتالونية
 
 ### Ccx {#Ccx}
 ```
@@ -313,7 +313,7 @@ public static final Language Ccx
 ```
 
 
-أبجدية الزوانغ
+الأبجدية الزهوانغ
 
 ### Cdo {#Cdo}
 ```
@@ -321,7 +321,7 @@ public static final Language Cdo
 ```
 
 
-أبجدية مين دونغ
+الأبجدية مين دونغ
 
 ### Ceb {#Ceb}
 ```
@@ -329,7 +329,7 @@ public static final Language Ceb
 ```
 
 
-أبجدية السيبوانية
+الأبجدية السيبوانية
 
 ### Ces {#Ces}
 ```
@@ -337,7 +337,7 @@ public static final Language Ces
 ```
 
 
-أبجدية التشيكية
+الأبجدية التشيكية
 
 ### Che {#Che}
 ```
@@ -345,7 +345,7 @@ public static final Language Che
 ```
 
 
-أبجدية الشيشانية
+الأبجدية الشيشانية
 
 ### Chinese {#Chinese}
 ```
@@ -353,7 +353,7 @@ public static final Language Chinese
 ```
 
 
-التعرف الشامل على اللغات القائمة على الصينية، بما في ذلك النصوص المختلطة الصينية-الإنجليزية
+التعرف الشامل على اللغات المستندة إلى الصينية، بما في ذلك النصوص المختلطة الصينية-الإنجليزية
 
 ### Cmn {#Cmn}
 ```
@@ -361,7 +361,7 @@ public static final Language Cmn
 ```
 
 
-أبجدية الماندرين (الصينية)
+الأبجدية الماندرين�(Chinese)
 
 ### Cpx {#Cpx}
 ```
@@ -369,7 +369,7 @@ public static final Language Cpx
 ```
 
 
-أبجدية بو-شيان
+الأبجدية بو-شيان
 
 ### Cyrillic {#Cyrillic}
 ```
@@ -377,7 +377,7 @@ public static final Language Cyrillic
 ```
 
 
-دعم متعدد اللغات (الأبجدية السيريلية)
+دعم متعدد اللغات (الأبجدية السيريالية)
 
 ### Dan {#Dan}
 ```
@@ -409,7 +409,7 @@ public static final Language Dhd
 ```
 
 
-الأبجدية الدوندارية
+الأبجدية الدهندارية
 
 ### Diq {#Diq}
 ```
@@ -529,7 +529,7 @@ public static final Language Hak
 ```
 
 
-الأبجدية الهاكا
+الأبجدية الهكا
 
 ### Hau {#Hau}
 ```
@@ -537,7 +537,7 @@ public static final Language Hau
 ```
 
 
-الأبجدية الهوسية
+الأبجدية الهوسا
 
 ### Hbs {#Hbs}
 ```
@@ -553,7 +553,7 @@ public static final Language Hil
 ```
 
 
-الأبجدية الهليغايونية
+الأبجدية الهليغايون
 
 ### Hin {#Hin}
 ```
@@ -577,7 +577,7 @@ public static final Language Hne
 ```
 
 
-Chattisgarhi�(Laria, Khaltahi) أبجدية
+تشاتيسغاري�(Laria, Khaltahi) أبجدية
 
 ### Hrv {#Hrv}
 ```
@@ -585,7 +585,7 @@ public static final Language Hrv
 ```
 
 
-Croatian أبجدية
+الكرواتية أبجدية
 
 ### Hsn {#Hsn}
 ```
@@ -593,7 +593,7 @@ public static final Language Hsn
 ```
 
 
-Xiang أبجدية
+شيانغ أبجدية
 
 ### Hun {#Hun}
 ```
@@ -601,7 +601,7 @@ public static final Language Hun
 ```
 
 
-Hungarian�(Magyar) أبجدية
+الهنغارية�(Magyar) أبجدية
 
 ### Ilo {#Ilo}
 ```
@@ -609,7 +609,7 @@ public static final Language Ilo
 ```
 
 
-Ilocano أبجدية
+الإيلوكانية أبجدية
 
 ### Ind {#Ind}
 ```
@@ -617,7 +617,7 @@ public static final Language Ind
 ```
 
 
-Indonesian أبجدية
+الإندونيسية أبجدية
 
 ### Indic {#Indic}
 ```
@@ -633,7 +633,7 @@ public static final Language Islamic
 ```
 
 
-Universal Perso-Arabic أبجدية
+الفارسية-العربية العالمية أبجدية
 
 ### Ita {#Ita}
 ```
@@ -641,7 +641,7 @@ public static final Language Ita
 ```
 
 
-Italian أبجدية
+الإيطالية أبجدية
 
 ### Jpn {#Jpn}
 ```
@@ -649,7 +649,7 @@ public static final Language Jpn
 ```
 
 
-Japanese أبجدية
+اليابانية أبجدية
 
 ### Kan {#Kan}
 ```
@@ -657,7 +657,7 @@ public static final Language Kan
 ```
 
 
-Kannada أبجدية
+الكانادا أبجدية
 
 ### Kaz {#Kaz}
 ```
@@ -665,7 +665,7 @@ public static final Language Kaz
 ```
 
 
-Kazakh أبجدية
+الكازاخية أبجدية
 
 ### Kbd {#Kbd}
 ```
@@ -673,7 +673,7 @@ public static final Language Kbd
 ```
 
 
-Kabardian أبجدية
+القباردية أبجدية
 
 ### Kfy {#Kfy}
 ```
@@ -681,7 +681,7 @@ public static final Language Kfy
 ```
 
 
-Kumauni أبجدية
+الكومونية أبجدية
 
 ### Kin {#Kin}
 ```
@@ -689,7 +689,7 @@ public static final Language Kin
 ```
 
 
-Rwanda أبجدية
+الرواندية أبجدية
 
 ### Kln {#Kln}
 ```
@@ -697,7 +697,7 @@ public static final Language Kln
 ```
 
 
-Nandi أبجدية
+الناندية أبجدية
 
 ### Kmr {#Kmr}
 ```
@@ -705,7 +705,7 @@ public static final Language Kmr
 ```
 
 
-Kurdish�(Kurmanji) أبجدية
+الكردية (Kurmanji) أبجدية
 
 ### Knc {#Knc}
 ```
@@ -713,7 +713,7 @@ public static final Language Knc
 ```
 
 
-Kanuri أبجدية
+الكنورية أبجدية
 
 ### Knn {#Knn}
 ```
@@ -721,7 +721,7 @@ public static final Language Knn
 ```
 
 
-Konkani أبجدية
+الكونكانية أبجدية
 
 ### Kon {#Kon}
 ```
@@ -729,7 +729,7 @@ public static final Language Kon
 ```
 
 
-Kikongo أبجدية
+الكيكونغو أبجدية
 
 ### Kor {#Kor}
 ```
@@ -737,7 +737,7 @@ public static final Language Kor
 ```
 
 
-Korean أبجدية
+الكورية أبجدية
 
 ### Latin {#Latin}
 ```
@@ -745,7 +745,7 @@ public static final Language Latin
 ```
 
 
-Latin أبجدية
+اللاتينية أبجدية
 
 ### Lav {#Lav}
 ```
@@ -753,7 +753,7 @@ public static final Language Lav
 ```
 
 
-Latvian أبجدية
+اللاتفية أبجدية
 
 ### Lit {#Lit}
 ```
@@ -761,7 +761,7 @@ public static final Language Lit
 ```
 
 
-Lithuanian أبجدية
+الليتوانية أبجدية
 
 ### Lmn {#Lmn}
 ```
@@ -769,7 +769,7 @@ public static final Language Lmn
 ```
 
 
-Lamani�(Lambadi) أبجدية
+اللامانية (Lambadi) أبجدية
 
 ### Lnc {#Lnc}
 ```
@@ -777,7 +777,7 @@ public static final Language Lnc
 ```
 
 
-Occitan أبجدية
+الأوكيتانية أبجدية
 
 ### Luo {#Luo}
 ```
@@ -785,7 +785,7 @@ public static final Language Luo
 ```
 
 
-أبجدية لوو
+أبجدية Luo
 
 ### Mag {#Mag}
 ```
@@ -793,7 +793,7 @@ public static final Language Mag
 ```
 
 
-أبجدية ماغاهي
+أبجدية Magahi
 
 ### Mai {#Mai}
 ```
@@ -801,7 +801,7 @@ public static final Language Mai
 ```
 
 
-أبجدية مايثيلي
+أبجدية Maithili
 
 ### Mak {#Mak}
 ```
@@ -809,7 +809,7 @@ public static final Language Mak
 ```
 
 
-ماكاسار�(Makasar) الأبجدية
+أبجدية Makassar�(Makasar)
 
 ### Mar {#Mar}
 ```
@@ -817,7 +817,7 @@ public static final Language Mar
 ```
 
 
-أبجدية ماراثي
+أبجدية Marathi
 
 ### Mer {#Mer}
 ```
@@ -825,7 +825,7 @@ public static final Language Mer
 ```
 
 
-أبجدية ميرو
+أبجدية Meru
 
 ### Min {#Min}
 ```
@@ -833,7 +833,7 @@ public static final Language Min
 ```
 
 
-أبجدية مينانغكاباو
+أبجدية Minangkabau
 
 ### Mly {#Mly}
 ```
@@ -841,7 +841,7 @@ public static final Language Mly
 ```
 
 
-مالاي�(Melayu) الأبجدية
+أبجدية Malay�(Melayu)
 
 ### Mnp {#Mnp}
 ```
@@ -849,7 +849,7 @@ public static final Language Mnp
 ```
 
 
-أبجدية مين بي
+أبجدية Min Bei
 
 ### Mon {#Mon}
 ```
@@ -857,7 +857,7 @@ public static final Language Mon
 ```
 
 
-أبجدية منغوليان
+أبجدية Mongolean
 
 ### Mtq {#Mtq}
 ```
@@ -865,7 +865,7 @@ public static final Language Mtq
 ```
 
 
-أبجدية موونغ
+أبجدية Muong
 
 ### Mtr {#Mtr}
 ```
@@ -873,7 +873,7 @@ public static final Language Mtr
 ```
 
 
-أبجدية ميواري
+أبجدية Mewari
 
 ### Mui {#Mui}
 ```
@@ -881,7 +881,7 @@ public static final Language Mui
 ```
 
 
-أبجدية موسي
+أبجدية Musi
 
 ### Multilanguage {#Multilanguage}
 ```
@@ -889,7 +889,7 @@ public static final Language Multilanguage
 ```
 
 
-يكتشف تلقائيًا اللغة في المستند أو الصورة المدخلة. يدعم عائلات لغات متعددة، بما في ذلك اللاتينية، السيريلية، العربية، وأكثر.
+يكتشف تلقائيًا اللغة في المستند أو الصورة المدخلة. يدعم عائلات لغات متعددة، بما في ذلك اللاتينية والسيريلية والعربية، وغيرها.
 
 ### Mup {#Mup}
 ```
@@ -897,7 +897,7 @@ public static final Language Mup
 ```
 
 
-أبجدية مالفي
+أبجدية Malvi
 
 ### Nan {#Nan}
 ```
@@ -905,7 +905,7 @@ public static final Language Nan
 ```
 
 
-أبجدية مين نان
+أبجدية Min Nan
 
 ### Nbl {#Nbl}
 ```
@@ -913,7 +913,7 @@ public static final Language Nbl
 ```
 
 
-أبجدية ندبيلي
+أبجدية Ndebele
 
 ### Nds {#Nds}
 ```
@@ -921,7 +921,7 @@ public static final Language Nds
 ```
 
 
-أبجدية الألمانية المنخفضة
+أبجدية Low German
 
 ### Nep {#Nep}
 ```
@@ -929,7 +929,7 @@ public static final Language Nep
 ```
 
 
-أبجدية نيبالية
+أبجدية Nepali
 
 ### Nld {#Nld}
 ```
@@ -937,7 +937,7 @@ public static final Language Nld
 ```
 
 
-أبجدية هولندية
+أبجدية Dutch
 
 ### Nor {#Nor}
 ```
@@ -945,7 +945,7 @@ public static final Language Nor
 ```
 
 
-أبجدية نرويجية
+أبجدية Norwegian
 
 ### Nso {#Nso}
 ```
@@ -953,7 +953,7 @@ public static final Language Nso
 ```
 
 
-سوثو�(Northern) الأبجدية
+أبجدية Sotho�(Northern)
 
 ### Nya {#Nya}
 ```
@@ -961,7 +961,7 @@ public static final Language Nya
 ```
 
 
-تشيتشو�(Chewa, Nyanja) الأبجدية
+أبجدية Chichewa�(Chewa, Nyanja)
 
 ### Pag {#Pag}
 ```
@@ -969,7 +969,7 @@ public static final Language Pag
 ```
 
 
-أبجدية بانغاسينان
+أبجدية Pangasinan
 
 ### Pam {#Pam}
 ```
@@ -977,7 +977,7 @@ public static final Language Pam
 ```
 
 
-أبجدية كابامبانغن
+أبجدية Kapampangan
 
 ### Pcc {#Pcc}
 ```
@@ -985,7 +985,7 @@ public static final Language Pcc
 ```
 
 
-بويي�(Buyi, Gi?y) الأبجدية
+أبجدية Bouyei�(Buyi, Gi?y)
 
 ### PersoArabic {#PersoArabic}
 ```
@@ -993,7 +993,7 @@ public static final Language PersoArabic
 ```
 
 
-Universal Perso-Arabic أبجدية
+الفارسية-العربية العالمية أبجدية
 
 ### Pes {#Pes}
 ```
@@ -1001,7 +1001,7 @@ public static final Language Pes
 ```
 
 
-Persian�(Farsi) أبجدية
+الأبجدية الفارسية (الفارسية)
 
 ### Plm {#Plm}
 ```
@@ -1009,7 +1009,7 @@ public static final Language Plm
 ```
 
 
-Palembang أبجدية
+الأبجدية باليمبانغ
 
 ### Pol {#Pol}
 ```
@@ -1017,7 +1017,7 @@ public static final Language Pol
 ```
 
 
-Polish أبجدية
+الأبجدية البولندية
 
 ### Por {#Por}
 ```
@@ -1025,7 +1025,7 @@ public static final Language Por
 ```
 
 
-Portuguese أبجدية
+الأبجدية البرتغالية
 
 ### Quc {#Quc}
 ```
@@ -1033,7 +1033,7 @@ public static final Language Quc
 ```
 
 
-K'iche' أبجدية
+الأبجدية كيتشي
 
 ### Qxa {#Qxa}
 ```
@@ -1041,7 +1041,7 @@ public static final Language Qxa
 ```
 
 
-Quechua أبجدية
+الأبجدية الكتشوية
 
 ### Rjb {#Rjb}
 ```
@@ -1049,7 +1049,7 @@ public static final Language Rjb
 ```
 
 
-Rajbanshi أبجدية
+الأبجدية رجبانشي
 
 ### Ron {#Ron}
 ```
@@ -1057,7 +1057,7 @@ public static final Language Ron
 ```
 
 
-Romanian أبجدية
+الأبجدية الرومانية
 
 ### Ruf {#Ruf}
 ```
@@ -1065,7 +1065,7 @@ public static final Language Ruf
 ```
 
 
-Luguru أبجدية
+الأبجدية اللوغورو
 
 ### Rus {#Rus}
 ```
@@ -1073,7 +1073,7 @@ public static final Language Rus
 ```
 
 
-Russian أبجدية
+الأبجدية الروسية
 
 ### Rwr {#Rwr}
 ```
@@ -1081,7 +1081,7 @@ public static final Language Rwr
 ```
 
 
-Marwari أبجدية
+الأبجدية الماروارية
 
 ### Sas {#Sas}
 ```
@@ -1089,7 +1089,7 @@ public static final Language Sas
 ```
 
 
-Sasak أبجدية
+الأبجدية الساساك
 
 ### Slk {#Slk}
 ```
@@ -1097,7 +1097,7 @@ public static final Language Slk
 ```
 
 
-Slovak أبجدية
+الأبجدية السلوفاكية
 
 ### Slv {#Slv}
 ```
@@ -1105,7 +1105,7 @@ public static final Language Slv
 ```
 
 
-Slovene أبجدية
+الأبجدية السلوفينية
 
 ### Sna {#Sna}
 ```
@@ -1113,7 +1113,7 @@ public static final Language Sna
 ```
 
 
-Shona�(Karanga) أبجدية
+الأبجدية الشونا (كارانجا)
 
 ### Som {#Som}
 ```
@@ -1121,7 +1121,7 @@ public static final Language Som
 ```
 
 
-Somali أبجدية
+الأبجدية الصومالية
 
 ### Sot {#Sot}
 ```
@@ -1129,7 +1129,7 @@ public static final Language Sot
 ```
 
 
-Sotho�(Southern) أبجدية
+الأبجدية السوثو (الجنوبية)
 
 ### Spa {#Spa}
 ```
@@ -1137,7 +1137,7 @@ public static final Language Spa
 ```
 
 
-Spanish أبجدية
+الأبجدية الإسبانية
 
 ### Srp {#Srp}
 ```
@@ -1145,7 +1145,7 @@ public static final Language Srp
 ```
 
 
-Serbian أبجدية
+الأبجدية الصربية
 
 ### Srr {#Srr}
 ```
@@ -1153,7 +1153,7 @@ public static final Language Srr
 ```
 
 
-Serer-Sine أبجدية
+الأبجدية سيرير-سين
 
 ### Ssw {#Ssw}
 ```
@@ -1161,7 +1161,7 @@ public static final Language Ssw
 ```
 
 
-Swati�(Swazi) أبجدية
+الأبجدية السواتية (السوازي)
 
 ### Suk {#Suk}
 ```
@@ -1169,7 +1169,7 @@ public static final Language Suk
 ```
 
 
-Sukuma أبجدية
+الأبجدية السوكومة
 
 ### Sun {#Sun}
 ```
@@ -1177,7 +1177,7 @@ public static final Language Sun
 ```
 
 
-Sundanese�(Sunda) أبجدية
+الأبجدية السوندانية (سندا)
 
 ### Swe {#Swe}
 ```
@@ -1185,7 +1185,7 @@ public static final Language Swe
 ```
 
 
-Swedish أبجدية
+الأبجدية السويدية
 
 ### Swh {#Swh}
 ```
@@ -1193,7 +1193,7 @@ public static final Language Swh
 ```
 
 
-Swahili أبجدية
+الأبجدية السواحيلية
 
 ### Tam {#Tam}
 ```
@@ -1209,7 +1209,7 @@ public static final Language Tel
 ```
 
 
-أبجدية التيلوغو
+أبجدية التيلجو
 
 ### Tgl {#Tgl}
 ```
@@ -1217,7 +1217,7 @@ public static final Language Tgl
 ```
 
 
-أبجدية Tagalog�(Pilipino)
+أبجدية التاغالوغ�(بيلبينيو)
 
 ### Toi {#Toi}
 ```
@@ -1233,7 +1233,7 @@ public static final Language Tsn
 ```
 
 
-أبجدية التسوانية
+أبجدية التسوانا
 
 ### Tso {#Tso}
 ```
@@ -1289,7 +1289,7 @@ public static final Language Umb
 ```
 
 
-أبجدية الأومبندو
+أبجدية الأمبندو
 
 ### Universal {#Universal}
 ```
@@ -1297,7 +1297,7 @@ public static final Language Universal
 ```
 
 
-يكتشف تلقائيًا اللغة في المستند أو الصورة المدخلة. يدعم عائلات لغات متعددة، بما في ذلك اللاتينية، السيريلية، العربية، وأكثر.
+يكتشف تلقائيًا اللغة في المستند أو الصورة المدخلة. يدعم عائلات لغات متعددة، بما في ذلك اللاتينية والسيريلية والعربية، وغيرها.
 
 ### Urd {#Urd}
 ```
@@ -1321,7 +1321,7 @@ public static final Language Vmw
 ```
 
 
-أبجدية Makua�(Makhuwa)
+أبجدية الماكوا�(ماكهووا)
 
 ### Wal {#Wal}
 ```
@@ -1329,7 +1329,7 @@ public static final Language Wal
 ```
 
 
-أبجدية الوولايطة
+أبجدية الوولايتا
 
 ### War {#War}
 ```
@@ -1377,7 +1377,7 @@ public static final Language Yao
 ```
 
 
-أبجدية الياو
+أبجدية ياو
 
 ### Yor {#Yor}
 ```

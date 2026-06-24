@@ -14,7 +14,7 @@ url: /ar/java/com.aspose.ocr.models/
 | --- | --- |
 | [Character](../com.aspose.ocr.models/character/) | بيانات حول الحرف المكتشف. |
 | [CharacterRecognitionResult](../com.aspose.ocr.models/characterrecognitionresult/) | صفحات تحتوي على بيانات الأحرف المكتشفة. |
-| [ContentArea](../com.aspose.ocr.models/contentarea/) | منطقة محتوى مكتشفة في صورة. |
+| [ContentArea](../com.aspose.ocr.models/contentarea/) | منطقة محتوى تم اكتشافها في صورة. |
 | [DefectAreas](../com.aspose.ocr.models/defectareas/) | مناطق الصورة التي تحتوي على نوع معين من العيوب. |
 | [LanguageDetectionOutput](../com.aspose.ocr.models/languagedetectionoutput/) | اللغات المكتشفة في نص الصورة. |
 | [LayoutOutput](../com.aspose.ocr.models/layoutoutput/) | معلومات حول مناطق المحتوى المكتشفة في الصورة. |
@@ -31,13 +31,13 @@ url: /ar/java/com.aspose.ocr.models/
 | --- | --- |
 | [AreasType](../com.aspose.ocr.models/areastype/) | يحدد نوع المناطق المكتشفة بواسطة النموذج. |
 | [CharactersAllowedType](../com.aspose.ocr.models/charactersallowedtype/) | يحدد نوع الأحرف المسموح بها لنتيجة التعرف. |
-| [Country](../com.aspose.ocr.models/country/) | لتحسين التعرف على جواز السفر حدد بلد جواز السفر. |
+| [Country](../com.aspose.ocr.models/country/) | لتحسين التعرف على جواز السفر، حدد بلد جواز السفر. |
 | [DefectType](../com.aspose.ocr.models/defecttype/) | أنواع عيوب الصورة. |
 | [DetectAreasMode](../com.aspose.ocr.models/detectareasmode/) |  |
 | [ExecutionModeOnnx](../com.aspose.ocr.models/executionmodeonnx/) |  |
 | [Format](../com.aspose.ocr.models/format/) |  |
 | [GraphOptimizationLevelOnnx](../com.aspose.ocr.models/graphoptimizationlevelonnx/) |  |
 | [Language](../com.aspose.ocr.models/language/) |  |
-| [LanguageDetectionLevel](../com.aspose.ocr.models/languagedetectionlevel/) | يحدد مستوى اكتشاف اللغة للتعرف على النص في الصورة. |
+| [LanguageDetectionLevel](../com.aspose.ocr.models/languagedetectionlevel/) | يعرف مستوى اكتشاف اللغة للتعرف على النص في الصورة. |
 | [PdfOptimizationMode](../com.aspose.ocr.models/pdfoptimizationmode/) | قلل حجم ملف PDF بشكل كبير على حساب جودة صورة أقل. |
 | [RegionTypes](../com.aspose.ocr.models/regiontypes/) | يحدد نوع المناطق المكتشفة بواسطة DSR. |

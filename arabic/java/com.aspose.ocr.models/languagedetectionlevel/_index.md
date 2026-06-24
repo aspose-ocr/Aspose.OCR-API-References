@@ -13,10 +13,10 @@ java.lang.Object, java.lang.Enum
 public enum LanguageDetectionLevel extends Enum<LanguageDetectionLevel>
 ```
 
-يحدد مستوى اكتشاف اللغة للتعرف على النص في الصورة.
+يعرف مستوى اكتشاف اللغة للتعرف على النص في الصورة.
 ## الحقول
 
-| حقل | الوصف |
+| الحقل | الوصف |
 | --- | --- |
 | [BY_PAGE](#BY-PAGE) | يكتشف لغة واحدة لكامل الصورة. |
 | [BY_PARAGRAPH](#BY-PARAGRAPH) | يكتشف اللغة بشكل منفصل لكل فقرة. |

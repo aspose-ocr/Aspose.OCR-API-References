@@ -16,14 +16,14 @@ public class RecognitionResult.RegionResult
 النص المعترف به من المنطقة مع إحداثيات المنطقة.
 ## الحقول
 
-| حقل | الوصف |
+| الحقل | الوصف |
 | --- | --- |
 | [region](#region) | إحداثيات المنطقة. |
 | [regionType](#regionType) | نوع المنطقة. |
 | [textInRegion](#textInRegion) | النص المعترف به من المنطقة. |
-## الطرق
+## الدوال
 
-| طريقة | الوصف |
+| الدالة | الوصف |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getClass()](#getClass) |  |

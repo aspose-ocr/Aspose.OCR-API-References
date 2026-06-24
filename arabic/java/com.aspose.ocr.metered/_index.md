@@ -12,4 +12,4 @@ url: /ar/java/com.aspose.ocr.metered/
 
 | الفئة | الوصف |
 | --- | --- |
-| [Metered](../com.aspose.ocr.metered/metered/) | يوفر طرقًا لتعيين المفتاح المقنن. |
+| [Metered](../com.aspose.ocr.metered/metered/) | يوفر طرقًا لتعيين المفتاح المقيس. |

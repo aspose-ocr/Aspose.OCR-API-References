@@ -15,15 +15,15 @@ public class OCRTableRow
 
 يمثل صفًا واحدًا داخل جدول معترف به.
 
-يحتوي الصف على مجموعة من مثيلات [OCRTableCell](../../com.aspose.ocr.models/ocrtablecell/)، كل منها يمثل عمودًا واحدًا في الجدول.
-## المنشئات
+يحتوي الصف على مجموعة من كائنات [OCRTableCell](../../com.aspose.ocr.models/ocrtablecell/)، كل منها يمثل عمودًا واحدًا في الجدول.
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
 | [OCRTableRow()](#OCRTableRow) |  |
-## الطرق
+## الدوال
 
-| طريقة | الوصف |
+| الدالة | الوصف |
 | --- | --- |
 | [getCells()](#getCells) |  |
 | [getRowIndex()](#getRowIndex) |  |

@@ -14,34 +14,34 @@ public class PreprocessingFilter
 ```
 
 الفئة الأساسية لأوامر معالجة الصور.
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
 | [PreprocessingFilter()](#PreprocessingFilter) |  |
 ## الحقول
 
-| حقل | الوصف |
+| الحقل | الوصف |
 | --- | --- |
 | [Empty](#Empty) |  |
-## الطرق
+## الدوال
 
-| طريقة | الوصف |
+| الدالة | الوصف |
 | --- | --- |
-| [AutoDenoising()](#AutoDenoising) | يتيح استخدام شبكة عصبية إضافية لتحسين الصورة - تقليل الضوضاء. |
-| [AutoDenoising(Rectangle area)](#AutoDenoising-java.awt.Rectangle) | يتيح استخدام شبكة عصبية إضافية لتحسين جزء من الصورة - تقليل الضوضاء. |
-| [AutoDewarping()](#AutoDewarping) | يقوم تلقائيًا بتصحيح التشوهات الهندسية في الصورة. |
-| [AutoSkew()](#AutoSkew) | يتيح تصحيح الميلان التلقائي للصورة. |
-| [AutoSkew(Rectangle area)](#AutoSkew-java.awt.Rectangle) | يتيح تصحيح الميلان التلقائي لجزء من الصورة. |
-| [Binarize()](#Binarize) | يحول الصورة إلى صورة بالأبيض والأسود. |
-| [Binarize(Rectangle area)](#Binarize-java.awt.Rectangle) | يحول جزءًا من الصورة إلى صورة بالأبيض والأسود. |
-| [BinarizeAndDilate()](#BinarizeAndDilate) | التوسيع يضيف بكسلات إلى حدود الكائنات في الصورة. |
-| [BinarizeAndDilate(Rectangle area)](#BinarizeAndDilate-java.awt.Rectangle) | التوسيع يضيف بكسلات إلى حدود الكائنات في جزء من الصورة. |
+| [AutoDenoising()](#AutoDenoising) | يمكّن استخدام شبكة عصبية إضافية لتحسين الصورة - تقليل الضوضاء. |
+| [AutoDenoising(Rectangle area)](#AutoDenoising-java.awt.Rectangle) | يمكّن استخدام شبكة عصبية إضافية لتحسين جزء من الصورة - تقليل الضوضاء. |
+| [AutoDewarping()](#AutoDewarping) | يصحّح تلقائيًا التشوهات الهندسية في الصورة. |
+| [AutoSkew()](#AutoSkew) | يمكّن تصحيح الميل التلقائي للصورة. |
+| [AutoSkew(Rectangle area)](#AutoSkew-java.awt.Rectangle) | يمكّن تصحيح الميل التلقائي لجزء من الصورة. |
+| [Binarize()](#Binarize) | يحوّل الصورة إلى صورة بالأبيض والأسود. |
+| [Binarize(Rectangle area)](#Binarize-java.awt.Rectangle) | يحوّل جزءًا من الصورة إلى صورة بالأبيض والأسود. |
+| [BinarizeAndDilate()](#BinarizeAndDilate) | الإنتشار يضيف بكسلات إلى حدود الكائنات في الصورة. |
+| [BinarizeAndDilate(Rectangle area)](#BinarizeAndDilate-java.awt.Rectangle) | الإنتشار يضيف بكسلات إلى حدود الكائنات في جزء من الصورة. |
 | [ContrastCorrection()](#ContrastCorrection) | مرشح تصحيح التباين. |
 | [ContrastCorrection(Rectangle area)](#ContrastCorrection-java.awt.Rectangle) | مرشح تصحيح التباين لجزء من الصورة. |
-| [Invert()](#Invert) | يقلب الألوان تلقائيًا في صورة المستند. |
-| [Invert(Rectangle area)](#Invert-java.awt.Rectangle) | يقلب الألوان تلقائيًا في جزء من الصورة. |
-| [Median()](#Median) | يقوم مرشح الوسيط بالمرور عبر كل عنصر في الصورة واستبدال كل بكسل بوسيط بكسلاته المجاورة. |
+| [Invert()](#Invert) | يعكس الألوان تلقائيًا في صورة مستند. |
+| [Invert(Rectangle area)](#Invert-java.awt.Rectangle) | يعكس الألوان تلقائيًا في جزء من الصورة. |
+| [Median()](#Median) | يقوم مرشح الوسيط بالمرور عبر كل عنصر في الصورة ويستبدل كل بكسل بوسيط بكسلاته المجاورة. |
 | [Median(Rectangle area)](#Median-java.awt.Rectangle) | يقوم مرشح الوسيط بالمرور عبر كل عنصر من جزء الصورة واستبدال كل بكسل بوسيط بكسلاته المجاورة. |
 | [Resize(int width, int height)](#Resize-int-int) | إعادة تحجيم الصورة - تكبير أو تصغير دقة الصورة. |
 | [Resize(int width, int height, InterpolationFilterType type)](#Resize-int-int-com.aspose.ocr.InterpolationFilterType) | إعادة تحجيم الصورة - تكبير أو تصغير دقة الصورة. |
@@ -49,10 +49,10 @@ public class PreprocessingFilter
 | [Rotate(float angle, Rectangle area)](#Rotate-float-java.awt.Rectangle) | تدوير جزء من الصورة. |
 | [Scale(float ratio)](#Scale-float) | إعادة تحجيم الصورة - تكبير أو تصغير دقة الصورة. |
 | [Scale(float ratio, InterpolationFilterType type)](#Scale-float-com.aspose.ocr.InterpolationFilterType) | إعادة تحجيم الصورة - تكبير أو تصغير دقة الصورة. |
-| [Threshold(int value)](#Threshold-int) | إنشاء صورة ثنائية بناءً على تعيين قيمة عتبة لشدة بكسل الصورة الأصلية. |
-| [Threshold(int value, Rectangle area)](#Threshold-int-java.awt.Rectangle) | إنشاء جزء من صورة ثنائية بناءً على تعيين قيمة عتبة لشدة بكسل جزء الصورة الأصلية. |
-| [ToGrayscale()](#ToGrayscale) | تحويل الصورة إلى صورة بتدرج الرمادي. |
-| [add(PreprocessingFilter filter)](#add-com.aspose.ocr.PreprocessingFilter) | إضافة المرشح الجديد إلى المجموعة لتشغيل جميع العمليات لاحقًا. |
+| [Threshold(int value)](#Threshold-int) | إنشاء صورة ثنائية بناءً على ضبط قيمة العتبة لشدة بكسل الصورة الأصلية. |
+| [Threshold(int value, Rectangle area)](#Threshold-int-java.awt.Rectangle) | إنشاء جزء من الصورة الثنائية بناءً على ضبط قيمة العتبة لشدة بكسل جزء الصورة الأصلية. |
+| [ToGrayscale()](#ToGrayscale) | تحويل الصورة إلى صورة رمادية. |
+| [add(PreprocessingFilter filter)](#add-com.aspose.ocr.PreprocessingFilter) | أضف المرشح الجديد إلى المجموعة لتشغيل جميع العمليات لاحقًا. |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getClass()](#getClass) |  |
 | [hashCode()](#hashCode) |  |
@@ -80,7 +80,7 @@ public static PreprocessingFilter AutoDenoising()
 ```
 
 
-يتيح استخدام شبكة عصبية إضافية لتحسين الصورة - تقليل الضوضاء. مفيد للصور التي تحتوي على عيوب المسح، تشوهات، بقع، توهجات، تدرجات، عناصر غريبة.
+يتيح استخدام شبكة عصبية إضافية لتحسين الصورة - تقليل الضوضاء. مفيد للصور التي تحتوي على عيوب المسح، التشوه، البقع، الوهج، التدرجات، العناصر الغريبة.
 
 **Returns:**
 [PreprocessingFilter](../../com.aspose.ocr/preprocessingfilter/) - AutoDenoisingFilter object.
@@ -90,7 +90,7 @@ public static PreprocessingFilter AutoDenoising(Rectangle area)
 ```
 
 
-يتيح استخدام شبكة عصبية إضافية لتحسين جزء من الصورة - تقليل الضوضاء. مفيد للصور التي تحتوي على عيوب المسح، تشوهات، بقع، توهجات، تدرجات، عناصر غريبة.
+يتيح استخدام شبكة عصبية إضافية لتحسين جزء من الصورة - تقليل الضوضاء. مفيد للصور التي تحتوي على عيوب المسح، التشوه، البقع، الوهج، التدرجات، العناصر الغريبة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -105,7 +105,7 @@ public static PreprocessingFilter AutoDewarping()
 ```
 
 
-يقوم تلقائيًا بتصحيح التشوهات الهندسية في الصورة. يتطلب موارد عالية جدًا!
+يصحح تلقائيًا التشوهات الهندسية في الصورة. يتطلب موارد عالية جدًا!
 
 **Returns:**
 [PreprocessingFilter](../../com.aspose.ocr/preprocessingfilter/) - AutoDewarpingFilter object.
@@ -115,7 +115,7 @@ public static PreprocessingFilter AutoSkew()
 ```
 
 
-يتيح تصحيح الميلان التلقائي للصورة.
+يمكّن تصحيح الميل التلقائي للصورة.
 
 **Returns:**
 [PreprocessingFilter](../../com.aspose.ocr/preprocessingfilter/) - AutoSkewFilter object.
@@ -125,7 +125,7 @@ public static PreprocessingFilter AutoSkew(Rectangle area)
 ```
 
 
-يتيح تصحيح الميلان التلقائي لجزء من الصورة.
+يمكّن تصحيح الميل التلقائي لجزء من الصورة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -140,7 +140,7 @@ public static PreprocessingFilter Binarize()
 ```
 
 
-تحويل الصورة إلى صورة بالأبيض والأسود. الصور الثنائية هي صور يكون لبكسلاتها قيمتان محتملتان فقط للشدة. عادةً ما تُعرض باللونين الأسود والأبيض. عدديًا، تكون القيمتان غالبًا 0 للون الأسود و255 للون الأبيض. تُنتج الصور الثنائية عن طريق تطبيق عتبة تلقائية على الصورة.
+تحويل الصورة إلى صورة بالأبيض والأسود. الصور الثنائية هي صور تكون بكسلاتها ذات قيمتين محتملتين فقط للشدة. تُعرض عادةً باللونين الأسود والأبيض. عدديًا، القيمتان غالبًا ما تكون 0 للون الأسود و255 للون الأبيض. تُنتج الصور الثنائية عبر تطبيق عتبة تلقائية على الصورة.
 
 **Returns:**
 [PreprocessingFilter](../../com.aspose.ocr/preprocessingfilter/) - BinarizeFilter object.
@@ -150,7 +150,7 @@ public static PreprocessingFilter Binarize(Rectangle area)
 ```
 
 
-تحويل جزء من الصورة إلى صورة بالأبيض والأسود. الصور الثنائية هي صور يكون لبكسلاتها قيمتان محتملتان فقط للشدة. عادةً ما تُعرض باللونين الأسود والأبيض. عدديًا، تكون القيمتان غالبًا 0 للون الأسود و255 للون الأبيض. تُنتج الصور الثنائية عن طريق تطبيق عتبة تلقائية على الصورة.
+تحويل جزء من الصورة إلى صورة بالأبيض والأسود. الصور الثنائية هي صور تكون بكسلاتها ذات قيمتين محتملتين فقط للشدة. تُعرض عادةً باللونين الأسود والأبيض. عدديًا، القيمتان غالبًا ما تكون 0 للون الأسود و255 للون الأبيض. تُنتج الصور الثنائية عبر تطبيق عتبة تلقائية على الصورة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -165,7 +165,7 @@ public static PreprocessingFilter BinarizeAndDilate()
 ```
 
 
-التوسيع يضيف بكسلات إلى حدود الكائنات في الصورة.
+الإنتشار يضيف بكسلات إلى حدود الكائنات في الصورة.
 
 **Returns:**
 [PreprocessingFilter](../../com.aspose.ocr/preprocessingfilter/) - DilateFilter object.
@@ -175,7 +175,7 @@ public static PreprocessingFilter BinarizeAndDilate(Rectangle area)
 ```
 
 
-التوسيع يضيف بكسلات إلى حدود الكائنات في جزء من الصورة.
+الإنتشار يضيف بكسلات إلى حدود الكائنات في جزء من الصورة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -215,7 +215,7 @@ public static PreprocessingFilter Invert()
 ```
 
 
-يقلب الألوان تلقائيًا في صورة المستند.
+يعكس الألوان تلقائيًا في صورة مستند.
 
 **Returns:**
 [PreprocessingFilter](../../com.aspose.ocr/preprocessingfilter/) - InvertFilter object.
@@ -225,7 +225,7 @@ public static PreprocessingFilter Invert(Rectangle area)
 ```
 
 
-يقلب الألوان تلقائيًا في جزء من الصورة.
+يعكس الألوان تلقائيًا في جزء من الصورة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -240,7 +240,7 @@ public static PreprocessingFilter Median()
 ```
 
 
-يقوم مرشح الوسيط بالمرور عبر كل عنصر في الصورة واستبدال كل بكسل بوسيط بكسلاته المجاورة.
+يقوم مرشح الوسيط بالمرور عبر كل عنصر في الصورة ويستبدل كل بكسل بوسيط بكسلاته المجاورة.
 
 **Returns:**
 [PreprocessingFilter](../../com.aspose.ocr/preprocessingfilter/) - MedianFilter object.
@@ -329,7 +329,7 @@ public static PreprocessingFilter Scale(float ratio)
 ```
 
 
-إعادة تحجيم الصورة - تكبير أو تصغير دقة الصورة. InterpolationFilterType الافتراضي ثنائي الخط أو أقرب جار @see [InterpolationFilterType](../../com.aspose.ocr/interpolationfiltertype/)
+إعادة تحجيم الصورة - تكبير أو تصغير دقة الصورة. InterpolationFilterType الافتراضي ثنائي الخطية أو أقرب جار @see [InterpolationFilterType](../../com.aspose.ocr/interpolationfiltertype/)
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -360,7 +360,7 @@ public static PreprocessingFilter Threshold(int value)
 ```
 
 
-إنشاء صورة ثنائية بناءً على تعيين قيمة عتبة لشدة بكسل الصورة الأصلية.
+إنشاء صورة ثنائية بناءً على ضبط قيمة العتبة لشدة بكسل الصورة الأصلية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -375,7 +375,7 @@ public static PreprocessingFilter Threshold(int value, Rectangle area)
 ```
 
 
-إنشاء جزء من صورة ثنائية بناءً على تعيين قيمة عتبة لشدة بكسل جزء الصورة الأصلية.
+إنشاء جزء من الصورة الثنائية بناءً على ضبط قيمة العتبة لشدة بكسل جزء الصورة الأصلية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -391,7 +391,7 @@ public static PreprocessingFilter ToGrayscale()
 ```
 
 
-يقوم بتحويل الصورة إلى صورة رمادية. الصورة الرمادية تحتوي على 256 مستوى إضاءة في الصورة (0 إلى 255).
+يحوّل الصورة إلى صورة رمادية. الصورة الرمادية تحتوي على 256 مستوى إضاءة في الصورة (0 إلى 255).
 
 **Returns:**
 [PreprocessingFilter](../../com.aspose.ocr/preprocessingfilter/) - GrayscaleFilter object.
