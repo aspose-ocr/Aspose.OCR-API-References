@@ -14,15 +14,15 @@ public class SkewOutput
 ```
 
 بيانات حول زاوية الانحراف بالدرجات واسم الملف.
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
 | [SkewOutput()](#SkewOutput) |  |
 | [SkewOutput(String source, double angle, int page)](#SkewOutput-java.lang.String-double-int) |  |
 ## الحقول
 
-| حقل | الوصف |
+| الحقل | الوصف |
 | --- | --- |
 | [Angle](#Angle) | زاوية الانحراف بالدرجات. |
 | [Page](#Page) | رقم الصفحة. |
@@ -45,7 +45,7 @@ public SkewOutput(String source, double angle, int page)
 | --- | --- | --- |
 | المصدر | java.lang.String |  |
 | زاوية | double |  |
-| صفحة | int |  |
+| الصفحة | int |  |
 
 ### Angle {#Angle}
 ```

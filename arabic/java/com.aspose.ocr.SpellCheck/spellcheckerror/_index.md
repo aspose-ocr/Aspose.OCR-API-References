@@ -13,23 +13,23 @@ java.lang.Object
 public class SpellCheckError
 ```
 
-تمثيل كلمة مكتوبة خطأً مع بيانات إضافية.
-## المنشئات
+تمثيل كلمة مكتوبة بشكل خاطئ مع بيانات إضافية.
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
 | [SpellCheckError()](#SpellCheckError) |  |
 ## الحقول
 
-| حقل | الوصف |
+| الحقل | الوصف |
 | --- | --- |
 | [length](#length) | طول الكلمة المكتوبة بشكل خاطئ في النص المدخل. |
 | [startPosition](#startPosition) | موضع الكلمة في النص المدخل. |
-| [suggestedWords](#suggestedWords) | قائمة من الكائنات مع الاقتراحات للتهجئات الصحيحة |
-| [word](#word) | الكلمة التي تم تهجئتها بشكل خاطئ. |
-## الطرق
+| [suggestedWords](#suggestedWords) | قائمة من الكائنات مع الاقتراحات الصحيحة للتهجئة |
+| [word](#word) | الكلمة التي تم تهجئتها خطأً. |
+## الدوال
 
-| طريقة | الوصف |
+| الدالة | الوصف |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getClass()](#getClass) |  |
@@ -68,7 +68,7 @@ public List<SpellCheck.SuggestedWord> suggestedWords
 ```
 
 
-قائمة من الكائنات مع الاقتراحات للتهجئات الصحيحة
+قائمة من الكائنات مع الاقتراحات الصحيحة للتهجئة
 
 ### word {#word}
 ```
@@ -76,7 +76,7 @@ public String word
 ```
 
 
-الكلمة التي تم تهجئتها بشكل خاطئ.
+الكلمة التي تم تهجئتها خطأً.
 
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```

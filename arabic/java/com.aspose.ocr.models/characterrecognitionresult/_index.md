@@ -14,16 +14,16 @@ public class CharacterRecognitionResult
 ```
 
 صفحات تحتوي على بيانات الأحرف المكتشفة.
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
 | [CharacterRecognitionResult()](#CharacterRecognitionResult) |  |
 ## الحقول
 
-| حقل | الوصف |
+| الحقل | الوصف |
 | --- | --- |
-| [Characters](#Characters) | بيانات حول الأحرف المكتشفة في الصفحة. |
+| [Characters](#Characters) | بيانات حول الأحرف المكتشفة على الصفحة. |
 | [Page](#Page) | رقم الصفحة. |
 | [Source](#Source) | المسار الكامل للملف أو URL، إذا كان موجودًا. |
 
@@ -39,7 +39,7 @@ public ArrayList<Character> Characters
 ```
 
 
-بيانات حول الأحرف المكتشفة في الصفحة.
+بيانات حول الأحرف المكتشفة على الصفحة.
 
 ### Page {#Page}
 ```

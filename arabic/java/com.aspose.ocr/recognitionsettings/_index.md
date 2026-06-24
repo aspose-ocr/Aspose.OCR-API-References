@@ -14,9 +14,9 @@ public class RecognitionSettings
 ```
 
 إعدادات التعرف على الصورة. يحتوي على عناصر تسمح بتخصيص عملية التعرف.
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
 | [RecognitionSettings()](#RecognitionSettings) | المنشئ الافتراضي: تعيين recognitionAreas إلى null، linesFiltration إلى false، autoSkew إلى false، recognizeSingleLine إلى false. |
 | [RecognitionSettings(ArrayList<Rectangle> recognitionAreas, boolean recognizeSingleLine)](#RecognitionSettings-java.util.ArrayList-java.awt.Rectangle--boolean) | المنشئ يسمح بتعيين جميع الخيارات. |
@@ -26,9 +26,9 @@ public class RecognitionSettings
 | [RecognitionSettings(IDCardRecognitionSettings recSettings)](#RecognitionSettings-com.aspose.ocr.IDCardRecognitionSettings) |  |
 | [RecognitionSettings(PassportRecognitionSettings recSettings)](#RecognitionSettings-com.aspose.ocr.PassportRecognitionSettings) |  |
 | [RecognitionSettings(CarPlateRecognitionSettings recSettings)](#RecognitionSettings-com.aspose.ocr.CarPlateRecognitionSettings) |  |
-## الطرق
+## الدوال
 
-| طريقة | الوصف |
+| الدالة | الوصف |
 | --- | --- |
 | [setAllowedCharacters(CharactersAllowedType allowedCharacters)](#setAllowedCharacters-com.aspose.ocr.models.CharactersAllowedType) | مجموعة الأحرف المسموح بها. |
 | [setAllowedCharacters(String allowedCharacters)](#setAllowedCharacters-java.lang.String) | مجموعة الأحرف المسموح بها. |
@@ -36,12 +36,12 @@ public class RecognitionSettings
 | [setDetectAreasMode(DetectAreasMode detectAreasMode)](#setDetectAreasMode-com.aspose.ocr.models.DetectAreasMode) | يحدد نوع الشبكة العصبية المستخدمة لاكتشاف المناطق. |
 | [setIgnoredCharacters(String characters)](#setIgnoredCharacters-java.lang.String) | يضبط القائمة السوداء لرموز التعرف. |
 | [setLanguage(Language language)](#setLanguage-com.aspose.ocr.models.Language) |  |
-| [setLanguageDetectionLevel(LanguageDetectionLevel languageDetectionLevel)](#setLanguageDetectionLevel-com.aspose.ocr.models.LanguageDetectionLevel) | يحدد مستوى اكتشاف اللغة للتعرف على النص. |
+| [setLanguageDetectionLevel(LanguageDetectionLevel languageDetectionLevel)](#setLanguageDetectionLevel-com.aspose.ocr.models.LanguageDetectionLevel) | يحدد مستوى اكتشاف اللغة لتعرف النص. |
 | [setLinesFiltration(boolean linesFiltration)](#setLinesFiltration-boolean) | يسمح بالتعرف على النص في الجداول (المناطق المحاطة بالخطوط). |
 | [setRecognitionAreas(ArrayList<Rectangle> recognitionAreas)](#setRecognitionAreas-java.util.ArrayList-java.awt.Rectangle) | يضبط قائمة مناطق النص للمعالجة. |
 | [setRecognizeSingleLine(boolean recognizeSingleLine)](#setRecognizeSingleLine-boolean) | يضبط التعرف على الصورة ذات السطر الواحد. |
 | [setThreadsCount(int threadsCount)](#setThreadsCount-int) | يحصل أو يضبط عدد الخيوط للمعالجة. |
-| [setUpscaleSmallFont(boolean upscaleSmallFont)](#setUpscaleSmallFont-boolean) | يسمح لك باستخدام خوارزميات إضافية خصيصًا للتعرف على الخطوط الصغيرة. |
+| [setUpscaleSmallFont(boolean upscaleSmallFont)](#setUpscaleSmallFont-boolean) | يسمح لك باستخدام خوارزميات إضافية خصيصًا لتعرف الخط الصغير. |
 ### RecognitionSettings() {#RecognitionSettings}
 ```
 public RecognitionSettings()
@@ -70,7 +70,7 @@ public RecognitionSettings(boolean recognizeSingleLine)
 ```
 
 
-يسمح المُنشئ بتعيين recognizeSingleLine. القيم الافتراضية في هذه الحالة: detectAreas - false، autoSkew = false، recognitionAreas - null.
+المُنشئ يسمح بتعيين recognizeSingleLine. القيم الافتراضية في هذه الحالة: detectAreas - false، autoSkew = false، recognitionAreas - null.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -219,7 +219,7 @@ public void setLanguageDetectionLevel(LanguageDetectionLevel languageDetectionLe
 ```
 
 
-يحدد مستوى اكتشاف اللغة للتعرف على النص. يعمل فقط إذا كانت اللغة المحددة هي Language.MULTILANGUAGE أو Language.AUTO أو Language.UNIVERSAL. هذه العملية تستغرق وقتًا طويلاً وتبطئ بشكل كبير التعرف العام.
+يحدد مستوى اكتشاف اللغة لتعرف النص. يعمل فقط إذا كانت اللغة المختارة هي Language.MULTILANGUAGE أو Language.AUTO أو Language.UNIVERSAL. هذه العملية تستغرق وقتًا طويلاً وتبطئ بشكل كبير التعرف العام.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -245,7 +245,7 @@ public void setRecognitionAreas(ArrayList<Rectangle> recognitionAreas)
 ```
 
 
-يضبط قائمة مناطق النص للمعالجة. يسمح بتحديد المناطق التي تحتوي على نص يدويًا للحصول على تعرف أكثر دقة. إذا تم تعيين مناطق مخصصة [setDetectAreasMode(DetectAreasMode)](../../com.aspose.ocr/recognitionsettings/\#setDetectAreasMode-DetectAreasMode) (DetectAreasMode)\} ليست NONE أو [PreprocessingFilter.AutoSkew()](../../com.aspose.ocr/preprocessingfilter/\#AutoSkew) (boolean)\} سيتم تجاهل الخصائص. يعطل DetectAreas و AutoSkew.
+يضبط قائمة مناطق النص للمعالجة. يسمح بتحديد المناطق التي تحتوي على نص يدويًا للحصول على تعريف أكثر دقة. إذا تم تعيين مناطق مخصصة [setDetectAreasMode(DetectAreasMode)](../../com.aspose.ocr/recognitionsettings/\#setDetectAreasMode-DetectAreasMode) (DetectAreasMode)\} ليست NONE أو [PreprocessingFilter.AutoSkew()](../../com.aspose.ocr/preprocessingfilter/\#AutoSkew) (boolean)\} سيتم تجاهل الخصائص. يعطل DetectAreas و AutoSkew.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -258,7 +258,7 @@ public void setRecognizeSingleLine(boolean recognizeSingleLine)
 ```
 
 
-يضبط التعرف على الصورة ذات السطر الواحد. معطل (false) بشكل افتراضي. يعطل جميع خطوات المعالجة المرتبطة بالتقسيم إلى أسطر. اضبط هذه المعلمة إلى true إذا كانت صورتك تحتوي على سطر واحد فقط. يعطل إعدادات [setRecognitionAreas(ArrayList)](../../com.aspose.ocr/recognitionsettings/\#setRecognitionAreas-ArrayList) بحيث يتم تجاهل جميع إعدادات المناطق.
+يضبط التعرف على الصور ذات السطر الواحد. معطل (false) بشكل افتراضي. يعطل جميع خطوات المعالجة المرتبطة بالتقسيم إلى أسطر. اضبط هذا المعامل إلى true إذا كانت صورتك تحتوي على سطر واحد فقط. يعطل إعدادات [setRecognitionAreas(ArrayList)](../../com.aspose.ocr/recognitionsettings/\#setRecognitionAreas-ArrayList)، لذا سيتم تجاهل جميع إعدادات المناطق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -284,7 +284,7 @@ public void setUpscaleSmallFont(boolean upscaleSmallFont)
 ```
 
 
-يسمح لك باستخدام خوارزميات إضافية خصيصًا للتعرف على الخطوط الصغيرة. مفيد للصور التي تحتوي على أحرف صغيرة الحجم.
+يسمح لك باستخدام خوارزميات إضافية خصيصًا لتعرف الخط الصغير. مفيد للصور التي تحتوي على أحرف صغيرة الحجم.
 
 **Parameters:**
 | معامل | نوع | الوصف |

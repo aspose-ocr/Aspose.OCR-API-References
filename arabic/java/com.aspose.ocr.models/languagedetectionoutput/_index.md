@@ -14,14 +14,14 @@ public class LanguageDetectionOutput
 ```
 
 اللغات المكتشفة في نص الصورة.
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
 | [LanguageDetectionOutput(String _source, List<Map.Entry<Language,Float>> _languages, int _page)](#LanguageDetectionOutput-java.lang.String-java.util.List-java.util.Map.Entry-com.aspose.ocr.models.Language-java.lang.Float---int) |  |
 ## الحقول
 
-| حقل | الوصف |
+| الحقل | الوصف |
 | --- | --- |
 | [languages](#languages) | قائمة مرتبة للغات المكتشفة في نص الصورة، مرتبة حسب الاحتمالية. |
 | [page](#page) | رقم الصفحة. |

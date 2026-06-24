@@ -12,15 +12,15 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception
 ```
 public class AsposeOCRException extends Exception
 ```
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
 | [AsposeOCRException(String message)](#AsposeOCRException-java.lang.String) |  |
 | [AsposeOCRException(String message, Throwable cause)](#AsposeOCRException-java.lang.String-java.lang.Throwable) |  |
-## الطرق
+## الدوال
 
-| طريقة | الوصف |
+| الدالة | الوصف |
 | --- | --- |
 | [getMessage()](#getMessage--) |  |
 ### AsposeOCRException(String message) {#AsposeOCRException-java.lang.String}

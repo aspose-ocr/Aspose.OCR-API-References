@@ -12,7 +12,7 @@ url: /ar/java/com.aspose.ocr.spellcheck/
 
 | الفئة | الوصف |
 | --- | --- |
-| [SpellCheckError](../com.aspose.ocr.spellcheck/spellcheckerror/) | تمثيل كلمة مكتوبة خطأً مع بيانات إضافية. |
+| [SpellCheckError](../com.aspose.ocr.spellcheck/spellcheckerror/) | تمثيل كلمة مكتوبة بشكل خاطئ مع بيانات إضافية. |
 | [SuggestedWord](../com.aspose.ocr.spellcheck/suggestedword/) | اقتراح إملائي تم إرجاعه من GetSpellCheckErrorList. |
 
 ## التعدادات

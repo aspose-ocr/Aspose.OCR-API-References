@@ -16,14 +16,14 @@ public class OCRTable
 يمثل جدولًا واحدًا ببيانات جدولة معترف بها.
 
 كل جدول يخزن قائمة صفوف الجدول.
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
 | [OCRTable()](#OCRTable) |  |
-## الطرق
+## الدوال
 
-| طريقة | الوصف |
+| الدالة | الوصف |
 | --- | --- |
 | [getRows()](#getRows) |  |
 | [getTableIndex()](#getTableIndex) |  |
@@ -63,7 +63,7 @@ public void setRows(List<OCRTableRow> rows)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| صفوف | java.util.List<com.aspose.ocr.models.OCRTableRow> |  |
+| rows | java.util.List<com.aspose.ocr.models.OCRTableRow> |  |
 
 ### setTableIndex(int tableIndex) {#setTableIndex-int}
 ```

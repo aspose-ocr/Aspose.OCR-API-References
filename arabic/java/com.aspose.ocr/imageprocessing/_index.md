@@ -1,7 +1,7 @@
 ---
-title: "معالجة الصور"
+title: "ImageProcessing"
 second_title: "مرجع Aspose.OCR لـ Java API"
-description: "فئة مساعدة لمكتبة Aspose OCR"
+description: "فئة المساعدة لمكتبة Aspose OCR"
 type: docs
 weight: 19
 url: /ar/java/com.aspose.ocr/imageprocessing/
@@ -13,15 +13,15 @@ java.lang.Object
 public class ImageProcessing
 ```
 
-فئة مساعدة لمكتبة Aspose OCR. تسمح بالمعالجة المسبقة وحفظ الصور.
-## المنشئات
+فئة المساعدة لمكتبة Aspose OCR. تسمح بمعالجة الصور مسبقًا وحفظها.
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
 | [ImageProcessing()](#ImageProcessing) |  |
-## الطرق
+## الدوال
 
-| طريقة | الوصف |
+| الدالة | الوصف |
 | --- | --- |
 | [Render(OcrInput images)](#Render-com.aspose.ocr.OcrInput) | استخدم معالجة الصور لتحسين دقة OCR. |
 | [Save(OcrInput images, String folderPath)](#Save-com.aspose.ocr.OcrInput-java.lang.String) | استخدم معالجة الصور لتحسين دقة OCR. |
@@ -38,7 +38,7 @@ public static OcrInput Render(OcrInput images)
 ```
 
 
-استخدم معالجة الصور لتحسين دقة OCR. أنشئ قائمة من المرشحات التي سيتم تطبيقها على الصورة المدخلة بالترتيب الذي تحدده. مثال لإنشاء المرشحات: PreprocessingFilter filters = new PreprocessingFilter(); filters.add(PreprocessingFilter.AutoDewarping()); filters.add(PreprocessingFilter.Invert()); filters.add(PreprocessingFilter.Threshold(150)); filters.add(PreprocessingFilter.Binarize()); filters.add(PreprocessingFilter.Rotate(180)); filters.add(PreprocessingFilter.Scale(6f)); filters.add(PreprocessingFilter.Dilate()); لا تحتاج إلى جميعها. عيّن فقط ما تحتاجه.
+استخدم معالجة الصور لتحسين دقة OCR. أنشئ قائمة من الفلاتر التي سيتم تطبيقها على الصورة المدخلة بالترتيب الذي تحدده. مثال لإنشاء الفلاتر: PreprocessingFilter filters = new PreprocessingFilter(); filters.add(PreprocessingFilter.AutoDewarping()); filters.add(PreprocessingFilter.Invert()); filters.add(PreprocessingFilter.Threshold(150)); filters.add(PreprocessingFilter.Binarize()); filters.add(PreprocessingFilter.Rotate(180)); filters.add(PreprocessingFilter.Scale(6f)); filters.add(PreprocessingFilter.Dilate()); لا تحتاج إلى جميعها. عيّن فقط ما تحتاجه.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -53,7 +53,7 @@ public static OcrInput Save(OcrInput images, String folderPath)
 ```
 
 
-استخدم معالجة الصور لتحسين دقة OCR. أنشئ قائمة من المرشحات التي سيتم تطبيقها على الصورة المدخلة بالترتيب الذي تحدده. مثال لإنشاء المرشحات: PreprocessingFilter filters = new PreprocessingFilter(); filters.add(PreprocessingFilter.AutoDewarping()); filters.add(PreprocessingFilter.Invert()); filters.add(PreprocessingFilter.Threshold(150)); filters.add(PreprocessingFilter.Binarize()); filters.add(PreprocessingFilter.Rotate(180)); filters.add(PreprocessingFilter.Scale(6f)); filters.add(PreprocessingFilter.Dilate()); لا تحتاج إلى جميعها. عيّن فقط ما تحتاجه.
+استخدم معالجة الصور لتحسين دقة OCR. أنشئ قائمة من الفلاتر التي سيتم تطبيقها على الصورة المدخلة بالترتيب الذي تحدده. مثال لإنشاء الفلاتر: PreprocessingFilter filters = new PreprocessingFilter(); filters.add(PreprocessingFilter.AutoDewarping()); filters.add(PreprocessingFilter.Invert()); filters.add(PreprocessingFilter.Threshold(150)); filters.add(PreprocessingFilter.Binarize()); filters.add(PreprocessingFilter.Rotate(180)); filters.add(PreprocessingFilter.Scale(6f)); filters.add(PreprocessingFilter.Dilate()); لا تحتاج إلى جميعها. عيّن فقط ما تحتاجه.
 
 **Parameters:**
 | معامل | نوع | الوصف |

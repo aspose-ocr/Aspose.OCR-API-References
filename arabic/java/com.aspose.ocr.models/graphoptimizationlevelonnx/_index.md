@@ -14,7 +14,7 @@ public enum GraphOptimizationLevelOnnx extends Enum<GraphOptimizationLevelOnnx>
 ```
 ## الحقول
 
-| حقل | الوصف |
+| الحقل | الوصف |
 | --- | --- |
 | [ORT_DISABLE_ALL](#ORT-DISABLE-ALL) |  |
 | [ORT_ENABLE_ALL](#ORT-ENABLE-ALL) |  |

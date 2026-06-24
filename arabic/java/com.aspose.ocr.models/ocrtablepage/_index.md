@@ -1,7 +1,7 @@
 ---
 title: "OCRTablePage"
 second_title: "مرجع Aspose.OCR لـ Java API"
-description: "يمثل بيانات جدول منظمة لصفحة المستند OCR بأكملها"
+description: "يمثل بيانات جدول منظمة للصفحة الكاملة لمستندات OCR."
 type: docs
 weight: 18
 url: /ar/java/com.aspose.ocr.models/ocrtablepage/
@@ -15,15 +15,15 @@ public class OCRTablePage
 
 يمثل بيانات جدول منظمة لصفحة المستند OCR بالكامل.
 
-هذا الكائن يجمع جميع الجداول المعترف بها عبر صفحة معالجة واحدة. قد تحتوي كل صفحة على جدول واحد أو أكثر تم اكتشافه، ممثلاً كعناصر [OCRTable](../../com.aspose.ocr.models/ocrtable/) .
-## المنشئات
+هذا الكائن يجمع جميع الجداول المعترف بها عبر صفحة معالجة واحدة. قد تحتوي كل صفحة على جدول واحد أو أكثر تم اكتشافه، ممثلًا كعناصر [OCRTable](../../com.aspose.ocr.models/ocrtable/) .
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
 | [OCRTablePage()](#OCRTablePage) |  |
-## الطرق
+## الدوال
 
-| طريقة | الوصف |
+| الدالة | الوصف |
 | --- | --- |
 | [addTable(OCRTable table)](#addTable-com.aspose.ocr.models.OCRTable) |  |
 | [getTables()](#getTables) |  |

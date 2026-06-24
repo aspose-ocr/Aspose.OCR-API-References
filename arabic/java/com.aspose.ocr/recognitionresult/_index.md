@@ -14,24 +14,24 @@ public class RecognitionResult
 ```
 
 نتائج التعرف على الصورة. يحتوي على عناصر بمعلومات التعرف وطرق لتصدير النتيجة.
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [RecognitionResult()](#RecognitionResult) | يُنشئ مثيلًا جديدًا من |
+| [RecognitionResult()](#RecognitionResult) | يُهيئ نسخة جديدة من |
 ## الحقول
 
-| حقل | الوصف |
+| الحقل | الوصف |
 | --- | --- |
 | [language](#language) | لغة النص المعترف به في الصورة. |
-| [recognitionCharactersList](#recognitionCharactersList) | مجموعة من الأحرف التي وجدها خوارزمية التعرف مرتبة بترتيب تنازلي حسب الاحتمالية. |
+| [recognitionCharactersList](#recognitionCharactersList) | مجموعة من الأحرف التي وجدها خوارزمية التعرف وتم ترتيبها بترتيب تنازلي حسب الاحتمالية. |
 | [recognitionLinesResult](#recognitionLinesResult) | يحصل على قائمة من نتائج التعرف مع قائمة من الصفوف (مستطيلات). |
 | [recognitionRegionsResult](#recognitionRegionsResult) | يحصل على قائمة من نتائج التعرف مع قائمة من المناطق (مستطيلات). |
 | [recognitionText](#recognitionText) | نتيجة التعرف لجميع الصفحات أو منطقة واحدة. |
 | [warnings](#warnings) | يحصل أو يضبط قائمة رسائل التحذير التي تصف الأخطاء غير الحرجة التي ظهرت أثناء الإنشاء. |
-## الطرق
+## الدوال
 
-| طريقة | الوصف |
+| الدالة | الوصف |
 | --- | --- |
 | [GetJson()](#GetJson) | تكوين سلسلة JSON مع نتائج التعرف. |
 | [GetKeywords()](#GetKeywords) | احصل على الكلمات المفتاحية من جواز السفر (وضع الاختبار. |
@@ -42,10 +42,10 @@ public class RecognitionResult
 | [getSpellCheckErrorList()](#getSpellCheckErrorList) | ابحث عن الكلمات المكتوبة بشكل خاطئ مع الاقتراحات الإملائية لنص الإدخال المعطى. |
 | [getSpellCheckErrorList(SpellCheck.SpellCheckLanguage language)](#getSpellCheckErrorList-com.aspose.ocr.SpellCheck.SpellCheckLanguage) | ابحث عن الكلمات المكتوبة بشكل خاطئ مع الاقتراحات الإملائية لنص الإدخال المعطى. |
 | [save(String fullFileName)](#save-java.lang.String) | يحفظ المستند كنص عادي |
-| [save(String fullFileName, Format format)](#save-java.lang.String-com.aspose.ocr.models.Format) | يحفظ المستند كنص عادي أو بتنسيق مستند آخر. |
-| [save(String fullFileName, Format format, PdfOptimizationMode optimizePdf)](#save-java.lang.String-com.aspose.ocr.models.Format-com.aspose.ocr.models.PdfOptimizationMode) | يحفظ المستند كنص عادي أو بتنسيق مستند آخر. |
-| [saveSpellCheckCorrectedText(String fullFileName, Format format)](#saveSpellCheckCorrectedText-java.lang.String-com.aspose.ocr.models.Format) | يحفظ النص المصحح باستخدام القاموس الإنجليزي في المستند كنص عادي أو بتنسيق مستند نصي مايكروسوفت وورد. |
-| [saveSpellCheckCorrectedText(String fullFileName, Format format, SpellCheck.SpellCheckLanguage language)](#saveSpellCheckCorrectedText-java.lang.String-com.aspose.ocr.models.Format-com.aspose.ocr.SpellCheck.SpellCheckLanguage) | يحفظ النص المصحح في المستند كنص عادي أو بتنسيق آخر. |
+| [save(String fullFileName, Format format)](#save-java.lang.String-com.aspose.ocr.models.Format) | يحفظ المستند كنص عادي أو بصيغة مستند أخرى. |
+| [save(String fullFileName, Format format, PdfOptimizationMode optimizePdf)](#save-java.lang.String-com.aspose.ocr.models.Format-com.aspose.ocr.models.PdfOptimizationMode) | يحفظ المستند كنص عادي أو بصيغة مستند أخرى. |
+| [saveSpellCheckCorrectedText(String fullFileName, Format format)](#saveSpellCheckCorrectedText-java.lang.String-com.aspose.ocr.models.Format) | يحفظ النص المصحح باستخدام القاموس الإنجليزي في المستند كنص عادي أو بصيغة مستند نصي مايكروسوفت وورد. |
+| [saveSpellCheckCorrectedText(String fullFileName, Format format, SpellCheck.SpellCheckLanguage language)](#saveSpellCheckCorrectedText-java.lang.String-com.aspose.ocr.models.Format-com.aspose.ocr.SpellCheck.SpellCheckLanguage) | يحفظ النص المصحح في المستند كنص عادي أو بصيغة أخرى. |
 | [toString()](#toString) |  |
 | [useUserDictionary(String dictionaryPath)](#useUserDictionary-java.lang.String) | يسمح باستخدام القاموس الخاص لتصحيح التدقيق الإملائي. |
 ### RecognitionResult() {#RecognitionResult}
@@ -54,7 +54,7 @@ public RecognitionResult()
 ```
 
 
-يُنشئ مثيلًا جديدًا من
+يُهيئ نسخة جديدة من
 
 ### language {#language}
 ```
@@ -70,7 +70,7 @@ public ArrayList<char[]> recognitionCharactersList
 ```
 
 
-مجموعة من الأحرف التي وجدها خوارزمية التعرف مرتبة بترتيب تنازلي حسب الاحتمالية.
+مجموعة من الأحرف التي وجدها خوارزمية التعرف وتم ترتيبها بترتيب تنازلي حسب الاحتمالية.
 
 ### recognitionLinesResult {#recognitionLinesResult}
 ```
@@ -120,10 +120,10 @@ public HashMap<String,RecognitionResult.LinesResult> GetKeywords()
 ```
 
 
-احصل على الكلمات المفتاحية من جواز السفر (وضع الاختبار. يعمل فقط لجوازات السفر الأمريكية وماداغاسكار).
+احصل على الكلمات المفتاحية من جواز السفر (وضع الاختبار. يعمل فقط لجوازات سفر الولايات المتحدة ومدغشقر).
 
 **Returns:**
-java.util.HashMap<java.lang.String,com.aspose.ocr.RecognitionResult.LinesResult> - قاموس حيث الكلمة المفتاحية هي المفتاح وLinesResult هي القيمة.
+java.util.HashMap<java.lang.String,com.aspose.ocr.RecognitionResult.LinesResult> - قاموس مع الكلمة المفتاحية كمفتاح وLinesResult كقيمة.
 ### GetXml() {#GetXml}
 ```
 public String GetXml()
@@ -162,7 +162,7 @@ public String getSpellCheckCorrectedText(SpellCheck.SpellCheckLanguage language)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| language | [SpellCheckLanguage](../../com.aspose.ocr.spellcheck/spellchecklanguage/) | القاموس المراد استخدامه. |
+| language | [SpellCheckLanguage](../../com.aspose.ocr.spellcheck/spellchecklanguage/) | القاموس للاستخدام. |
 
 **Returns:**
 java.lang.String - سلسلة نتائج التعرف المصححة.
@@ -175,7 +175,7 @@ public List<SpellCheck.SpellCheckError> getSpellCheckErrorList()
 ابحث عن الكلمات المكتوبة بشكل خاطئ مع الاقتراحات الإملائية لنص الإدخال المعطى. القاموس الإنجليزي الافتراضي.
 
 **Returns:**
-java.util.List<com.aspose.ocr.SpellCheck.SpellCheckError> - ArrayList من كائن SpellCheckError يمثل الكلمات المكتوبة بشكل خاطئ مع قوائم الاقتراحات الصحيحة لكل كلمة مكتوبة بشكل خاطئ، ومع مسافة التحرير.
+java.util.List<com.aspose.ocr.SpellCheck.SpellCheckError> - ArrayList من كائن SpellCheckError يمثل الكلمات المكتوبة بشكل خاطئ مع قوائم الاقتراحات الصحيحة لكل كلمة مكتوبة بشكل خاطئ، ومع مسافة التعديل.
 ### getSpellCheckErrorList(SpellCheck.SpellCheckLanguage language) {#getSpellCheckErrorList-com.aspose.ocr.SpellCheck.SpellCheckLanguage}
 ```
 public List<SpellCheck.SpellCheckError> getSpellCheckErrorList(SpellCheck.SpellCheckLanguage language)
@@ -187,10 +187,10 @@ public List<SpellCheck.SpellCheckError> getSpellCheckErrorList(SpellCheck.SpellC
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| language | [SpellCheckLanguage](../../com.aspose.ocr.spellcheck/spellchecklanguage/) | القاموس المراد استخدامه. |
+| language | [SpellCheckLanguage](../../com.aspose.ocr.spellcheck/spellchecklanguage/) | القاموس للاستخدام. |
 
 **Returns:**
-java.util.List<com.aspose.ocr.SpellCheck.SpellCheckError> - ArrayList من كائن SpellCheckError يمثل الكلمات المكتوبة بشكل خاطئ مع قوائم الاقتراحات الصحيحة لكل كلمة مكتوبة بشكل خاطئ، ومع مسافة التحرير.
+java.util.List<com.aspose.ocr.SpellCheck.SpellCheckError> - ArrayList من كائن SpellCheckError يمثل الكلمات المكتوبة بشكل خاطئ مع قوائم الاقتراحات الصحيحة لكل كلمة مكتوبة بشكل خاطئ، ومع مسافة التعديل.
 
 
 
@@ -206,7 +206,7 @@ public void save(String fullFileName)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| fullFileName | java.lang.String | اسم الملف مع المسار لحفظ نتيجة التعرف |
+| fullFileName | java.lang.String | اسم الملف مع مسار لحفظ نتيجة التعرف |
 
 ### save(String fullFileName, Format format) {#save-java.lang.String-com.aspose.ocr.models.Format}
 ```
@@ -214,12 +214,12 @@ public void save(String fullFileName, Format format)
 ```
 
 
-يحفظ المستند كنص عادي أو بتنسيق مستند آخر.
+يحفظ المستند كنص عادي أو بصيغة مستند أخرى.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| fullFileName | java.lang.String | اسم الملف مع المسار لحفظ نتيجة التعرف. |
+| fullFileName | java.lang.String | اسم الملف مع مسار لحفظ نتيجة التعرف. |
 | format | [Format](../../com.aspose.ocr.models/format/) | نوع تعداد تنسيق المستند Format. |
 
 ### save(String fullFileName, Format format, PdfOptimizationMode optimizePdf) {#save-java.lang.String-com.aspose.ocr.models.Format-com.aspose.ocr.models.PdfOptimizationMode}
@@ -228,12 +228,12 @@ public void save(String fullFileName, Format format, PdfOptimizationMode optimiz
 ```
 
 
-يحفظ المستند كنص عادي أو بتنسيق مستند آخر.
+يحفظ المستند كنص عادي أو بصيغة مستند أخرى.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| fullFileName | java.lang.String | اسم الملف مع المسار لحفظ نتيجة التعرف. |
+| fullFileName | java.lang.String | اسم الملف مع مسار لحفظ نتيجة التعرف. |
 | format | [Format](../../com.aspose.ocr.models/format/) | نوع تعداد تنسيق المستند Format. |
 | optimizePdf | [PdfOptimizationMode](../../com.aspose.ocr.models/pdfoptimizationmode/) | قلل حجم ملف PDF عن طريق خفض جودة الصور الخلفية. بشكل افتراضي، يتم الحفاظ على جودة الصورة الأصلية. |
 
@@ -243,12 +243,12 @@ public void saveSpellCheckCorrectedText(String fullFileName, Format format)
 ```
 
 
-يحفظ النص المصحح باستخدام القاموس الإنجليزي في المستند كنص عادي أو بتنسيق مستند نصي مايكروسوفت وورد.
+يحفظ النص المصحح باستخدام القاموس الإنجليزي في المستند كنص عادي أو بصيغة مستند نصي مايكروسوفت وورد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| fullFileName | java.lang.String | اسم الملف مع المسار لحفظ نتيجة التعرف. |
+| fullFileName | java.lang.String | اسم الملف مع مسار لحفظ نتيجة التعرف. |
 | format | [Format](../../com.aspose.ocr.models/format/) | نوع تعداد تنسيق المستند Format. |
 
 ### saveSpellCheckCorrectedText(String fullFileName, Format format, SpellCheck.SpellCheckLanguage language) {#saveSpellCheckCorrectedText-java.lang.String-com.aspose.ocr.models.Format-com.aspose.ocr.SpellCheck.SpellCheckLanguage}
@@ -257,12 +257,12 @@ public void saveSpellCheckCorrectedText(String fullFileName, Format format, Spel
 ```
 
 
-يحفظ النص المصحح في المستند كنص عادي أو بتنسيق آخر.
+يحفظ النص المصحح في المستند كنص عادي أو بصيغة أخرى.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| fullFileName | java.lang.String | اسم الملف مع المسار لحفظ نتيجة التعرف. |
+| fullFileName | java.lang.String | اسم الملف مع مسار لحفظ نتيجة التعرف. |
 | format | [Format](../../com.aspose.ocr.models/format/) | نوع تعداد تنسيق المستند Format. |
 | language | [SpellCheckLanguage](../../com.aspose.ocr.spellcheck/spellchecklanguage/) | قاموس للتدقيق الإملائي. |
 ### useUserDictionary(String dictionaryPath) {#useUserDictionary-java.lang.String}
@@ -276,4 +276,4 @@ public void useUserDictionary(String dictionaryPath)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| dictionaryPath | java.lang.String | المسار الكامل إلى قاموس المستخدم (قاموس التردد). تنسيق ملف القاموس: ملف نص عادي بترميز UTF-8. يتم فصل الكلمة وتردد الكلمة بفاصلة، تُتوقع الكلمة في العمود الأول والتردد في العمود الثاني. كل زوج كلمة-تردد في سطر منفصل. يُعرّف السطر على أنه تسلسل من الأحرف يتبعه تغذية سطر (\"\\n\"), عودة سيارة (\"\\r\"), أو عودة سيارة يتبعها مباشرة تغذية سطر (\"\\r\\n\"). يُتوقع أن تكون كل كلمة بأحرف صغيرة. |
+| dictionaryPath | java.lang.String | المسار الكامل إلى قاموس المستخدم (قاموس التردد). تنسيق ملف القاموس: ملف نص عادي بترميز UTF-8. يتم فصل الكلمة وتردد الكلمة بفاصلة، تُتوقع الكلمة في العمود الأول والتردد في العمود الثاني. كل زوج كلمة-تردد في سطر منفصل. يُعرّف السطر على أنه تسلسل من الأحرف يتبعه تغذية سطر ("\\n"), أو عودة سيارة ("\\r"), أو عودة سيارة يتبعها مباشرة تغذية سطر ("\\r\\n"). يُتوقع أن تكون كل كلمة بحروف صغيرة. |

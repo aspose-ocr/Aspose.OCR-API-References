@@ -14,19 +14,19 @@ url: /ar/java/com.aspose.ocr/
 | --- | --- |
 | [AsposeOCR](../com.aspose.ocr/asposeocr/) | الفئة الرئيسية للتعرف على النص من الصور. |
 | [AsposeOCRException](../com.aspose.ocr/asposeocrexception/) |  |
-| [CarPlateRecognitionSettings](../com.aspose.ocr/carplaterecognitionsettings/) | إعدادات التعرف على أرقام السيارات تحتوي على عناصر تسمح بتخصيص عملية التعرف. |
+| [CarPlateRecognitionSettings](../com.aspose.ocr/carplaterecognitionsettings/) | إعدادات التعرف على رقم السيارة تحتوي على عناصر تسمح بتخصيص عملية التعرف. |
 | [DefectOutput](../com.aspose.ocr/defectoutput/) | المناطق التي تحتوي على عيوب تم تحديدها في الصورة. |
 | [IDCardRecognitionSettings](../com.aspose.ocr/idcardrecognitionsettings/) | إعدادات التعرف على بطاقة الهوية تحتوي على عناصر تسمح بتخصيص عملية التعرف. |
 | [ImageData](../com.aspose.ocr/imagedata/) |  |
 | [ImageProcessing](../com.aspose.ocr/imageprocessing/) | فئة مساعدة لمكتبة Aspose OCR. |
-| [InvoiceRecognitionSettings](../com.aspose.ocr/invoicerecognitionsettings/) | إعدادات التعرف على الفواتير تحتوي على عناصر تسمح بتخصيص عملية التعرف. |
+| [InvoiceRecognitionSettings](../com.aspose.ocr/invoicerecognitionsettings/) | إعدادات التعرف على الفاتورة تحتوي على عناصر تسمح بتخصيص عملية التعرف. |
 | [License](../com.aspose.ocr/license/) | يوفر طرقًا لترخيص المكوّن. |
 | [Logging](../com.aspose.ocr/logging/) |  |
 | [OcrInput](../com.aspose.ocr/ocrinput/) | الفئة الرئيسية للتعرف على النص من الصور. |
 | [OcrOutput](../com.aspose.ocr/ocroutput/) |  |
 | [PassportRecognitionSettings](../com.aspose.ocr/passportrecognitionsettings/) | إعدادات التعرف على جواز السفر تحتوي على عناصر تسمح بتخصيص عملية التعرف. |
 | [PreprocessingFilter](../com.aspose.ocr/preprocessingfilter/) | الفئة الأساسية لأوامر معالجة الصور. |
-| [ReceiptRecognitionSettings](../com.aspose.ocr/receiptrecognitionsettings/) | إعدادات التعرف على الإيصالات تحتوي على عناصر تسمح بتخصيص عملية التعرف. |
+| [ReceiptRecognitionSettings](../com.aspose.ocr/receiptrecognitionsettings/) | إعدادات التعرف على الإيصال تحتوي على عناصر تسمح بتخصيص عملية التعرف. |
 | [RecognitionResult](../com.aspose.ocr/recognitionresult/) | نتائج التعرف على الصورة. |
 | [RecognitionResult.LinesResult](../com.aspose.ocr/recognitionresult.linesresult/) |  |
 | [RecognitionResult.RegionResult](../com.aspose.ocr/recognitionresult.regionresult/) | النص المعترف به من المنطقة مع إحداثيات المنطقة. |

@@ -1,7 +1,7 @@
 ---
 title: "RectangleOutput"
 second_title: "مرجع Aspose.OCR لـ Java API"
-description: "بيانات حول مناطق النص المكتشف أو السطور"
+description: "بيانات حول مناطق النص المكتشف أو الأسطر"
 type: docs
 weight: 28
 url: /ar/java/com.aspose.ocr/rectangleoutput/
@@ -14,17 +14,17 @@ public class RectangleOutput
 ```
 
 بيانات حول مناطق النص المكتشفة أو السطور.
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
 | [RectangleOutput()](#RectangleOutput) |  |
 ## الحقول
 
-| حقل | الوصف |
+| الحقل | الوصف |
 | --- | --- |
 | [Page](#Page) | رقم الصفحة. |
-| [Rectangles](#Rectangles) | قائمة بمناطق النص المكتشف أو السطور. |
+| [Rectangles](#Rectangles) | قائمة بمناطق النص المكتشف أو الأسطر. |
 | [Source](#Source) | المسار الكامل للملف أو URL، إذا كان موجودًا. |
 ### RectangleOutput() {#RectangleOutput}
 ```
@@ -46,7 +46,7 @@ public ArrayList<Rectangle> Rectangles
 ```
 
 
-قائمة بمناطق النص المكتشف أو السطور.
+قائمة بمناطق النص المكتشف أو الأسطر.
 
 ### Source {#Source}
 ```

@@ -1,7 +1,7 @@
 ---
 title: "CarPlateRecognitionSettings"
 second_title: "مرجع Aspose.OCR لـ Java API"
-description: "إعدادات التعرف على أرقام السيارات تحتوي على عناصر تسمح بتخصيص عملية التعرف."
+description: "إعدادات التعرف على رقم السيارة تحتوي على عناصر تسمح بتخصيص عملية التعرف."
 type: docs
 weight: 12
 url: /ar/java/com.aspose.ocr/carplaterecognitionsettings/
@@ -13,15 +13,15 @@ java.lang.Object
 public class CarPlateRecognitionSettings
 ```
 
-إعدادات التعرف على أرقام السيارات تحتوي على عناصر تسمح بتخصيص عملية التعرف.
-## المنشئات
+إعدادات التعرف على رقم السيارة تحتوي على عناصر تسمح بتخصيص عملية التعرف.
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
 | [CarPlateRecognitionSettings()](#CarPlateRecognitionSettings) | المنشئ الافتراضي: اضبط autoSkew إلى true. |
-## الطرق
+## الدوال
 
-| طريقة | الوصف |
+| الدالة | الوصف |
 | --- | --- |
 | [setAllowedCharacters(CharactersAllowedType allowedCharacters)](#setAllowedCharacters-com.aspose.ocr.CharactersAllowedType) | مجموعة الأحرف المسموح بها. |
 | [setAutomaticColorInversion(boolean automaticColorInversion)](#setAutomaticColorInversion-boolean) | اكتشف الصور التي تحتوي على نص أبيض على خلفية داكنة/سوداء واختر تلقائيًا خوارزمية OCR خاصة لها. |
@@ -50,7 +50,7 @@ public void setAllowedCharacters(CharactersAllowedType allowedCharacters)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| allowedCharacters | [CharactersAllowedType](../../com.aspose.ocr/charactersallowedtype/) | يحتوي على قيمة تعداد @see [CharactersAllowedType](../../com.aspose.ocr/charactersallowedtype/) |
+| allowedCharacters | [CharactersAllowedType](../../com.aspose.ocr/charactersallowedtype/) | يحتوي على قيمة تعداد @see [CharactersAllowedType](../../com.aspose.ocr/charactersallowedtype/). |
 
 ### setAutomaticColorInversion(boolean automaticColorInversion) {#setAutomaticColorInversion-boolean}
 ```
@@ -63,7 +63,7 @@ public void setAutomaticColorInversion(boolean automaticColorInversion)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| automaticColorInversion | boolean | يحتوي على قيمة منطقية - تم ضبط automaticColorInversion. |
+| automaticColorInversion | boolean | يحتوي على قيمة منطقية - تم تعيين automaticColorInversion. |
 
 ### setIgnoredCharacters(String characters) {#setIgnoredCharacters-java.lang.String}
 ```

@@ -17,20 +17,20 @@ public class AsposeOCR implements AutoCloseable
 ```
 
 الفئة الرئيسية للتعرف على النص من الصور.
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
 | [AsposeOCR()](#AsposeOCR) | منشئ عام. |
 ## الحقول
 
-| حقل | الوصف |
+| الحقل | الوصف |
 | --- | --- |
 | [DebugMode](#DebugMode) | يفعل وضع التصحيح. |
 | [DebugModeSaveDirectory](#DebugModeSaveDirectory) | الدليل الذي سيتم حفظ نتائج التصحيح فيه. |
-## الطرق
+## الدوال
 
-| طريقة | الوصف |
+| الدالة | الوصف |
 | --- | --- |
 | [CalculateSkew(OcrInput input)](#CalculateSkew-com.aspose.ocr.OcrInput) | يحسب زوايا الانحراف للصور. |
 | [CompareImageTexts(String fullPath1, String fullPath2)](#CompareImageTexts-java.lang.String-java.lang.String) | تحقق مما إذا كانت صورتان تحتويان على نفس النص. |
@@ -38,32 +38,32 @@ public class AsposeOCR implements AutoCloseable
 | [CompareImageTexts(String fullPath1, String fullPath2, RecognitionSettings settings, boolean ignoreCase)](#CompareImageTexts-java.lang.String-java.lang.String-com.aspose.ocr.RecognitionSettings-boolean) | تحقق مما إذا كانت صورتان تحتويان على نفس النص. |
 | [CorrectSpelling(String text, SpellCheck.SpellCheckLanguage language)](#CorrectSpelling-java.lang.String-com.aspose.ocr.SpellCheck.SpellCheckLanguage) | يصحح النص (يستبدل الكلمات المكتوبة خطأً). |
 | [CorrectSpelling(String text, SpellCheck.SpellCheckLanguage language, String dictionaryPath)](#CorrectSpelling-java.lang.String-com.aspose.ocr.SpellCheck.SpellCheckLanguage-java.lang.String) | يصحح النص (يستبدل الكلمات المكتوبة خطأً). |
-| [DetectDefects(OcrInput input, DefectType defectType)](#DetectDefects-com.aspose.ocr.OcrInput-com.aspose.ocr.models.DefectType) | يبحث تلقائيًا عن المناطق المشكلة في الصورة التي يمكن أن تؤثر بشكل كبير على دقة OCR. |
+| [DetectDefects(OcrInput input, DefectType defectType)](#DetectDefects-com.aspose.ocr.OcrInput-com.aspose.ocr.models.DefectType) | يحدد تلقائيًا المناطق المشكلة في الصورة والتي يمكن أن تؤثر بشكل كبير على دقة التعرف الضوئي على الأحرف. |
 | [DetectDocumentLayout(OcrInput input)](#DetectDocumentLayout-com.aspose.ocr.OcrInput) | يحلل الصورة ويحدد الأنواع المختلفة لمناطق المحتوى داخلها. |
-| [DetectLanguages(OcrInput input)](#DetectLanguages-com.aspose.ocr.OcrInput) | يحلل النص على الصورة لتحديد اللغات التي كُتب بها. |
-| [DetectRectangles(OcrInput input, AreasType areasType, boolean isDetectAreas)](#DetectRectangles-com.aspose.ocr.OcrInput-com.aspose.ocr.models.AreasType-boolean) | يكشف عن مناطق النص في الصور. |
-| [DetectTables(OcrInput images)](#DetectTables-com.aspose.ocr.OcrInput) | يكشف عن مناطق الجداول في الصور. |
-| [ImageHasText(String fullPath, String text)](#ImageHasText-java.lang.String-java.lang.String) | تحقق مما إذا كانت الصورة تحتوي على المقتطف النصي المقدم مع بحث غير حساس لحالة الأحرف. |
-| [ImageHasText(String fullPath, String text, RecognitionSettings settings)](#ImageHasText-java.lang.String-java.lang.String-com.aspose.ocr.RecognitionSettings) | تحقق مما إذا كانت الصورة تحتوي على المقتطف النصي المقدم مع بحث غير حساس لحالة الأحرف. |
-| [ImageHasText(String fullPath, String text, RecognitionSettings settings, boolean ignoreCase)](#ImageHasText-java.lang.String-java.lang.String-com.aspose.ocr.RecognitionSettings-boolean) | تحقق مما إذا كانت الصورة تحتوي على المقتطف النصي المقدم. |
+| [DetectLanguages(OcrInput input)](#DetectLanguages-com.aspose.ocr.OcrInput) | يحلل النص الموجود على الصورة لتحديد اللغات التي كُتب بها. |
+| [DetectRectangles(OcrInput input, AreasType areasType, boolean isDetectAreas)](#DetectRectangles-com.aspose.ocr.OcrInput-com.aspose.ocr.models.AreasType-boolean) | يكتشف مناطق النص على الصور. |
+| [DetectTables(OcrInput images)](#DetectTables-com.aspose.ocr.OcrInput) | يكتشف مناطق الجداول على الصور. |
+| [ImageHasText(String fullPath, String text)](#ImageHasText-java.lang.String-java.lang.String) | تحقق مما إذا كانت الصورة تحتوي على الجزء النصي المقدم مع بحث غير حساس لحالة الأحرف. |
+| [ImageHasText(String fullPath, String text, RecognitionSettings settings)](#ImageHasText-java.lang.String-java.lang.String-com.aspose.ocr.RecognitionSettings) | تحقق مما إذا كانت الصورة تحتوي على الجزء النصي المقدم مع بحث غير حساس لحالة الأحرف. |
+| [ImageHasText(String fullPath, String text, RecognitionSettings settings, boolean ignoreCase)](#ImageHasText-java.lang.String-java.lang.String-com.aspose.ocr.RecognitionSettings-boolean) | تحقق مما إذا كانت الصورة تحتوي على الجزء النصي المقدم. |
 | [ImageHasText(String fullPath, Pattern regex)](#ImageHasText-java.lang.String-java.util.regex.Pattern) | تحقق مما إذا كان نص الصورة يطابق التعبير النمطي المقدم. |
 | [ImageHasText(String fullPath, Pattern regex, RecognitionSettings settings)](#ImageHasText-java.lang.String-java.util.regex.Pattern-com.aspose.ocr.RecognitionSettings) | تحقق مما إذا كان نص الصورة يطابق التعبير النمطي المقدم. |
 | [ImageTextDiff(String fullPath1, String fullPath2)](#ImageTextDiff-java.lang.String-java.lang.String) | قارن النصوص على الصورتين وأرجع رقمًا يمثل مدى تشابههما (من 0 إلى 1). |
 | [ImageTextDiff(String fullPath1, String fullPath2, RecognitionSettings settings)](#ImageTextDiff-java.lang.String-java.lang.String-com.aspose.ocr.RecognitionSettings) | قارن النصوص على الصورتين وأرجع رقمًا يمثل مدى تشابههما (من 0 إلى 1). |
 | [ImageTextDiff(String fullPath1, String fullPath2, RecognitionSettings settings, boolean ignoreCase)](#ImageTextDiff-java.lang.String-java.lang.String-com.aspose.ocr.RecognitionSettings-boolean) | قارن النصوص على الصورتين وأرجع رقمًا يمثل مدى تشابههما (من 0 إلى 1). |
-| [Recognize(OcrInput input)](#Recognize-com.aspose.ocr.OcrInput) | يتعرف على الصورة مع القدرة على تحديد الدعم للأنواع GIF, PNG, JPEG, WBMP, TIFF, JFIF, TIFF, PDF, InputStream, BufferedImage, مجلد, مصفوفة, أرشيف zip, URL, base64. |
-| [Recognize(OcrInput input, RecognitionSettings settings)](#Recognize-com.aspose.ocr.OcrInput-com.aspose.ocr.RecognitionSettings) | يتعرف على الصورة مع القدرة على تحديد الدعم للأنواع GIF, PNG, JPEG, WBMP, TIFF, JFIF, TIFF, PDF, InputStream, BufferedImage, مجلد, مصفوفة, أرشيف zip, URL, base64. |
-| [RecognizeCarPlate(OcrInput input, CarPlateRecognitionSettings settings)](#RecognizeCarPlate-com.aspose.ocr.OcrInput-com.aspose.ocr.CarPlateRecognitionSettings) | يتعرف على لوحة السيارة مع القدرة على تحديد الدعم للأنواع GIF, PNG, JPEG, WBMP, TIFF, JFIF, TIFF, PDF, InputStream, BufferedImage, مجلد, مصفوفة, أرشيف zip, URL, base64. |
-| [RecognizeCharacters(OcrInput input)](#RecognizeCharacters-com.aspose.ocr.OcrInput) | يكشف عن الرموز على الصور. |
-| [RecognizeCharacters(OcrInput input, DetectAreasMode detectAreasMode, Language language)](#RecognizeCharacters-com.aspose.ocr.OcrInput-com.aspose.ocr.models.DetectAreasMode-com.aspose.ocr.models.Language) | يكشف عن الرموز على الصور. |
+| [Recognize(OcrInput input)](#Recognize-com.aspose.ocr.OcrInput) | يتعرف على الصورة مع القدرة على تحديد الدعم للأنواع GIF, PNG, JPEG, WBMP, TIFF, JFIF, TIFF, PDF, InputStream, BufferedImage, المجلد, المصفوفة, أرشيف zip, URL, base64. |
+| [Recognize(OcrInput input, RecognitionSettings settings)](#Recognize-com.aspose.ocr.OcrInput-com.aspose.ocr.RecognitionSettings) | يتعرف على الصورة مع القدرة على تحديد الدعم للأنواع GIF, PNG, JPEG, WBMP, TIFF, JFIF, TIFF, PDF, InputStream, BufferedImage, المجلد, المصفوفة, أرشيف zip, URL, base64. |
+| [RecognizeCarPlate(OcrInput input, CarPlateRecognitionSettings settings)](#RecognizeCarPlate-com.aspose.ocr.OcrInput-com.aspose.ocr.CarPlateRecognitionSettings) | يتعرف على لوحة السيارة مع القدرة على تحديد الدعم للأنواع GIF, PNG, JPEG, WBMP, TIFF, JFIF, TIFF, PDF, InputStream, BufferedImage, المجلد, المصفوفة, أرشيف zip, URL, base64. |
+| [RecognizeCharacters(OcrInput input)](#RecognizeCharacters-com.aspose.ocr.OcrInput) | يكتشف الرموز على الصور. |
+| [RecognizeCharacters(OcrInput input, DetectAreasMode detectAreasMode, Language language)](#RecognizeCharacters-com.aspose.ocr.OcrInput-com.aspose.ocr.models.DetectAreasMode-com.aspose.ocr.models.Language) | يكتشف الرموز على الصور. |
 | [RecognizeFast(OcrInput input)](#RecognizeFast-com.aspose.ocr.OcrInput) | يتعرف على النص في صورة ذات جودة جيدة. |
 | [RecognizeFormula(OcrInput input, boolean detectAreas)](#RecognizeFormula-com.aspose.ocr.OcrInput-boolean) | يتعرف على الصيغ الرياضية من الصور المدخلة المقدمة. |
-| [RecognizeHandwrittenText(OcrInput input)](#RecognizeHandwrittenText-com.aspose.ocr.OcrInput) | يتعرف على النص المكتوب بخط اليد على الصور. |
-| [RecognizeIDCard(OcrInput input, IDCardRecognitionSettings settings)](#RecognizeIDCard-com.aspose.ocr.OcrInput-com.aspose.ocr.IDCardRecognitionSettings) | يتعرف على بطاقة الهوية مع القدرة على تحديد الدعم للأنواع GIF, PNG, JPEG, WBMP, TIFF, JFIF, TIFF, PDF, InputStream, BufferedImage, مجلد, مصفوفة, أرشيف zip, URL, base64. |
-| [RecognizeInvoice(OcrInput input, InvoiceRecognitionSettings settings)](#RecognizeInvoice-com.aspose.ocr.OcrInput-com.aspose.ocr.InvoiceRecognitionSettings) | يتعرف على الفاتورة مع القدرة على تحديد الدعم للأنواع GIF, PNG, JPEG, WBMP, TIFF, JFIF, TIFF, PDF, InputStream, BufferedImage, مجلد, مصفوفة, أرشيف zip, URL, base64. |
+| [RecognizeHandwrittenText(OcrInput input)](#RecognizeHandwrittenText-com.aspose.ocr.OcrInput) | يتعرف على النص المكتوب يدويًا على الصور. |
+| [RecognizeIDCard(OcrInput input, IDCardRecognitionSettings settings)](#RecognizeIDCard-com.aspose.ocr.OcrInput-com.aspose.ocr.IDCardRecognitionSettings) | يتعرف على بطاقة الهوية مع القدرة على تحديد الدعم للأنواع GIF, PNG, JPEG, WBMP, TIFF, JFIF, TIFF, PDF, InputStream, BufferedImage, المجلد, المصفوفة, أرشيف zip, URL, base64. |
+| [RecognizeInvoice(OcrInput input, InvoiceRecognitionSettings settings)](#RecognizeInvoice-com.aspose.ocr.OcrInput-com.aspose.ocr.InvoiceRecognitionSettings) | يتعرف على الفاتورة مع القدرة على تحديد الدعم للأنواع GIF, PNG, JPEG, WBMP, TIFF, JFIF, TIFF, PDF, InputStream, BufferedImage, المجلد, المصفوفة, أرشيف zip, URL, base64. |
 | [RecognizePassport(OcrInput input, PassportRecognitionSettings settings)](#RecognizePassport-com.aspose.ocr.OcrInput-com.aspose.ocr.PassportRecognitionSettings) | يتعرف على جواز السفر مع إمكانية التحديد. |
-| [RecognizeReceipt(OcrInput input, ReceiptRecognitionSettings settings)](#RecognizeReceipt-com.aspose.ocr.OcrInput-com.aspose.ocr.ReceiptRecognitionSettings) | يتعرف على الإيصالات مع إمكانية التحديد يدعم GIF, PNG, JPEG, WBMP, TIFF, JFIF, TIFF, PDF, InputStream, BufferedImage, folder, array, zip archive, URL, base64. |
-| [RecognizeTables(OcrInput input, Language language)](#RecognizeTables-com.aspose.ocr.OcrInput-com.aspose.ocr.models.Language) | يكشف الجداول والبنية، ويتعرف على خلايا النص. |
+| [RecognizeReceipt(OcrInput input, ReceiptRecognitionSettings settings)](#RecognizeReceipt-com.aspose.ocr.OcrInput-com.aspose.ocr.ReceiptRecognitionSettings) | يتعرف على الإيصالات مع إمكانية التحديد يدعم GIF و PNG و JPEG و WBMP و TIFF و JFIF و TIFF و PDF و InputStream و BufferedImage و المجلد و المصفوفة و أرشيف zip و URL و base64. |
+| [RecognizeTables(OcrInput input, Language language)](#RecognizeTables-com.aspose.ocr.OcrInput-com.aspose.ocr.models.Language) | اكتشاف الجداول والبنية، يتعرف على خلايا النص. |
 | [SaveMultipageDocument(OutputStream stream, Format saveFormat, ArrayList<RecognitionResult> results)](#SaveMultipageDocument-java.io.OutputStream-com.aspose.ocr.models.Format-java.util.ArrayList-com.aspose.ocr.RecognitionResult) | يسمح بالحصول على مستند متعدد الصفحات من قائمة كائنات RecognitionResult. |
 | [SaveMultipageDocument(OutputStream stream, Format saveFormat, ArrayList<RecognitionResult> results, String embeddedFontPath)](#SaveMultipageDocument-java.io.OutputStream-com.aspose.ocr.models.Format-java.util.ArrayList-com.aspose.ocr.RecognitionResult--java.lang.String) | يسمح بالحصول على مستند متعدد الصفحات من قائمة كائنات RecognitionResult. |
 | [SaveMultipageDocument(OutputStream stream, Format saveFormat, ArrayList<RecognitionResult> results, String embeddedFontPath, PdfOptimizationMode optimizePdf)](#SaveMultipageDocument-java.io.OutputStream-com.aspose.ocr.models.Format-java.util.ArrayList-com.aspose.ocr.RecognitionResult--java.lang.String-com.aspose.ocr.models.PdfOptimizationMode) | يسمح بالحصول على مستند متعدد الصفحات من قائمة كائنات RecognitionResult. |
@@ -87,7 +87,7 @@ public static boolean DebugMode
 ```
 
 
-يفعل وضع التصحيح. عند التفعيل، يحفظ النظام نتائج معالجة الصور الوسيطة مثل الصور المعالجة مسبقًا والصور التي تحتوي على مستطيلات خطوط النص المرسومة.
+يفعل وضع التصحيح. عند التفعيل، يقوم النظام بحفظ نتائج معالجة الصور الوسيطة مثل الصور المسبقة المعالجة والصور التي تحتوي على مستطيلات خطوط النص المرسومة.
 
 ### DebugModeSaveDirectory {#DebugModeSaveDirectory}
 ```
@@ -95,7 +95,7 @@ public static String DebugModeSaveDirectory
 ```
 
 
-الدليل الذي سيتم حفظ نتائج التصحيح فيه. إذا لم يتم تحديده، سيُستخدم الدليل العامل الحالي كإعداد افتراضي.
+الدليل الذي سيتم حفظ نتائج التصحيح فيه. إذا لم يتم تحديده، سيُستخدم الدليل الحالي للعمل كإعداد افتراضي.
 
 ### CalculateSkew(OcrInput input) {#CalculateSkew-com.aspose.ocr.OcrInput}
 ```
@@ -103,7 +103,7 @@ public ArrayList<SkewOutput> CalculateSkew(OcrInput input)
 ```
 
 
-يحسب زوايا الانحراف للصور. يدعم GIF, PNG, JPEG, WBMP, TIFF, JFIF, TIFF, PDF, InputStream, BufferedImage, folder, array, zip archive, URL, base64.
+يحسب زوايا الانحراف للصور. يدعم GIF و PNG و JPEG و WBMP و TIFF و JFIF و TIFF و PDF و InputStream و BufferedImage و المجلد و المصفوفة و أرشيف zip و URL و base64.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -174,7 +174,7 @@ public String CorrectSpelling(String text, SpellCheck.SpellCheckLanguage languag
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| text | java.lang.String | نص للتصحيح. |
+| text | java.lang.String | النص للتصحيح. |
 | language | [SpellCheckLanguage](../../com.aspose.ocr.spellcheck/spellchecklanguage/) | القاموس للاستخدام [SpellCheckLanguage](../../com.aspose.ocr.spellcheck/spellchecklanguage/). |
 
 **Returns:**
@@ -190,9 +190,9 @@ public String CorrectSpelling(String text, SpellCheck.SpellCheckLanguage languag
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| text | java.lang.String | نص للتصحيح. |
+| text | java.lang.String | النص للتصحيح. |
 | language | [SpellCheckLanguage](../../com.aspose.ocr.spellcheck/spellchecklanguage/) | القاموس للاستخدام [SpellCheckLanguage](../../com.aspose.ocr.spellcheck/spellchecklanguage/). |
-| dictionaryPath | java.lang.String | المسار الكامل إلى قاموس المستخدم (قاموس التردد). تنسيق ملف القاموس: ملف نص عادي بترميز UTF-8. يتم فصل الكلمة وتردد الكلمة بفاصلة، تُتوقع الكلمة في العمود الأول والتردد في العمود الثاني. كل زوج كلمة-تردد في سطر منفصل. يُعرّف السطر على أنه تسلسل من الأحرف يتبعه تغذية سطر (\"\\n\"), عودة سيارة (\"\\r\"), أو عودة سيارة يتبعها مباشرة تغذية سطر (\"\\r\\n\"). يُتوقع أن تكون كل كلمة بأحرف صغيرة. |
+| dictionaryPath | java.lang.String | المسار الكامل إلى قاموس المستخدم (قاموس التردد). تنسيق ملف القاموس: ملف نص عادي بترميز UTF-8. يتم فصل الكلمة وتردد الكلمة بفاصلة، تُتوقع الكلمة في العمود الأول والتردد في العمود الثاني. كل زوج كلمة-تردد في سطر منفصل. يُعرّف السطر على أنه تسلسل من الأحرف يتبعه تغذية سطر ("\\n"), أو عودة سيارة ("\\r"), أو عودة سيارة يتبعها مباشرة تغذية سطر ("\\r\\n"). يُتوقع أن تكون كل كلمة بحروف صغيرة. |
 
 **Returns:**
 java.lang.String - نص مع الكلمات المستبدلة.
@@ -202,13 +202,13 @@ public ArrayList<DefectOutput> DetectDefects(OcrInput input, DefectType defectTy
 ```
 
 
-يحدد تلقائيًا المناطق المشكلة في الصورة التي يمكن أن تؤثر بشكل كبير على دقة OCR. يدعم GIF, PNG, JPEG, WBMP, TIFF, JFIF, TIFF, PDF, InputStream, BufferedImage, folder, array, zip archive, URL, base64.
+اكتشاف تلقائي للمناطق المشكلة في الصورة التي يمكن أن تؤثر بشكل كبير على دقة OCR. يدعم GIF و PNG و JPEG و WBMP و TIFF و JFIF و TIFF و PDF و InputStream و BufferedImage و المجلد و المصفوفة و أرشيف zip و URL و base64.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | input | [OcrInput](../../com.aspose.ocr/ocrinput/) | الحاوية التي تحتوي على المصادر.[OcrInput](../../com.aspose.ocr/ocrinput/) |
-| defectType | [DefectType](../../com.aspose.ocr.models/defecttype/) | أنواع العيوب التي يجب التعرف عليها [DefectType](../../com.aspose.ocr.models/defecttype/). |
+| defectType | [DefectType](../../com.aspose.ocr.models/defecttype/) | أنواع العيوب التي سيتم التعرف عليها [DefectType](../../com.aspose.ocr.models/defecttype/). |
 
 **Returns:**
 java.util.ArrayList<com.aspose.ocr.DefectOutput> - قائمة ArrayList من [DefectOutput](../../com.aspose.ocr/defectoutput/) مع مناطق النص المكتشفة أو السطور.
@@ -226,14 +226,14 @@ public ArrayList<LayoutOutput> DetectDocumentLayout(OcrInput input)
 | input | [OcrInput](../../com.aspose.ocr/ocrinput/) | الحاوية التي تحتوي على المصادر.[OcrInput](../../com.aspose.ocr/ocrinput/) |
 
 **Returns:**
-java.util.ArrayList<com.aspose.ocr.models.LayoutOutput> - مناطق المحتوى المكتشفة. قائمة ArrayList من [LayoutOutput](../../com.aspose.ocr.models/layoutoutput/)
+java.util.ArrayList<com.aspose.ocr.models.LayoutOutput> - مناطق المحتوى المكتشفة. ArrayList من [LayoutOutput](../../com.aspose.ocr.models/layoutoutput/)
 ### DetectLanguages(OcrInput input) {#DetectLanguages-com.aspose.ocr.OcrInput}
 ```
 public ArrayList<LanguageDetectionOutput> DetectLanguages(OcrInput input)
 ```
 
 
-يقوم بتحليل النص الموجود على الصورة لتحديد اللغات التي كُتب بها. يتيح ذلك اختيار لغة التعرف الأنسب ويساعد في مهام معالجة النص الإضافية مثل التدقيق الإملائي أو الترجمة. يدعم GIF و PNG و JPEG و WBMP و TIFF و JFIF و TIFF و PDF و InputStream و BufferedImage و المجلد و المصفوفة و أرشيف zip و URL و base64.
+يقوم بتحليل النص الموجود على الصورة لتحديد اللغات التي كُتب بها. يتيح ذلك اختيار لغة التعرف الأنسب ويساعد في مهام معالجة النصوص اللاحقة مثل التدقيق الإملائي أو الترجمة. يدعم GIF و PNG و JPEG و WBMP و TIFF و JFIF و TIFF و PDF و InputStream و BufferedImage و المجلد و المصفوفة و أرشيف zip و URL و base64.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -241,14 +241,14 @@ public ArrayList<LanguageDetectionOutput> DetectLanguages(OcrInput input)
 | input | [OcrInput](../../com.aspose.ocr/ocrinput/) | الحاوية التي تحتوي على المصادر.[OcrInput](../../com.aspose.ocr/ocrinput/) |
 
 **Returns:**
-java.util.ArrayList<com.aspose.ocr.models.LanguageDetectionOutput> - يُرجع قائمة بأكثر اللغات احتمالاً، مرتبة حسب الاحتمالية. قائمة ArrayList من [LanguageDetectionOutput](../../com.aspose.ocr.models/languagedetectionoutput/)
+java.util.ArrayList<com.aspose.ocr.models.LanguageDetectionOutput> - يُرجع قائمة بأكثر اللغات احتمالاً، مرتبة حسب الاحتمالية. ArrayList من [LanguageDetectionOutput](../../com.aspose.ocr.models/languagedetectionoutput/)
 ### DetectRectangles(OcrInput input, AreasType areasType, boolean isDetectAreas) {#DetectRectangles-com.aspose.ocr.OcrInput-com.aspose.ocr.models.AreasType-boolean}
 ```
 public ArrayList<RectangleOutput> DetectRectangles(OcrInput input, AreasType areasType, boolean isDetectAreas)
 ```
 
 
-يكشف عن مناطق النص في الصور. يدعم GIF و PNG و JPEG و WBMP و TIFF و JFIF و TIFF و PDF و InputStream و BufferedImage و المجلد و المصفوفة و أرشيف zip و URL و base64.
+يكتشف مناطق النص على الصور. يدعم GIF و PNG و JPEG و WBMP و TIFF و JFIF و TIFF و PDF و InputStream و BufferedImage و المجلد و المصفوفة و أرشيف zip و URL و base64.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -265,7 +265,7 @@ public ArrayList<RectangleOutput> DetectTables(OcrInput images)
 ```
 
 
-يكشف عن مناطق الجداول في الصور. يدعم GIF و PNG و JPEG و WBMP و TIFF و JFIF و TIFF و PDF و InputStream و BufferedImage و المجلد و المصفوفة و أرشيف zip و URL و base64.
+يكتشف مناطق الجداول على الصور. يدعم GIF و PNG و JPEG و WBMP و TIFF و JFIF و TIFF و PDF و InputStream و BufferedImage و المجلد و المصفوفة و أرشيف zip و URL و base64.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -280,51 +280,51 @@ public boolean ImageHasText(String fullPath, String text)
 ```
 
 
-تحقق مما إذا كانت الصورة تحتوي على المقتطف النصي المقدم مع بحث غير حساس لحالة الأحرف.
+تحقق مما إذا كانت الصورة تحتوي على الجزء النصي المقدم مع بحث غير حساس لحالة الأحرف.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | fullPath | java.lang.String | مسار الصورة. |
-| text | java.lang.String | مقتطف نص للبحث في الصورة. |
+| text | java.lang.String | مجزء نص للبحث في الصورة. |
 
 **Returns:**
-boolean - صحيح إذا كانت الصورة تحتوي على مقتطف نص. خطأ - الصورة لا تحتوي على مقتطف نص.
+boolean - صحيح إذا كانت الصورة تحتوي على مجزء نص. خطأ - الصورة لا تحتوي على مجزء نص.
 ### ImageHasText(String fullPath, String text, RecognitionSettings settings) {#ImageHasText-java.lang.String-java.lang.String-com.aspose.ocr.RecognitionSettings}
 ```
 public boolean ImageHasText(String fullPath, String text, RecognitionSettings settings)
 ```
 
 
-تحقق مما إذا كانت الصورة تحتوي على المقتطف النصي المقدم مع بحث غير حساس لحالة الأحرف.
+تحقق مما إذا كانت الصورة تحتوي على الجزء النصي المقدم مع بحث غير حساس لحالة الأحرف.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | fullPath | java.lang.String | مسار الصورة. |
-| text | java.lang.String | مقتطف نص للبحث في الصورة. |
+| text | java.lang.String | مجزء نص للبحث في الصورة. |
 | settings | [RecognitionSettings](../../com.aspose.ocr/recognitionsettings/) | إعدادات التعرف. |
 
 **Returns:**
-boolean - صحيح إذا كانت الصورة تحتوي على مقتطف نص. خطأ - الصورة لا تحتوي على مقتطف نص.
+boolean - صحيح إذا كانت الصورة تحتوي على مجزء نص. خطأ - الصورة لا تحتوي على مجزء نص.
 ### ImageHasText(String fullPath, String text, RecognitionSettings settings, boolean ignoreCase) {#ImageHasText-java.lang.String-java.lang.String-com.aspose.ocr.RecognitionSettings-boolean}
 ```
 public boolean ImageHasText(String fullPath, String text, RecognitionSettings settings, boolean ignoreCase)
 ```
 
 
-تحقق مما إذا كانت الصورة تحتوي على المقتطف النصي المقدم.
+تحقق مما إذا كانت الصورة تحتوي على الجزء النصي المقدم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | fullPath | java.lang.String | مسار الصورة. |
-| text | java.lang.String | مقتطف نص للبحث في الصورة. |
+| text | java.lang.String | مجزء نص للبحث في الصورة. |
 | settings | [RecognitionSettings](../../com.aspose.ocr/recognitionsettings/) | إعدادات التعرف. |
 | ignoreCase | boolean | True - يعني بحث غير حساس لحالة الأحرف. |
 
 **Returns:**
-boolean - صحيح إذا كانت الصورة تحتوي على مقتطف نص. خطأ - الصورة لا تحتوي على مقتطف نص.
+boolean - صحيح إذا كانت الصورة تحتوي على مجزء نص. خطأ - الصورة لا تحتوي على مجزء نص.
 ### ImageHasText(String fullPath, Pattern regex) {#ImageHasText-java.lang.String-java.util.regex.Pattern}
 ```
 public boolean ImageHasText(String fullPath, Pattern regex)
@@ -415,7 +415,7 @@ public OcrOutput Recognize(OcrInput input)
 ```
 
 
-يتعرف على الصورة مع القدرة على تحديد الدعم للأنواع GIF, PNG, JPEG, WBMP, TIFF, JFIF, TIFF, PDF, InputStream, BufferedImage, مجلد, مصفوفة, أرشيف zip, URL, base64.
+يتعرف على الصورة مع القدرة على تحديد الدعم للأنواع GIF, PNG, JPEG, WBMP, TIFF, JFIF, TIFF, PDF, InputStream, BufferedImage, المجلد, المصفوفة, أرشيف zip, URL, base64.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -430,7 +430,7 @@ public OcrOutput Recognize(OcrInput input, RecognitionSettings settings)
 ```
 
 
-يتعرف على الصورة مع القدرة على تحديد الدعم للأنواع GIF, PNG, JPEG, WBMP, TIFF, JFIF, TIFF, PDF, InputStream, BufferedImage, مجلد, مصفوفة, أرشيف zip, URL, base64.
+يتعرف على الصورة مع القدرة على تحديد الدعم للأنواع GIF, PNG, JPEG, WBMP, TIFF, JFIF, TIFF, PDF, InputStream, BufferedImage, المجلد, المصفوفة, أرشيف zip, URL, base64.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -446,7 +446,7 @@ public OcrOutput RecognizeCarPlate(OcrInput input, CarPlateRecognitionSettings s
 ```
 
 
-يتعرف على لوحة السيارة مع القدرة على تحديد الدعم للأنواع GIF, PNG, JPEG, WBMP, TIFF, JFIF, TIFF, PDF, InputStream, BufferedImage, مجلد, مصفوفة, أرشيف zip, URL, base64.
+يتعرف على لوحة السيارة مع القدرة على تحديد الدعم للأنواع GIF, PNG, JPEG, WBMP, TIFF, JFIF, TIFF, PDF, InputStream, BufferedImage, المجلد, المصفوفة, أرشيف zip, URL, base64.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -462,7 +462,7 @@ public ArrayList<CharacterRecognitionResult> RecognizeCharacters(OcrInput input)
 ```
 
 
-يكتشف الرموز على الصور. يدعم GIF و PNG و JPEG و WBMP و TIFF و JFIF و TIFF و PDF و InputStream و BufferedImage و المجلد و المصفوفة و أرشيف zip و URL و base64.
+يكتشف الرموز في الصور. يدعم GIF، PNG، JPEG، WBMP، TIFF، JFIF، TIFF، PDF، InputStream، BufferedImage، المجلد، المصفوفة، أرشيف zip، URL، base64.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -470,14 +470,14 @@ public ArrayList<CharacterRecognitionResult> RecognizeCharacters(OcrInput input)
 | input | [OcrInput](../../com.aspose.ocr/ocrinput/) | الحاوية التي تحتوي على المصادر.[OcrInput](../../com.aspose.ocr/ocrinput/) |
 
 **Returns:**
-java.util.ArrayList<com.aspose.ocr.models.CharacterRecognitionResult> - ArrayList من [Character](../../com.aspose.ocr.models/character/) مع بيانات الرموز المكتشفة لكل صورة.
+java.util.ArrayList<com.aspose.ocr.models.CharacterRecognitionResult> - قائمة ArrayList من [Character](../../com.aspose.ocr.models/character/) مع بيانات الرموز المكتشفة لكل صورة.
 ### RecognizeCharacters(OcrInput input, DetectAreasMode detectAreasMode, Language language) {#RecognizeCharacters-com.aspose.ocr.OcrInput-com.aspose.ocr.models.DetectAreasMode-com.aspose.ocr.models.Language}
 ```
 public ArrayList<CharacterRecognitionResult> RecognizeCharacters(OcrInput input, DetectAreasMode detectAreasMode, Language language)
 ```
 
 
-يكتشف الرموز على الصور. يدعم GIF و PNG و JPEG و WBMP و TIFF و JFIF و TIFF و PDF و InputStream و BufferedImage و المجلد و المصفوفة و أرشيف zip و URL و base64.
+يكتشف الرموز في الصور. يدعم GIF، PNG، JPEG، WBMP، TIFF، JFIF، TIFF، PDF، InputStream، BufferedImage، المجلد، المصفوفة، أرشيف zip، URL، base64.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -487,35 +487,35 @@ public ArrayList<CharacterRecognitionResult> RecognizeCharacters(OcrInput input,
 | language | [Language](../../com.aspose.ocr.models/language/) | اللغة المستخدمة في OCR. |
 
 **Returns:**
-java.util.ArrayList<com.aspose.ocr.models.CharacterRecognitionResult> - ArrayList من [Character](../../com.aspose.ocr.models/character/) مع بيانات الرموز المكتشفة.
+java.util.ArrayList<com.aspose.ocr.models.CharacterRecognitionResult> - قائمة ArrayList من [Character](../../com.aspose.ocr.models/character/) مع بيانات الرموز المكتشفة.
 ### RecognizeFast(OcrInput input) {#RecognizeFast-com.aspose.ocr.OcrInput}
 ```
 public ArrayList<String> RecognizeFast(OcrInput input)
 ```
 
 
-يتعرف على النص في صورة ذات جودة جيدة. لا يستخدم تصحيح الانحراف التلقائي للصورة واكتشاف مناطق النص. يدعم GIF و PNG و JPEG و WBMP و TIFF و JFIF و TIFF و PDF و InputStream و BufferedImage و المجلد و المصفوفة و أرشيف zip و URL و base64.
+يتعرف على النص في صورة ذات جودة جيدة. لا يستخدم تصحيح الانحراف التلقائي للصورة واكتشاف مناطق النص. يدعم GIF، PNG، JPEG، WBMP، TIFF، JFIF، TIFF، PDF، InputStream، BufferedImage، المجلد، المصفوفة، أرشيف zip، URL، base64.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| input | [OcrInput](../../com.aspose.ocr/ocrinput/) | مثيل [OcrInput](../../com.aspose.ocr/ocrinput/). |
+| input | [OcrInput](../../com.aspose.ocr/ocrinput/) | [OcrInput](../../com.aspose.ocr/ocrinput/) كائن. |
 
 **Returns:**
-java.util.ArrayList<java.lang.String> - ArrayList مع النص المعترف به.
+java.util.ArrayList<java.lang.String> - قائمة ArrayList مع النص المعترف به.
 ### RecognizeFormula(OcrInput input, boolean detectAreas) {#RecognizeFormula-com.aspose.ocr.OcrInput-boolean}
 ```
 public OcrOutput RecognizeFormula(OcrInput input, boolean detectAreas)
 ```
 
 
-يتعرف على الصيغ الرياضية من الصور المدخلة المقدمة. يدعم GIF و PNG و JPEG و WBMP و TIFF و JFIF و TIFF و PDF و InputStream و BufferedImage و المجلد و المصفوفة و أرشيف zip و URL و base64.
+يتعرف على الصيغ الرياضية من الصور المدخلة. يدعم GIF، PNG، JPEG، WBMP، TIFF، JFIF، TIFF، PDF، InputStream، BufferedImage، المجلد، المصفوفة، أرشيف zip، URL، base64.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | input | [OcrInput](../../com.aspose.ocr/ocrinput/) | [OcrInput](../../com.aspose.ocr/ocrinput/). مثال. |
-| detectAreas | boolean | إذا تم تعيينه إلى true، يكتشف تلقائيًا ويعزل مناطق الصيغ قبل إجراء التعرف. إذا كان false، يعالج الصورة بالكامل كصيغة. |
+| detectAreas | boolean | إذا تم تعيينه إلى true، يكتشف تلقائيًا ويعزل مناطق الصيغة قبل إجراء التعرف. إذا كان false، يعالج الصورة بأكملها كصيغة. |
 
 **Returns:**
 [OcrOutput](../../com.aspose.ocr/ocroutput/) - OcrOutput list with images recognition results [OcrOutput](../../com.aspose.ocr/ocroutput/)
@@ -525,12 +525,12 @@ public OcrOutput RecognizeHandwrittenText(OcrInput input)
 ```
 
 
-يتعرف على النص المكتوب يدويًا في الصور. يدعم GIF و PNG و JPEG و WBMP و TIFF و JFIF و TIFF و PDF و InputStream و BufferedImage و المجلد و المصفوفة و أرشيف zip و URL و base64.
+يتعرف على النص المكتوب بخط اليد في الصور. يدعم GIF، PNG، JPEG، WBMP، TIFF، JFIF، TIFF، PDF، InputStream، BufferedImage، المجلد، المصفوفة، أرشيف zip، URL، base64.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| input | [OcrInput](../../com.aspose.ocr/ocrinput/) | [OcrInput](../../com.aspose.ocr/ocrinput/). الحاوية التي تحتوي على المصادر.. |
+| input | [OcrInput](../../com.aspose.ocr/ocrinput/) | [OcrInput](../../com.aspose.ocr/ocrinput/). الحاوية مع المصادر.. |
 
 **Returns:**
 [OcrOutput](../../com.aspose.ocr/ocroutput/) - RecognitionResult list with images recognition results [RecognitionResult](../../com.aspose.ocr/recognitionresult/)
@@ -540,7 +540,7 @@ public OcrOutput RecognizeIDCard(OcrInput input, IDCardRecognitionSettings setti
 ```
 
 
-يتعرف على بطاقة الهوية مع القدرة على تحديد الدعم للأنواع GIF, PNG, JPEG, WBMP, TIFF, JFIF, TIFF, PDF, InputStream, BufferedImage, مجلد, مصفوفة, أرشيف zip, URL, base64.
+يتعرف على بطاقة الهوية مع القدرة على تحديد الدعم للأنواع GIF, PNG, JPEG, WBMP, TIFF, JFIF, TIFF, PDF, InputStream, BufferedImage, المجلد, المصفوفة, أرشيف zip, URL, base64.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -556,7 +556,7 @@ public OcrOutput RecognizeInvoice(OcrInput input, InvoiceRecognitionSettings set
 ```
 
 
-يتعرف على الفاتورة مع القدرة على تحديد الدعم للأنواع GIF, PNG, JPEG, WBMP, TIFF, JFIF, TIFF, PDF, InputStream, BufferedImage, مجلد, مصفوفة, أرشيف zip, URL, base64.
+يتعرف على الفاتورة مع القدرة على تحديد الدعم للأنواع GIF, PNG, JPEG, WBMP, TIFF, JFIF, TIFF, PDF, InputStream, BufferedImage, المجلد, المصفوفة, أرشيف zip, URL, base64.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -572,7 +572,7 @@ public OcrOutput RecognizePassport(OcrInput input, PassportRecognitionSettings s
 ```
 
 
-يتعرف على جواز السفر مع إمكانية التحديد. يدعم GIF و PNG و JPEG و WBMP و TIFF و JFIF و TIFF و PDF و InputStream و BufferedImage و المجلد و المصفوفة و أرشيف zip و URL و base64.
+يتعرف على جواز السفر مع إمكانية التحديد. يدعم GIF، PNG، JPEG، WBMP، TIFF، JFIF، TIFF، PDF، InputStream، BufferedImage، المجلد، المصفوفة، أرشيف zip، URL، base64.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -588,7 +588,7 @@ public OcrOutput RecognizeReceipt(OcrInput input, ReceiptRecognitionSettings set
 ```
 
 
-يتعرف على الإيصالات مع إمكانية التحديد يدعم GIF, PNG, JPEG, WBMP, TIFF, JFIF, TIFF, PDF, InputStream, BufferedImage, folder, array, zip archive, URL, base64.
+يتعرف على الإيصالات مع إمكانية التحديد يدعم GIF و PNG و JPEG و WBMP و TIFF و JFIF و TIFF و PDF و InputStream و BufferedImage و المجلد و المصفوفة و أرشيف zip و URL و base64.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -604,7 +604,7 @@ public ArrayList<OCRTablePage> RecognizeTables(OcrInput input, Language language
 ```
 
 
-يكتشف الجداول والبنية، ويتعرف على خلايا النص. يدعم GIF و PNG و JPEG و WBMP و TIFF و JFIF و TIFF و PDF و InputStream و BufferedImage و المجلد و المصفوفة و أرشيف zip و URL و base64.
+يكتشف الجداول والبنية، يتعرف على خلايا النص. يدعم GIF، PNG، JPEG، WBMP، TIFF، JFIF، TIFF، PDF، InputStream، BufferedImage، المجلد، المصفوفة، أرشيف zip، URL، base64.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -627,7 +627,7 @@ public static void SaveMultipageDocument(OutputStream stream, Format saveFormat,
 | --- | --- | --- |
 | stream | java.io.OutputStream | OutputStream لحفظ نتيجة التعرف بالتنسيق المحدد. |
 | saveFormat | [Format](../../com.aspose.ocr.models/format/) | تنسيق المستند (Docx، Txt، Pdf، PdfNoImg، Xlsx، Xml، Json، Rtf). |
-| results | java.util.ArrayList<com.aspose.ocr.RecognitionResult> | قائمة من [RecognitionResult](../../com.aspose.ocr/recognitionresult/). الكائنات. |
+| results | java.util.ArrayList<com.aspose.ocr.RecognitionResult> | قائمة بـ [RecognitionResult](../../com.aspose.ocr/recognitionresult/). الكائنات. |
 
 ### SaveMultipageDocument(OutputStream stream, Format saveFormat, ArrayList<RecognitionResult> results, String embeddedFontPath) {#SaveMultipageDocument-java.io.OutputStream-com.aspose.ocr.models.Format-java.util.ArrayList-com.aspose.ocr.RecognitionResult--java.lang.String}
 ```
@@ -642,8 +642,8 @@ public static void SaveMultipageDocument(OutputStream stream, Format saveFormat,
 | --- | --- | --- |
 | stream | java.io.OutputStream | OutputStream لحفظ نتيجة التعرف بالتنسيق المحدد. |
 | saveFormat | [Format](../../com.aspose.ocr.models/format/) | تنسيق المستند (Docx، Txt، Pdf، PdfNoImg، Xlsx، Xml، Json، Rtf). |
-| results | java.util.ArrayList<com.aspose.ocr.RecognitionResult> | قائمة من [RecognitionResult](../../com.aspose.ocr/recognitionresult/). الكائنات. |
-| embeddedFontPath | java.lang.String | اختياريًا. المسار الكامل لخط المستخدم. |
+| results | java.util.ArrayList<com.aspose.ocr.RecognitionResult> | قائمة بـ [RecognitionResult](../../com.aspose.ocr/recognitionresult/). الكائنات. |
+| embeddedFontPath | java.lang.String | اختياريًا. المسار الكامل إلى خط المستخدم. |
 
 ### SaveMultipageDocument(OutputStream stream, Format saveFormat, ArrayList<RecognitionResult> results, String embeddedFontPath, PdfOptimizationMode optimizePdf) {#SaveMultipageDocument-java.io.OutputStream-com.aspose.ocr.models.Format-java.util.ArrayList-com.aspose.ocr.RecognitionResult--java.lang.String-com.aspose.ocr.models.PdfOptimizationMode}
 ```
@@ -658,8 +658,8 @@ public static void SaveMultipageDocument(OutputStream stream, Format saveFormat,
 | --- | --- | --- |
 | stream | java.io.OutputStream | OutputStream لحفظ نتيجة التعرف بالتنسيق المحدد. |
 | saveFormat | [Format](../../com.aspose.ocr.models/format/) | تنسيق المستند (Docx، Txt، Pdf، PdfNoImg، Xlsx، Xml، Json، Rtf). |
-| results | java.util.ArrayList<com.aspose.ocr.RecognitionResult> | قائمة من [RecognitionResult](../../com.aspose.ocr/recognitionresult/). الكائنات. |
-| embeddedFontPath | java.lang.String | اختياريًا. المسار الكامل لخط المستخدم. |
+| results | java.util.ArrayList<com.aspose.ocr.RecognitionResult> | قائمة بـ [RecognitionResult](../../com.aspose.ocr/recognitionresult/). الكائنات. |
+| embeddedFontPath | java.lang.String | اختياريًا. المسار الكامل إلى خط المستخدم. |
 | optimizePdf | [PdfOptimizationMode](../../com.aspose.ocr.models/pdfoptimizationmode/) | قلل حجم ملف PDF عن طريق خفض جودة الصور الخلفية. بشكل افتراضي، يتم الحفاظ على جودة الصورة الأصلية. |
 
 ### SaveMultipageDocument(String fullFileName, Format saveFormat, ArrayList<RecognitionResult> results) {#SaveMultipageDocument-java.lang.String-com.aspose.ocr.models.Format-java.util.ArrayList-com.aspose.ocr.RecognitionResult}
@@ -673,9 +673,9 @@ public static void SaveMultipageDocument(String fullFileName, Format saveFormat,
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| fullFileName | java.lang.String | اسم الملف مع المسار لحفظ نتيجة التعرف بالتنسيق المحدد. |
+| fullFileName | java.lang.String | اسم الملف مع مسار لحفظ نتيجة التعرف بالتنسيق المحدد. |
 | saveFormat | [Format](../../com.aspose.ocr.models/format/) | تنسيق المستند (Docx, Txt, Pdf, Xlsx, Xml, Json). |
-| results | java.util.ArrayList<com.aspose.ocr.RecognitionResult> | قائمة من [RecognitionResult](../../com.aspose.ocr/recognitionresult/). الكائنات. |
+| results | java.util.ArrayList<com.aspose.ocr.RecognitionResult> | قائمة بـ [RecognitionResult](../../com.aspose.ocr/recognitionresult/). الكائنات. |
 
 ### SaveMultipageDocument(String fullFileName, Format saveFormat, ArrayList<RecognitionResult> results, SpellCheck.SpellCheckLanguage language) {#SaveMultipageDocument-java.lang.String-com.aspose.ocr.models.Format-java.util.ArrayList-com.aspose.ocr.RecognitionResult--com.aspose.ocr.SpellCheck.SpellCheckLanguage}
 ```
@@ -688,10 +688,10 @@ public static void SaveMultipageDocument(String fullFileName, Format saveFormat,
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| fullFileName | java.lang.String | اسم الملف مع المسار لحفظ نتيجة التعرف بالتنسيق المحدد. |
+| fullFileName | java.lang.String | اسم الملف مع مسار لحفظ نتيجة التعرف بالتنسيق المحدد. |
 | saveFormat | [Format](../../com.aspose.ocr.models/format/) | تنسيق المستند (Docx, Txt, Pdf, Xlsx, Xml, Json). |
-| results | java.util.ArrayList<com.aspose.ocr.RecognitionResult> | قائمة من [RecognitionResult](../../com.aspose.ocr/recognitionresult/). الكائنات. |
-| language | [SpellCheckLanguage](../../com.aspose.ocr.spellcheck/spellchecklanguage/) | [SpellCheckLanguage](../../com.aspose.ocr.spellcheck/spellchecklanguage/) قيمة تعداد. |
+| results | java.util.ArrayList<com.aspose.ocr.RecognitionResult> | قائمة بـ [RecognitionResult](../../com.aspose.ocr/recognitionresult/). الكائنات. |
+| language | [SpellCheckLanguage](../../com.aspose.ocr.spellcheck/spellchecklanguage/) | قيمة تعداد [SpellCheckLanguage](../../com.aspose.ocr.spellcheck/spellchecklanguage/). |
 
 ### SaveMultipageDocument(String fullFileName, Format saveFormat, ArrayList<RecognitionResult> results, String embeddedFontPath) {#SaveMultipageDocument-java.lang.String-com.aspose.ocr.models.Format-java.util.ArrayList-com.aspose.ocr.RecognitionResult--java.lang.String}
 ```
@@ -704,10 +704,10 @@ public static void SaveMultipageDocument(String fullFileName, Format saveFormat,
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| fullFileName | java.lang.String | اسم الملف مع المسار لحفظ نتيجة التعرف بالتنسيق المحدد. |
+| fullFileName | java.lang.String | اسم الملف مع مسار لحفظ نتيجة التعرف بالتنسيق المحدد. |
 | saveFormat | [Format](../../com.aspose.ocr.models/format/) | تنسيق المستند (Docx, Txt, Pdf, Xlsx, Xml, Json). |
-| results | java.util.ArrayList<com.aspose.ocr.RecognitionResult> | قائمة من [RecognitionResult](../../com.aspose.ocr/recognitionresult/). الكائنات. |
-| embeddedFontPath | java.lang.String | اختياريًا. المسار الكامل لخط المستخدم. |
+| results | java.util.ArrayList<com.aspose.ocr.RecognitionResult> | قائمة بـ [RecognitionResult](../../com.aspose.ocr/recognitionresult/). الكائنات. |
+| embeddedFontPath | java.lang.String | اختياريًا. المسار الكامل إلى خط المستخدم. |
 
 ### SaveMultipageDocument(String fullFileName, Format saveFormat, ArrayList<RecognitionResult> results, String embeddedFontPath, PdfOptimizationMode optimizePdf) {#SaveMultipageDocument-java.lang.String-com.aspose.ocr.models.Format-java.util.ArrayList-com.aspose.ocr.RecognitionResult--java.lang.String-com.aspose.ocr.models.PdfOptimizationMode}
 ```
@@ -720,10 +720,10 @@ public static void SaveMultipageDocument(String fullFileName, Format saveFormat,
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| fullFileName | java.lang.String | اسم الملف مع المسار لحفظ نتيجة التعرف بالتنسيق المحدد. |
+| fullFileName | java.lang.String | اسم الملف مع مسار لحفظ نتيجة التعرف بالتنسيق المحدد. |
 | saveFormat | [Format](../../com.aspose.ocr.models/format/) | تنسيق المستند (Docx, Txt, Pdf, Xlsx, Xml, Json). |
-| results | java.util.ArrayList<com.aspose.ocr.RecognitionResult> | قائمة من [RecognitionResult](../../com.aspose.ocr/recognitionresult/). الكائنات. |
-| embeddedFontPath | java.lang.String | اختياريًا. المسار الكامل لخط المستخدم. |
+| results | java.util.ArrayList<com.aspose.ocr.RecognitionResult> | قائمة بـ [RecognitionResult](../../com.aspose.ocr/recognitionresult/). الكائنات. |
+| embeddedFontPath | java.lang.String | اختياريًا. المسار الكامل إلى خط المستخدم. |
 | optimizePdf | [PdfOptimizationMode](../../com.aspose.ocr.models/pdfoptimizationmode/) | قلل حجم ملف PDF عن طريق خفض جودة الصور الخلفية. بشكل افتراضي، يتم الحفاظ على جودة الصورة الأصلية. |
 
 ### close() {#close}

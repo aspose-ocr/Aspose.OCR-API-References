@@ -1,7 +1,7 @@
 ---
 title: "RegionTypes"
 second_title: "مرجع Aspose.OCR لـ Java API"
-description: "يحدد نوع المناطق التي اكتشفها DSR"
+description: "يحدد نوع المناطق التي اكتشفها DSR."
 type: docs
 weight: 28
 url: /ar/java/com.aspose.ocr.models/regiontypes/
@@ -16,7 +16,7 @@ public enum RegionTypes extends Enum<RegionTypes>
 يحدد نوع المناطق المكتشفة بواسطة DSR.
 ## الحقول
 
-| حقل | الوصف |
+| الحقل | الوصف |
 | --- | --- |
 | [CAPTION](#CAPTION) |  |
 | [EQUATION](#EQUATION) |  |
