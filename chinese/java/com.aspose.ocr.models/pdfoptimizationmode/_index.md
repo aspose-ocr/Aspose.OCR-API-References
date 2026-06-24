@@ -1,7 +1,7 @@
 ---
 title: "PdfOptimizationMode"
 second_title: "Aspose.OCR for Java API 参考"
-description: "显著减小 PDF 文件大小，代价是降低图像质量。"
+description: "显著减小 PDF 文件大小，以牺牲图像质量为代价。"
 type: docs
 weight: 27
 url: /zh/java/com.aspose.ocr.models/pdfoptimizationmode/
@@ -22,7 +22,7 @@ public enum PdfOptimizationMode extends Enum<PdfOptimizationMode>
 | --- | --- |
 | [AGGRESSIVE](#AGGRESSIVE) | 显著减小 PDF 文件大小，但会降低图像质量。 |
 | [BALANCED](#BALANCED) | 对图像进行降采样，以平衡文件大小和图像质量。 |
-| [HIGH_QUALITY](#HIGH-QUALITY) | 以轻微的图像降采样为代价，获得更小的 PDF 文件大小。 |
+| [HIGH_QUALITY](#HIGH-QUALITY) | 在轻微图像降采样的代价下获得更小的 PDF 文件大小。 |
 | [MAXIMUM_QUALITY](#MAXIMUM-QUALITY) | 在保持最高图像质量的同时优化文件大小。 |
 | [NONE](#NONE) | 不优化 PDF 大小。 |
 
@@ -48,7 +48,7 @@ public static final PdfOptimizationMode HIGH_QUALITY
 ```
 
 
-以轻微的图像降采样为代价，获得更小的 PDF 文件大小。
+在轻微图像降采样的代价下获得更小的 PDF 文件大小。
 
 ### MAXIMUM_QUALITY {#MAXIMUM-QUALITY}
 ```

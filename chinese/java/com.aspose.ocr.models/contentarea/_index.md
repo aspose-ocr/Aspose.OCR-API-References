@@ -1,7 +1,7 @@
 ---
 title: "ContentArea"
 second_title: "Aspose.OCR for Java API 参考"
-description: "在图像中检测到的内容区域"
+description: "图像中检测到的内容区域"
 type: docs
 weight: 12
 url: /zh/java/com.aspose.ocr.models/contentarea/

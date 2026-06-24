@@ -1,7 +1,7 @@
 ---
 title: "SpellCheckError"
 second_title: "Aspose.OCR for Java API 参考"
-description: "使用附加数据表示拼写错误的单词"
+description: "表示带有附加数据的拼写错误单词"
 type: docs
 weight: 10
 url: /zh/java/com.aspose.ocr.spellcheck/spellcheckerror/

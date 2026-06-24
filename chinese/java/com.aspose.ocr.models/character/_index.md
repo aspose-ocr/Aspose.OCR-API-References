@@ -13,7 +13,7 @@ java.lang.Object
 public class Character
 ```
 
-关于检测到的字符的数据。
+检测到的字符数据。
 ## 构造函数
 
 | 构造函数 | 描述 |

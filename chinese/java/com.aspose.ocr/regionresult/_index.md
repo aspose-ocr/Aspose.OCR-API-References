@@ -1,7 +1,7 @@
 ---
 title: "RecognitionResult.RegionResult"
 second_title: "Aspose.OCR for Java API 参考"
-description: "带有区域坐标的识别文本"
+description: "带有区域坐标的已识别文本"
 type: docs
 weight: 11
 url: /zh/java/com.aspose.ocr/recognitionresult.regionresult/
@@ -20,7 +20,7 @@ public class RecognitionResult.RegionResult
 | --- | --- |
 | [region](#region) | 区域坐标。 |
 | [regionType](#regionType) | 区域类型。 |
-| [textInRegion](#textInRegion) | 区域的识别文本。 |
+| [textInRegion](#textInRegion) | 区域的已识别文本。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -56,7 +56,7 @@ public String textInRegion
 ```
 
 
-区域的识别文本。
+区域的已识别文本。
 
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```

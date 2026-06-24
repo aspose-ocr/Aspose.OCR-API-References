@@ -31,8 +31,8 @@ public class PreprocessingFilter
 | [AutoDenoising()](#AutoDenoising) | 启用额外神经网络以改进图像——降低噪声。 |
 | [AutoDenoising(Rectangle area)](#AutoDenoising-java.awt.Rectangle) | 启用额外神经网络以改进图像的部分——降低噪声。 |
 | [AutoDewarping()](#AutoDewarping) | 自动校正图像中的几何畸变。 |
-| [AutoSkew()](#AutoSkew) | 启用图像自动倾斜校正。 |
-| [AutoSkew(Rectangle area)](#AutoSkew-java.awt.Rectangle) | 启用图像部分的自动倾斜校正。 |
+| [AutoSkew()](#AutoSkew) | 启用自动图像倾斜校正。 |
+| [AutoSkew(Rectangle area)](#AutoSkew-java.awt.Rectangle) | 启用自动图像部分倾斜校正。 |
 | [Binarize()](#Binarize) | 将图像转换为黑白图像。 |
 | [Binarize(Rectangle area)](#Binarize-java.awt.Rectangle) | 将图像的部分转换为黑白图像。 |
 | [BinarizeAndDilate()](#BinarizeAndDilate) | 膨胀在图像中为对象的边界添加像素。 |
@@ -52,7 +52,7 @@ public class PreprocessingFilter
 | [Threshold(int value)](#Threshold-int) | 基于对原始图像像素强度设置阈值来创建二值图像。 |
 | [Threshold(int value, Rectangle area)](#Threshold-int-java.awt.Rectangle) | 基于对原始图像部分像素强度设置阈值来创建二值图像部分。 |
 | [ToGrayscale()](#ToGrayscale) | 将图像转换为灰度图像。 |
-| [add(PreprocessingFilter filter)](#add-com.aspose.ocr.PreprocessingFilter) | 将新滤镜添加到集合中，以进一步运行所有操作。 |
+| [add(PreprocessingFilter filter)](#add-com.aspose.ocr.PreprocessingFilter) | 将新过滤器添加到集合中，以进一步运行所有操作。 |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getClass()](#getClass) |  |
 | [hashCode()](#hashCode) |  |
@@ -80,7 +80,7 @@ public static PreprocessingFilter AutoDenoising()
 ```
 
 
-启用额外神经网络以改进图像——降低噪声。适用于存在扫描伪影、失真、斑点、耀光、渐变、外来元素的图像。
+启用额外神经网络以改进图像——降低噪声。适用于带有扫描伪影、失真、斑点、耀斑、渐变和外来元素的图像。
 
 **Returns:**
 [PreprocessingFilter](../../com.aspose.ocr/preprocessingfilter/) - AutoDenoisingFilter object.
@@ -90,12 +90,12 @@ public static PreprocessingFilter AutoDenoising(Rectangle area)
 ```
 
 
-启用额外神经网络以改进图像的部分——降低噪声。适用于存在扫描伪影、失真、斑点、耀光、渐变、外来元素的图像。
+启用额外神经网络以改进图像的部分——降低噪声。适用于带有扫描伪影、失真、斑点、耀斑、渐变和外来元素的图像。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 区域 | java.awt.Rectangle | 用于预处理的矩形。 |
+| 区域 | java.awt.Rectangle | 用于预处理的 Rectangle。 |
 
 **Returns:**
 [PreprocessingFilter](../../com.aspose.ocr/preprocessingfilter/) - AutoDenoisingFilter object.
@@ -105,7 +105,7 @@ public static PreprocessingFilter AutoDewarping()
 ```
 
 
-自动校正图像中的几何畸变。资源消耗极大！
+自动校正图像中的几何畸变。极度占用资源！
 
 **Returns:**
 [PreprocessingFilter](../../com.aspose.ocr/preprocessingfilter/) - AutoDewarpingFilter object.
@@ -115,7 +115,7 @@ public static PreprocessingFilter AutoSkew()
 ```
 
 
-启用图像自动倾斜校正。
+启用自动图像倾斜校正。
 
 **Returns:**
 [PreprocessingFilter](../../com.aspose.ocr/preprocessingfilter/) - AutoSkewFilter object.
@@ -125,12 +125,12 @@ public static PreprocessingFilter AutoSkew(Rectangle area)
 ```
 
 
-启用图像部分的自动倾斜校正。
+启用自动图像部分倾斜校正。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 区域 | java.awt.Rectangle | 用于预处理的矩形。 |
+| 区域 | java.awt.Rectangle | 用于预处理的 Rectangle。 |
 
 **Returns:**
 [PreprocessingFilter](../../com.aspose.ocr/preprocessingfilter/) - AutoSkewFilter object.
@@ -140,7 +140,7 @@ public static PreprocessingFilter Binarize()
 ```
 
 
-将图像转换为黑白图像。二值图像是像素仅具有两种可能强度值的图像。它们通常显示为黑色和白色。从数值上看，这两个值通常为黑色的0和白色的255。二值图像是通过对图像进行自动阈值处理生成的。
+将图像转换为黑白图像。二值图像是像素仅具有两种可能强度值的图像。它们通常显示为黑白。数值上，这两个值通常为黑色的 0 和白色的 255。二值图像是通过对图像进行自动阈值处理生成的。
 
 **Returns:**
 [PreprocessingFilter](../../com.aspose.ocr/preprocessingfilter/) - BinarizeFilter object.
@@ -150,12 +150,12 @@ public static PreprocessingFilter Binarize(Rectangle area)
 ```
 
 
-将图像的部分转换为黑白图像。二值图像是像素仅具有两种可能强度值的图像。它们通常显示为黑色和白色。从数值上看，这两个值通常为黑色的0和白色的255。二值图像是通过对图像进行自动阈值处理生成的。
+将图像的部分转换为黑白图像。二值图像是像素仅具有两种可能强度值的图像。它们通常显示为黑白。数值上，这两个值通常为黑色的 0 和白色的 255。二值图像是通过对图像进行自动阈值处理生成的。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 区域 | java.awt.Rectangle | 用于预处理的矩形。 |
+| 区域 | java.awt.Rectangle | 用于预处理的 Rectangle。 |
 
 **Returns:**
 [PreprocessingFilter](../../com.aspose.ocr/preprocessingfilter/) - BinarizeFilter object.
@@ -180,7 +180,7 @@ public static PreprocessingFilter BinarizeAndDilate(Rectangle area)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 区域 | java.awt.Rectangle | 用于预处理的矩形。 |
+| 区域 | java.awt.Rectangle | 用于预处理的 Rectangle。 |
 
 **Returns:**
 [PreprocessingFilter](../../com.aspose.ocr/preprocessingfilter/) - DilateFilter object.
@@ -205,7 +205,7 @@ public static PreprocessingFilter ContrastCorrection(Rectangle area)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 区域 | java.awt.Rectangle | 用于预处理的矩形。 |
+| 区域 | java.awt.Rectangle | 用于预处理的 Rectangle。 |
 
 **Returns:**
 [PreprocessingFilter](../../com.aspose.ocr/preprocessingfilter/) - ContrastCorrectionFilter object.
@@ -230,7 +230,7 @@ public static PreprocessingFilter Invert(Rectangle area)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 区域 | java.awt.Rectangle | 用于预处理的矩形。 |
+| 区域 | java.awt.Rectangle | 用于预处理的 Rectangle。 |
 
 **Returns:**
 [PreprocessingFilter](../../com.aspose.ocr/preprocessingfilter/) - InvertFilter object.
@@ -255,7 +255,7 @@ public static PreprocessingFilter Median(Rectangle area)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 区域 | java.awt.Rectangle | 用于预处理的矩形。 |
+| 区域 | java.awt.Rectangle | 用于预处理的 Rectangle。 |
 
 **Returns:**
 [PreprocessingFilter](../../com.aspose.ocr/preprocessingfilter/) - MedianFilter object.
@@ -319,7 +319,7 @@ public static PreprocessingFilter Rotate(float angle, Rectangle area)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | 角度 | float | 旋转角度。取值范围为 -360 到 360。 |
-| 区域 | java.awt.Rectangle | 用于预处理的矩形。 |
+| 区域 | java.awt.Rectangle | 用于预处理的 Rectangle。 |
 
 **Returns:**
 [PreprocessingFilter](../../com.aspose.ocr/preprocessingfilter/) - RotateFilter object.
@@ -334,7 +334,7 @@ public static PreprocessingFilter Scale(float ratio)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 比例 | float | 缩放因子。建议值为 0.1 到 1 用于缩小，1 到 10 用于放大。 |
+| 比例 | float | 缩放因子。建议值为 0.1 到 1 用于缩小。1 到 10 用于放大。 |
 
 **Returns:**
 [PreprocessingFilter](../../com.aspose.ocr/preprocessingfilter/) - ScaleFilter object.
@@ -349,7 +349,7 @@ public static PreprocessingFilter Scale(float ratio, InterpolationFilterType typ
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 比例 | float | 缩放因子。建议值为 0.1 到 1 用于缩小，1 到 10 用于放大。 |
+| 比例 | float | 缩放因子。建议值为 0.1 到 1 用于缩小。1 到 10 用于放大。 |
 | type | [InterpolationFilterType](../../com.aspose.ocr/interpolationfiltertype/) | InterpolationFilterType @see [InterpolationFilterType](../../com.aspose.ocr/interpolationfiltertype/) |
 
 **Returns:**
@@ -381,7 +381,7 @@ public static PreprocessingFilter Threshold(int value, Rectangle area)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | 值 | int | 最大值。 |
-| 区域 | java.awt.Rectangle | 用于预处理的矩形。 |
+| 区域 | java.awt.Rectangle | 用于预处理的 Rectangle。 |
 
 **Returns:**
 [PreprocessingFilter](../../com.aspose.ocr/preprocessingfilter/) - BinarizeFilter object.

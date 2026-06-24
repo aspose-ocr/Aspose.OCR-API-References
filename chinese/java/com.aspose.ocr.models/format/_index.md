@@ -16,18 +16,18 @@ public enum Format extends Enum<Format>
 
 | 字段 | 描述 |
 | --- | --- |
-| [Csv](#Csv) | 将文档另存为 CSV（.csv）文件。 |
-| [Docx](#Docx) | 将结果另存为 Office Open XML Word 处理 ML 文档（无宏）。 |
-| [Epub](#Epub) | 将文档另存为 EPUB 文件。 |
-| [Html](#Html) | 将文档另存为 HTML 文件。 |
-| [Json](#Json) | 将结果另存为使用 JavaScript 对象表示法编写的纯文本。 |
+| [Csv](#Csv) | 将文档保存为 CSV（.csv）文件。 |
+| [Docx](#Docx) | 将结果保存为 Office Open XML Word 处理 ML 文档（无宏）。 |
+| [Epub](#Epub) | 将文档保存为 EPUB 文件。 |
+| [Html](#Html) | 将文档保存为 HTML 文件。 |
+| [Json](#Json) | 将结果保存为使用 JavaScript 对象表示法编写的纯文本。 |
 | [Md](#Md) | 将文档保存为 Markdown 文件。 |
-| [Pdf](#Pdf) | 将结果保存为 PDF（Adobe 可移植文档）文件。 |
-| [PdfNoImg](#PdfNoImg) | 将文档保存为不含图像的可搜索 PDF（Adobe 可移植文档）文件。 |
+| [Pdf](#Pdf) | 将结果保存为 PDF（Adobe Portable Document）文档。 |
+| [PdfNoImg](#PdfNoImg) | 将文档保存为不含图像的可搜索 PDF（Adobe Portable Document）文档。 |
 | [Rtf](#Rtf) | 将文档保存为 rtf 文件。 |
 | [Text](#Text) | 将结果保存为纯文本格式。 |
-| [Xlsx](#Xlsx) | 将结果保存为 Excel（2007 及以后）工作簿文件。 |
-| [Xml](#Xml) | 将结果保存为 XML 文件。 |
+| [Xlsx](#Xlsx) | 将结果保存为 Excel（2007 及以后）工作簿文档。 |
+| [Xml](#Xml) | 将结果保存为 XML 文档。 |
 | [hOcr](#hOcr) | 将文档保存为 hOCR（.html）文件。 |
 
 ### Csv {#Csv}
@@ -36,7 +36,7 @@ public static final Format Csv
 ```
 
 
-将文档另存为 CSV（.csv）文件。
+将文档保存为 CSV（.csv）文件。
 
 ### Docx {#Docx}
 ```
@@ -44,7 +44,7 @@ public static final Format Docx
 ```
 
 
-将结果另存为 Office Open XML Word 处理 ML 文档（无宏）。
+将结果保存为 Office Open XML Word 处理 ML 文档（无宏）。
 
 ### Epub {#Epub}
 ```
@@ -52,7 +52,7 @@ public static final Format Epub
 ```
 
 
-将文档另存为 EPUB 文件。
+将文档保存为 EPUB 文件。
 
 ### Html {#Html}
 ```
@@ -60,7 +60,7 @@ public static final Format Html
 ```
 
 
-将文档另存为 HTML 文件。
+将文档保存为 HTML 文件。
 
 ### Json {#Json}
 ```
@@ -68,7 +68,7 @@ public static final Format Json
 ```
 
 
-将结果另存为使用 JavaScript 对象表示法编写的纯文本。
+将结果保存为使用 JavaScript 对象表示法编写的纯文本。
 
 ### Md {#Md}
 ```
@@ -84,7 +84,7 @@ public static final Format Pdf
 ```
 
 
-将结果保存为 PDF（Adobe 可移植文档）文件。
+将结果保存为 PDF（Adobe Portable Document）文档。
 
 ### PdfNoImg {#PdfNoImg}
 ```
@@ -92,7 +92,7 @@ public static final Format PdfNoImg
 ```
 
 
-将文档保存为不含图像的可搜索 PDF（Adobe 可移植文档）文件。
+将文档保存为不含图像的可搜索 PDF（Adobe Portable Document）文档。
 
 ### Rtf {#Rtf}
 ```
@@ -116,7 +116,7 @@ public static final Format Xlsx
 ```
 
 
-将结果保存为 Excel（2007 及以后）工作簿文件。
+将结果保存为 Excel（2007 及以后）工作簿文档。
 
 ### Xml {#Xml}
 ```
@@ -124,7 +124,7 @@ public static final Format Xml
 ```
 
 
-将结果保存为 XML 文件。
+将结果保存为 XML 文档。
 
 ### hOcr {#hOcr}
 ```

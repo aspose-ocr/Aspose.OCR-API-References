@@ -45,7 +45,7 @@ public static final DetectAreasMode LEAN
 ```
 
 
-通过省略对复杂布局的支持，优先考虑速度并降低资源消耗。仅适用于仅包含少量文字且无插图或格式的简单图像。
+通过省略对复杂布局的支持，优先考虑速度并降低资源消耗。仅适用于仅包含少量文字且无插图或格式的简易图像。
 
 ### MULTICOLUMN {#MULTICOLUMN}
 ```
@@ -61,7 +61,7 @@ public static final DetectAreasMode TABLE
 ```
 
 
-检测图像中的表格结构并提取各单元格中的文本。推荐用于扫描的电子表格、报告以及其他基于表格的文档。
+检测图像中的表格结构并提取各单元格中的文本。推荐用于扫描的电子表格、报告及其他基于表格的文档。
 
 ### UNIVERSAL {#UNIVERSAL}
 ```

@@ -20,7 +20,7 @@ public class DefectOutput
 | --- | --- |
 | [Page](#Page) | 页码。 |
 | [Source](#Source) | 文件或 URL 的完整路径（如果有）。 |
-| [defectAreas](#defectAreas) | 图像缺陷及其发现区域的列表。 |
+| [defectAreas](#defectAreas) | 图像缺陷及其所在区域的列表。 |
 
 
 ### Page {#Page}
@@ -45,4 +45,4 @@ public ArrayList<DefectAreas> defectAreas
 ```
 
 
-图像缺陷及其发现区域的列表。
+图像缺陷及其所在区域的列表。

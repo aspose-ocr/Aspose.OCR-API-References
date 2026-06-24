@@ -1,5 +1,5 @@
 ---
-title: "输入类型"
+title: "InputType"
 second_title: "Aspose.OCR for Java API 参考"
 description: "用于处理/识别的图像/文档类型"
 type: docs
@@ -20,9 +20,9 @@ public enum InputType extends Enum<InputType>
 | --- | --- |
 | [Base64](#Base64) | 包含图像的 base64 字符串或指向包含 base64 内容的 .txt 文件的路径。 |
 | [Directory](#Directory) | 目录路径。 |
-| [PDF](#PDF) | 从文件或 InputStream 中的扫描 PDF 文档。 |
+| [PDF](#PDF) | 从文件或 InputStream 中获取的扫描 PDF 文档。 |
 | [SingleImage](#SingleImage) | 支持 GIF、PNG、JPEG、BMP、TIFF、JFIF、InputStream、BufferedImage。 |
-| [TIFF](#TIFF) | 从文件或 InputStream 中的多页 TIFF、TIF 文档。 |
+| [TIFF](#TIFF) | 从文件或 InputStream 中获取的多页 TIFF、TIF 文档。 |
 | [URL](#URL) | 图像链接。 |
 | [Zip](#Zip) | ZIP 存档的完整名称。 |
 
@@ -48,7 +48,7 @@ public static final InputType PDF
 ```
 
 
-从文件或 InputStream 中的扫描 PDF 文档。
+从文件或 InputStream 中获取的扫描 PDF 文档。
 
 ### SingleImage {#SingleImage}
 ```
@@ -64,7 +64,7 @@ public static final InputType TIFF
 ```
 
 
-从文件或 InputStream 中的多页 TIFF、TIF 文档。
+从文件或 InputStream 中获取的多页 TIFF、TIF 文档。
 
 ### URL {#URL}
 ```

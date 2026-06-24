@@ -1,5 +1,5 @@
 ---
-title: "NotInitializedException"
+title: "未初始化异常"
 second_title: "Aspose.OCR for Java API 参考"
 description: 
 type: docs

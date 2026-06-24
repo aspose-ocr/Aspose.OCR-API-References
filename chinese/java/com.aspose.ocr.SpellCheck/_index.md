@@ -19,4 +19,4 @@ url: /zh/java/com.aspose.ocr.spellcheck/
 
 | 枚举 | 描述 |
 | --- | --- |
-| [SpellCheckLanguage](../com.aspose.ocr.spellcheck/spellchecklanguage/) | 用于拼写检查的语言（现有词典）。 |
+| [SpellCheckLanguage](../com.aspose.ocr.spellcheck/spellchecklanguage/) | 用于拼写检查的语言（现有字典）。 |

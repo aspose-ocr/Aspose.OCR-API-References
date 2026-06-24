@@ -1,7 +1,7 @@
 ---
 title: "AsposeOCR"
 second_title: "Aspose.OCR for Java API 参考"
-description: "用于从图像识别文本的主类"
+description: "用于从图像中识别文本的主类"
 type: docs
 weight: 10
 url: /zh/java/com.aspose.ocr/asposeocr/
@@ -27,15 +27,15 @@ public class AsposeOCR implements AutoCloseable
 | 字段 | 描述 |
 | --- | --- |
 | [DebugMode](#DebugMode) | 启用调试模式。 |
-| [DebugModeSaveDirectory](#DebugModeSaveDirectory) | 保存调试结果的目录。 |
+| [DebugModeSaveDirectory](#DebugModeSaveDirectory) | 调试结果将保存的目录。 |
 ## 方法
 
 | 方法 | 描述 |
 | --- | --- |
 | [CalculateSkew(OcrInput input)](#CalculateSkew-com.aspose.ocr.OcrInput) | 计算图像的倾斜角度。 |
-| [CompareImageTexts(String fullPath1, String fullPath2)](#CompareImageTexts-java.lang.String-java.lang.String) | 检查两个图像是否包含相同的文本。 |
-| [CompareImageTexts(String fullPath1, String fullPath2, RecognitionSettings settings)](#CompareImageTexts-java.lang.String-java.lang.String-com.aspose.ocr.RecognitionSettings) | 检查两个图像是否包含相同的文本。 |
-| [CompareImageTexts(String fullPath1, String fullPath2, RecognitionSettings settings, boolean ignoreCase)](#CompareImageTexts-java.lang.String-java.lang.String-com.aspose.ocr.RecognitionSettings-boolean) | 检查两个图像是否包含相同的文本。 |
+| [CompareImageTexts(String fullPath1, String fullPath2)](#CompareImageTexts-java.lang.String-java.lang.String) | 检查两幅图像是否包含相同的文本。 |
+| [CompareImageTexts(String fullPath1, String fullPath2, RecognitionSettings settings)](#CompareImageTexts-java.lang.String-java.lang.String-com.aspose.ocr.RecognitionSettings) | 检查两幅图像是否包含相同的文本。 |
+| [CompareImageTexts(String fullPath1, String fullPath2, RecognitionSettings settings, boolean ignoreCase)](#CompareImageTexts-java.lang.String-java.lang.String-com.aspose.ocr.RecognitionSettings-boolean) | 检查两幅图像是否包含相同的文本。 |
 | [CorrectSpelling(String text, SpellCheck.SpellCheckLanguage language)](#CorrectSpelling-java.lang.String-com.aspose.ocr.SpellCheck.SpellCheckLanguage) | 纠正文本（替换拼写错误的单词）。 |
 | [CorrectSpelling(String text, SpellCheck.SpellCheckLanguage language, String dictionaryPath)](#CorrectSpelling-java.lang.String-com.aspose.ocr.SpellCheck.SpellCheckLanguage-java.lang.String) | 纠正文本（替换拼写错误的单词）。 |
 | [DetectDefects(OcrInput input, DefectType defectType)](#DetectDefects-com.aspose.ocr.OcrInput-com.aspose.ocr.models.DefectType) | 自动查找图像中可能显著影响 OCR 准确性的有问题区域。 |
@@ -51,16 +51,16 @@ public class AsposeOCR implements AutoCloseable
 | [ImageTextDiff(String fullPath1, String fullPath2)](#ImageTextDiff-java.lang.String-java.lang.String) | 比较两幅图像上的文本并返回表示相似度的数值（0 到 1）。 |
 | [ImageTextDiff(String fullPath1, String fullPath2, RecognitionSettings settings)](#ImageTextDiff-java.lang.String-java.lang.String-com.aspose.ocr.RecognitionSettings) | 比较两幅图像上的文本并返回表示相似度的数值（0 到 1）。 |
 | [ImageTextDiff(String fullPath1, String fullPath2, RecognitionSettings settings, boolean ignoreCase)](#ImageTextDiff-java.lang.String-java.lang.String-com.aspose.ocr.RecognitionSettings-boolean) | 比较两幅图像上的文本并返回表示相似度的数值（0 到 1）。 |
-| [Recognize(OcrInput input)](#Recognize-com.aspose.ocr.OcrInput) | 识别图像，支持 GIF、PNG、JPEG、WBMP、TIFF、JFIF、TIFF、PDF、InputStream、BufferedImage、文件夹、数组、zip 存档、URL、base64。 |
-| [Recognize(OcrInput input, RecognitionSettings settings)](#Recognize-com.aspose.ocr.OcrInput-com.aspose.ocr.RecognitionSettings) | 识别图像，支持 GIF、PNG、JPEG、WBMP、TIFF、JFIF、TIFF、PDF、InputStream、BufferedImage、文件夹、数组、zip 存档、URL、base64。 |
-| [RecognizeCarPlate(OcrInput input, CarPlateRecognitionSettings settings)](#RecognizeCarPlate-com.aspose.ocr.OcrInput-com.aspose.ocr.CarPlateRecognitionSettings) | 识别车牌，支持 GIF、PNG、JPEG、WBMP、TIFF、JFIF、TIFF、PDF、InputStream、BufferedImage、文件夹、数组、zip 存档、URL、base64。 |
+| [Recognize(OcrInput input)](#Recognize-com.aspose.ocr.OcrInput) | 识别图像，支持指定的格式包括 GIF、PNG、JPEG、WBMP、TIFF、JFIF、TIFF、PDF、InputStream、BufferedImage、文件夹、数组、zip 压缩包、URL、base64。 |
+| [Recognize(OcrInput input, RecognitionSettings settings)](#Recognize-com.aspose.ocr.OcrInput-com.aspose.ocr.RecognitionSettings) | 识别图像，支持指定的格式包括 GIF、PNG、JPEG、WBMP、TIFF、JFIF、TIFF、PDF、InputStream、BufferedImage、文件夹、数组、zip 压缩包、URL、base64。 |
+| [RecognizeCarPlate(OcrInput input, CarPlateRecognitionSettings settings)](#RecognizeCarPlate-com.aspose.ocr.OcrInput-com.aspose.ocr.CarPlateRecognitionSettings) | 识别车牌，支持指定的格式包括 GIF、PNG、JPEG、WBMP、TIFF、JFIF、TIFF、PDF、InputStream、BufferedImage、文件夹、数组、zip 压缩包、URL、base64。 |
 | [RecognizeCharacters(OcrInput input)](#RecognizeCharacters-com.aspose.ocr.OcrInput) | 检测图像上的符号。 |
 | [RecognizeCharacters(OcrInput input, DetectAreasMode detectAreasMode, Language language)](#RecognizeCharacters-com.aspose.ocr.OcrInput-com.aspose.ocr.models.DetectAreasMode-com.aspose.ocr.models.Language) | 检测图像上的符号。 |
 | [RecognizeFast(OcrInput input)](#RecognizeFast-com.aspose.ocr.OcrInput) | 识别高质量图像上的文本。 |
 | [RecognizeFormula(OcrInput input, boolean detectAreas)](#RecognizeFormula-com.aspose.ocr.OcrInput-boolean) | 识别提供的输入图像中的数学公式。 |
 | [RecognizeHandwrittenText(OcrInput input)](#RecognizeHandwrittenText-com.aspose.ocr.OcrInput) | 识别图像上的手写文本。 |
-| [RecognizeIDCard(OcrInput input, IDCardRecognitionSettings settings)](#RecognizeIDCard-com.aspose.ocr.OcrInput-com.aspose.ocr.IDCardRecognitionSettings) | 识别身份证，支持 GIF、PNG、JPEG、WBMP、TIFF、JFIF、TIFF、PDF、InputStream、BufferedImage、文件夹、数组、zip 存档、URL、base64。 |
-| [RecognizeInvoice(OcrInput input, InvoiceRecognitionSettings settings)](#RecognizeInvoice-com.aspose.ocr.OcrInput-com.aspose.ocr.InvoiceRecognitionSettings) | 识别发票，支持 GIF、PNG、JPEG、WBMP、TIFF、JFIF、TIFF、PDF、InputStream、BufferedImage、文件夹、数组、zip 存档、URL、base64。 |
+| [RecognizeIDCard(OcrInput input, IDCardRecognitionSettings settings)](#RecognizeIDCard-com.aspose.ocr.OcrInput-com.aspose.ocr.IDCardRecognitionSettings) | 识别身份证，支持指定的格式包括 GIF、PNG、JPEG、WBMP、TIFF、JFIF、TIFF、PDF、InputStream、BufferedImage、文件夹、数组、zip 压缩包、URL、base64。 |
+| [RecognizeInvoice(OcrInput input, InvoiceRecognitionSettings settings)](#RecognizeInvoice-com.aspose.ocr.OcrInput-com.aspose.ocr.InvoiceRecognitionSettings) | 识别发票，支持指定的格式包括 GIF、PNG、JPEG、WBMP、TIFF、JFIF、TIFF、PDF、InputStream、BufferedImage、文件夹、数组、zip 压缩包、URL、base64。 |
 | [RecognizePassport(OcrInput input, PassportRecognitionSettings settings)](#RecognizePassport-com.aspose.ocr.OcrInput-com.aspose.ocr.PassportRecognitionSettings) | 识别护照并支持指定。 |
 | [RecognizeReceipt(OcrInput input, ReceiptRecognitionSettings settings)](#RecognizeReceipt-com.aspose.ocr.OcrInput-com.aspose.ocr.ReceiptRecognitionSettings) | 识别收据并支持指定，支持 GIF、PNG、JPEG、WBMP、TIFF、JFIF、TIFF、PDF、InputStream、BufferedImage、文件夹、数组、zip 压缩包、URL、base64。 |
 | [RecognizeTables(OcrInput input, Language language)](#RecognizeTables-com.aspose.ocr.OcrInput-com.aspose.ocr.models.Language) | 检测表格和结构，识别文本单元格。 |
@@ -68,7 +68,7 @@ public class AsposeOCR implements AutoCloseable
 | [SaveMultipageDocument(OutputStream stream, Format saveFormat, ArrayList<RecognitionResult> results, String embeddedFontPath)](#SaveMultipageDocument-java.io.OutputStream-com.aspose.ocr.models.Format-java.util.ArrayList-com.aspose.ocr.RecognitionResult--java.lang.String) | 允许从 RecognitionResult 对象列表获取多页文档。 |
 | [SaveMultipageDocument(OutputStream stream, Format saveFormat, ArrayList<RecognitionResult> results, String embeddedFontPath, PdfOptimizationMode optimizePdf)](#SaveMultipageDocument-java.io.OutputStream-com.aspose.ocr.models.Format-java.util.ArrayList-com.aspose.ocr.RecognitionResult--java.lang.String-com.aspose.ocr.models.PdfOptimizationMode) | 允许从 RecognitionResult 对象列表获取多页文档。 |
 | [SaveMultipageDocument(String fullFileName, Format saveFormat, ArrayList<RecognitionResult> results)](#SaveMultipageDocument-java.lang.String-com.aspose.ocr.models.Format-java.util.ArrayList-com.aspose.ocr.RecognitionResult) | 允许从 RecognitionResult 对象列表获取多页文档。 |
-| [SaveMultipageDocument(String fullFileName, Format saveFormat, ArrayList<RecognitionResult> results, SpellCheck.SpellCheckLanguage language)](#SaveMultipageDocument-java.lang.String-com.aspose.ocr.models.Format-java.util.ArrayList-com.aspose.ocr.RecognitionResult--com.aspose.ocr.SpellCheck.SpellCheckLanguage) | 允许从带有拼写检查校正的 RecognitionResult 对象列表获取多页文档。 |
+| [SaveMultipageDocument(String fullFileName, Format saveFormat, ArrayList<RecognitionResult> results, SpellCheck.SpellCheckLanguage language)](#SaveMultipageDocument-java.lang.String-com.aspose.ocr.models.Format-java.util.ArrayList-com.aspose.ocr.RecognitionResult--com.aspose.ocr.SpellCheck.SpellCheckLanguage) | 允许从 RecognitionResult 对象列表获取带拼写检查校正的多页文档。 |
 | [SaveMultipageDocument(String fullFileName, Format saveFormat, ArrayList<RecognitionResult> results, String embeddedFontPath)](#SaveMultipageDocument-java.lang.String-com.aspose.ocr.models.Format-java.util.ArrayList-com.aspose.ocr.RecognitionResult--java.lang.String) | 允许从 RecognitionResult 对象列表获取多页文档。 |
 | [SaveMultipageDocument(String fullFileName, Format saveFormat, ArrayList<RecognitionResult> results, String embeddedFontPath, PdfOptimizationMode optimizePdf)](#SaveMultipageDocument-java.lang.String-com.aspose.ocr.models.Format-java.util.ArrayList-com.aspose.ocr.RecognitionResult--java.lang.String-com.aspose.ocr.models.PdfOptimizationMode) | 允许从 RecognitionResult 对象列表获取多页文档。 |
 | [close()](#close) |  |
@@ -87,7 +87,7 @@ public static boolean DebugMode
 ```
 
 
-启用调试模式。启用后，系统会保存中间图像处理结果，例如预处理图像和带有绘制文本行矩形的图像。
+启用调试模式。启用后，系统会保存中间图像处理结果，例如预处理图像和绘制了文本行矩形的图像。
 
 ### DebugModeSaveDirectory {#DebugModeSaveDirectory}
 ```
@@ -118,7 +118,7 @@ public boolean CompareImageTexts(String fullPath1, String fullPath2)
 ```
 
 
-检查两个图像是否包含相同的文本。
+检查两幅图像是否包含相同的文本。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -127,14 +127,14 @@ public boolean CompareImageTexts(String fullPath1, String fullPath2)
 | fullPath2 | java.lang.String | 第二张图像的路径。 |
 
 **Returns:**
-boolean - 如果图像具有相同的文本（相似度 90%），则为 True。
+boolean - 如果图像具有相同文本（相似度 90%）则为 True。
 ### CompareImageTexts(String fullPath1, String fullPath2, RecognitionSettings settings) {#CompareImageTexts-java.lang.String-java.lang.String-com.aspose.ocr.RecognitionSettings}
 ```
 public boolean CompareImageTexts(String fullPath1, String fullPath2, RecognitionSettings settings)
 ```
 
 
-检查两个图像是否包含相同的文本。
+检查两幅图像是否包含相同的文本。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -144,14 +144,14 @@ public boolean CompareImageTexts(String fullPath1, String fullPath2, Recognition
 | settings | [RecognitionSettings](../../com.aspose.ocr/recognitionsettings/) | 识别设置。 |
 
 **Returns:**
-boolean - 如果图像具有相同的文本（相似度 90%），则为 True。
+boolean - 如果图像具有相同文本（相似度 90%）则为 True。
 ### CompareImageTexts(String fullPath1, String fullPath2, RecognitionSettings settings, boolean ignoreCase) {#CompareImageTexts-java.lang.String-java.lang.String-com.aspose.ocr.RecognitionSettings-boolean}
 ```
 public boolean CompareImageTexts(String fullPath1, String fullPath2, RecognitionSettings settings, boolean ignoreCase)
 ```
 
 
-检查两个图像是否包含相同的文本。
+检查两幅图像是否包含相同的文本。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -162,7 +162,7 @@ public boolean CompareImageTexts(String fullPath1, String fullPath2, Recognition
 | ignoreCase | boolean | True - 表示不区分大小写的搜索。 |
 
 **Returns:**
-boolean - 如果图像具有相同的文本（相似度 90%），则为 True。
+boolean - 如果图像具有相同文本（相似度 90%）则为 True。
 ### CorrectSpelling(String text, SpellCheck.SpellCheckLanguage language) {#CorrectSpelling-java.lang.String-com.aspose.ocr.SpellCheck.SpellCheckLanguage}
 ```
 public String CorrectSpelling(String text, SpellCheck.SpellCheckLanguage language)
@@ -211,7 +211,7 @@ public ArrayList<DefectOutput> DetectDefects(OcrInput input, DefectType defectTy
 | defectType | [DefectType](../../com.aspose.ocr.models/defecttype/) | 要识别的缺陷类型 [DefectType](../../com.aspose.ocr.models/defecttype/)。 |
 
 **Returns:**
-java.util.ArrayList<com.aspose.ocr.DefectOutput> - 包含已检测文本区域或行的 [DefectOutput](../../com.aspose.ocr/defectoutput/) 列表。
+java.util.ArrayList<com.aspose.ocr.DefectOutput> - 包含已检测文本区域或行的 [DefectOutput](../../com.aspose.ocr/defectoutput/) 的 ArrayList。
 ### DetectDocumentLayout(OcrInput input) {#DetectDocumentLayout-com.aspose.ocr.OcrInput}
 ```
 public ArrayList<LayoutOutput> DetectDocumentLayout(OcrInput input)
@@ -226,7 +226,7 @@ public ArrayList<LayoutOutput> DetectDocumentLayout(OcrInput input)
 | input | [OcrInput](../../com.aspose.ocr/ocrinput/) | 包含源的容器。[OcrInput](../../com.aspose.ocr/ocrinput/) |
 
 **Returns:**
-java.util.ArrayList<com.aspose.ocr.models.LayoutOutput> - 检测到的内容区域。包含 [LayoutOutput](../../com.aspose.ocr.models/layoutoutput/) 的列表。
+java.util.ArrayList<com.aspose.ocr.models.LayoutOutput> - 检测到的内容区域。[LayoutOutput](../../com.aspose.ocr.models/layoutoutput/) 的 ArrayList。
 ### DetectLanguages(OcrInput input) {#DetectLanguages-com.aspose.ocr.OcrInput}
 ```
 public ArrayList<LanguageDetectionOutput> DetectLanguages(OcrInput input)
@@ -241,7 +241,7 @@ public ArrayList<LanguageDetectionOutput> DetectLanguages(OcrInput input)
 | input | [OcrInput](../../com.aspose.ocr/ocrinput/) | 包含源的容器。[OcrInput](../../com.aspose.ocr/ocrinput/) |
 
 **Returns:**
-java.util.ArrayList<com.aspose.ocr.models.LanguageDetectionOutput> - 返回按可能性排序的最可能语言列表。包含 [LanguageDetectionOutput](../../com.aspose.ocr.models/languagedetectionoutput/) 的列表。
+java.util.ArrayList<com.aspose.ocr.models.LanguageDetectionOutput> - 返回按可能性排序的最可能语言列表。[LanguageDetectionOutput](../../com.aspose.ocr.models/languagedetectionoutput/) 的 ArrayList。
 ### DetectRectangles(OcrInput input, AreasType areasType, boolean isDetectAreas) {#DetectRectangles-com.aspose.ocr.OcrInput-com.aspose.ocr.models.AreasType-boolean}
 ```
 public ArrayList<RectangleOutput> DetectRectangles(OcrInput input, AreasType areasType, boolean isDetectAreas)
@@ -258,7 +258,7 @@ public ArrayList<RectangleOutput> DetectRectangles(OcrInput input, AreasType are
 | isDetectAreas | boolean | 启用自动文本区域检测。 |
 
 **Returns:**
-java.util.ArrayList<com.aspose.ocr.RectangleOutput> - 包含已检测文本区域或行的 [RectangleOutput](../../com.aspose.ocr/rectangleoutput/) 列表。
+java.util.ArrayList<com.aspose.ocr.RectangleOutput> - 包含已检测文本区域或行的 [RectangleOutput](../../com.aspose.ocr/rectangleoutput/) 的 ArrayList。
 ### DetectTables(OcrInput images) {#DetectTables-com.aspose.ocr.OcrInput}
 ```
 public ArrayList<RectangleOutput> DetectTables(OcrInput images)
@@ -273,7 +273,7 @@ public ArrayList<RectangleOutput> DetectTables(OcrInput images)
 | images | [OcrInput](../../com.aspose.ocr/ocrinput/) | 包含源的容器。[OcrInput](../../com.aspose.ocr/ocrinput/) |
 
 **Returns:**
-java.util.ArrayList<com.aspose.ocr.RectangleOutput> - 包含已检测表格区域的 [RectangleOutput](../../com.aspose.ocr/rectangleoutput/) 列表。
+java.util.ArrayList<com.aspose.ocr.RectangleOutput> - 包含已检测表格区域的 [RectangleOutput](../../com.aspose.ocr/rectangleoutput/) 的 ArrayList。
 ### ImageHasText(String fullPath, String text) {#ImageHasText-java.lang.String-java.lang.String}
 ```
 public boolean ImageHasText(String fullPath, String text)
@@ -415,7 +415,7 @@ public OcrOutput Recognize(OcrInput input)
 ```
 
 
-识别图像，支持 GIF、PNG、JPEG、WBMP、TIFF、JFIF、TIFF、PDF、InputStream、BufferedImage、文件夹、数组、zip 存档、URL、base64。
+识别图像，支持指定的格式包括 GIF、PNG、JPEG、WBMP、TIFF、JFIF、TIFF、PDF、InputStream、BufferedImage、文件夹、数组、zip 压缩包、URL、base64。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -430,7 +430,7 @@ public OcrOutput Recognize(OcrInput input, RecognitionSettings settings)
 ```
 
 
-识别图像，支持 GIF、PNG、JPEG、WBMP、TIFF、JFIF、TIFF、PDF、InputStream、BufferedImage、文件夹、数组、zip 存档、URL、base64。
+识别图像，支持指定的格式包括 GIF、PNG、JPEG、WBMP、TIFF、JFIF、TIFF、PDF、InputStream、BufferedImage、文件夹、数组、zip 压缩包、URL、base64。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -446,7 +446,7 @@ public OcrOutput RecognizeCarPlate(OcrInput input, CarPlateRecognitionSettings s
 ```
 
 
-识别车牌，支持 GIF、PNG、JPEG、WBMP、TIFF、JFIF、TIFF、PDF、InputStream、BufferedImage、文件夹、数组、zip 存档、URL、base64。
+识别车牌，支持指定的格式包括 GIF、PNG、JPEG、WBMP、TIFF、JFIF、TIFF、PDF、InputStream、BufferedImage、文件夹、数组、zip 压缩包、URL、base64。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -462,7 +462,7 @@ public ArrayList<CharacterRecognitionResult> RecognizeCharacters(OcrInput input)
 ```
 
 
-检测图像中的符号。支持 GIF、PNG、JPEG、WBMP、TIFF、JFIF、TIFF、PDF、InputStream、BufferedImage、文件夹、数组、zip 存档、URL、base64。
+检测图像中的符号。支持 GIF、PNG、JPEG、WBMP、TIFF、JFIF、TIFF、PDF、InputStream、BufferedImage、文件夹、数组、zip 压缩包、URL、base64。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -470,14 +470,14 @@ public ArrayList<CharacterRecognitionResult> RecognizeCharacters(OcrInput input)
 | input | [OcrInput](../../com.aspose.ocr/ocrinput/) | 包含源的容器。[OcrInput](../../com.aspose.ocr/ocrinput/) |
 
 **Returns:**
-java.util.ArrayList<com.aspose.ocr.models.CharacterRecognitionResult> - 包含每个图像检测到的符号数据的 [Character](../../com.aspose.ocr.models/character/) ArrayList。
+java.util.ArrayList<com.aspose.ocr.models.CharacterRecognitionResult> - 每个图像的检测符号数据的 [Character](../../com.aspose.ocr.models/character/) ArrayList。
 ### RecognizeCharacters(OcrInput input, DetectAreasMode detectAreasMode, Language language) {#RecognizeCharacters-com.aspose.ocr.OcrInput-com.aspose.ocr.models.DetectAreasMode-com.aspose.ocr.models.Language}
 ```
 public ArrayList<CharacterRecognitionResult> RecognizeCharacters(OcrInput input, DetectAreasMode detectAreasMode, Language language)
 ```
 
 
-检测图像中的符号。支持 GIF、PNG、JPEG、WBMP、TIFF、JFIF、TIFF、PDF、InputStream、BufferedImage、文件夹、数组、zip 存档、URL、base64。
+检测图像中的符号。支持 GIF、PNG、JPEG、WBMP、TIFF、JFIF、TIFF、PDF、InputStream、BufferedImage、文件夹、数组、zip 压缩包、URL、base64。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -487,14 +487,14 @@ public ArrayList<CharacterRecognitionResult> RecognizeCharacters(OcrInput input,
 | language | [Language](../../com.aspose.ocr.models/language/) | OCR 使用的语言。 |
 
 **Returns:**
-java.util.ArrayList<com.aspose.ocr.models.CharacterRecognitionResult> - 包含检测到的符号数据的 [Character](../../com.aspose.ocr.models/character/) ArrayList。
+java.util.ArrayList<com.aspose.ocr.models.CharacterRecognitionResult> - 检测符号数据的 [Character](../../com.aspose.ocr.models/character/) ArrayList。
 ### RecognizeFast(OcrInput input) {#RecognizeFast-com.aspose.ocr.OcrInput}
 ```
 public ArrayList<String> RecognizeFast(OcrInput input)
 ```
 
 
-识别高质量图像上的文本。不使用自动图像倾斜校正和文本区域检测。支持 GIF、PNG、JPEG、WBMP、TIFF、JFIF、TIFF、PDF、InputStream、BufferedImage、文件夹、数组、zip 存档、URL、base64。
+识别高质量图像上的文本。不使用自动图像倾斜校正和文本区域检测。支持 GIF、PNG、JPEG、WBMP、TIFF、JFIF、TIFF、PDF、InputStream、BufferedImage、文件夹、数组、zip 压缩包、URL、base64。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -509,7 +509,7 @@ public OcrOutput RecognizeFormula(OcrInput input, boolean detectAreas)
 ```
 
 
-识别提供的输入图像中的数学公式。支持 GIF、PNG、JPEG、WBMP、TIFF、JFIF、TIFF、PDF、InputStream、BufferedImage、文件夹、数组、zip 存档、URL、base64。
+识别提供的输入图像中的数学公式。支持 GIF、PNG、JPEG、WBMP、TIFF、JFIF、TIFF、PDF、InputStream、BufferedImage、文件夹、数组、zip 压缩包、URL、base64。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -525,7 +525,7 @@ public OcrOutput RecognizeHandwrittenText(OcrInput input)
 ```
 
 
-识别图像上的手写文本。支持 GIF、PNG、JPEG、WBMP、TIFF、JFIF、TIFF、PDF、InputStream、BufferedImage、文件夹、数组、zip 存档、URL、base64。
+识别图像上的手写文本。支持 GIF、PNG、JPEG、WBMP、TIFF、JFIF、TIFF、PDF、InputStream、BufferedImage、文件夹、数组、zip 压缩包、URL、base64。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -540,7 +540,7 @@ public OcrOutput RecognizeIDCard(OcrInput input, IDCardRecognitionSettings setti
 ```
 
 
-识别身份证，支持 GIF、PNG、JPEG、WBMP、TIFF、JFIF、TIFF、PDF、InputStream、BufferedImage、文件夹、数组、zip 存档、URL、base64。
+识别身份证，支持指定的格式包括 GIF、PNG、JPEG、WBMP、TIFF、JFIF、TIFF、PDF、InputStream、BufferedImage、文件夹、数组、zip 压缩包、URL、base64。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -556,7 +556,7 @@ public OcrOutput RecognizeInvoice(OcrInput input, InvoiceRecognitionSettings set
 ```
 
 
-识别发票，支持 GIF、PNG、JPEG、WBMP、TIFF、JFIF、TIFF、PDF、InputStream、BufferedImage、文件夹、数组、zip 存档、URL、base64。
+识别发票，支持指定的格式包括 GIF、PNG、JPEG、WBMP、TIFF、JFIF、TIFF、PDF、InputStream、BufferedImage、文件夹、数组、zip 压缩包、URL、base64。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -572,7 +572,7 @@ public OcrOutput RecognizePassport(OcrInput input, PassportRecognitionSettings s
 ```
 
 
-识别护照并可进行指定。支持 GIF、PNG、JPEG、WBMP、TIFF、JFIF、TIFF、PDF、InputStream、BufferedImage、文件夹、数组、zip 存档、URL、base64。
+识别护照并具备指定功能。支持 GIF、PNG、JPEG、WBMP、TIFF、JFIF、TIFF、PDF、InputStream、BufferedImage、文件夹、数组、zip 压缩包、URL、base64。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -604,7 +604,7 @@ public ArrayList<OCRTablePage> RecognizeTables(OcrInput input, Language language
 ```
 
 
-检测表格及其结构，识别文本单元格。支持 GIF、PNG、JPEG、WBMP、TIFF、JFIF、TIFF、PDF、InputStream、BufferedImage、文件夹、数组、zip 存档、URL、base64。
+检测表格及结构，识别文本单元格。支持 GIF、PNG、JPEG、WBMP、TIFF、JFIF、TIFF、PDF、InputStream、BufferedImage、文件夹、数组、zip 压缩包、URL、base64。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -625,7 +625,7 @@ public static void SaveMultipageDocument(OutputStream stream, Format saveFormat,
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | java.io.OutputStream | 用于以所选格式保存识别结果的 OutputStream。 |
+| stream | java.io.OutputStream | 用于以选定格式保存识别结果的 OutputStream。 |
 | saveFormat | [Format](../../com.aspose.ocr.models/format/) | 文档格式（Docx、Txt、Pdf、PdfNoImg、Xlsx、Xml、Json、Rtf）。 |
 | results | java.util.ArrayList<com.aspose.ocr.RecognitionResult> | 列出 [RecognitionResult](../../com.aspose.ocr/recognitionresult/) 对象。 |
 
@@ -640,7 +640,7 @@ public static void SaveMultipageDocument(OutputStream stream, Format saveFormat,
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | java.io.OutputStream | 用于以所选格式保存识别结果的 OutputStream。 |
+| stream | java.io.OutputStream | 用于以选定格式保存识别结果的 OutputStream。 |
 | saveFormat | [Format](../../com.aspose.ocr.models/format/) | 文档格式（Docx、Txt、Pdf、PdfNoImg、Xlsx、Xml、Json、Rtf）。 |
 | results | java.util.ArrayList<com.aspose.ocr.RecognitionResult> | 列出 [RecognitionResult](../../com.aspose.ocr/recognitionresult/) 对象。 |
 | embeddedFontPath | java.lang.String | 可选。用户字体的完整路径。 |
@@ -656,7 +656,7 @@ public static void SaveMultipageDocument(OutputStream stream, Format saveFormat,
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | java.io.OutputStream | 用于以所选格式保存识别结果的 OutputStream。 |
+| stream | java.io.OutputStream | 用于以选定格式保存识别结果的 OutputStream。 |
 | saveFormat | [Format](../../com.aspose.ocr.models/format/) | 文档格式（Docx、Txt、Pdf、PdfNoImg、Xlsx、Xml、Json、Rtf）。 |
 | results | java.util.ArrayList<com.aspose.ocr.RecognitionResult> | 列出 [RecognitionResult](../../com.aspose.ocr/recognitionresult/) 对象。 |
 | embeddedFontPath | java.lang.String | 可选。用户字体的完整路径。 |
@@ -673,7 +673,7 @@ public static void SaveMultipageDocument(String fullFileName, Format saveFormat,
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| fullFileName | java.lang.String | 用于以所选格式保存识别结果的带路径的文件名。 |
+| fullFileName | java.lang.String | 用于在选定格式中保存识别结果的带路径的文件名。 |
 | saveFormat | [Format](../../com.aspose.ocr.models/format/) | 文档格式（Docx、Txt、Pdf、Xlsx、Xml、Json）。 |
 | results | java.util.ArrayList<com.aspose.ocr.RecognitionResult> | 列出 [RecognitionResult](../../com.aspose.ocr/recognitionresult/) 对象。 |
 
@@ -683,12 +683,12 @@ public static void SaveMultipageDocument(String fullFileName, Format saveFormat,
 ```
 
 
-允许从带有拼写检查校正的 RecognitionResult 对象列表获取多页文档。
+允许从 RecognitionResult 对象列表获取带拼写检查校正的多页文档。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| fullFileName | java.lang.String | 用于以所选格式保存识别结果的带路径的文件名。 |
+| fullFileName | java.lang.String | 用于在选定格式中保存识别结果的带路径的文件名。 |
 | saveFormat | [Format](../../com.aspose.ocr.models/format/) | 文档格式（Docx、Txt、Pdf、Xlsx、Xml、Json）。 |
 | results | java.util.ArrayList<com.aspose.ocr.RecognitionResult> | 列出 [RecognitionResult](../../com.aspose.ocr/recognitionresult/) 对象。 |
 | language | [SpellCheckLanguage](../../com.aspose.ocr.spellcheck/spellchecklanguage/) | [SpellCheckLanguage](../../com.aspose.ocr.spellcheck/spellchecklanguage/) 枚举值。 |
@@ -704,7 +704,7 @@ public static void SaveMultipageDocument(String fullFileName, Format saveFormat,
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| fullFileName | java.lang.String | 用于以所选格式保存识别结果的带路径的文件名。 |
+| fullFileName | java.lang.String | 用于在选定格式中保存识别结果的带路径的文件名。 |
 | saveFormat | [Format](../../com.aspose.ocr.models/format/) | 文档格式（Docx、Txt、Pdf、Xlsx、Xml、Json）。 |
 | results | java.util.ArrayList<com.aspose.ocr.RecognitionResult> | 列出 [RecognitionResult](../../com.aspose.ocr/recognitionresult/) 对象。 |
 | embeddedFontPath | java.lang.String | 可选。用户字体的完整路径。 |
@@ -720,7 +720,7 @@ public static void SaveMultipageDocument(String fullFileName, Format saveFormat,
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| fullFileName | java.lang.String | 用于以所选格式保存识别结果的带路径的文件名。 |
+| fullFileName | java.lang.String | 用于在选定格式中保存识别结果的带路径的文件名。 |
 | saveFormat | [Format](../../com.aspose.ocr.models/format/) | 文档格式（Docx、Txt、Pdf、Xlsx、Xml、Json）。 |
 | results | java.util.ArrayList<com.aspose.ocr.RecognitionResult> | 列出 [RecognitionResult](../../com.aspose.ocr/recognitionresult/) 对象。 |
 | embeddedFontPath | java.lang.String | 可选。用户字体的完整路径。 |

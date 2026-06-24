@@ -13,7 +13,7 @@ java.lang.Object
 public class OnnxRuntimeSessionOptions
 ```
 
-创建 ONNX InferenceSession 的配置选项。我们建议保留优化后的默认值，除非您对修改非常确定。有关技术细节，请参阅 ONNX Runtime 文档。
+创建 ONNX InferenceSession 的配置选项。除非您对修改非常确定，否则建议保留优化后的默认设置。有关技术细节，请参阅 ONNX Runtime 文档。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -43,7 +43,7 @@ public static boolean enableCpuMemArena
 ```
 
 
-启用或禁用 ONNX Runtime 使用的 CPU 内存 arena 分配器。启用时，内存会被池化并重复使用以提升性能，但在多线程场景下可能导致内存消耗增加。禁用可在牺牲性能的情况下降低峰值内存使用。
+启用或禁用 ONNX Runtime 使用的 CPU 内存 arena 分配器。启用后，内存会被池化并重复使用以提升性能，但在多线程场景下可能导致内存消耗增加。禁用可在牺牲性能的情况下降低峰值内存使用。
 
 ### enableMemoryPattern {#enableMemoryPattern}
 ```
@@ -51,7 +51,7 @@ public static boolean enableMemoryPattern
 ```
 
 
-启用或禁用输入张量的内存模式优化。启用时，ONNX Runtime 会缓存内存分配模式以加快执行，但可能会增加动态输入形状的内存使用。若输入差异显著或需要降低内存占用，请禁用。
+为输入张量启用或禁用内存模式优化。启用后，ONNX Runtime 会缓存内存分配模式以加快执行，但可能会增加动态输入形状的内存使用量。如果输入差异显著或需要降低内存占用，请禁用。
 
 ### executionMode {#executionMode}
 ```
@@ -67,7 +67,7 @@ public static GraphOptimizationLevelOnnx graphOptimizationLevel
 ```
 
 
-会话的图优化级别。默认情况下，所有可用的优化均已启用，以获得最大性能。
+会话的图优化级别。默认情况下，已启用所有可用优化以获得最大性能。
 
 ### interOpNumThreads {#interOpNumThreads}
 ```
