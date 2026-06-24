@@ -11,18 +11,18 @@ url: /ar/python-net/aspose.ocr.ai/spellcheckaiprocessor/
 
 
 
-يعرض نوع SpellCheckAIProcessor الأعضاء التالية:
-## المُنشئات
+النوع SpellCheckAIProcessor يعرض الأعضاء التالية:
+## المنشئات
 | الاسم | الوصف |
 | :- | :- |
-| SpellCheckAIProcessor() | ينشئ مثيلاً جديدًا من فئة SpellCheckAIProcessor |
+| SpellCheckAIProcessor() | ينشئ مثيلاً جديدًا من الفئة SpellCheckAIProcessor |
 ## Methods
 | الاسم | الوصف |
 | :- | :- |
 | get_result() |  |
 | save_txt(filename) |  |
 
-### انظر أيضاً
+### انظر أيضًا
 
 * namespace [aspose.ocr.ai](/ocr/python-net/aspose.ocr.ai/)
 * assembly [Aspose.ocr](/ocr/python-net/)

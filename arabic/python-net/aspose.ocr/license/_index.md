@@ -1,5 +1,5 @@
 ---
-title: "License"
+title: "رخصة"
 second_title: "مرجع API لـ Aspose.OCR للبايثون عبر .NET"
 description: 
 type: docs
@@ -11,11 +11,11 @@ url: /ar/python-net/aspose.ocr/license/
 
 يوفر طرقًا لترخيص المكوّن.
 
-نوع License يعرض الأعضاء التالية:
-## المُنشئات
+نوع الرخصة يعرض الأعضاء التالية:
+## المنشئات
 | الاسم | الوصف |
 | :- | :- |
-| License() | يُنشئ مثيلًا جديدًا لهذه الفئة. |
+| License() | يُنشئ مثيلًا جديدًا من هذه الفئة. |
 ## الخصائص
 | الاسم | الوصف |
 | :- | :- |
@@ -26,7 +26,7 @@ url: /ar/python-net/aspose.ocr/license/
 | set_license(license_name) | يرخص المكوّن. |
 | set_license(stream) | يرخص المكوّن. |
 
-### انظر أيضاً
+### انظر أيضًا
 
 * namespace [aspose.ocr](/ocr/python-net/aspose.ocr/)
 * assembly [Aspose.ocr](/ocr/python-net/)

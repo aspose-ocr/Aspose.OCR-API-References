@@ -11,11 +11,11 @@ url: /ar/python-net/aspose.ocr.ai/keywordsaiprocessor/
 
 
 
-يعرض نوع KeywordsAIProcessor الأعضاء التالية:
-## المُنشئات
+النوع KeywordsAIProcessor يعرض الأعضاء التالية:
+## المنشئات
 | الاسم | الوصف |
 | :- | :- |
-| KeywordsAIProcessor() | ينشئ مثيلاً جديدًا من فئة KeywordsAIProcessor |
+| KeywordsAIProcessor() | ينشئ مثيلاً جديدًا من الفئة KeywordsAIProcessor |
 ## Methods
 | الاسم | الوصف |
 | :- | :- |
@@ -25,7 +25,7 @@ url: /ar/python-net/aspose.ocr.ai/keywordsaiprocessor/
 | save_xlsx(filename) |  |
 | save_md(filename) |  |
 
-### انظر أيضاً
+### انظر أيضًا
 
 * namespace [aspose.ocr.ai](/ocr/python-net/aspose.ocr.ai/)
 * assembly [Aspose.ocr](/ocr/python-net/)

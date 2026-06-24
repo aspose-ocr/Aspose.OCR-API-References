@@ -12,10 +12,10 @@ url: /ar/python-net/aspose.ocr.ai/tableaiprocessor/
 
 
 يعرض نوع TableAIProcessor الأعضاء التالية:
-## المُنشئات
+## المنشئات
 | الاسم | الوصف |
 | :- | :- |
-| TableAIProcessor(mode) | ينشئ مثيلًا جديدًا لفئة TableAIProcessor |
+| TableAIProcessor(mode) | ينشئ مثيلاً جديدًا من فئة TableAIProcessor |
 ## Methods
 | الاسم | الوصف |
 | :- | :- |
@@ -24,7 +24,7 @@ url: /ar/python-net/aspose.ocr.ai/tableaiprocessor/
 | save_xlsx(filename) |  |
 | save_md(filename) |  |
 
-### انظر أيضاً
+### انظر أيضًا
 
 * namespace [aspose.ocr.ai](/ocr/python-net/aspose.ocr.ai/)
 * assembly [Aspose.ocr](/ocr/python-net/)

@@ -12,7 +12,7 @@ url: /ar/python-net/aspose.ocr/ocrtable/
 
 
 يعرض نوع OCRTable الأعضاء التالية:
-## المُنشئات
+## المنشئات
 | الاسم | الوصف |
 | :- | :- |
 | OCRTable() | ينشئ مثيلاً جديدًا من الفئة OCRTable |
@@ -22,7 +22,7 @@ url: /ar/python-net/aspose.ocr/ocrtable/
 | table_index |  |
 | rows |  |
 
-### انظر أيضاً
+### انظر أيضًا
 
 * namespace [aspose.ocr](/ocr/python-net/aspose.ocr/)
 * assembly [Aspose.ocr](/ocr/python-net/)

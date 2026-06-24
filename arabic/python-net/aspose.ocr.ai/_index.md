@@ -11,7 +11,7 @@ url: /ar/python-net/aspose.ocr.ai/
 
 
 ## الفئات
-| الفئة | الوصف |
+| فئة | الوصف |
 | :- | :- |
 |[AIResult](/ocr/python-net/aspose.ocr.ai/airesult/)||
 |[AsposeAI](/ocr/python-net/aspose.ocr.ai/asposeai/)||
@@ -21,6 +21,6 @@ url: /ar/python-net/aspose.ocr.ai/
 |[SpellCheckAIProcessor](/ocr/python-net/aspose.ocr.ai/spellcheckaiprocessor/)||
 |[TableAIProcessor](/ocr/python-net/aspose.ocr.ai/tableaiprocessor/)||
 ## التعدادات
-| تعداد | الوصف |
+| التعداد | الوصف |
 | :- | :- |
 |[AITableDetectionMode](/ocr/python-net/aspose.ocr.ai/aitabledetectionmode/)||

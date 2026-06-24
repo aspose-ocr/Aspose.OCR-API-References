@@ -12,17 +12,17 @@ url: /ar/python-net/aspose.ocr/ocrtablerow/
 
 
 يعرض نوع OCRTableRow الأعضاء التالية:
-## المُنشئات
+## المنشئات
 | الاسم | الوصف |
 | :- | :- |
-| OCRTableRow() | ينشئ مثيلاً جديدًا من فئة OCRTableRow |
+| OCRTableRow() | يُنشئ مثيلاً جديدًا من الفئة OCRTableRow |
 ## الخصائص
 | الاسم | الوصف |
 | :- | :- |
 | row_index |  |
 | cells |  |
 
-### انظر أيضاً
+### انظر أيضًا
 
 * namespace [aspose.ocr](/ocr/python-net/aspose.ocr/)
 * assembly [Aspose.ocr](/ocr/python-net/)

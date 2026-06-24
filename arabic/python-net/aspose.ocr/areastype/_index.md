@@ -14,11 +14,11 @@ url: /ar/python-net/aspose.ocr/areastype/
 ## Members
 | اسم العضو | الوصف |
 | :- | :- |
-| PARAGRAPHS | يضبط المناطق كفقرات |
-| LINES | يضبط المناطق كخطوط |
-| WORDS | يضبط المناطق ككلمات |
+| فقرات | يضبط المناطق كفقرات |
+| سطور | يضبط المناطق كسطور |
+| كلمات | يضبط المناطق ككلمات |
 
-### انظر أيضاً
+### انظر أيضًا
 
 * namespace [aspose.ocr](/ocr/python-net/aspose.ocr/)
 * assembly [Aspose.OCR](/ocr/python-net/)

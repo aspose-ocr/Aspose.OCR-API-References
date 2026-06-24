@@ -8,9 +8,9 @@ url: /ar/python-net/aspose.ocr.filters/
 ---
 
 
-يحتوي على عمليات استيفاء، تُستخدم لتكبير الصور.
+يتضمن عمليات استيفاء، تُستخدم لتكبير الصور.
 
 ## التعدادات
-| تعداد | الوصف |
+| التعداد | الوصف |
 | :- | :- |
 | [InterpolationFilterType](/ocr/python-net/aspose.ocr.filters/interpolationfiltertype/) | التداخلات، تُستخدم لتكبير الصور. |

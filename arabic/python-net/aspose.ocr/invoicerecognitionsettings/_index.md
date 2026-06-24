@@ -9,14 +9,14 @@ url: /ar/python-net/aspose.ocr/invoicerecognitionsettings/
 
 ## InvoiceRecognitionSettings class
 
-إعدادات التعرف على الفاتورة.<br/>            يحتوي على عناصر تسمح بتخصيص عملية التعرف.
+إعدادات التعرف على الفاتورة.<br/>            يتضمن عناصر تسمح بتخصيص عملية التعرف.
 
-يعرض نوع InvoiceRecognitionSettings الأعضاء التالية:
-## المُنشئات
+نوع InvoiceRecognitionSettings يعرض الأعضاء التالية:
+## المنشئات
 | الاسم | الوصف |
 | :- | :- |
-| InvoiceRecognitionSettings(language) | ينشئ مثالاً جديداً من الفئة InvoiceRecognitionSettings |
-| InvoiceRecognitionSettings() | ينشئ مثيلاً جديداً لـ |
+| InvoiceRecognitionSettings(language) | يُنشئ مثلاً جديداً من الفئة InvoiceRecognitionSettings |
+| InvoiceRecognitionSettings() | ينشئ مثيلاً جديدًا من |
 ## الخصائص
 | الاسم | الوصف |
 | :- | :- |
@@ -26,9 +26,9 @@ url: /ar/python-net/aspose.ocr/invoicerecognitionsettings/
 | ignored_symbols | يضبط القائمة السوداء لرموز التعرف. |
 | allowed_symbols | يضبط الأحرف المسموح بها باستخدام خاصية alphabet. |
 | allowed_characters | مجموعة الأحرف المسموح بها. تحدد نوع الأحرف المسموح بها لنتيجة التعرف. |
-| automatic_color_inversion | اكتشاف الصور التي تحتوي على نص أبيض على خلفية داكنة/سوداء واختيار خوارزمية OCR خاصة لها تلقائياً. |
+| automatic_color_inversion | يكتشف الصور التي تحتوي على نص أبيض على خلفية داكنة/سوداء ويختار تلقائيًا خوارزمية OCR خاصة لها. |
 
-### انظر أيضاً
+### انظر أيضًا
 
 * namespace [aspose.ocr](/ocr/python-net/aspose.ocr/)
 * assembly [Aspose.ocr](/ocr/python-net/)

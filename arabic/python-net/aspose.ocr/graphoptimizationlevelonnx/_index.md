@@ -19,7 +19,7 @@ url: /ar/python-net/aspose.ocr/graphoptimizationlevelonnx/
 | ORT_ENABLE_EXTENDED |  |
 | ORT_ENABLE_ALL |  |
 
-### انظر أيضاً
+### انظر أيضًا
 
 * namespace [aspose.ocr](/ocr/python-net/aspose.ocr/)
 * assembly [Aspose.OCR](/ocr/python-net/)

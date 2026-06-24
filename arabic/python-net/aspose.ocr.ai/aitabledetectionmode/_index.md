@@ -17,7 +17,7 @@ url: /ar/python-net/aspose.ocr.ai/aitabledetectionmode/
 | بدون |  |
 | تلقائي |  |
 
-### انظر أيضاً
+### انظر أيضًا
 
 * namespace [aspose.ocr.ai](/ocr/python-net/aspose.ocr.ai/)
 * assembly [Aspose.OCR](/ocr/python-net/)

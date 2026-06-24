@@ -9,9 +9,9 @@ url: /ar/python-net/aspose.ocr/baserecognitionsettings/
 
 ## BaseRecognitionSettings class
 
-إعدادات التعرف على الصورة.<br/>            يحتوي على عناصر تسمح بتخصيص عملية التعرف.
+إعدادات التعرف على الصورة.<br/>            يتضمن عناصر تسمح بتخصيص عملية التعرف.
 
-يعرض نوع BaseRecognitionSettings الأعضاء التالية:
+نوع BaseRecognitionSettings يعرض الأعضاء التالية:
 ## الخصائص
 | الاسم | الوصف |
 | :- | :- |
@@ -21,9 +21,9 @@ url: /ar/python-net/aspose.ocr/baserecognitionsettings/
 | ignored_symbols | يضبط القائمة السوداء لرموز التعرف. |
 | allowed_symbols | يضبط الأحرف المسموح بها باستخدام خاصية alphabet. |
 | allowed_characters | مجموعة الأحرف المسموح بها. تحدد نوع الأحرف المسموح بها لنتيجة التعرف. |
-| automatic_color_inversion | اكتشاف الصور التي تحتوي على نص أبيض على خلفية داكنة/سوداء واختيار خوارزمية OCR خاصة لها تلقائياً. |
+| automatic_color_inversion | يكتشف الصور التي تحتوي على نص أبيض على خلفية داكنة/سوداء ويختار تلقائيًا خوارزمية OCR خاصة لها. |
 
-### انظر أيضاً
+### انظر أيضًا
 
 * namespace [aspose.ocr](/ocr/python-net/aspose.ocr/)
 * assembly [Aspose.ocr](/ocr/python-net/)

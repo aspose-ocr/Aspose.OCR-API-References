@@ -12,10 +12,10 @@ url: /ar/python-net/aspose.ocr.ai/asposeaimodelconfig/
 
 
 يعرض نوع AsposeAIModelConfig الأعضاء التالية:
-## المُنشئات
+## المنشئات
 | الاسم | الوصف |
 | :- | :- |
-| AsposeAIModelConfig() | ينشئ مثيلًا جديدًا لفئة AsposeAIModelConfig |
+| AsposeAIModelConfig() | ينشئ مثيلاً جديدًا من فئة AsposeAIModelConfig |
 ## الخصائص
 | الاسم | الوصف |
 | :- | :- |
@@ -27,7 +27,7 @@ url: /ar/python-net/aspose.ocr.ai/asposeaimodelconfig/
 | context_size |  |
 | gpu_layers |  |
 
-### انظر أيضاً
+### انظر أيضًا
 
 * namespace [aspose.ocr.ai](/ocr/python-net/aspose.ocr.ai/)
 * assembly [Aspose.ocr](/ocr/python-net/)

@@ -18,7 +18,7 @@ url: /ar/python-net/aspose.ocr/charactersallowedtype/
 | LATIN_ALPHABET | التعرف فقط إذا كان الحرف حرفًا أبجديًا لاتينيًا. |
 | الأرقام | التعرف فقط إذا كان الحرف رقمًا سداسيًا عشريًا. |
 
-### انظر أيضاً
+### انظر أيضًا
 
 * namespace [aspose.ocr](/ocr/python-net/aspose.ocr/)
 * assembly [Aspose.OCR](/ocr/python-net/)

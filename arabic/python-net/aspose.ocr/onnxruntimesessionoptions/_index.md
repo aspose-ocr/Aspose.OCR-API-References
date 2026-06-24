@@ -24,7 +24,7 @@ url: /ar/python-net/aspose.ocr/onnxruntimesessionoptions/
 
 مثال: OnnxRuntimeSessionOptions.set_intra_op_num_threads(1)
 
-### انظر أيضاً
+### انظر أيضًا
 
 * namespace [aspose.ocr](/ocr/python-net/aspose.ocr/)
 * assembly [Aspose.ocr](/ocr/python-net/)

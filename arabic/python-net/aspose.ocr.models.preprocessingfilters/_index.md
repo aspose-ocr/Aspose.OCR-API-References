@@ -8,9 +8,9 @@ url: /ar/python-net/aspose.ocr.models.preprocessingfilters/
 ---
 
 
-يحتوي على الفئة الأساسية لأوامر معالجة الصور..
+يتضمن الفئة الأساسية لأوامر معالجة الصور..
 
 ## الفئات
-| الفئة | الوصف |
+| فئة | الوصف |
 | :- | :- |
 | [PreprocessingFilter](/ocr/python-net/aspose.ocr.models.preprocessingfilters/preprocessingfilter/) | الفئة الأساسية لأوامر معالجة الصور. |

@@ -9,14 +9,14 @@ url: /ar/python-net/aspose.ocr/carplaterecognitionsettings/
 
 ## CarPlateRecognitionSettings class
 
-إعدادات التعرف على أرقام السيارات.<br/>            يحتوي على عناصر تسمح بتخصيص عملية التعرف.
+إعدادات التعرف على أرقام السيارات.<br/>            يتضمن عناصر تسمح بتخصيص عملية التعرف.
 
 يعرض نوع CarPlateRecognitionSettings الأعضاء التالية:
-## المُنشئات
+## المنشئات
 | الاسم | الوصف |
 | :- | :- |
-| CarPlateRecognitionSettings(language) | يُنشئ مثلاً جديداً من فئة CarPlateRecognitionSettings |
-| CarPlateRecognitionSettings() | ينشئ مثيلاً جديداً لـ |
+| CarPlateRecognitionSettings(language) | ينشئ مثيلاً جديدًا من فئة CarPlateRecognitionSettings |
+| CarPlateRecognitionSettings() | ينشئ مثيلاً جديدًا من |
 ## الخصائص
 | الاسم | الوصف |
 | :- | :- |
@@ -26,9 +26,9 @@ url: /ar/python-net/aspose.ocr/carplaterecognitionsettings/
 | ignored_symbols | يضبط القائمة السوداء لرموز التعرف. |
 | allowed_symbols | يضبط الأحرف المسموح بها باستخدام خاصية alphabet. |
 | allowed_characters | مجموعة الأحرف المسموح بها. تحدد نوع الأحرف المسموح بها لنتيجة التعرف. |
-| automatic_color_inversion | اكتشاف الصور التي تحتوي على نص أبيض على خلفية داكنة/سوداء واختيار خوارزمية OCR خاصة لها تلقائياً. |
+| automatic_color_inversion | يكتشف الصور التي تحتوي على نص أبيض على خلفية داكنة/سوداء ويختار تلقائيًا خوارزمية OCR خاصة لها. |
 
-### انظر أيضاً
+### انظر أيضًا
 
 * namespace [aspose.ocr](/ocr/python-net/aspose.ocr/)
 * assembly [Aspose.ocr](/ocr/python-net/)

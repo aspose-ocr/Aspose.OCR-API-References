@@ -11,12 +11,12 @@ url: /ar/python-net/aspose.ocr.ai/asposeai/
 
 
 
-يعرض نوع AsposeAI الأعضاء التالية:
-## المُنشئات
+النوع AsposeAI يعرض الأعضاء التالية:
+## المنشئات
 | الاسم | الوصف |
 | :- | :- |
-| AsposeAI() | ينشئ مثيلاً جديدًا من فئة AsposeAI |
-| AsposeAI(logging) | ينشئ مثيلاً جديدًا من فئة AsposeAI |
+| AsposeAI() | ينشئ مثيلاً جديدًا من الفئة AsposeAI |
+| AsposeAI(logging) | ينشئ مثيلاً جديدًا من الفئة AsposeAI |
 ## Methods
 | الاسم | الوصف |
 | :- | :- |
@@ -28,7 +28,7 @@ url: /ar/python-net/aspose.ocr.ai/asposeai/
 | list_local() |  |
 | free_resources() |  |
 
-### انظر أيضاً
+### انظر أيضًا
 
 * namespace [aspose.ocr.ai](/ocr/python-net/aspose.ocr.ai/)
 * assembly [Aspose.ocr](/ocr/python-net/)

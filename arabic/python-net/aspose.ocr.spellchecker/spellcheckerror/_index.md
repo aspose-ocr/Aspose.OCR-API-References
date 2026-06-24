@@ -12,7 +12,7 @@ url: /ar/python-net/aspose.ocr.spellchecker/spellcheckerror/
 تمثيل الكلمة المكتوبة بشكل خاطئ مع بيانات إضافية.
 
 نوع SpellCheckError يعرض الأعضاء التالية:
-## المُنشئات
+## المنشئات
 | الاسم | الوصف |
 | :- | :- |
 | SpellCheckError() | ينشئ مثيلاً جديداً من فئة SpellCheckError |
@@ -22,9 +22,9 @@ url: /ar/python-net/aspose.ocr.spellchecker/spellcheckerror/
 | كلمة | الكلمة التي تم تهجئتها خطأً. |
 | start_position | موضع الكلمة في النص المدخل. |
 | length | طول الكلمة المكتوبة خطأً في النص المدخل. |
-| suggested_words | قائمة من الكائنات التي تحتوي على تهجئات صحيحة مقترحة |
+| suggested_words | قائمة الكائنات مع التهجئات الصحيحة المقترحة |
 
-### انظر أيضاً
+### انظر أيضًا
 
 * namespace [aspose.ocr.spellchecker](/ocr/python-net/aspose.ocr.spellchecker/)
 * assembly [Aspose.ocr](/ocr/python-net/)

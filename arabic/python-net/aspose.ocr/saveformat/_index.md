@@ -15,9 +15,9 @@ url: /ar/python-net/aspose.ocr/saveformat/
 | اسم العضو | الوصف |
 | :- | :- |
 | TEXT | يحفظ المستند بتنسيق نص عادي. |
-| DOCX | يحفظ المستند كوثيقة Office Open XML WordprocessingML (بدون ماكرو). |
+| DOCX | يحفظ المستند كملف Office Open XML WordprocessingML (بدون ماكرو). |
 | PDF | يحفظ المستند كملف PDF قابل للبحث (Adobe Portable Document). |
-| XLSX | يحفظ المستند كدفتر عمل Excel (2007 وما بعده). |
+| XLSX | يحفظ المستند كملف Excel (2007 وما بعده) كدفتر عمل. |
 | XML | يحفظ المستند كملف XML. |
 | JSON | يحفظ المستند كملف JSON. |
 | HTML | يحفظ المستند كملف HTML. |
@@ -28,7 +28,7 @@ url: /ar/python-net/aspose.ocr/saveformat/
 | MD |  |
 | CSV |  |
 
-### انظر أيضاً
+### انظر أيضًا
 
 * namespace [aspose.ocr](/ocr/python-net/aspose.ocr/)
 * assembly [Aspose.OCR](/ocr/python-net/)

@@ -20,7 +20,7 @@ url: /ar/python-net/aspose.ocr.ai/iocraipostprocessor/
 | set_ai(aspose_ai) |  |
 | set_default_model(custom_settings) |  |
 
-### انظر أيضاً
+### انظر أيضًا
 
 * namespace [aspose.ocr.ai](/ocr/python-net/aspose.ocr.ai/)
 * assembly [Aspose.ocr](/ocr/python-net/)

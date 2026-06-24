@@ -23,7 +23,7 @@ url: /ar/python-net/aspose.ocr/regiontypes/
 | EQUATION |  |
 | LINE |  |
 
-### انظر أيضاً
+### انظر أيضًا
 
 * namespace [aspose.ocr](/ocr/python-net/aspose.ocr/)
 * assembly [Aspose.OCR](/ocr/python-net/)

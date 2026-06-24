@@ -11,18 +11,18 @@ url: /ar/python-net/aspose.ocr.ai/airesult/
 
 
 
-يعرض نوع AIResult الأعضاء التالية:
-## المُنشئات
+النوع AIResult يعرض الأعضاء التالية:
+## المنشئات
 | الاسم | الوصف |
 | :- | :- |
-| AIResult() | ينشئ مثيلاً جديدًا من فئة AIResult |
+| AIResult() | ينشئ مثيلاً جديدًا من الفئة AIResult |
 ## الخصائص
 | الاسم | الوصف |
 | :- | :- |
 | النتيجة |  |
 | file_name |  |
 
-### انظر أيضاً
+### انظر أيضًا
 
 * namespace [aspose.ocr.ai](/ocr/python-net/aspose.ocr.ai/)
 * assembly [Aspose.ocr](/ocr/python-net/)

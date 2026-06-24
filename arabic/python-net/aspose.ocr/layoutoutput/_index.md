@@ -11,11 +11,11 @@ url: /ar/python-net/aspose.ocr/layoutoutput/
 
 
 
-نوع LayoutOutput يعرض الأعضاء التالية:
-## المُنشئات
+يعرض نوع LayoutOutput الأعضاء التالية:
+## المنشئات
 | الاسم | الوصف |
 | :- | :- |
-| LayoutOutput() | ينشئ مثيلاً جديداً لفئة LayoutOutput |
+| LayoutOutput() | ينشئ مثلاً جديداً من الفئة LayoutOutput |
 ## الخصائص
 | الاسم | الوصف |
 | :- | :- |
@@ -23,13 +23,13 @@ url: /ar/python-net/aspose.ocr/layoutoutput/
 | الصفحة |  |
 | فقرات |  |
 | صور |  |
-| رؤوس |  |
+| عناوين |  |
 | جداول |  |
 | قوائم |  |
 | تسميات توضيحية |  |
 | معادلات |  |
 
-### انظر أيضاً
+### انظر أيضًا
 
 * namespace [aspose.ocr](/ocr/python-net/aspose.ocr/)
 * assembly [Aspose.ocr](/ocr/python-net/)
