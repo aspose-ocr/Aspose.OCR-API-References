@@ -1,6 +1,6 @@
 ---
 title: "RecognitionResult"
-second_title: "Aspose.OCR 用于 Python 通过 Java API 参考"
+second_title: "Aspose.OCR 用于 Python via Java API 参考"
 description: 
 type: docs
 weight: 171
@@ -16,7 +16,7 @@ url: /zh/python-java/aspose/recognitionresult/
 `LinesResult(javaClass)`
 :
 
-### 祖先 (在 MRO 中)
+### 祖先（在 MRO 中）
 
     * aspose.helper.BaseJavaClass
 
@@ -27,7 +27,7 @@ url: /zh/python-java/aspose/recognitionresult/
 
 `RecognitionResult(javaClass)`
 :
-图像识别的结果。包含带有识别信息的元素
+图像识别的结果。包含带有识别的元素
 用于结果导出的信息和方法。
 
 ### 静态方法
@@ -39,10 +39,10 @@ url: /zh/python-java/aspose/recognitionresult/
 ### 实例变量
 
 `recognition_areas_text`
-:   列表，包含一系列区域（矩形）的识别结果。
+:   列表，包含多个区域（矩形）的识别结果。
 
 `recognition_lines_result`
-:   获取包含一系列行（矩形）的识别结果列表。
+:   获取包含多行（矩形）的识别结果列表。
 
 ### 方法
 
@@ -58,19 +58,19 @@ url: /zh/python-java/aspose/recognitionresult/
 :
 纠正文本（替换拼写错误的单词）。
 @param language: 要使用的字典。
-@return: 更正后的识别结果字符串。
+@return: 已校正的识别结果字符串。
 
 `get_spell_check_error_list(self, language: aspose.models.SpellCheckLanguage = SpellCheckLanguage.ENG)`
 :
 查找给定输入文本中拼写错误的单词，并提供建议的拼写。
 @param language: 要使用的字典。
 @return: SpellCheckError 对象的列表，表示拼写错误的单词以及每个错误单词的建议正确拼写列表，
-并附带编辑距离。
+并包含编辑距离。
 
 `get_xml(self)`
 :
 生成包含识别结果的 JSON 字符串。
-@return: 以 XML 字符串形式返回的识别结果。
+@return: 以 XML 字符串形式的识别结果。
 
 `init(self)`
 :
@@ -84,7 +84,7 @@ url: /zh/python-java/aspose/recognitionresult/
 `save_spell_check_corrected_text(self, fullFileName: str, format: aspose.models.Format, language: aspose.models.SpellCheckLanguage = SpellCheckLanguage.ENG)`
 :
 纠正文本（替换拼写错误的单词）。
-将更正后的文本以纯文本或其他格式保存到文档中。
+将校正后的文本以纯文本或其他格式保存到文档中。
 @param fullFileName: 用于保存识别结果的带路径的文件名
 @param format: Format 的文档格式枚举类型。
 @param language: 用于拼写检查的字典。
@@ -95,15 +95,15 @@ url: /zh/python-java/aspose/recognitionresult/
 @param dictionaryPath: 用户字典（频率字典）的完整路径。
 字典文件格式：
 UTF-8 编码的纯文本文件。
-单词和词频用逗号分隔，单词位于第一列，词频位于第二列。
-每个单词‑词频对占一行。行的定义是由字符序列后跟换行符 ("
-", 一个回车符 (")
+单词和词频之间用逗号分隔，单词应在第一列，词频在第二列。
+每个单词‑词频‑对占一行。行被定义为一串字符，后跟换行符 (\"
+\", 回车符 (\"
 "),
-或紧接着回车的换行符(\"
+或紧跟在后面的回车换行（\"
 
-\")
+") .
 每个单词都应使用小写。
-示例:
+示例：
 \code
 word,5984819
 hello,5761742
@@ -112,15 +112,15 @@ down,5582768
 
 `RectangleOutput(javaClass)`
 :
-关于检测到的文本区域或行的数据。
+有关检测到的文本区域或行的数据。
 \code
 source - 文件或 URL 的完整路径（如果有）。对于流、字节数组、base64 为空。
 page - 页码。
-image_index - 页面上图像的序列号。
+image_index - 页面上图像的序号。
 rectangles - 检测到的文本区域或行的列表。
 \endcode
 
-### 祖先 (在 MRO 中)
+### 祖先（在 MRO 中）
 
     * aspose.helper.BaseJavaClass
 
@@ -131,15 +131,15 @@ rectangles - 检测到的文本区域或行的列表。
 
 `SkewOutput(javaClass)`
 :
-关于倾斜角度（度）和文件名的数据。
+有关倾斜角度（以度为单位）和文件名的数据。
 \code
 source - 文件或 URL 的完整路径（如果有）。对于流、字节数组、base64 为空。
 page - 页码。
-image_index - 页面上图像的序列号。
-angle - 倾斜角度（度）。
+image_index - 页面上图像的序号。
+angle - 以度为单位的倾斜角度。
 \endcode
 
-### 祖先 (在 MRO 中)
+### 祖先（在 MRO 中）
 
     * aspose.helper.BaseJavaClass
 
@@ -149,7 +149,7 @@ angle - 倾斜角度（度）。
 :
 
 
-### 另见
+### 另请参见
 
 * namespace [aspose](/ocr/python-java/aspose/)
 * assembly [Aspose](/ocr/python-java/)

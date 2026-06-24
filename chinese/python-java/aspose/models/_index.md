@@ -1,13 +1,13 @@
 ---
 title: "模型"
-second_title: "Aspose.OCR 用于 Python 通过 Java API 参考"
+second_title: "Aspose.OCR 用于 Python via Java API 参考"
 description: 
 type: docs
 weight: 271
 url: /zh/python-java/aspose/models/
 ---
 
-模块 models
+模块模型
 =============
 
 类
@@ -15,28 +15,28 @@ url: /zh/python-java/aspose/models/
 
 `AreasType(value, names=None, *, module=None, qualname=None, type=None, start=1)`
 :   确定模型检测到的区域类型。
-在 get_text_areas 中使用，以指示将获得的结果是段落坐标还是行坐标。
+在 get_text_areas 中使用，以指示将获得的结果——段落坐标或行坐标。
 
-### 祖先 (在 MRO 中)
+### 祖先（在 MRO 中）
 
     * enum.Enum
 
 ### 类变量
 
 `LINES`
-:   将区域设置为行。
+:   将区域设置为行
 
 `PARAGRAPHS`
-:   将区域设置为段落。
+:   将区域设置为段落
 
 `WORDS`
-:   将区域设置为单词。
+:   将区域设置为单词
 
 `DetectAreasMode(value, names=None, *, module=None, qualname=None, type=None, start=1)`
 :   确定用于区域检测的神经网络类型。
 在 RecognitionSettings 中使用，以指定要识别的图像类型。
 
-### 祖先 (在 MRO 中)
+### 祖先（在 MRO 中）
 
     * enum.Enum
 
@@ -51,12 +51,12 @@ url: /zh/python-java/aspose/models/
 首选模式用于书籍和杂志页面的照片。
 
 `DOCUMENT`
-:   检测段落，使用用于文档的神经网络模型。
+:   检测段落，使用文档的神经网络模型。
 更适用于多列文档、带图片的文档或其他非文本对象的文档。
 
 `NONE`
 :   不检测段落。
-更适用于没有图片的简易单列文档。
+更适用于没有图片的简单双列文档。
 
 `PHOTO`
 :   检测段落，使用用于照片的神经网络模型。
@@ -67,19 +67,19 @@ url: /zh/python-java/aspose/models/
 首选模式用于具有表格结构的图像。
 
 `TEXT_IN_WILD`
-:   一个超强的神经网络，专门用于从低质量图像（如街景照片、车牌、护照照片、仪表照片以及背景噪声较大的照片）中提取文字。
+:   一个超强的神经网络，专门用于从低质量图像中提取文字，如街道照片、车牌、护照照片、仪表照片以及背景噪声较大的照片。
 
 `Format(value, names=None, *, module=None, qualname=None, type=None, start=1)`
 :   将识别结果格式化为文档进行保存。
 
-### 祖先 (在 MRO 中)
+### 祖先（在 MRO 中）
 
     * enum.Enum
 
 ### 类变量
 
 `DOCX`
-:   将结果保存为 Office Open XML Word 处理文档（无宏）。
+:   将结果保存为 Office Open XML Word 处理 ML 文档（无宏）。
 
 `EPUB`
 :   将文档保存为 EPUB 文件。
@@ -91,19 +91,19 @@ url: /zh/python-java/aspose/models/
 :   将结果保存为使用 JavaScript 对象表示法的纯文本。
 
 `PDF`
-:   将结果保存为 PDF（Adobe Portable Document）文档。
+:   将结果保存为 PDF（Adobe 可移植文档）文件。
 
 `PDF_NO_IMG`
-:   将文档保存为不含图像的可搜索 PDF（Adobe Portable Document）文档。
+:   将文档保存为不含图像的可搜索 PDF（Adobe 可移植文档）文件。
 
 `RTF`
-:   将文档保存为 rtf 文件。
+:   将文档保存为 RTF 文件。
 
 `TEXT`
 :   将结果保存为纯文本格式。
 
 `XLSX`
-:   将结果保存为 Excel（2007 及以后）工作簿文档。
+:   将结果保存为 Excel（2007 及以后）工作簿文件。
 
 `XML`
 :   将结果保存为 XML 文档。
@@ -111,7 +111,7 @@ url: /zh/python-java/aspose/models/
 `ImageData(javaClass)`
 :
 
-### 祖先 (在 MRO 中)
+### 祖先（在 MRO 中）
 
     * aspose.helper.BaseJavaClass
 
@@ -123,7 +123,7 @@ url: /zh/python-java/aspose/models/
 `InputType(value, names=None, *, module=None, qualname=None, type=None, start=1)`
 :   用于处理/识别的图像/文档类型。
 
-### 祖先 (在 MRO 中)
+### 祖先（在 MRO 中）
 
     * enum.Enum
 
@@ -157,7 +157,7 @@ url: /zh/python-java/aspose/models/
 `Language(value, names=None, *, module=None, qualname=None, type=None, start=1)`
 :   用于识别的语言模型。
 
-### 祖先 (在 MRO 中)
+### 祖先（在 MRO 中）
 
     * enum.Enum
 
@@ -185,16 +185,16 @@ url: /zh/python-java/aspose/models/
 :   德语字母表
 
 `DUM`
-:   荷兰字母表
+:   荷兰语字母表
 
 `ENG`
 :   英语字母表
 
 `EST`
-:   爱沙尼亚字母表
+:   爱沙尼亚语字母表
 
 `FIN`
-:   芬兰字母表
+:   芬兰语字母表
 
 `FRA`
 :   法语字母表
@@ -291,9 +291,9 @@ url: /zh/python-java/aspose/models/
 `add(self, fullPath: str, startPage: int = None, pagesNumber: int = None)`
 :   添加包含图像的路径或 URI 以进行识别/处理。
 图像的类型必须与构造函数中指定的类型相对应。
-@param fullPath: 图像/文档/文件夹/存档的路径。
-@param startPage: 用于处理/识别的第一页/图像。适用于文档、压缩包、文件夹。
-@param pagesNumber: 用于处理/识别的页面/图像总数。适用于文档、压缩包、文件夹。默认 = 全部。
+@param fullPath: 图像/文档/文件夹/归档的路径。
+@param startPage: 用于处理/识别的第一页/图像。用于文档、zip、文件夹。
+@param pagesNumber: 用于处理/识别的页面/图像的总数量。用于文档、zip、文件夹。默认 = 全部。
 
 `addStream(self, image_data_binary, startPage: int = None, pagesNumber: int = None)`
 :   添加包含图像的 InputStream 以进行识别/处理。
@@ -309,8 +309,8 @@ result = api.recognize(input, RecognitionSettings())
 \endcode
         
 @param image_data_binary: 包含图像或文档的二进制数据。
-@param startPage: 用于处理/识别的第一页/图像。适用于文档、压缩包、文件夹。
-@param pagesNumber: 用于处理/识别的页面/图像总数。适用于文档、压缩包、文件夹。默认 = 全部。
+@param startPage: 用于处理/识别的第一页/图像。用于文档、zip、文件夹。
+@param pagesNumber: 用于处理/识别的页面/图像的总数量。用于文档、zip、文件夹。默认 = 全部。
 
 `add_base64(self, base64: str)`
 :   添加包含图像的 base64 字符串用于识别/处理。
@@ -325,7 +325,7 @@ result = api.recognize(input, RecognitionSettings())
 :   移除所有过滤器。
 
 `get(self, index: int) ‑> models.ImageData`
-:   返回已处理/识别图像的信息。
+:   返回已处理/已识别图像的信息。
 @param index: 图像在列表中的位置。
 @return: ImageData 对象。
 
@@ -342,7 +342,7 @@ result = api.recognize(input, RecognitionSettings())
 `PreprocessingFilter()`
 :   图像处理命令的基类。
 
-### 祖先 (在 MRO 中)
+### 祖先（在 MRO 中）
 
     * aspose.helper.BaseJavaClass
 
@@ -355,7 +355,7 @@ result = api.recognize(input, RecognitionSettings())
 
 `auto_denoising()`
 :   启用额外神经网络以改进图像——降低噪声。
-适用于带有扫描伪影、失真、斑点、耀光、渐变、外来元素的图像。
+适用于带有扫描伪影、失真、斑点、耀斑、渐变、外来元素的图像。
 @return: AutoDenoisingFilter 对象。
 
 `auto_dewarping()`
@@ -370,7 +370,7 @@ result = api.recognize(input, RecognitionSettings())
 `binarize()`
 :   将图像转换为黑白图像。
 二值图像是像素仅具有两种可能强度值的图像。
-它们通常显示为黑白。数值上，这两个值通常为 0 表示黑色，255 表示白色。
+它们通常显示为黑白。数值上，这两个值通常为黑色的0和白色的255。
 二值图像是通过对图像进行自动阈值处理生成的。
 @return: BinarizeFilter 对象。
 
@@ -398,13 +398,13 @@ result = api.recognize(input, RecognitionSettings())
 
 `rotate(angle: float)`
 :   旋转原始图像。
-@param angle: 旋转角度。取值范围为 -360 到 360。
+@param angle: 旋转角度。值范围为 -360 到 360。
 @return: RotateFilter 对象。
 
 `scale(ratio: float)`
 :   重新缩放图像 - 放大或缩小图像分辨率。
 InterpolationFilterType 双线性或最近邻。
-@param ratio: 缩放因子。建议值：0.1 到 1 用于缩小，1 到 10 用于放大。
+@param ratio: 缩放因子。建议的取值范围：0.1 到 1 用于缩小，1 到 10 用于放大。
 @return: ScaleFilter 对象。
 
 `threshold(value: int)`
@@ -414,7 +414,7 @@ InterpolationFilterType 双线性或最近邻。
 
 `to_grayscale()`
 :   将图像转换为灰度图像。
-灰度图像在图像中具有 256 级亮度 (0 到 255)。
+灰度图像在图像中有 256 级亮度 (0 到 255)。
 @return: GrayscaleFilter 对象。
 
 ### 方法
@@ -429,7 +429,7 @@ InterpolationFilterType 双线性或最近邻。
 `SpellCheckError(javaClass)`
 :   表示带有附加数据的拼写错误单词。
 
-### 祖先 (在 MRO 中)
+### 祖先（在 MRO 中）
 
     * aspose.helper.BaseJavaClass
 
@@ -441,14 +441,14 @@ InterpolationFilterType 双线性或最近邻。
 `SpellCheckLanguage(value, names=None, *, module=None, qualname=None, type=None, start=1)`
 :   用于拼写检查校正的字典语言。
 
-### 祖先 (在 MRO 中)
+### 祖先（在 MRO 中）
 
     * enum.Enum
 
 ### 类变量
 
 `CZE`
-:   捷克语字典。
+:   捷克语字典
 
 `DAN`
 :   丹麦语词典
@@ -502,9 +502,9 @@ InterpolationFilterType 双线性或最近邻。
 :   瑞典语词典
 
 `SuggestedWord(javaClass)`
-:   拼写建议由 get_spell_check_error_list 返回。
+:   来自 get_spell_check_error_list 的拼写建议。
 
-### 祖先 (在 MRO 中)
+### 祖先（在 MRO 中）
 
     * aspose.helper.BaseJavaClass
 
@@ -514,7 +514,7 @@ InterpolationFilterType 双线性或最近邻。
 :
 
 
-### 另见
+### 另请参见
 
 * namespace [aspose](/ocr/python-java/aspose/)
 * assembly [Aspose](/ocr/python-java/)
