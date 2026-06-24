@@ -45,7 +45,7 @@ public SkewOutput(String source, double angle, int page)
 | --- | --- | --- |
 | 来源 | java.lang.String |  |
 | 角度 | double |  |
-| 页面 | int |  |
+| 页 | int |  |
 
 ### Angle {#Angle}
 ```

@@ -13,7 +13,7 @@ java.lang.Object
 public class RectangleOutput
 ```
 
-关于检测到的文本区域或行的数据。
+检测到的文本区域或行的数据。
 ## 构造函数
 
 | 构造函数 | 描述 |

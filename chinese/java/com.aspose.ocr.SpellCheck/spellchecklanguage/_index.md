@@ -1,7 +1,7 @@
 ---
 title: "拼写检查语言"
 second_title: "Aspose.OCR for Java API 参考"
-description: "用于 SpellCheck 的现有字典语言"
+description: "用于拼写检查的现有字典语言"
 type: docs
 weight: 12
 url: /zh/java/com.aspose.ocr.spellcheck/spellchecklanguage/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Enum
 public enum SpellCheckLanguage extends Enum<SpellCheck.SpellCheckLanguage>
 ```
 
-用于拼写检查的语言（现有词典）。
+用于拼写检查的语言（现有字典）。
 ## 字段
 
 | 字段 | 描述 |

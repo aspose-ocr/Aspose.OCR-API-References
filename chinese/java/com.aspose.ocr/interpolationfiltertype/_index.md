@@ -18,7 +18,7 @@ public enum InterpolationFilterType extends Enum<InterpolationFilterType>
 | --- | --- |
 | [Bicubic](#Bicubic) |  |
 | [Box](#Box) | ‘Box’或‘Nearest Neighbor’过滤器 |
-| [Triangle](#Triangle) | ‘Triangle’或‘Bilinear’插值过滤器只是将最近邻插值再向前一步。 |
+| [Triangle](#Triangle) | ‘Triangle’或‘Bilinear’插值过滤器只是将最近邻插值再进一步。 |
 
 ### Bicubic {#Bicubic}
 ```
@@ -42,4 +42,4 @@ public static final InterpolationFilterType Triangle
 ```
 
 
-‘Triangle’或‘Bilinear’插值过滤器只是将最近邻插值再向前一步。
+‘Triangle’或‘Bilinear’插值过滤器只是将最近邻插值再进一步。

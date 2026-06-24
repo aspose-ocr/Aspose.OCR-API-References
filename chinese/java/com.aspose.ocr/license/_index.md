@@ -24,9 +24,9 @@ public class License
 | 方法 | 描述 |
 | --- | --- |
 
-| [setLicense(File licenseFile)](#setLicense-java.io.File) | 对组件授权。 |
-| [setLicense(InputStream stream)](#setLicense-java.io.InputStream) | 对组件授权。 |
-| [setLicense(String licenseFilePath)](#setLicense-java.lang.String) | 对组件授权。 |
+| [setLicense(File licenseFile)](#setLicense-java.io.File) | 为组件授权。 |
+| [setLicense(InputStream stream)](#setLicense-java.io.InputStream) | 为组件授权。 |
+| [setLicense(String licenseFilePath)](#setLicense-java.lang.String) | 为组件授权。 |
 | [isValid()](#isValid--) | 检查许可证。 |
 ### License() {#License}
 ```
@@ -43,7 +43,7 @@ public static void setLicense(File licenseFile)
 ```
 
 
-对组件授权。
+为组件授权。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -56,7 +56,7 @@ public static void setLicense(InputStream stream)
 ```
 
 
-对组件授权。
+为组件授权。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -69,7 +69,7 @@ public static void setLicense(String licenseFilePath)
 ```
 
 
-对组件授权。
+为组件授权。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -87,4 +87,4 @@ public static boolean isValid()
 检查许可证。
 
 **Returns:**
-boolean - 布尔值，表示许可证是否有效。
+boolean - 许可证是否有效的布尔值。

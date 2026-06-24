@@ -1,7 +1,7 @@
 ---
 title: "OCRTable"
 second_title: "Aspose.OCR for Java API 参考"
-description: "表示一个包含已识别表格数据的表格"
+description: "表示一个包含已识别表格数据的表格。"
 type: docs
 weight: 16
 url: /zh/java/com.aspose.ocr.models/ocrtable/
@@ -13,7 +13,7 @@ java.lang.Object
 public class OCRTable
 ```
 
-表示包含已识别表格数据的单个表格。
+表示包含已识别表格数据的一个表。
 
 每个表格存储表格行的列表。
 ## 构造函数

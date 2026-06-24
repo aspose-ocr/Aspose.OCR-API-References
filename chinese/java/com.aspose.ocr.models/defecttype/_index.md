@@ -21,8 +21,8 @@ public enum DefectType extends Enum<DefectType>
 | [ALL](#ALL) | 所有支持的图像缺陷。 |
 | [BLUR](#BLUR) | 图像失焦。 |
 | [GLARE](#GLARE) | 图像中因光照不均导致的区域，例如聚光灯或闪光灯。 |
-| [LOW_CONTRAST](#LOW-CONTRAST) | 在弯曲页面上通常出现的高光和阴影。 |
-| [SALT_PEPPER_NOISE](#SALT-PEPPER-NOISE) | 随机的白色和黑色像素散布在整个区域。 |
+| [LOW_CONTRAST](#LOW-CONTRAST) | 通常出现在弯曲页面上的高光和阴影。 |
+| [SALT_PEPPER_NOISE](#SALT-PEPPER-NOISE) | 随机的白色和黑色像素散布在该区域。 |
 
 ### ALL {#ALL}
 ```
@@ -38,7 +38,7 @@ public static final DefectType BLUR
 ```
 
 
-图像失焦。此检测算法只能识别整幅图像模糊，无法检测特定区域。
+图像失焦。此检测算法只能识别整幅图像模糊，无法检测具体区域。
 
 ### GLARE {#GLARE}
 ```
@@ -54,7 +54,7 @@ public static final DefectType LOW_CONTRAST
 ```
 
 
-在弯曲页面上通常出现的高光和阴影。
+通常出现在弯曲页面上的高光和阴影。
 
 ### SALT_PEPPER_NOISE {#SALT-PEPPER-NOISE}
 ```
@@ -62,5 +62,5 @@ public static final DefectType SALT_PEPPER_NOISE
 ```
 
 
-随机的白色和黑色像素散布在整个区域。常见于数码照片。
+随机的白色和黑色像素散布在该区域。常见于数码照片。
 

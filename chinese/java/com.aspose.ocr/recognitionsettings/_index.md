@@ -30,18 +30,18 @@ public class RecognitionSettings
 
 | 方法 | 描述 |
 | --- | --- |
-| [setAllowedCharacters(CharactersAllowedType allowedCharacters)](#setAllowedCharacters-com.aspose.ocr.models.CharactersAllowedType) | 允许的字符集合。 |
-| [setAllowedCharacters(String allowedCharacters)](#setAllowedCharacters-java.lang.String) | 允许的字符集合。 |
-| [setAutomaticColorInversion(boolean automaticColorInversion)](#setAutomaticColorInversion-boolean) | 检测暗色/黑色背景上白色文字的图像，并自动为其选择专用的 OCR 算法。 |
+| [setAllowedCharacters(CharactersAllowedType allowedCharacters)](#setAllowedCharacters-com.aspose.ocr.models.CharactersAllowedType) | 允许的字符集。 |
+| [setAllowedCharacters(String allowedCharacters)](#setAllowedCharacters-java.lang.String) | 允许的字符集。 |
+| [setAutomaticColorInversion(boolean automaticColorInversion)](#setAutomaticColorInversion-boolean) | 检测白色文字位于深色/黑色背景的图像，并自动为其选择特殊的 OCR 算法。 |
 | [setDetectAreasMode(DetectAreasMode detectAreasMode)](#setDetectAreasMode-com.aspose.ocr.models.DetectAreasMode) | 确定用于区域检测的神经网络类型。 |
 | [setIgnoredCharacters(String characters)](#setIgnoredCharacters-java.lang.String) | 设置识别符号的黑名单。 |
 | [setLanguage(Language language)](#setLanguage-com.aspose.ocr.models.Language) |  |
 | [setLanguageDetectionLevel(LanguageDetectionLevel languageDetectionLevel)](#setLanguageDetectionLevel-com.aspose.ocr.models.LanguageDetectionLevel) | 指定文本识别的语言检测级别。 |
-| [setLinesFiltration(boolean linesFiltration)](#setLinesFiltration-boolean) | 允许识别表格中的文本（被线围绕的区域）。 |
+| [setLinesFiltration(boolean linesFiltration)](#setLinesFiltration-boolean) | 允许识别表格中的文本（被线条包围的区域）。 |
 | [setRecognitionAreas(ArrayList<Rectangle> recognitionAreas)](#setRecognitionAreas-java.util.ArrayList-java.awt.Rectangle) | 设置用于处理的文本区域列表。 |
 | [setRecognizeSingleLine(boolean recognizeSingleLine)](#setRecognizeSingleLine-boolean) | 设置单行图像识别。 |
 | [setThreadsCount(int threadsCount)](#setThreadsCount-int) | 获取或设置处理的线程数。 |
-| [setUpscaleSmallFont(boolean upscaleSmallFont)](#setUpscaleSmallFont-boolean) | 允许您专门用于小字体识别的额外算法。 |
+| [setUpscaleSmallFont(boolean upscaleSmallFont)](#setUpscaleSmallFont-boolean) | 允许您使用专门用于小字体识别的附加算法。 |
 ### RecognitionSettings() {#RecognitionSettings}
 ```
 public RecognitionSettings()
@@ -141,7 +141,7 @@ public void setAllowedCharacters(CharactersAllowedType allowedCharacters)
 ```
 
 
-允许字符集。确定识别结果中允许的字符类型。
+允许的字符集。确定识别结果允许的字符类型。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -154,7 +154,7 @@ public void setAllowedCharacters(String allowedCharacters)
 ```
 
 
-允许字符集。确定识别结果中允许的字符数组。
+允许的字符集。确定识别结果允许的字符数组。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -167,7 +167,7 @@ public void setAutomaticColorInversion(boolean automaticColorInversion)
 ```
 
 
-检测暗色/黑色背景上白色文字的图像，并自动为其选择专用的 OCR 算法。
+检测白色文字位于深色/黑色背景的图像，并自动为其选择特殊的 OCR 算法。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -211,7 +211,7 @@ public void setLanguage(Language language)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| language | [Language](../../com.aspose.ocr.models/language/) | 设置用于 OCR 的语言。默认是多语言（无）。 |
+| language | [Language](../../com.aspose.ocr.models/language/) | 设置 OCR 使用的语言。默认是多语言（无）。 |
 
 ### setLanguageDetectionLevel(LanguageDetectionLevel languageDetectionLevel) {#setLanguageDetectionLevel-com.aspose.ocr.models.LanguageDetectionLevel}
 ```
@@ -219,7 +219,7 @@ public void setLanguageDetectionLevel(LanguageDetectionLevel languageDetectionLe
 ```
 
 
-指定文本识别的语言检测级别。仅在所选语言为 Language.MULTILANGUAGE、Language.AUTO 或 Language.UNIVERSAL 时有效。此过程耗时且会显著减慢整体识别速度。
+指定文本识别的语言检测级别。仅在所选语言为 Language.MULTILANGUAGE、Language.AUTO 或 Language.UNIVERSAL 时有效。此过程耗时，并显著降低整体识别速度。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -232,12 +232,12 @@ public void setLinesFiltration(boolean linesFiltration)
 ```
 
 
-允许识别表格中的文本（被线围绕的区域）。
+允许识别表格中的文本（被线条包围的区域）。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| linesFiltration | boolean | false - 允许提升性能并且不检测表格和删除线；否则为 true。默认禁用 (false)。 |
+| linesFiltration | boolean | false - 可提升性能且不检测表格并移除线条；否则为 true。默认禁用 (false)。 |
 
 ### setRecognitionAreas(ArrayList<Rectangle> recognitionAreas) {#setRecognitionAreas-java.util.ArrayList-java.awt.Rectangle}
 ```
@@ -245,7 +245,7 @@ public void setRecognitionAreas(ArrayList<Rectangle> recognitionAreas)
 ```
 
 
-设置用于处理的文本区域列表。允许手动指定带文本的区域以获得更精确的识别。如果自定义区域已设置 [setDetectAreasMode(DetectAreasMode)](../../com.aspose.ocr/recognitionsettings/\#setDetectAreasMode-DetectAreasMode) (DetectAreasMode)\} 不是 NONE，或 [PreprocessingFilter.AutoSkew()](../../com.aspose.ocr/preprocessingfilter/\#AutoSkew) (boolean)\} 属性将被忽略。禁用 DetectAreas 和 AutoSkew。
+设置用于处理的文本区域列表。允许手动指定包含文本的区域以获得更准确的识别。如果设置了自定义区域 [setDetectAreasMode(DetectAreasMode)](../../com.aspose.ocr/recognitionsettings/\#setDetectAreasMode-DetectAreasMode) (DetectAreasMode)\} 非 NONE 或 [PreprocessingFilter.AutoSkew()](../../com.aspose.ocr/preprocessingfilter/\#AutoSkew) (boolean)\} 属性将被忽略。禁用 DetectAreas 和 AutoSkew。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -271,7 +271,7 @@ public void setThreadsCount(int threadsCount)
 ```
 
 
-获取或设置处理的线程数。默认情况下，0 表示图像将使用等于处理器数量的线程进行处理。ThreadsCount = 1 表示图像将在主线程中处理。
+获取或设置处理的线程数。默认情况下，0 表示图像将使用等于处理器数量的线程数进行处理。ThreadsCount = 1 表示图像将在主线程中处理。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -284,7 +284,7 @@ public void setUpscaleSmallFont(boolean upscaleSmallFont)
 ```
 
 
-允许您专门用于小字体识别的额外算法。对包含小尺寸字符的图像很有用。
+允许您使用专门用于小字体识别的附加算法。对包含小尺寸字符的图像很有用。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

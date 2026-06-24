@@ -25,12 +25,12 @@ public class Metered
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getClass()](#getClass) |  |
-| [getConsumptionCredit()](#getConsumptionCredit) | 获取消耗额度 |
+| [getConsumptionCredit()](#getConsumptionCredit) | 获取消耗积分 |
 | [getConsumptionQuantity()](#getConsumptionQuantity) | 获取消耗文件大小 |
 | [hashCode()](#hashCode) |  |
 | [notify()](#notify) |  |
 | [notifyAll()](#notifyAll) |  |
-| [setMeteredKey(String publicKey, String privateKey)](#setMeteredKey-java.lang.String-java.lang.String) | 设置计量的公钥和私钥 |
+| [setMeteredKey(String publicKey, String privateKey)](#setMeteredKey-java.lang.String-java.lang.String) | 设置计量公钥和私钥 |
 | [toString()](#toString) |  |
 | [wait()](#wait) |  |
 | [wait(long arg0)](#wait-long) |  |
@@ -74,7 +74,7 @@ public static double getConsumptionCredit()
 ```
 
 
-获取消耗额度
+获取消耗积分
 
 **Returns:**
 double - 消耗数量
@@ -120,7 +120,7 @@ public void setMeteredKey(String publicKey, String privateKey)
 ```
 
 
-设置计量的公钥和私钥
+设置计量公钥和私钥
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

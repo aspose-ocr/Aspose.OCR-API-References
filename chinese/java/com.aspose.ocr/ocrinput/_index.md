@@ -1,7 +1,7 @@
 ---
 title: "OcrInput"
 second_title: "Aspose.OCR for Java API 参考"
-description: "用于从图像识别文本的主类"
+description: "用于从图像中识别文本的主类"
 type: docs
 weight: 20
 url: /zh/java/com.aspose.ocr/ocrinput/
@@ -28,13 +28,13 @@ public class OcrInput implements Iterable<ImageData>
 | 方法 | 描述 |
 | --- | --- |
 | [add(int[] pixels, int width, int height, int bitsPerPixel)](#add-int---int-int-int) | 将解码后的图像添加到用于识别/处理的列表中。 |
-| [add(BufferedImage image)](#add-java.awt.image.BufferedImage) | 添加包含图像的 BufferedImage 以进行识别/处理。 |
-| [add(BufferedImage image, int startPage, int pagesCount)](#add-java.awt.image.BufferedImage-int-int) | 添加包含多页图像的 BufferedImage 以进行识别/处理。 |
-| [add(InputStream stream)](#add-java.io.InputStream) | 添加包含图像的 InputStream 以进行识别/处理。 |
-| [add(InputStream stream, int startPage, int pagesCount)](#add-java.io.InputStream-int-int) | 添加包含多页图像的 InputStream 以进行识别/处理。 |
-| [add(String fullPath)](#add-java.lang.String) | 添加包含图像的路径或 URI 以进行识别/处理。 |
-| [add(String fullPath, int startPage, int pagesCount)](#add-java.lang.String-int-int) | 添加多页图像/文档以进行识别/处理。 |
-| [addBase64(String base64)](#addBase64-java.lang.String) | 添加包含图像的 base64 字符串以进行识别/处理。 |
+| [add(BufferedImage image)](#add-java.awt.image.BufferedImage) | 添加包含图像的 BufferedImage 用于识别/处理。 |
+| [add(BufferedImage image, int startPage, int pagesCount)](#add-java.awt.image.BufferedImage-int-int) | 添加包含多页图像的 BufferedImage 用于识别/处理。 |
+| [add(InputStream stream)](#add-java.io.InputStream) | 添加包含图像的 InputStream 用于识别/处理。 |
+| [add(InputStream stream, int startPage, int pagesCount)](#add-java.io.InputStream-int-int) | 添加包含多页图像的 InputStream 用于识别/处理。 |
+| [add(String fullPath)](#add-java.lang.String) | 添加包含图像的路径或 URI 用于识别/处理。 |
+| [add(String fullPath, int startPage, int pagesCount)](#add-java.lang.String-int-int) | 添加多页图像/文档用于识别/处理。 |
+| [addBase64(String base64)](#addBase64-java.lang.String) | 添加包含图像的 base64 字符串用于识别/处理。 |
 | [clear()](#clear) | 将处理/识别的项目数量设置为 0。 |
 | [clearFilters()](#clearFilters) | 移除所有过滤器。 |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
@@ -44,7 +44,7 @@ public class OcrInput implements Iterable<ImageData>
 | [iterator()](#iterator) |  |
 | [notify()](#notify) |  |
 | [notifyAll()](#notifyAll) |  |
-| [replaceFilters(PreprocessingFilter filters)](#replaceFilters-com.aspose.ocr.PreprocessingFilter) | 移除旧过滤器并设置新过滤器。 |
+| [replaceFilters(PreprocessingFilter filters)](#replaceFilters-com.aspose.ocr.PreprocessingFilter) | 移除旧过滤器并设置新的。 |
 | [size()](#size) | 用于处理/识别的项目数量。 |
 | [toString()](#toString) |  |
 | [wait()](#wait) |  |
@@ -158,7 +158,7 @@ public void add(String fullPath)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| fullPath | java.lang.String | 图像/文档/文件夹/存档的路径。 |
+| fullPath | java.lang.String | 图像/文档/文件夹/归档的路径。 |
 
 ### add(String fullPath, int startPage, int pagesCount) {#add-java.lang.String-int-int}
 ```
@@ -166,12 +166,12 @@ public void add(String fullPath, int startPage, int pagesCount)
 ```
 
 
-添加多页图像/文档用于识别/处理。图像的类型必须与构造函数中指定的类型相对应。
+添加用于识别/处理的多页图像/文档。图像的类型必须与构造函数中指定的类型相对应。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| fullPath | java.lang.String | 图像/文档/文件夹/存档的路径。 |
+| fullPath | java.lang.String | 图像/文档/文件夹/归档的路径。 |
 | startPage | int | 用于处理/识别的第一页/图像。适用于文档、zip、文件夹。 |
 | pagesCount | int | 用于处理/识别的页面/图像总数。适用于文档、zip、文件夹。默认 = 全部。 |
 
@@ -230,7 +230,7 @@ public ImageData get(int index)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 索引 | int | 图像在列表中的位置。 |
+| index | int | 图像在列表中的位置。 |
 
 **Returns:**
 [ImageData](../../com.aspose.ocr/imagedata/) - The object of @see [ImageData](../../com.aspose.ocr/imagedata/)
@@ -286,12 +286,12 @@ public void replaceFilters(PreprocessingFilter filters)
 ```
 
 
-移除旧过滤器并设置新过滤器。
+移除旧过滤器并设置新的。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| filters | [PreprocessingFilter](../../com.aspose.ocr/preprocessingfilter/) | 处理过滤器将用于后续的处理或识别。 |
+| filters | [PreprocessingFilter](../../com.aspose.ocr/preprocessingfilter/) | 处理过滤器将用于进一步的处理或识别。 |
 
 ### size() {#size}
 ```

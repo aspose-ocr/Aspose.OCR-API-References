@@ -15,7 +15,7 @@ public class OCRTablePage
 
 表示整个 OCR 文档页面的结构化表格数据。
 
-此对象聚合了在单个处理页面中识别的所有表格。每个页面可能包含一个或多个检测到的表格，以 [OCRTable](../../com.aspose.ocr.models/ocrtable/) 条目表示。
+此对象聚合了单个处理页面中所有识别的表格。每个页面可能包含一个或多个检测到的表格，表示为 [OCRTable](../../com.aspose.ocr.models/ocrtable/) 条目。
 ## 构造函数
 
 | 构造函数 | 描述 |

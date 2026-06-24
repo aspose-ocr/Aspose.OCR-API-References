@@ -18,13 +18,13 @@ public class RecognitionResult
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [RecognitionResult()](#RecognitionResult) | 初始化一个新的实例 |
+| [RecognitionResult()](#RecognitionResult) | 初始化新的实例 |
 ## 字段
 
 | 字段 | 描述 |
 | --- | --- |
-| [language](#language) | 图像中识别文本的语言。 |
-| [recognitionCharactersList](#recognitionCharactersList) | 识别算法找到的一组字符，按概率降序排列。 |
+| [language](#language) | 图像中已识别文本的语言。 |
+| [recognitionCharactersList](#recognitionCharactersList) | 识别算法找到的字符集合，按概率降序排列。 |
 | [recognitionLinesResult](#recognitionLinesResult) | 获取包含行列表（矩形）的识别结果列表。 |
 | [recognitionRegionsResult](#recognitionRegionsResult) | 获取包含区域列表（矩形）的识别结果列表。 |
 | [recognitionText](#recognitionText) | 所有页面或单个区域的识别结果。 |
@@ -34,13 +34,13 @@ public class RecognitionResult
 | 方法 | 描述 |
 | --- | --- |
 | [GetJson()](#GetJson) | 生成包含识别结果的 JSON 字符串。 |
-| [GetKeywords()](#GetKeywords) | 从护照获取关键字（测试模式 |
+| [GetKeywords()](#GetKeywords) | 从护照获取关键字（测试模式。 |
 | [GetXml()](#GetXml) | 生成包含识别结果的 JSON 字符串。 |
 | [SetKeyword(String key, RecognitionResult.LinesResult result)](#SetKeyword-java.lang.String-com.aspose.ocr.RecognitionResult.LinesResult) |  |
 | [getSpellCheckCorrectedText()](#getSpellCheckCorrectedText) | 纠正文本（替换拼写错误的单词）。 |
 | [getSpellCheckCorrectedText(SpellCheck.SpellCheckLanguage language)](#getSpellCheckCorrectedText-com.aspose.ocr.SpellCheck.SpellCheckLanguage) | 纠正文本（替换拼写错误的单词）。 |
-| [getSpellCheckErrorList()](#getSpellCheckErrorList) | 查找给定输入文本中拼写错误的单词，并提供建议的拼写。 |
-| [getSpellCheckErrorList(SpellCheck.SpellCheckLanguage language)](#getSpellCheckErrorList-com.aspose.ocr.SpellCheck.SpellCheckLanguage) | 查找给定输入文本中拼写错误的单词，并提供建议的拼写。 |
+| [getSpellCheckErrorList()](#getSpellCheckErrorList) | 查找给定输入文本中拼写错误的单词并提供建议的拼写。 |
+| [getSpellCheckErrorList(SpellCheck.SpellCheckLanguage language)](#getSpellCheckErrorList-com.aspose.ocr.SpellCheck.SpellCheckLanguage) | 查找给定输入文本中拼写错误的单词并提供建议的拼写。 |
 | [save(String fullFileName)](#save-java.lang.String) | 将文档保存为纯文本 |
 | [save(String fullFileName, Format format)](#save-java.lang.String-com.aspose.ocr.models.Format) | 将文档保存为纯文本或其他文档格式。 |
 | [save(String fullFileName, Format format, PdfOptimizationMode optimizePdf)](#save-java.lang.String-com.aspose.ocr.models.Format-com.aspose.ocr.models.PdfOptimizationMode) | 将文档保存为纯文本或其他文档格式。 |
@@ -54,7 +54,7 @@ public RecognitionResult()
 ```
 
 
-初始化一个新的实例
+初始化新的实例
 
 ### language {#language}
 ```
@@ -70,7 +70,7 @@ public ArrayList<char[]> recognitionCharactersList
 ```
 
 
-识别算法找到的一组字符，按概率降序排列。
+识别算法找到的字符集合，按概率降序排列。
 
 ### recognitionLinesResult {#recognitionLinesResult}
 ```
@@ -172,7 +172,7 @@ public List<SpellCheck.SpellCheckError> getSpellCheckErrorList()
 ```
 
 
-查找给定输入文本中拼写错误的单词，并提供建议的拼写。默认英文词典。
+查找给定输入文本中拼写错误的单词并提供建议的拼写。默认英文词典。
 
 **Returns:**
 java.util.List<com.aspose.ocr.SpellCheck.SpellCheckError> - 表示拼写错误单词的 SpellCheckError 对象的 ArrayList，包含每个错误单词的建议正确拼写列表以及编辑距离。
@@ -182,7 +182,7 @@ public List<SpellCheck.SpellCheckError> getSpellCheckErrorList(SpellCheck.SpellC
 ```
 
 
-查找给定输入文本中拼写错误的单词，并提供建议的拼写。
+查找给定输入文本中拼写错误的单词并提供建议的拼写。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -220,7 +220,7 @@ public void save(String fullFileName, Format format)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | fullFileName | java.lang.String | 用于保存识别结果的带路径的文件名。 |
-| format | [Format](../../com.aspose.ocr.models/format/) | Format 的文档格式枚举类型。 |
+| format | [Format](../../com.aspose.ocr.models/format/) | 文档格式的枚举类型 Format。 |
 
 ### save(String fullFileName, Format format, PdfOptimizationMode optimizePdf) {#save-java.lang.String-com.aspose.ocr.models.Format-com.aspose.ocr.models.PdfOptimizationMode}
 ```
@@ -234,7 +234,7 @@ public void save(String fullFileName, Format format, PdfOptimizationMode optimiz
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | fullFileName | java.lang.String | 用于保存识别结果的带路径的文件名。 |
-| format | [Format](../../com.aspose.ocr.models/format/) | Format 的文档格式枚举类型。 |
+| format | [Format](../../com.aspose.ocr.models/format/) | 文档格式的枚举类型 Format。 |
 | optimizePdf | [PdfOptimizationMode](../../com.aspose.ocr.models/pdfoptimizationmode/) | 通过降低背景图像的质量来减小 PDF 文件大小。默认情况下，保留原始图像质量。 |
 
 ### saveSpellCheckCorrectedText(String fullFileName, Format format) {#saveSpellCheckCorrectedText-java.lang.String-com.aspose.ocr.models.Format}
@@ -249,7 +249,7 @@ public void saveSpellCheckCorrectedText(String fullFileName, Format format)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | fullFileName | java.lang.String | 用于保存识别结果的带路径的文件名。 |
-| format | [Format](../../com.aspose.ocr.models/format/) | Format 的文档格式枚举类型。 |
+| format | [Format](../../com.aspose.ocr.models/format/) | 文档格式的枚举类型 Format。 |
 
 ### saveSpellCheckCorrectedText(String fullFileName, Format format, SpellCheck.SpellCheckLanguage language) {#saveSpellCheckCorrectedText-java.lang.String-com.aspose.ocr.models.Format-com.aspose.ocr.SpellCheck.SpellCheckLanguage}
 ```
@@ -263,7 +263,7 @@ public void saveSpellCheckCorrectedText(String fullFileName, Format format, Spel
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | fullFileName | java.lang.String | 用于保存识别结果的带路径的文件名。 |
-| format | [Format](../../com.aspose.ocr.models/format/) | Format 的文档格式枚举类型。 |
+| format | [Format](../../com.aspose.ocr.models/format/) | 文档格式的枚举类型 Format。 |
 | language | [SpellCheckLanguage](../../com.aspose.ocr.spellcheck/spellchecklanguage/) | 拼写检查用的词典。 |
 ### useUserDictionary(String dictionaryPath) {#useUserDictionary-java.lang.String}
 ```

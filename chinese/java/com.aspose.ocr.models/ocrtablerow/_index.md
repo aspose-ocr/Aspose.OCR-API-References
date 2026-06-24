@@ -1,7 +1,7 @@
 ---
 title: "OCRTableRow"
 second_title: "Aspose.OCR for Java API 参考"
-description: "表示已识别表格中的单行"
+description: "表示已识别表格中的单行。"
 type: docs
 weight: 19
 url: /zh/java/com.aspose.ocr.models/ocrtablerow/
@@ -15,7 +15,7 @@ public class OCRTableRow
 
 表示已识别表格中的单行。
 
-一行包含一组 [OCRTableCell](../../com.aspose.ocr.models/ocrtablecell/) 实例，每个实例代表表格的一列。
+一行包含一组 [OCRTableCell](../../com.aspose.ocr.models/ocrtablecell/) 实例，每个实例代表一个表格列。
 ## 构造函数
 
 | 构造函数 | 描述 |

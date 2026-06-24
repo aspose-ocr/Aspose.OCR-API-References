@@ -1,5 +1,5 @@
 ---
-title: "国家"
+title: "Country"
 second_title: "Aspose.OCR for Java API 参考"
 description: "为了更好地识别护照，请指明护照所属国家"
 type: docs
