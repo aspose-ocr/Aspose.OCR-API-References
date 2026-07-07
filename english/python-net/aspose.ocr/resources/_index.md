@@ -3,7 +3,7 @@ title: Resources
 second_title: Aspose.OCR for Python via .NET API Reference
 description: 
 type: docs
-weight: 360
+weight: 370
 url: /python-net/aspose.ocr/resources/
 ---
 
@@ -31,7 +31,7 @@ The Resources type exposes the following members:
 |fetch_resource(name)|Download the resources specified in the `names` parameter from the online repository. If one or more resources are already downloaded, they will be overwritten.<br/>            You can omit the .OCR extension and use file names only.|
 |fetch_all()|Download all compatible resources from the online repository. The existing resource files will be overwritten.|
 |remove_local(name)|Removes the locally stored Aspose.OCR resource.|
-|release_memory()|  |
+|release_memory()|Unload OCR modules to free up memory. The downloaded module files will remain intact.|
 
 ### See Also
 
