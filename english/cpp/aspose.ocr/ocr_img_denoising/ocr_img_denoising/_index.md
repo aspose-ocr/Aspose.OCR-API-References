@@ -2,7 +2,7 @@
 title: "aspose::ocr::OCR_IMG_Denoising::OCR_IMG_Denoising constructor"
 linktitle: "OCR_IMG_Denoising"
 articleTitle: "OCR_IMG_Denoising"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "OCR_IMG_Denoising of OCR_IMG_Denoising."
 type: docs
 weight: 10

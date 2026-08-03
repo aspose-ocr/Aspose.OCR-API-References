@@ -2,7 +2,7 @@
 title: "aspose::ocr::OCR_IMG_Grayscale::OCR_IMG_Grayscale constructor"
 linktitle: "OCR_IMG_Grayscale"
 articleTitle: "OCR_IMG_Grayscale"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "OCR_IMG_Grayscale of OCR_IMG_Grayscale."
 type: docs
 weight: 10

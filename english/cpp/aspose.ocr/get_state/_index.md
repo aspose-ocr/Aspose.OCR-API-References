@@ -2,7 +2,7 @@
 title: "get_state function"
 linktitle: "get_state"
 articleTitle: "get_state"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Check license."
 type: docs
 weight: 320

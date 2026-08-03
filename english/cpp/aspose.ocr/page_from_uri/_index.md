@@ -2,7 +2,7 @@
 title: "page_from_uri function"
 linktitle: "page_from_uri"
 articleTitle: "page_from_uri"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Optical character recognition image from uri with reconition settings Allowed formats is PNG, JPG, BMP."
 type: docs
 weight: 110

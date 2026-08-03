@@ -2,7 +2,7 @@
 title: "aspose::ocr::RecognitionSettings::rectangles_size method"
 linktitle: "rectangles_size"
 articleTitle: "rectangles_size"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Set areas for recognition size."
 type: docs
 weight: 160

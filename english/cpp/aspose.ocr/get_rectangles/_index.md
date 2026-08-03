@@ -2,7 +2,7 @@
 title: "get_rectangles function"
 linktitle: "get_rectangles"
 articleTitle: "get_rectangles"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Detects the text areas in the image."
 type: docs
 weight: 390

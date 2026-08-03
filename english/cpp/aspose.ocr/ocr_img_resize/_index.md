@@ -2,7 +2,7 @@
 title: "aspose::ocr::OCR_IMG_Resize struct"
 linktitle: "OCR_IMG_Resize"
 articleTitle: "OCR_IMG_Resize"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Rescale image - Upscale or downscale image resolution."
 type: docs
 weight: 10
@@ -19,5 +19,5 @@ Rescale image - Upscale or downscale image resolution. Use in C++ -compatible AP
 
 | Name | Description |
 | --- | --- |
-| [OCR_IMG_Resize](/cpp/aspose.ocr/ocr_img_resize/ocr_img_resize/) |  |
+| [OCR_IMG_Resize](./ocr_img_resize/) |  |
 

@@ -2,7 +2,7 @@
 title: "aspose::ocr::RecognitionSettings::threshold_value method"
 linktitle: "threshold_value"
 articleTitle: "threshold_value"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Sets custom threshold value for image binarization."
 type: docs
 weight: 190

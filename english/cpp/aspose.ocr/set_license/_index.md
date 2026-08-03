@@ -2,7 +2,7 @@
 title: "set_license function"
 linktitle: "set_license"
 articleTitle: "set_license"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Set license to library."
 type: docs
 weight: 310

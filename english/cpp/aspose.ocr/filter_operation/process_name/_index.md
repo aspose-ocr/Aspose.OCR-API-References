@@ -2,7 +2,7 @@
 title: "aspose::ocr::filter_operation::process_name method"
 linktitle: "process_name"
 articleTitle: "process_name"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "process_name of filter_operation."
 type: docs
 weight: 40

@@ -2,7 +2,7 @@
 title: "page_fast_from_raw_bytes function"
 linktitle: "page_fast_from_raw_bytes"
 articleTitle: "page_fast_from_raw_bytes"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Optical character recognition image."
 type: docs
 weight: 40

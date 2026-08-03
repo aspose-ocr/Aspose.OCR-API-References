@@ -2,7 +2,7 @@
 title: "aspose::ocr::OCR_IMG_Binarize struct"
 linktitle: "OCR_IMG_Binarize"
 articleTitle: "OCR_IMG_Binarize"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Converts an image to black-and-white image."
 type: docs
 weight: 10
@@ -19,5 +19,5 @@ Converts an image to black-and-white image. Binary images are images whose pixel
 
 | Name | Description |
 | --- | --- |
-| [OCR_IMG_Binarize](/cpp/aspose.ocr/ocr_img_binarize/ocr_img_binarize/) |  |
+| [OCR_IMG_Binarize](./ocr_img_binarize/) |  |
 

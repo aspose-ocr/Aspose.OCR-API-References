@@ -2,7 +2,7 @@
 title: "aspose::ocr::AsposeOCRLogSettings::console_output_enabled method"
 linktitle: "console_output_enabled"
 articleTitle: "console_output_enabled"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Enable of standart output."
 type: docs
 weight: 10

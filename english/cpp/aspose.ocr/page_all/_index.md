@@ -2,7 +2,7 @@
 title: "page_all function"
 linktitle: "page_all"
 articleTitle: "page_all"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Optical character recognition image without automatic detection of text areas Get all image as text area."
 type: docs
 weight: 130

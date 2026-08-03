@@ -2,7 +2,7 @@
 title: "aspose::ocr::AsposeOCRInput::raw_data_size method"
 linktitle: "raw_data_size"
 articleTitle: "raw_data_size"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Size of \"raw_data\" field."
 type: docs
 weight: 30

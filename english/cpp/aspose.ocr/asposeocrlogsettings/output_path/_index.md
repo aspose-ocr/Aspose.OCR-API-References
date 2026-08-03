@@ -2,7 +2,7 @@
 title: "aspose::ocr::AsposeOCRLogSettings::output_path method"
 linktitle: "output_path"
 articleTitle: "output_path"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "File path for logging."
 type: docs
 weight: 30

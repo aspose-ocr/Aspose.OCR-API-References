@@ -2,7 +2,7 @@
 title: "aspose::ocr::AsposeOCRRecognitionResult::pages_amount method"
 linktitle: "pages_amount"
 articleTitle: "pages_amount"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "\"recognized_pages\" array size"
 type: docs
 weight: 10

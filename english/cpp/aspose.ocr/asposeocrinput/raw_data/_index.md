@@ -2,7 +2,7 @@
 title: "aspose::ocr::AsposeOCRInput::raw_data method"
 linktitle: "raw_data"
 articleTitle: "raw_data"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Input raw data in special format Input raw data in special format may represent: row_index 0 ..."
 type: docs
 weight: 20

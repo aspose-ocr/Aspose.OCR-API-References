@@ -2,7 +2,7 @@
 title: "aspose::ocr::AsposeOCRProgress struct"
 linktitle: "AsposeOCRProgress"
 articleTitle: "AsposeOCRProgress"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "This structure contains a current recognition state."
 type: docs
 weight: 10
@@ -17,7 +17,7 @@ This structure contains a current recognition state.
 
 | Name | Description |
 | --- | --- |
-| [current_image_number](/cpp/aspose.ocr/asposeocrprogress/current_image_number/) | Current image number. 1 ... N, N - "images_amount". |
-| [current_state](/cpp/aspose.ocr/asposeocrprogress/current_state/) | Current image process state. |
-| [images_amount](/cpp/aspose.ocr/asposeocrprogress/images_amount/) | Amount of recognizable images. |
+| [current_image_number](./current_image_number/) | Current image number. 1 ... N, N - "images_amount". |
+| [current_state](./current_state/) | Current image process state. |
+| [images_amount](./images_amount/) | Amount of recognizable images. |
 

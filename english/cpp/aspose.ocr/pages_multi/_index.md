@@ -2,7 +2,7 @@
 title: "pages_multi function"
 linktitle: "pages_multi"
 articleTitle: "pages_multi"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Batch text recognition in several images packed in ZIP archive or images from folder Internal archives and folders are not supported Only PNG, JPG, BMP internal"
 type: docs
 weight: 80

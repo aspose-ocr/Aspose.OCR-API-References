@@ -2,7 +2,7 @@
 title: "page_save function"
 linktitle: "page_save"
 articleTitle: "page_save"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Optical character recognition image from file with reconition settings."
 type: docs
 weight: 120

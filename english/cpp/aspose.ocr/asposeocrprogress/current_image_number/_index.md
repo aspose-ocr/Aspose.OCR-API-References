@@ -2,7 +2,7 @@
 title: "aspose::ocr::AsposeOCRProgress::current_image_number method"
 linktitle: "current_image_number"
 articleTitle: "current_image_number"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Current image number."
 type: docs
 weight: 10

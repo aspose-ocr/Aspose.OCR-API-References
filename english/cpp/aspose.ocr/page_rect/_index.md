@@ -2,7 +2,7 @@
 title: "page_rect function"
 linktitle: "page_rect"
 articleTitle: "page_rect"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Optical character recognition image in the defined rectangle."
 type: docs
 weight: 150

@@ -2,7 +2,7 @@
 title: "aspose::ocr::OCR_IMG_Rotate::OCR_IMG_Rotate constructor"
 linktitle: "OCR_IMG_Rotate"
 articleTitle: "OCR_IMG_Rotate"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "OCR_IMG_Rotate of OCR_IMG_Rotate."
 type: docs
 weight: 10

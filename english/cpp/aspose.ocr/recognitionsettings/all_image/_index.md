@@ -2,7 +2,7 @@
 title: "aspose::ocr::RecognitionSettings::all_image method"
 linktitle: "all_image"
 articleTitle: "all_image"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Disabled (false) by default."
 type: docs
 weight: 10

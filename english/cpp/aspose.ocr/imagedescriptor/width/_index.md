@@ -2,7 +2,7 @@
 title: "aspose::ocr::ImageDescriptor::width method"
 linktitle: "width"
 articleTitle: "width"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Second dimension of image_from_raw_bytes."
 type: docs
 weight: 50

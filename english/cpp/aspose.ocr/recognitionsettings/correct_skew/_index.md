@@ -2,7 +2,7 @@
 title: "aspose::ocr::RecognitionSettings::correct_skew method"
 linktitle: "correct_skew"
 articleTitle: "correct_skew"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Enabled (true) by default."
 type: docs
 weight: 60

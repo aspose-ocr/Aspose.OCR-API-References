@@ -2,7 +2,7 @@
 title: "aspose::ocr::filter_operation struct"
 linktitle: "filter_operation"
 articleTitle: "filter_operation"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Preprocessing filter type base structure."
 type: docs
 weight: 10
@@ -17,10 +17,10 @@ Preprocessing filter type base structure. Use in C++ -compatible API.
 
 | Name | Description |
 | --- | --- |
-| [angle](/cpp/aspose.ocr/filter_operation/angle/) |  |
-| [new_height](/cpp/aspose.ocr/filter_operation/new_height/) |  |
-| [new_width](/cpp/aspose.ocr/filter_operation/new_width/) |  |
-| [process_name](/cpp/aspose.ocr/filter_operation/process_name/) |  |
-| [ratio](/cpp/aspose.ocr/filter_operation/ratio/) |  |
-| [threshold_max_value](/cpp/aspose.ocr/filter_operation/threshold_max_value/) |  |
+| [angle](./angle/) |  |
+| [new_height](./new_height/) |  |
+| [new_width](./new_width/) |  |
+| [process_name](./process_name/) |  |
+| [ratio](./ratio/) |  |
+| [threshold_max_value](./threshold_max_value/) |  |
 

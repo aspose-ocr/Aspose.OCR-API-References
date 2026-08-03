@@ -2,7 +2,7 @@
 title: "aspose::ocr::AsposeOCRInput::raw_data_type method"
 linktitle: "raw_data_type"
 articleTitle: "raw_data_type"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Represent input raw_data format: row_index 0 ..."
 type: docs
 weight: 40

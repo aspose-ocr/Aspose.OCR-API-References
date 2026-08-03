@@ -2,7 +2,7 @@
 title: "aspose::ocr::AsposeOCRRecognitionResult::recognized_pages method"
 linktitle: "recognized_pages"
 articleTitle: "recognized_pages"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Array of recognized images."
 type: docs
 weight: 20

@@ -2,7 +2,7 @@
 title: "aspose::ocr::OCR_IMG_Contrast_Correction struct"
 linktitle: "OCR_IMG_Contrast_Correction"
 articleTitle: "OCR_IMG_Contrast_Correction"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Contrast correction filter."
 type: docs
 weight: 10
@@ -19,5 +19,5 @@ Contrast correction filter. Use in C++ -compatible API.
 
 | Name | Description |
 | --- | --- |
-| [OCR_IMG_Contrast_Correction](/cpp/aspose.ocr/ocr_img_contrast_correction/ocr_img_contrast_correction/) |  |
+| [OCR_IMG_Contrast_Correction](./ocr_img_contrast_correction/) |  |
 

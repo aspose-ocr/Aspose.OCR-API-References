@@ -2,7 +2,7 @@
 title: "aspose::ocr::AsposeOCRInput::width method"
 linktitle: "width"
 articleTitle: "width"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Image width."
 type: docs
 weight: 60

@@ -2,7 +2,7 @@
 title: "aspose::ocr::OCR_IMG_Contrast_Correction::OCR_IMG_Contrast_Correction constructor"
 linktitle: "OCR_IMG_Contrast_Correction"
 articleTitle: "OCR_IMG_Contrast_Correction"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "OCR_IMG_Contrast_Correction of OCR_IMG_Contrast_Correction."
 type: docs
 weight: 10

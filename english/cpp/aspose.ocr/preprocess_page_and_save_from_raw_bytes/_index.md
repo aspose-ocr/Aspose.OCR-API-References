@@ -2,7 +2,7 @@
 title: "preprocess_page_and_save_from_raw_bytes function"
 linktitle: "preprocess_page_and_save_from_raw_bytes"
 articleTitle: "preprocess_page_and_save_from_raw_bytes"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Use image preprocessing to improve the accuracy of OCR."
 type: docs
 weight: 260

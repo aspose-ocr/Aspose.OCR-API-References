@@ -2,7 +2,7 @@
 title: "aspose::ocr::custom_preprocessing_filters::filter_1 method"
 linktitle: "filter_1"
 articleTitle: "filter_1"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "filter_1 of custom_preprocessing_filters."
 type: docs
 weight: 10

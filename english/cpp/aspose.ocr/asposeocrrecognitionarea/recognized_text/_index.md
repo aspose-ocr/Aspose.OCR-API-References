@@ -2,7 +2,7 @@
 title: "aspose::ocr::AsposeOCRRecognitionArea::recognized_text method"
 linktitle: "recognized_text"
 articleTitle: "recognized_text"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Recognized text array field."
 type: docs
 weight: 20

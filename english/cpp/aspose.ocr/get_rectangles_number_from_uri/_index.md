@@ -2,7 +2,7 @@
 title: "get_rectangles_number_from_uri function"
 linktitle: "get_rectangles_number_from_uri"
 articleTitle: "get_rectangles_number_from_uri"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Detects the number of text areas in the image."
 type: docs
 weight: 380

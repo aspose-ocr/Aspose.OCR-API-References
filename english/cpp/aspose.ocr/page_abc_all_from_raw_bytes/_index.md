@@ -2,7 +2,7 @@
 title: "page_abc_all_from_raw_bytes function"
 linktitle: "page_abc_all_from_raw_bytes"
 articleTitle: "page_abc_all_from_raw_bytes"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Optical character recognition image without automatic detection of text areas Get all image as text area."
 type: docs
 weight: 200

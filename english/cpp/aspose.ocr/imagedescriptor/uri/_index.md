@@ -2,7 +2,7 @@
 title: "aspose::ocr::ImageDescriptor::uri method"
 linktitle: "uri"
 articleTitle: "uri"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Null terminated c string, that describe a path to file in a files system or ."
 type: docs
 weight: 40

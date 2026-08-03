@@ -2,7 +2,7 @@
 title: "page_rect_abc_from_raw_bytes function"
 linktitle: "page_rect_abc_from_raw_bytes"
 articleTitle: "page_rect_abc_from_raw_bytes"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Optical character recognition image in the defined rectangle."
 type: docs
 weight: 220

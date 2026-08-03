@@ -2,7 +2,7 @@
 title: "page_settings function"
 linktitle: "page_settings"
 articleTitle: "page_settings"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Optical character recognition image from file with recognition settings Allowed formats is PNG, JPG, BMP."
 type: docs
 weight: 50

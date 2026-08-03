@@ -2,7 +2,7 @@
 title: "aspose::ocr::RecognitionSettings::save_format method"
 linktitle: "save_format"
 articleTitle: "save_format"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Choose result save format for \"page_save\" method."
 type: docs
 weight: 170

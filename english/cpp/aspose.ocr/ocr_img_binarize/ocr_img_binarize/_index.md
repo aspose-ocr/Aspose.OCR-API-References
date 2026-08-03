@@ -2,7 +2,7 @@
 title: "aspose::ocr::OCR_IMG_Binarize::OCR_IMG_Binarize constructor"
 linktitle: "OCR_IMG_Binarize"
 articleTitle: "OCR_IMG_Binarize"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "OCR_IMG_Binarize of OCR_IMG_Binarize."
 type: docs
 weight: 10

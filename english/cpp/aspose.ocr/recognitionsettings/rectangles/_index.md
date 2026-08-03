@@ -2,7 +2,7 @@
 title: "aspose::ocr::RecognitionSettings::rectangles method"
 linktitle: "rectangles"
 articleTitle: "rectangles"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Choose areas for recognition."
 type: docs
 weight: 150

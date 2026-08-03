@@ -2,7 +2,7 @@
 title: "page_abc function"
 linktitle: "page_abc"
 articleTitle: "page_abc"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Optical character recognition image with automatic detection of text areas and detecting, correct skew of the text."
 type: docs
 weight: 170

@@ -2,7 +2,7 @@
 title: "aspose::ocr::RecognitionSettings::lines_filtration method"
 linktitle: "lines_filtration"
 articleTitle: "lines_filtration"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Disabled (false) by default."
 type: docs
 weight: 130

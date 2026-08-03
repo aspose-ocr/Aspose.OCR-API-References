@@ -2,7 +2,7 @@
 title: "pages_multi_array_from_raw_bytes function"
 linktitle: "pages_multi_array_from_raw_bytes"
 articleTitle: "pages_multi_array_from_raw_bytes"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Recognizes multiple images from vector."
 type: docs
 weight: 100

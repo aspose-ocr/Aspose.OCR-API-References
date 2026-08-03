@@ -2,7 +2,7 @@
 title: "aspose::ocr::ImageDescriptor::channels_size method"
 linktitle: "channels_size"
 articleTitle: "channels_size"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Third dimension of image_from_raw_bytes."
 type: docs
 weight: 10

@@ -2,7 +2,7 @@
 title: "line_abc_from_raw_bytes function"
 linktitle: "line_abc_from_raw_bytes"
 articleTitle: "line_abc_from_raw_bytes"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Optical character recognition image with one text line."
 type: docs
 weight: 300

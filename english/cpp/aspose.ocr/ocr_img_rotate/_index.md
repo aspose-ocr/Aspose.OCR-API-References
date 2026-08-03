@@ -2,7 +2,7 @@
 title: "aspose::ocr::OCR_IMG_Rotate struct"
 linktitle: "OCR_IMG_Rotate"
 articleTitle: "OCR_IMG_Rotate"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Rotate original image."
 type: docs
 weight: 10
@@ -21,5 +21,5 @@ From -360 to 360
 
 | Name | Description |
 | --- | --- |
-| [OCR_IMG_Rotate](/cpp/aspose.ocr/ocr_img_rotate/ocr_img_rotate/) |  |
+| [OCR_IMG_Rotate](./ocr_img_rotate/) |  |
 

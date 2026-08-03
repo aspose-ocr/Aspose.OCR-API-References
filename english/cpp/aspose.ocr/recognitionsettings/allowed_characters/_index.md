@@ -2,7 +2,7 @@
 title: "aspose::ocr::RecognitionSettings::allowed_characters method"
 linktitle: "allowed_characters"
 articleTitle: "allowed_characters"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Allowed characters set."
 type: docs
 weight: 20

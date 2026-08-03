@@ -2,7 +2,7 @@
 title: "aspose::ocr::OCR_IMG_Scale::OCR_IMG_Scale constructor"
 linktitle: "OCR_IMG_Scale"
 articleTitle: "OCR_IMG_Scale"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "OCR_IMG_Scale of OCR_IMG_Scale."
 type: docs
 weight: 10

@@ -2,7 +2,7 @@
 title: "aspose::ocr::RecognitionSettings::filters method"
 linktitle: "filters"
 articleTitle: "filters"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Allows to prepare the image for OCR by adjusting pre-processing methods."
 type: docs
 weight: 90

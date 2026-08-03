@@ -2,7 +2,7 @@
 title: "page_tiff function"
 linktitle: "page_tiff"
 articleTitle: "page_tiff"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Optical character recognition image from file with recognition settings Allowed formats is multi-page TIFF, TIF."
 type: docs
 weight: 70

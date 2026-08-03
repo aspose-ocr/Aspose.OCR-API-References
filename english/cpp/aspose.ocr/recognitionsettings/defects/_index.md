@@ -2,7 +2,7 @@
 title: "aspose::ocr::RecognitionSettings::defects method"
 linktitle: "defects"
 articleTitle: "defects"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "They will determine what types of defects need to be recognized at the moment."
 type: docs
 weight: 70

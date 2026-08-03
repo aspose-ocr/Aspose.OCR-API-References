@@ -2,7 +2,7 @@
 title: "aspose::ocr::RecognitionSettings::language_alphabet method"
 linktitle: "language_alphabet"
 articleTitle: "language_alphabet"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Multi-language by default."
 type: docs
 weight: 120

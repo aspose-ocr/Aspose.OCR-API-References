@@ -2,7 +2,7 @@
 title: "aspose::ocr::OCR_IMG_Threshold::OCR_IMG_Threshold constructor"
 linktitle: "OCR_IMG_Threshold"
 articleTitle: "OCR_IMG_Threshold"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "OCR_IMG_Threshold of OCR_IMG_Threshold."
 type: docs
 weight: 10

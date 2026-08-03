@@ -2,7 +2,7 @@
 title: "aspose::ocr::ImageDescriptor::height method"
 linktitle: "height"
 articleTitle: "height"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "First dimension of image_from_raw_bytes."
 type: docs
 weight: 20

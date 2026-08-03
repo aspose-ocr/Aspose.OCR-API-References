@@ -2,7 +2,7 @@
 title: "aspose::ocr::OCR_IMG_Denoising struct"
 linktitle: "OCR_IMG_Denoising"
 articleTitle: "OCR_IMG_Denoising"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Image denoising filter Use in C++ -compatible API."
 type: docs
 weight: 10
@@ -19,5 +19,5 @@ Image denoising filter Use in C++ -compatible API.
 
 | Name | Description |
 | --- | --- |
-| [OCR_IMG_Denoising](/cpp/aspose.ocr/ocr_img_denoising/ocr_img_denoising/) |  |
+| [OCR_IMG_Denoising](./ocr_img_denoising/) |  |
 

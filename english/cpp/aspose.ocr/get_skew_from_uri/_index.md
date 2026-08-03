@@ -2,7 +2,7 @@
 title: "get_skew_from_uri function"
 linktitle: "get_skew_from_uri"
 articleTitle: "get_skew_from_uri"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Returns the skew angle in degrees."
 type: docs
 weight: 350

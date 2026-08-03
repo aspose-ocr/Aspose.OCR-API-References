@@ -2,7 +2,7 @@
 title: "get_rectangles_from_raw_bytes function"
 linktitle: "get_rectangles_from_raw_bytes"
 articleTitle: "get_rectangles_from_raw_bytes"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Detects the text areas in the image."
 type: docs
 weight: 400

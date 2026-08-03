@@ -2,7 +2,7 @@
 title: "aspose::ocr::AsposeOCRInput::url method"
 linktitle: "url"
 articleTitle: "url"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Null terminated string, that describe file URL (file system path)."
 type: docs
 weight: 50

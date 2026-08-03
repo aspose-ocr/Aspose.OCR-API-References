@@ -2,7 +2,7 @@
 title: "aspose::ocr::AsposeOCRRecognizedPage::areas_amount method"
 linktitle: "areas_amount"
 articleTitle: "areas_amount"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "\"recognized_areas\" array size"
 type: docs
 weight: 10

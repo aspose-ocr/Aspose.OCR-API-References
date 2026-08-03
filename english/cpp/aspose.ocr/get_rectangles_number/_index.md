@@ -2,7 +2,7 @@
 title: "get_rectangles_number function"
 linktitle: "get_rectangles_number"
 articleTitle: "get_rectangles_number"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Detects the number of text areas in the image."
 type: docs
 weight: 360

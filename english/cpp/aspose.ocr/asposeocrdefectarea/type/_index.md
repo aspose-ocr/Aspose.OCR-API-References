@@ -2,7 +2,7 @@
 title: "aspose::ocr::AsposeOCRDefectArea::type method"
 linktitle: "type"
 articleTitle: "type"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "type of AsposeOCRDefectArea."
 type: docs
 weight: 20

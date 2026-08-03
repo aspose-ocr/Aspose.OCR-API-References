@@ -2,8 +2,8 @@
 title: "aspose::ocr namespace"
 linktitle: "aspose::ocr"
 articleTitle: "aspose::ocr"
-second_title: "Aspose.OCR for C++"
-description: "The aspose::ocr namespace provides core OCR data structures, settings, and result types for Aspose.OCR C++ library."
+second_title: "Aspose.                                   CR for C++"
+description: "The aspose::ocr namespace offers core OCR types and utilities for configuring, processing, and retrieving text recognition results in Aspose.OCR for C++."
 type: docs
 weight: 10
 url: /cpp/aspose.ocr/
@@ -11,7 +11,7 @@ url: /cpp/aspose.ocr/
 
 ## aspose::ocr namespace
 
-This namespace groups the fundamental classes and enumerations used to configure OCR operations, define input and recognition areas, and retrieve detailed recognition results. It includes types such as AsposeOCRInput, AsposeOCRRecognitionResult, and ImageDescriptor for handling images and OCR output.
+This namespace groups the essential classes and enums that define input images, defect and recognition areas, logging settings, progress monitoring, and detailed recognition results such as pages and text blocks, enabling fine‑grained control over OCR operations in C++ applications.
 
 
 ## Classes

@@ -2,7 +2,7 @@
 title: "aspose::ocr::OCR_IMG_Dilate struct"
 linktitle: "OCR_IMG_Dilate"
 articleTitle: "OCR_IMG_Dilate"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Dilation adds pixels to the boundaries of objects in an image."
 type: docs
 weight: 10
@@ -19,5 +19,5 @@ Dilation adds pixels to the boundaries of objects in an image. Use in C++ -compa
 
 | Name | Description |
 | --- | --- |
-| [OCR_IMG_Dilate](/cpp/aspose.ocr/ocr_img_dilate/ocr_img_dilate/) |  |
+| [OCR_IMG_Dilate](./ocr_img_dilate/) |  |
 

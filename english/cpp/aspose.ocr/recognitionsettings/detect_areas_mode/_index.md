@@ -2,7 +2,7 @@
 title: "aspose::ocr::RecognitionSettings::detect_areas_mode method"
 linktitle: "detect_areas_mode"
 articleTitle: "detect_areas_mode"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Allows to select the optimal mode for document type areas: document, photo, plain text, column, image."
 type: docs
 weight: 80

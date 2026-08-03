@@ -2,7 +2,7 @@
 title: "pages_multi_array function"
 linktitle: "pages_multi_array"
 articleTitle: "pages_multi_array"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Recognizes multiple images from vector."
 type: docs
 weight: 90

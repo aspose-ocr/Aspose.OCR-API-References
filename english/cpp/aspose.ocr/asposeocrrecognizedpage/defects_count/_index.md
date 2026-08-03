@@ -2,7 +2,7 @@
 title: "aspose::ocr::AsposeOCRRecognizedPage::defects_count method"
 linktitle: "defects_count"
 articleTitle: "defects_count"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "defects_count of AsposeOCRRecognizedPage."
 type: docs
 weight: 30

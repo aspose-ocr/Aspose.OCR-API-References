@@ -2,7 +2,7 @@
 title: "line_abc function"
 linktitle: "line_abc"
 articleTitle: "line_abc"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "Optical character recognition image with one text line."
 type: docs
 weight: 290

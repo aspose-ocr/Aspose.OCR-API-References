@@ -2,7 +2,7 @@
 title: "aspose::ocr::OCR_IMG_Autoskew::OCR_IMG_Autoskew constructor"
 linktitle: "OCR_IMG_Autoskew"
 articleTitle: "OCR_IMG_Autoskew"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "OCR_IMG_Autoskew of OCR_IMG_Autoskew."
 type: docs
 weight: 10

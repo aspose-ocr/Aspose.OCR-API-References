@@ -2,7 +2,7 @@
 title: "aspose::ocr::RecognitionSettings::alphabet method"
 linktitle: "alphabet"
 articleTitle: "alphabet"
-second_title: "Aspose.OCR for C++"
+second_title: "Aspose.                                   CR for C++"
 description: "L\"\" by default (all alphabet allowed)."
 type: docs
 weight: 30
