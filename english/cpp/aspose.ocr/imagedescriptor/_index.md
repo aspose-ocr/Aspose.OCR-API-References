@@ -3,15 +3,13 @@ title: "aspose::ocr::ImageDescriptor struct"
 linktitle: "ImageDescriptor"
 articleTitle: "ImageDescriptor"
 second_title: "Aspose.OCR for C++"
-description: "#include < C:/Users/figor/programming/project/aspose.ocr-for-cpp/doc_gen/aspose_ocr.h >"
+description: ""
 type: docs
 weight: 10
 url: /ocr/cpp/aspose.ocr/imagedescriptor/
 ---
 
 ## ImageDescriptor struct
-
-#include < C:/Users/figor/programming/project/aspose.ocr-for-cpp/doc_gen/aspose_ocr.h >
 
 ## Methods
 

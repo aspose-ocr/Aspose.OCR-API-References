@@ -3,7 +3,7 @@ title: "aspose::ocr namespace"
 linktitle: "aspose::ocr"
 articleTitle: "aspose::ocr"
 second_title: "Aspose.OCR for C++"
-description: "The aspose::ocr namespace offers core OCR types for configuring input, defining recognition areas, handling results, and logging in Aspose.OCR for C++."
+description: "The aspose::ocr namespace provides core OCR data structures, settings, and result types for Aspose.OCR C++ library."
 type: docs
 weight: 10
 url: /ocr/cpp/aspose.ocr/
@@ -11,21 +11,21 @@ url: /ocr/cpp/aspose.ocr/
 
 ## aspose::ocr namespace
 
-This reference lists the classes, enums, and structures that constitute the OCR engine's public API, such as input descriptors, defect area handling, progress reporting, and result objects. Use these types to integrate OCR capabilities into C++ applications.
+This namespace groups the fundamental classes and enumerations used to configure OCR processing, define image regions, and retrieve recognition results. It includes types such as AsposeOCRInput, AsposeOCRRecognitionArea, and AsposeOCRRecognitionResult.
 
 
 ## Classes
 
 | Name | Description |
 | --- | --- |
-| [AsposeOCRDefectArea](./asposeocrdefectarea/) | #include < C:/Users/figor/programming/project/aspose.ocr-for-cpp/doc_gen/aspose_ |
-| [AsposeOCRInput](./asposeocrinput/) | #include < C:/Users/figor/programming/project/aspose.ocr-for-cpp/doc_gen/aspose_ |
+| [AsposeOCRDefectArea](./asposeocrdefectarea/) |  |
+| [AsposeOCRInput](./asposeocrinput/) |  |
 | [AsposeOCRLogSettings](./asposeocrlogsettings/) | Structure for describing a logging settings. |
 | [AsposeOCRProgress](./asposeocrprogress/) | This structure contains a current recognition state. |
-| [AsposeOCRRecognitionArea](./asposeocrrecognitionarea/) | #include < C:/Users/figor/programming/project/aspose.ocr-for-cpp/doc_gen/aspose_ |
-| [AsposeOCRRecognitionResult](./asposeocrrecognitionresult/) | #include < C:/Users/figor/programming/project/aspose.ocr-for-cpp/doc_gen/aspose_ |
-| [AsposeOCRRecognizedPage](./asposeocrrecognizedpage/) | #include < C:/Users/figor/programming/project/aspose.ocr-for-cpp/doc_gen/aspose_ |
-| [ImageDescriptor](./imagedescriptor/) | #include < C:/Users/figor/programming/project/aspose.ocr-for-cpp/doc_gen/aspose_ |
+| [AsposeOCRRecognitionArea](./asposeocrrecognitionarea/) |  |
+| [AsposeOCRRecognitionResult](./asposeocrrecognitionresult/) |  |
+| [AsposeOCRRecognizedPage](./asposeocrrecognizedpage/) |  |
+| [ImageDescriptor](./imagedescriptor/) |  |
 | [OCR_IMG_Autoskew](./ocr_img_autoskew/) | Autoskew filter Use in C++ -compatible API. |
 | [OCR_IMG_Binarize](./ocr_img_binarize/) | Converts an image to black-and-white image. Binary images are images whose pixel |
 | [OCR_IMG_Contrast_Correction](./ocr_img_contrast_correction/) | Contrast correction filter. Use in C++ -compatible API. |
