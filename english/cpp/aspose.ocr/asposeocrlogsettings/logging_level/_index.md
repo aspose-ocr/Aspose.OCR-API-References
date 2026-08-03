@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "Describe max log level ASPOSE_OCR_LOG_ERROR -> errors ASPOSE_OCR_LOG_WARNING -> errors, warnings ASPOSE_OCR_LOG_TRACE -> errors, warnings, trace."
 type: docs
 weight: 20
-url: /ocr/cpp/aspose.ocr/asposeocrlogsettings/logging_level/
+url: /cpp/aspose.ocr/asposeocrlogsettings/logging_level/
 ---
 
 ## logging_level {#logging_level}

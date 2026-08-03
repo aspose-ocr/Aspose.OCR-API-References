@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "defect_areas of AsposeOCRRecognizedPage."
 type: docs
 weight: 20
-url: /ocr/cpp/aspose.ocr/asposeocrrecognizedpage/defect_areas/
+url: /cpp/aspose.ocr/asposeocrrecognizedpage/defect_areas/
 ---
 
 ## defect_areas {#defect_areas}

@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "Sets custom threshold value for image binarization."
 type: docs
 weight: 190
-url: /ocr/cpp/aspose.ocr/recognitionsettings/threshold_value/
+url: /cpp/aspose.ocr/recognitionsettings/threshold_value/
 ---
 
 ## threshold_value {#threshold_value}

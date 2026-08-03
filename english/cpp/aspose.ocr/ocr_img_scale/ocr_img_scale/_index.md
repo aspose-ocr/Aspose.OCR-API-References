@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "OCR_IMG_Scale of OCR_IMG_Scale."
 type: docs
 weight: 10
-url: /ocr/cpp/aspose.ocr/ocr_img_scale/ocr_img_scale/
+url: /cpp/aspose.ocr/ocr_img_scale/ocr_img_scale/
 ---
 
 ## OCR_IMG_Scale {#ocr_img_scale}

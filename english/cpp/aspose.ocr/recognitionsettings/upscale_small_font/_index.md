@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "Allows you to use additional algorithms specifically for small font recognition."
 type: docs
 weight: 200
-url: /ocr/cpp/aspose.ocr/recognitionsettings/upscale_small_font/
+url: /cpp/aspose.ocr/recognitionsettings/upscale_small_font/
 ---
 
 ## upscale_small_font {#upscale_small_font}

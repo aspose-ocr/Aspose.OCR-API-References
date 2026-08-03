@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "process_name of filter_operation."
 type: docs
 weight: 40
-url: /ocr/cpp/aspose.ocr/filter_operation/process_name/
+url: /cpp/aspose.ocr/filter_operation/process_name/
 ---
 
 ## process_name {#process_name}

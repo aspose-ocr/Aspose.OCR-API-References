@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "OCR_IMG_Invert of OCR_IMG_Invert."
 type: docs
 weight: 10
-url: /ocr/cpp/aspose.ocr/ocr_img_invert/ocr_img_invert/
+url: /cpp/aspose.ocr/ocr_img_invert/ocr_img_invert/
 ---
 
 ## OCR_IMG_Invert {#ocr_img_invert}

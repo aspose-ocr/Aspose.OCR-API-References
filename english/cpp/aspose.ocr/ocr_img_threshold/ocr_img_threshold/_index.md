@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "OCR_IMG_Threshold of OCR_IMG_Threshold."
 type: docs
 weight: 10
-url: /ocr/cpp/aspose.ocr/ocr_img_threshold/ocr_img_threshold/
+url: /cpp/aspose.ocr/ocr_img_threshold/ocr_img_threshold/
 ---
 
 ## OCR_IMG_Threshold {#ocr_img_threshold}

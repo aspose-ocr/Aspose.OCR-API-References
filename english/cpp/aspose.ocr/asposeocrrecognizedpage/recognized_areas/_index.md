@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "Array of recognized areas."
 type: docs
 weight: 40
-url: /ocr/cpp/aspose.ocr/asposeocrrecognizedpage/recognized_areas/
+url: /cpp/aspose.ocr/asposeocrrecognizedpage/recognized_areas/
 ---
 
 ## recognized_areas {#recognized_areas}

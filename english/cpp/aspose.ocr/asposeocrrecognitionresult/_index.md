@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: ""
 type: docs
 weight: 10
-url: /ocr/cpp/aspose.ocr/asposeocrrecognitionresult/
+url: /cpp/aspose.ocr/asposeocrrecognitionresult/
 ---
 
 ## AsposeOCRRecognitionResult struct
@@ -15,6 +15,6 @@ url: /ocr/cpp/aspose.ocr/asposeocrrecognitionresult/
 
 | Name | Description |
 | --- | --- |
-| [pages_amount](/ocr/cpp/aspose.ocr/asposeocrrecognitionresult/pages_amount/) | "recognized_pages" array size |
-| [recognized_pages](/ocr/cpp/aspose.ocr/asposeocrrecognitionresult/recognized_pages/) | Array of recognized images. |
+| [pages_amount](/cpp/aspose.ocr/asposeocrrecognitionresult/pages_amount/) | "recognized_pages" array size |
+| [recognized_pages](/cpp/aspose.ocr/asposeocrrecognitionresult/recognized_pages/) | Array of recognized images. |
 

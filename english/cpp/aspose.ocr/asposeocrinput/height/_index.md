@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "Image height."
 type: docs
 weight: 10
-url: /ocr/cpp/aspose.ocr/asposeocrinput/height/
+url: /cpp/aspose.ocr/asposeocrinput/height/
 ---
 
 ## height {#height}

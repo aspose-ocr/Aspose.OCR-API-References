@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "Current image process state."
 type: docs
 weight: 20
-url: /ocr/cpp/aspose.ocr/asposeocrprogress/current_state/
+url: /cpp/aspose.ocr/asposeocrprogress/current_state/
 ---
 
 ## current_state {#current_state}

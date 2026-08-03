@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "Check license."
 type: docs
 weight: 320
-url: /ocr/cpp/aspose.ocr/get_state/
+url: /cpp/aspose.ocr/get_state/
 ---
 
 ## get_state function

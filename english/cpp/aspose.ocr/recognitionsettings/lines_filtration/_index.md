@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "Disabled (false) by default."
 type: docs
 weight: 130
-url: /ocr/cpp/aspose.ocr/recognitionsettings/lines_filtration/
+url: /cpp/aspose.ocr/recognitionsettings/lines_filtration/
 ---
 
 ## lines_filtration {#lines_filtration}

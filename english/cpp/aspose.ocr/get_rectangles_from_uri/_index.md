@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "Detects the text areas in the image."
 type: docs
 weight: 410
-url: /ocr/cpp/aspose.ocr/get_rectangles_from_uri/
+url: /cpp/aspose.ocr/get_rectangles_from_uri/
 ---
 
 ## get_rectangles_from_uri function

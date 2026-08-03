@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "Amount of recognizable images."
 type: docs
 weight: 30
-url: /ocr/cpp/aspose.ocr/asposeocrprogress/images_amount/
+url: /cpp/aspose.ocr/asposeocrprogress/images_amount/
 ---
 
 ## images_amount {#images_amount}

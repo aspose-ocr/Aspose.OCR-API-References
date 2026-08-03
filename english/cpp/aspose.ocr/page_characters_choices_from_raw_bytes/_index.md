@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "A set of characters found by the recognition algorithm and arranged in descending order of probability."
 type: docs
 weight: 240
-url: /ocr/cpp/aspose.ocr/page_characters_choices_from_raw_bytes/
+url: /cpp/aspose.ocr/page_characters_choices_from_raw_bytes/
 ---
 
 ## page_characters_choices_from_raw_bytes function

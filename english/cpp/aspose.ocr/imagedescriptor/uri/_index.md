@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "Null terminated c string, that describe a path to file in a files system or ."
 type: docs
 weight: 40
-url: /ocr/cpp/aspose.ocr/imagedescriptor/uri/
+url: /cpp/aspose.ocr/imagedescriptor/uri/
 ---
 
 ## uri {#uri}

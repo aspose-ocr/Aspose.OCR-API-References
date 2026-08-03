@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "Set areas for recognition size."
 type: docs
 weight: 160
-url: /ocr/cpp/aspose.ocr/recognitionsettings/rectangles_size/
+url: /cpp/aspose.ocr/recognitionsettings/rectangles_size/
 ---
 
 ## rectangles_size {#rectangles_size}

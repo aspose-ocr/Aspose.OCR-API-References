@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "Optical character recognition image."
 type: docs
 weight: 30
-url: /ocr/cpp/aspose.ocr/page_fast/
+url: /cpp/aspose.ocr/page_fast/
 ---
 
 ## page_fast function *(Deprecated)*

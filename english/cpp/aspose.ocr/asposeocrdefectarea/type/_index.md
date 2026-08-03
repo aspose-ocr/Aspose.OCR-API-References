@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "type of AsposeOCRDefectArea."
 type: docs
 weight: 20
-url: /ocr/cpp/aspose.ocr/asposeocrdefectarea/type/
+url: /cpp/aspose.ocr/asposeocrdefectarea/type/
 ---
 
 ## type {#type}

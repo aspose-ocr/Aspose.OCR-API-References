@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "Choose result format: simple text or JSON-formatted text saved in wchar_t* buffer."
 type: docs
 weight: 100
-url: /ocr/cpp/aspose.ocr/recognitionsettings/format/
+url: /cpp/aspose.ocr/recognitionsettings/format/
 ---
 
 ## format {#format}

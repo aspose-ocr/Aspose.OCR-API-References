@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "Represent input raw_data format: row_index 0 ..."
 type: docs
 weight: 40
-url: /ocr/cpp/aspose.ocr/asposeocrinput/raw_data_type/
+url: /cpp/aspose.ocr/asposeocrinput/raw_data_type/
 ---
 
 ## raw_data_type {#raw_data_type}

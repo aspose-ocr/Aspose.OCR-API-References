@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "File path for logging."
 type: docs
 weight: 30
-url: /ocr/cpp/aspose.ocr/asposeocrlogsettings/output_path/
+url: /cpp/aspose.ocr/asposeocrlogsettings/output_path/
 ---
 
 ## output_path {#output_path}

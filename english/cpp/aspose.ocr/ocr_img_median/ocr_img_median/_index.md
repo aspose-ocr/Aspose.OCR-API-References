@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "OCR_IMG_Median of OCR_IMG_Median."
 type: docs
 weight: 10
-url: /ocr/cpp/aspose.ocr/ocr_img_median/ocr_img_median/
+url: /cpp/aspose.ocr/ocr_img_median/ocr_img_median/
 ---
 
 ## OCR_IMG_Median {#ocr_img_median}

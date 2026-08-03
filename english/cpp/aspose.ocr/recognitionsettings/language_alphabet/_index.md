@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "Multi-language by default."
 type: docs
 weight: 120
-url: /ocr/cpp/aspose.ocr/recognitionsettings/language_alphabet/
+url: /cpp/aspose.ocr/recognitionsettings/language_alphabet/
 ---
 
 ## language_alphabet {#language_alphabet}

@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "threshold_max_value of filter_operation."
 type: docs
 weight: 60
-url: /ocr/cpp/aspose.ocr/filter_operation/threshold_max_value/
+url: /cpp/aspose.ocr/filter_operation/threshold_max_value/
 ---
 
 ## threshold_max_value {#threshold_max_value}

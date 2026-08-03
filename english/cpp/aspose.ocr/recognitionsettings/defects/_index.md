@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "They will determine what types of defects need to be recognized at the moment."
 type: docs
 weight: 70
-url: /ocr/cpp/aspose.ocr/recognitionsettings/defects/
+url: /cpp/aspose.ocr/recognitionsettings/defects/
 ---
 
 ## defects {#defects}

@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "Rotate image on specified angle."
 type: docs
 weight: 180
-url: /ocr/cpp/aspose.ocr/recognitionsettings/skew/
+url: /cpp/aspose.ocr/recognitionsettings/skew/
 ---
 
 ## skew {#skew}

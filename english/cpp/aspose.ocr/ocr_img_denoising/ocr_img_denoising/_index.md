@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "OCR_IMG_Denoising of OCR_IMG_Denoising."
 type: docs
 weight: 10
-url: /ocr/cpp/aspose.ocr/ocr_img_denoising/ocr_img_denoising/
+url: /cpp/aspose.ocr/ocr_img_denoising/ocr_img_denoising/
 ---
 
 ## OCR_IMG_Denoising {#ocr_img_denoising}

@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "Detects the number of text areas in the image."
 type: docs
 weight: 360
-url: /ocr/cpp/aspose.ocr/get_rectangles_number/
+url: /cpp/aspose.ocr/get_rectangles_number/
 ---
 
 ## get_rectangles_number function

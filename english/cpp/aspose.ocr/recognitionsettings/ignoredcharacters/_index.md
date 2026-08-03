@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "L\"\" by default (all alphabet allowed)."
 type: docs
 weight: 110
-url: /ocr/cpp/aspose.ocr/recognitionsettings/ignoredcharacters/
+url: /cpp/aspose.ocr/recognitionsettings/ignoredcharacters/
 ---
 
 ## ignoredCharacters {#ignoredcharacters}

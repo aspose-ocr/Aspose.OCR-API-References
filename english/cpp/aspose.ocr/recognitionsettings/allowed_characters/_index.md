@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "Allowed characters set."
 type: docs
 weight: 20
-url: /ocr/cpp/aspose.ocr/recognitionsettings/allowed_characters/
+url: /cpp/aspose.ocr/recognitionsettings/allowed_characters/
 ---
 
 ## allowed_characters {#allowed_characters}

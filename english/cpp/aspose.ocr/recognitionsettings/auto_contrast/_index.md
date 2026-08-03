@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "Allows using an additional contrast correction algorithm for the image before recognition."
 type: docs
 weight: 40
-url: /ocr/cpp/aspose.ocr/recognitionsettings/auto_contrast/
+url: /cpp/aspose.ocr/recognitionsettings/auto_contrast/
 ---
 
 ## auto_contrast {#auto_contrast}

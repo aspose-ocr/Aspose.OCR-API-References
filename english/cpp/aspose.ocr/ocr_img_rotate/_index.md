@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "Rotate original image."
 type: docs
 weight: 10
-url: /ocr/cpp/aspose.ocr/ocr_img_rotate/
+url: /cpp/aspose.ocr/ocr_img_rotate/
 ---
 
 ## OCR_IMG_Rotate struct
@@ -21,5 +21,5 @@ From -360 to 360
 
 | Name | Description |
 | --- | --- |
-| [OCR_IMG_Rotate](/ocr/cpp/aspose.ocr/ocr_img_rotate/ocr_img_rotate/) |  |
+| [OCR_IMG_Rotate](/cpp/aspose.ocr/ocr_img_rotate/ocr_img_rotate/) |  |
 

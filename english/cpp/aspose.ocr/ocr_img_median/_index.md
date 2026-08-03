@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "The median filter run through each element of the image and replace each pixel with the median of its neighboring pixels."
 type: docs
 weight: 10
-url: /ocr/cpp/aspose.ocr/ocr_img_median/
+url: /cpp/aspose.ocr/ocr_img_median/
 ---
 
 ## OCR_IMG_Median struct
@@ -19,5 +19,5 @@ The median filter run through each element of the image and replace each pixel w
 
 | Name | Description |
 | --- | --- |
-| [OCR_IMG_Median](/ocr/cpp/aspose.ocr/ocr_img_median/ocr_img_median/) |  |
+| [OCR_IMG_Median](/cpp/aspose.ocr/ocr_img_median/ocr_img_median/) |  |
 

@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "Recognized text array field."
 type: docs
 weight: 20
-url: /ocr/cpp/aspose.ocr/asposeocrrecognitionarea/recognized_text/
+url: /cpp/aspose.ocr/asposeocrrecognitionarea/recognized_text/
 ---
 
 ## recognized_text {#recognized_text}

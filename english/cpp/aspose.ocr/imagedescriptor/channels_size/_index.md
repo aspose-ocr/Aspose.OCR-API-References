@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "Third dimension of image_from_raw_bytes."
 type: docs
 weight: 10
-url: /ocr/cpp/aspose.ocr/imagedescriptor/channels_size/
+url: /cpp/aspose.ocr/imagedescriptor/channels_size/
 ---
 
 ## channels_size {#channels_size}

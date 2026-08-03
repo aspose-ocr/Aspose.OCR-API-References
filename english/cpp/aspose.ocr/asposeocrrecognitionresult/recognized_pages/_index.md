@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "Array of recognized images."
 type: docs
 weight: 20
-url: /ocr/cpp/aspose.ocr/asposeocrrecognitionresult/recognized_pages/
+url: /cpp/aspose.ocr/asposeocrrecognitionresult/recognized_pages/
 ---
 
 ## recognized_pages {#recognized_pages}

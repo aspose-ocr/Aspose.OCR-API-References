@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "Optical character recognition image with automatic detection of text areas and detecting, correct skew of the text."
 type: docs
 weight: 170
-url: /ocr/cpp/aspose.ocr/page_abc/
+url: /cpp/aspose.ocr/page_abc/
 ---
 
 ## page_abc function

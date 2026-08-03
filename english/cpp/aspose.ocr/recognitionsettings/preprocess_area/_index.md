@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "User area to be pre-processed rect are = {3 , 50, 100, 100}."
 type: docs
 weight: 140
-url: /ocr/cpp/aspose.ocr/recognitionsettings/preprocess_area/
+url: /cpp/aspose.ocr/recognitionsettings/preprocess_area/
 ---
 
 ## preprocess_area {#preprocess_area}

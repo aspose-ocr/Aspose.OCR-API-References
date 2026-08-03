@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "Size of \"recognized_text\"."
 type: docs
 weight: 30
-url: /ocr/cpp/aspose.ocr/asposeocrrecognitionarea/text_size/
+url: /cpp/aspose.ocr/asposeocrrecognitionarea/text_size/
 ---
 
 ## text_size {#text_size}

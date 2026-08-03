@@ -2,15 +2,15 @@
 title: "Aspose.OCR for C++"
 linktitle: "Aspose.OCR for C++"
 articleTitle: "Aspose.OCR for C++"
-description: "Aspose.OCR for C++ provides a high‑performance OCR engine that extracts text from images and PDF documents in multiple languages."
+description: "Aspose.OCR for C++ enables developers to integrate high‑accuracy OCR and barcode recognition into C++ applications with a simple, cross‑platform API."
 type: docs
 weight: 10
-url: /ocr/cpp/
+url: /cpp/
 keywords: "Aspose.OCR for C++, Aspose.OCR, Aspose API Reference"
 is_root: true
 ---
 
-Developers can integrate the library into C++ applications to recognize printed and handwritten text, retrieve layout information, and export results as plain text, searchable PDFs, or XML. The engine supports over 100 languages and common image formats such as JPEG, PNG, BMP, TIFF, as well as multi‑page PDFs. All functionality is exposed through the aspose::ocr namespace, which currently contains a single OCR engine class that encapsulates configuration, processing, and result retrieval.
+The library provides OCR for printed and handwritten text in many languages and supports decoding of common barcode symbologies such as QR, Code 128, and Data Matrix. All functionality resides in the aspose::ocr namespace, which contains a single class that handles image loading, configuration, and recognition. Developers instantiate this class, configure options, and retrieve extracted text or barcode data as standard strings.
 
 ## Namespaces
 

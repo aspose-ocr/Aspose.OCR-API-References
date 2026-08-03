@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "Size of \"raw_data\" field."
 type: docs
 weight: 30
-url: /ocr/cpp/aspose.ocr/asposeocrinput/raw_data_size/
+url: /cpp/aspose.ocr/asposeocrinput/raw_data_size/
 ---
 
 ## raw_data_size {#raw_data_size}

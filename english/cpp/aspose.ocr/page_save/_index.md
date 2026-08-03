@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "Optical character recognition image from file with reconition settings."
 type: docs
 weight: 120
-url: /ocr/cpp/aspose.ocr/page_save/
+url: /cpp/aspose.ocr/page_save/
 ---
 
 ## page_save function

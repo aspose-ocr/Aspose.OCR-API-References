@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "Enables the use of an additional neural network for the image before recognition."
 type: docs
 weight: 50
-url: /ocr/cpp/aspose.ocr/recognitionsettings/auto_denoising/
+url: /cpp/aspose.ocr/recognitionsettings/auto_denoising/
 ---
 
 ## auto_denoising {#auto_denoising}

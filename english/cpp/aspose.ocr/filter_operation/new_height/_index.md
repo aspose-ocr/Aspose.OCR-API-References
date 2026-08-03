@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "new_height of filter_operation."
 type: docs
 weight: 20
-url: /ocr/cpp/aspose.ocr/filter_operation/new_height/
+url: /cpp/aspose.ocr/filter_operation/new_height/
 ---
 
 ## new_height {#new_height}

@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "filter_3 of custom_preprocessing_filters."
 type: docs
 weight: 60
-url: /ocr/cpp/aspose.ocr/custom_preprocessing_filters/filter_3/
+url: /cpp/aspose.ocr/custom_preprocessing_filters/filter_3/
 ---
 
 ## filter_3 {#filter_3}

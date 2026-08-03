@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "OCR_IMG_Dilate of OCR_IMG_Dilate."
 type: docs
 weight: 10
-url: /ocr/cpp/aspose.ocr/ocr_img_dilate/ocr_img_dilate/
+url: /cpp/aspose.ocr/ocr_img_dilate/ocr_img_dilate/
 ---
 
 ## OCR_IMG_Dilate {#ocr_img_dilate}

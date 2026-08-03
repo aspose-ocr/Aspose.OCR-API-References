@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "Create a binary image based on setting a threshold value on the pixel intensity of the original image."
 type: docs
 weight: 10
-url: /ocr/cpp/aspose.ocr/ocr_img_threshold/
+url: /cpp/aspose.ocr/ocr_img_threshold/
 ---
 
 ## OCR_IMG_Threshold struct
@@ -19,5 +19,5 @@ Create a binary image based on setting a threshold value on the pixel intensity 
 
 | Name | Description |
 | --- | --- |
-| [OCR_IMG_Threshold](/ocr/cpp/aspose.ocr/ocr_img_threshold/ocr_img_threshold/) |  |
+| [OCR_IMG_Threshold](/cpp/aspose.ocr/ocr_img_threshold/ocr_img_threshold/) |  |
 

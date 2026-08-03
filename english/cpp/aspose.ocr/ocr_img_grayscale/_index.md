@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "Converts an image to grayscale image."
 type: docs
 weight: 10
-url: /ocr/cpp/aspose.ocr/ocr_img_grayscale/
+url: /cpp/aspose.ocr/ocr_img_grayscale/
 ---
 
 ## OCR_IMG_Grayscale struct
@@ -19,5 +19,5 @@ Converts an image to grayscale image. Grayscale image have 256 level of light in
 
 | Name | Description |
 | --- | --- |
-| [OCR_IMG_Grayscale](/ocr/cpp/aspose.ocr/ocr_img_grayscale/ocr_img_grayscale/) |  |
+| [OCR_IMG_Grayscale](/cpp/aspose.ocr/ocr_img_grayscale/ocr_img_grayscale/) |  |
 

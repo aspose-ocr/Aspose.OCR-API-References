@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "Recognizes a special type of image - cash receipts Allowed formats is PNG, JPG, BMP."
 type: docs
 weight: 420
-url: /ocr/cpp/aspose.ocr/recognize_receipt/
+url: /cpp/aspose.ocr/recognize_receipt/
 ---
 
 ## recognize_receipt function

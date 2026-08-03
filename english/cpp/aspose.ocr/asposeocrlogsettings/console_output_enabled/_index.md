@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "Enable of standart output."
 type: docs
 weight: 10
-url: /ocr/cpp/aspose.ocr/asposeocrlogsettings/console_output_enabled/
+url: /cpp/aspose.ocr/asposeocrlogsettings/console_output_enabled/
 ---
 
 ## console_output_enabled {#console_output_enabled}

@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "Choose areas for recognition."
 type: docs
 weight: 150
-url: /ocr/cpp/aspose.ocr/recognitionsettings/rectangles/
+url: /cpp/aspose.ocr/recognitionsettings/rectangles/
 ---
 
 ## rectangles {#rectangles}

@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "Recognizes multiple images from vector."
 type: docs
 weight: 100
-url: /ocr/cpp/aspose.ocr/pages_multi_array_from_raw_bytes/
+url: /cpp/aspose.ocr/pages_multi_array_from_raw_bytes/
 ---
 
 ## pages_multi_array_from_raw_bytes function

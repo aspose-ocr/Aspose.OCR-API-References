@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "Structure to set 12 preprocessing filters (or less as you need) in some order."
 type: docs
 weight: 10
-url: /ocr/cpp/aspose.ocr/custom_preprocessing_filters/
+url: /cpp/aspose.ocr/custom_preprocessing_filters/
 ---
 
 ## custom_preprocessing_filters struct
@@ -21,16 +21,16 @@ custom_preprocessing_filters filters;* filters.filter_1 = OCR_IMG_PREPROCESS_BIN
 
 | Name | Description |
 | --- | --- |
-| [filter_1](/ocr/cpp/aspose.ocr/custom_preprocessing_filters/filter_1/) |  |
-| [filter_10](/ocr/cpp/aspose.ocr/custom_preprocessing_filters/filter_10/) |  |
-| [filter_11](/ocr/cpp/aspose.ocr/custom_preprocessing_filters/filter_11/) |  |
-| [filter_12](/ocr/cpp/aspose.ocr/custom_preprocessing_filters/filter_12/) |  |
-| [filter_2](/ocr/cpp/aspose.ocr/custom_preprocessing_filters/filter_2/) |  |
-| [filter_3](/ocr/cpp/aspose.ocr/custom_preprocessing_filters/filter_3/) |  |
-| [filter_4](/ocr/cpp/aspose.ocr/custom_preprocessing_filters/filter_4/) |  |
-| [filter_5](/ocr/cpp/aspose.ocr/custom_preprocessing_filters/filter_5/) |  |
-| [filter_6](/ocr/cpp/aspose.ocr/custom_preprocessing_filters/filter_6/) |  |
-| [filter_7](/ocr/cpp/aspose.ocr/custom_preprocessing_filters/filter_7/) |  |
-| [filter_8](/ocr/cpp/aspose.ocr/custom_preprocessing_filters/filter_8/) |  |
-| [filter_9](/ocr/cpp/aspose.ocr/custom_preprocessing_filters/filter_9/) |  |
+| [filter_1](/cpp/aspose.ocr/custom_preprocessing_filters/filter_1/) |  |
+| [filter_10](/cpp/aspose.ocr/custom_preprocessing_filters/filter_10/) |  |
+| [filter_11](/cpp/aspose.ocr/custom_preprocessing_filters/filter_11/) |  |
+| [filter_12](/cpp/aspose.ocr/custom_preprocessing_filters/filter_12/) |  |
+| [filter_2](/cpp/aspose.ocr/custom_preprocessing_filters/filter_2/) |  |
+| [filter_3](/cpp/aspose.ocr/custom_preprocessing_filters/filter_3/) |  |
+| [filter_4](/cpp/aspose.ocr/custom_preprocessing_filters/filter_4/) |  |
+| [filter_5](/cpp/aspose.ocr/custom_preprocessing_filters/filter_5/) |  |
+| [filter_6](/cpp/aspose.ocr/custom_preprocessing_filters/filter_6/) |  |
+| [filter_7](/cpp/aspose.ocr/custom_preprocessing_filters/filter_7/) |  |
+| [filter_8](/cpp/aspose.ocr/custom_preprocessing_filters/filter_8/) |  |
+| [filter_9](/cpp/aspose.ocr/custom_preprocessing_filters/filter_9/) |  |
 

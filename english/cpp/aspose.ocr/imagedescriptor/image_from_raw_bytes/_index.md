@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "Input raw data in special format image_from_raw_bytes[height][width][channels_size] Input raw data in special format may represent: 1) RGB color model (channels"
 type: docs
 weight: 30
-url: /ocr/cpp/aspose.ocr/imagedescriptor/image_from_raw_bytes/
+url: /cpp/aspose.ocr/imagedescriptor/image_from_raw_bytes/
 ---
 
 ## image_from_raw_bytes {#image_from_raw_bytes}

@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "Optical character recognition image with one text line."
 type: docs
 weight: 290
-url: /ocr/cpp/aspose.ocr/line_abc/
+url: /cpp/aspose.ocr/line_abc/
 ---
 
 ## line_abc function

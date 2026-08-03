@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "Disabled (false) by default."
 type: docs
 weight: 10
-url: /ocr/cpp/aspose.ocr/recognitionsettings/all_image/
+url: /cpp/aspose.ocr/recognitionsettings/all_image/
 ---
 
 ## all_image {#all_image}

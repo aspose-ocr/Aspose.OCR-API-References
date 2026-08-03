@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "OCR_IMG_Contrast_Correction of OCR_IMG_Contrast_Correction."
 type: docs
 weight: 10
-url: /ocr/cpp/aspose.ocr/ocr_img_contrast_correction/ocr_img_contrast_correction/
+url: /cpp/aspose.ocr/ocr_img_contrast_correction/ocr_img_contrast_correction/
 ---
 
 ## OCR_IMG_Contrast_Correction {#ocr_img_contrast_correction}

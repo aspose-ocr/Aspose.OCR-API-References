@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "OCR_IMG_Grayscale of OCR_IMG_Grayscale."
 type: docs
 weight: 10
-url: /ocr/cpp/aspose.ocr/ocr_img_grayscale/ocr_img_grayscale/
+url: /cpp/aspose.ocr/ocr_img_grayscale/ocr_img_grayscale/
 ---
 
 ## OCR_IMG_Grayscale {#ocr_img_grayscale}

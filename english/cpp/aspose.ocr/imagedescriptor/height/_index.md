@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "First dimension of image_from_raw_bytes."
 type: docs
 weight: 20
-url: /ocr/cpp/aspose.ocr/imagedescriptor/height/
+url: /cpp/aspose.ocr/imagedescriptor/height/
 ---
 
 ## height {#height}

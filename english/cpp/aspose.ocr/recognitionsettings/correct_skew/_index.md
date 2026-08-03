@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "Enabled (true) by default."
 type: docs
 weight: 60
-url: /ocr/cpp/aspose.ocr/recognitionsettings/correct_skew/
+url: /cpp/aspose.ocr/recognitionsettings/correct_skew/
 ---
 
 ## correct_skew {#correct_skew}

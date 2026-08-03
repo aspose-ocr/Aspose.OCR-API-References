@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "Batch text recognition in several images packed in ZIP archive or images from folder Internal archives and folders are not supported Only PNG, JPG, BMP internal"
 type: docs
 weight: 80
-url: /ocr/cpp/aspose.ocr/pages_multi/
+url: /cpp/aspose.ocr/pages_multi/
 ---
 
 ## pages_multi function
