@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "Optical character recognition image from file with recognition settings Allowed formats is PNG, JPG, BMP."
 type: docs
 weight: 50
-url: /cpp/aspose.ocr/page_settings/
+url: /ocr/cpp/aspose.ocr/page_settings/
 ---
 
 ## page_settings function

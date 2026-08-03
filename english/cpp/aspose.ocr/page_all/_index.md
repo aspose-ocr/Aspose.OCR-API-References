@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "Optical character recognition image without automatic detection of text areas Get all image as text area."
 type: docs
 weight: 130
-url: /cpp/aspose.ocr/page_all/
+url: /ocr/cpp/aspose.ocr/page_all/
 ---
 
 ## page_all function

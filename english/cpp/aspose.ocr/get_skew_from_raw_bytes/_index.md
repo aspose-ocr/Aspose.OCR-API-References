@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "Returns the skew angle in degrees."
 type: docs
 weight: 340
-url: /cpp/aspose.ocr/get_skew_from_raw_bytes/
+url: /ocr/cpp/aspose.ocr/get_skew_from_raw_bytes/
 ---
 
 ## get_skew_from_raw_bytes function

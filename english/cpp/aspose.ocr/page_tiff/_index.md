@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "Optical character recognition image from file with recognition settings Allowed formats is multi-page TIFF, TIF."
 type: docs
 weight: 70
-url: /cpp/aspose.ocr/page_tiff/
+url: /ocr/cpp/aspose.ocr/page_tiff/
 ---
 
 ## page_tiff function

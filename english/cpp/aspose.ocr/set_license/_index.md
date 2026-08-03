@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "Set license to library."
 type: docs
 weight: 310
-url: /cpp/aspose.ocr/set_license/
+url: /ocr/cpp/aspose.ocr/set_license/
 ---
 
 ## set_license function

@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "Optical character recognition image from uri with reconition settings Allowed formats is PNG, JPG, BMP."
 type: docs
 weight: 110
-url: /cpp/aspose.ocr/page_from_uri/
+url: /ocr/cpp/aspose.ocr/page_from_uri/
 ---
 
 ## page_from_uri function

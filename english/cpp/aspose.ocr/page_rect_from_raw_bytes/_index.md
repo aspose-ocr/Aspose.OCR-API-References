@@ -6,7 +6,7 @@ second_title: "Aspose.OCR for C++"
 description: "Optical character recognition image in the defined rectangle."
 type: docs
 weight: 160
-url: /cpp/aspose.ocr/page_rect_from_raw_bytes/
+url: /ocr/cpp/aspose.ocr/page_rect_from_raw_bytes/
 ---
 
 ## page_rect_from_raw_bytes function

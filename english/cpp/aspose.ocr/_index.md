@@ -3,29 +3,26 @@ title: "aspose::ocr namespace"
 linktitle: "aspose::ocr"
 articleTitle: "aspose::ocr"
 second_title: "Aspose.OCR for C++"
-description: "The aspose::ocr namespace offers core OCR data structures, settings, and result types for performing and managing optical character recognition in C++."
+description: ""
 type: docs
 weight: 10
-url: /cpp/aspose.ocr/
+url: /ocr/cpp/aspose.ocr/
 ---
 
 ## aspose::ocr namespace
-
-This reference details the classes and enumerations that constitute the OCR engine's public API. It includes structures for defining input images, specifying defect and recognition areas, configuring logging, tracking progress, and retrieving recognition results.
-
 
 ## Classes
 
 | Name | Description |
 | --- | --- |
-| [AsposeOCRDefectArea](./asposeocrdefectarea/) |  |
-| [AsposeOCRInput](./asposeocrinput/) |  |
+| [AsposeOCRDefectArea](./asposeocrdefectarea/) | #include < C:/Users/figor/programming/project/aspose.ocr-for-cpp/doc_gen/aspose_ |
+| [AsposeOCRInput](./asposeocrinput/) | #include < C:/Users/figor/programming/project/aspose.ocr-for-cpp/doc_gen/aspose_ |
 | [AsposeOCRLogSettings](./asposeocrlogsettings/) | Structure for describing a logging settings. |
 | [AsposeOCRProgress](./asposeocrprogress/) | This structure contains a current recognition state. |
-| [AsposeOCRRecognitionArea](./asposeocrrecognitionarea/) |  |
-| [AsposeOCRRecognitionResult](./asposeocrrecognitionresult/) |  |
-| [AsposeOCRRecognizedPage](./asposeocrrecognizedpage/) |  |
-| [ImageDescriptor](./imagedescriptor/) |  |
+| [AsposeOCRRecognitionArea](./asposeocrrecognitionarea/) | #include < C:/Users/figor/programming/project/aspose.ocr-for-cpp/doc_gen/aspose_ |
+| [AsposeOCRRecognitionResult](./asposeocrrecognitionresult/) | #include < C:/Users/figor/programming/project/aspose.ocr-for-cpp/doc_gen/aspose_ |
+| [AsposeOCRRecognizedPage](./asposeocrrecognizedpage/) | #include < C:/Users/figor/programming/project/aspose.ocr-for-cpp/doc_gen/aspose_ |
+| [ImageDescriptor](./imagedescriptor/) | #include < C:/Users/figor/programming/project/aspose.ocr-for-cpp/doc_gen/aspose_ |
 | [OCR_IMG_Autoskew](./ocr_img_autoskew/) | Autoskew filter Use in C++ -compatible API. |
 | [OCR_IMG_Binarize](./ocr_img_binarize/) | Converts an image to black-and-white image. Binary images are images whose pixel |
 | [OCR_IMG_Contrast_Correction](./ocr_img_contrast_correction/) | Contrast correction filter. Use in C++ -compatible API. |
