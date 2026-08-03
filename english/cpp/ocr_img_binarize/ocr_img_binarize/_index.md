@@ -1,0 +1,17 @@
+---
+title: "OCR_IMG_Binarize::OCR_IMG_Binarize constructor"
+linktitle: "OCR_IMG_Binarize"
+articleTitle: "OCR_IMG_Binarize"
+second_title: "Aspose.OCR for C++"
+description: "OCR_IMG_Binarize of OCR_IMG_Binarize."
+type: docs
+weight: 10
+url: /cpp/ocr_img_binarize/ocr_img_binarize/
+---
+
+## OCR_IMG_Binarize {#ocr_img_binarize}
+
+```cpp
+OCR_IMG_Binarize()
+```
+
