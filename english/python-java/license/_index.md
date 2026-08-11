@@ -1,9 +1,8 @@
 ---
 title: "license"
 linktitle: "license"
-articleTitle: "license"
 second_title: "Aspose.OCR for Python via Java"
-description: "Provides functionality to apply and manage Aspose OCR licensing within Python‑via‑Java applications."
+description: "The license namespace provides classes for applying and managing Aspose.OCR licensing in Python via Java."
 type: docs
 weight: 10
 url: /python-java/license/
@@ -11,8 +10,7 @@ url: /python-java/license/
 
 ## license module
 
-The license namespace contains the types required to activate Aspose OCR. Use the License class to load a license from a file, stream, or embedded resource, thereby removing evaluation restrictions.
-
+The License class in the Aspose.OCR license namespace enables developers to set a valid license file or stream, ensuring full functionality without evaluation limitations. Use it to load a license from a file path, byte array, or stream before performing OCR operations.
 
 ## Classes
 

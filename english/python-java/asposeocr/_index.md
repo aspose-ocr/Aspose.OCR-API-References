@@ -1,7 +1,6 @@
 ---
 title: "asposeocr"
 linktitle: "asposeocr"
-articleTitle: "asposeocr"
 second_title: "Aspose.OCR for Python via Java"
 description: "The asposeocr namespace offers core OCR functionality, image preprocessing, and resource management for Aspose.OCR in Python via Java."
 type: docs
@@ -11,8 +10,7 @@ url: /python-java/asposeocr/
 
 ## asposeocr module
 
-Use the AsposeOcr class to perform text extraction from images, ImageProcessing for pre‑OCR enhancements, and Resources to access bundled language data and models. This reference details each class, method, and enum available in the asposeocr package.
-
+The asposeocr namespace groups the primary OCR engine, image preprocessing tools, and resource handling classes. Refer to AsposeOcr for text extraction, ImageProcessing for image preparation, and Resources for language packs and assets.
 
 ## Classes
 

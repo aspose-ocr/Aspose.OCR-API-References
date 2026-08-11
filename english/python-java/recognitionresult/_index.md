@@ -1,9 +1,8 @@
 ---
 title: "recognitionresult"
 linktitle: "recognitionresult"
-articleTitle: "recognitionresult"
 second_title: "Aspose.OCR for Python via Java"
-description: "The recognitionresult namespace groups result‑related types returned by Aspose.OCR OCR operations."
+description: "The recognitionresult namespace groups classes that represent OCR output such as detected text lines, bounding rectangles, and image skew information."
 type: docs
 weight: 10
 url: /python-java/recognitionresult/
@@ -11,8 +10,7 @@ url: /python-java/recognitionresult/
 
 ## recognitionresult module
 
-This reference page details the classes and enumerations within the recognitionresult namespace, which encapsulate OCR output such as recognized text lines, bounding rectangles, and image skew information. Use these types to access and manipulate the results of OCR processing in Aspose.OCR for Python via Java.
-
+The recognitionresult namespace provides the core data structures returned by the OCR engine. Use these classes—RecognitionResult, LinesResult, RectangleOutput, and SkewOutput—to access recognized text, line coordinates, bounding boxes, and image skew details.
 
 ## Classes
 

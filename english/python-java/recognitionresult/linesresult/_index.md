@@ -1,7 +1,6 @@
 ---
-title: "LinesResult Class"
+title: "LinesResult"
 linktitle: "LinesResult"
-articleTitle: "LinesResult"
 second_title: "Aspose.OCR for Python via Java"
 description: ""
 type: docs
@@ -20,10 +19,27 @@ url: /python-java/recognitionresult/linesresult/
 
 | Name | Description |
 | --- | --- |
-| [__init__](./linesresult/) |  |
+| [__init__](#constructor) |  |
 
 ## Methods
 
 | Name | Return Type | Static | Description |
 | --- | --- | --- | --- |
-| [initParams](./initparams/) |  | No |  |
+| [initParams](#initparams) |  | No |  |
+
+### LinesResult Constructor {#constructor}
+
+```python
+__init__(self, javaClass)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `javaClass` | `` |  |
+
+### LinesResult.initParams {#initparams}
+
+```python
+initParams(self)
+```
+

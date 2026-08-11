@@ -1,9 +1,8 @@
 ---
 title: "recognitionsettings"
 linktitle: "recognitionsettings"
-articleTitle: "recognitionsettings"
 second_title: "Aspose.OCR for Python via Java"
-description: "The recognitionsettings namespace defines configuration classes for various OCR recognition tasks such as car plates, ID cards, invoices, passports, and receipts."
+description: "The recognitionsettings namespace groups configuration classes for various OCR recognition tasks in Aspose.OCR for Python via Java."
 type: docs
 weight: 10
 url: /python-java/recognitionsettings/
@@ -11,8 +10,7 @@ url: /python-java/recognitionsettings/
 
 ## recognitionsettings module
 
-Use these settings objects to customize the behavior of Aspose.OCR's recognition engines. Each class encapsulates options specific to its document type, enabling fine‑tuned control over accuracy, language, and output format.
-
+This reference details the settings classes used to fine‑tune OCR processing for specific document types such as car plates, ID cards, invoices, passports, and receipts. Each class inherits from RecognitionSettings and provides properties to control language, region, and output format.
 
 ## Classes
 
