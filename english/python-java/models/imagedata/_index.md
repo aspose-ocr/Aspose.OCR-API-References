@@ -1,7 +1,6 @@
 ---
-title: "ImageData Class"
+title: "ImageData"
 linktitle: "ImageData"
-articleTitle: "ImageData"
 second_title: "Aspose.OCR for Python via Java"
 description: ""
 type: docs
@@ -20,10 +19,27 @@ url: /python-java/models/imagedata/
 
 | Name | Description |
 | --- | --- |
-| [__init__](./imagedata/) |  |
+| [__init__](#constructor) |  |
 
 ## Methods
 
 | Name | Return Type | Static | Description |
 | --- | --- | --- | --- |
-| [initParams](./initparams/) |  | No |  |
+| [initParams](#initparams) |  | No |  |
+
+### ImageData Constructor {#constructor}
+
+```python
+__init__(self, javaClass)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `javaClass` | `` |  |
+
+### ImageData.initParams {#initparams}
+
+```python
+initParams(self)
+```
+

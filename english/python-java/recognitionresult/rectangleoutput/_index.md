@@ -1,7 +1,6 @@
 ---
-title: "RectangleOutput Class"
+title: "RectangleOutput"
 linktitle: "RectangleOutput"
-articleTitle: "RectangleOutput"
 second_title: "Aspose.OCR for Python via Java"
 description: "Data about detected text areas or lines."
 type: docs
@@ -23,10 +22,27 @@ Data about detected text areas or lines.
 
 | Name | Description |
 | --- | --- |
-| [__init__](./rectangleoutput/) |  |
+| [__init__](#constructor) |  |
 
 ## Methods
 
 | Name | Return Type | Static | Description |
 | --- | --- | --- | --- |
-| [initParams](./initparams/) |  | No |  |
+| [initParams](#initparams) |  | No |  |
+
+### RectangleOutput Constructor {#constructor}
+
+```python
+__init__(self, javaClass)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `javaClass` | `` |  |
+
+### RectangleOutput.initParams {#initparams}
+
+```python
+initParams(self)
+```
+

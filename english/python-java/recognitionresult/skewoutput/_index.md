@@ -1,7 +1,6 @@
 ---
-title: "SkewOutput Class"
+title: "SkewOutput"
 linktitle: "SkewOutput"
-articleTitle: "SkewOutput"
 second_title: "Aspose.OCR for Python via Java"
 description: "Data about skew angle in degrees and name of the file."
 type: docs
@@ -23,10 +22,27 @@ Data about skew angle in degrees and name of the file.
 
 | Name | Description |
 | --- | --- |
-| [__init__](./skewoutput/) |  |
+| [__init__](#constructor) |  |
 
 ## Methods
 
 | Name | Return Type | Static | Description |
 | --- | --- | --- | --- |
-| [initParams](./initparams/) |  | No |  |
+| [initParams](#initparams) |  | No |  |
+
+### SkewOutput Constructor {#constructor}
+
+```python
+__init__(self, javaClass)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `javaClass` | `` |  |
+
+### SkewOutput.initParams {#initparams}
+
+```python
+initParams(self)
+```
+

@@ -1,7 +1,6 @@
 ---
-title: "License Class"
+title: "License"
 linktitle: "License"
-articleTitle: "License"
 second_title: "Aspose.OCR for Python via Java"
 description: ""
 type: docs
@@ -20,17 +19,48 @@ url: /python-java/license/license/
 
 | Name | Description |
 | --- | --- |
-| [__init__](./license/) |  |
+| [__init__](#constructor) |  |
 
 ## Methods
 
 | Name | Return Type | Static | Description |
 | --- | --- | --- | --- |
-| [init](./init/) |  | No |  |
-| [set_license](./set_license/) |  | No | Licenses the component. @:param: filePath: Can be a full or short file name. Use an empty string to switch to evaluation mode. |
+| [init](#init) |  | No |  |
+| [set_license](#set_license) |  | No | Licenses the component. @:param: filePath: Can be a full or short file name. Use an empty string to switch to evaluation mode. |
 
 ## Fields
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [javaClassName](./javaclassname/) | `"com.aspose.ocr.License"` |  |
+| [javaClassName](#javaclassname) | `"com.aspose.ocr.License"` |  |
+
+### License Constructor {#constructor}
+
+```python
+__init__(self)
+```
+
+### License.init {#init}
+
+```python
+init(self)
+```
+
+### License.set_license {#set_license}
+
+```python
+set_license(self, filePath)
+```
+
+Licenses the component. @:param: filePath: Can be a full or short file name. Use an empty string to switch to evaluation mode.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `filePath` | `` |  |
+
+### License.javaClassName {#javaclassname}
+
+**Type:** `str`
+
+**Value:** `"com.aspose.ocr.License"`
+
