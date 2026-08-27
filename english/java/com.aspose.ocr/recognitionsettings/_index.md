@@ -3,7 +3,7 @@ title: RecognitionSettings
 second_title: Aspose.OCR for Java API Reference
 description: Settings for the image recognition
 type: docs
-weight: 27
+weight: 29
 url: /java/com.aspose.ocr/recognitionsettings/
 ---
 
@@ -26,6 +26,7 @@ Settings for the image recognition. Contains elements that allow customizing the
 | [RecognitionSettings(IDCardRecognitionSettings recSettings)](#RecognitionSettings-com.aspose.ocr.IDCardRecognitionSettings) |  |
 | [RecognitionSettings(PassportRecognitionSettings recSettings)](#RecognitionSettings-com.aspose.ocr.PassportRecognitionSettings) |  |
 | [RecognitionSettings(CarPlateRecognitionSettings recSettings)](#RecognitionSettings-com.aspose.ocr.CarPlateRecognitionSettings) |  |
+| [RecognitionSettings(RecognitionSettings recSettings)](#RecognitionSettings-com.aspose.ocr.RecognitionSettings) |  |
 ## Methods
 
 | Method | Description |
@@ -34,6 +35,7 @@ Settings for the image recognition. Contains elements that allow customizing the
 | [setAllowedCharacters(String allowedCharacters)](#setAllowedCharacters-java.lang.String) | Allowed characters set. |
 | [setAutomaticColorInversion(boolean automaticColorInversion)](#setAutomaticColorInversion-boolean) | Detect images with white text on dark/black background and automatically choose a special OCR algorithm for them. |
 | [setDetectAreasMode(DetectAreasMode detectAreasMode)](#setDetectAreasMode-com.aspose.ocr.models.DetectAreasMode) | Determines the type of neural network used for areas detection. |
+| [setDetectFonts(boolean detectFonts)](#setDetectFonts-boolean) | Enables font detection for each recognized text line. |
 | [setIgnoredCharacters(String characters)](#setIgnoredCharacters-java.lang.String) | Sets blacklist for recognition symbols. |
 | [setLanguage(Language language)](#setLanguage-com.aspose.ocr.models.Language) |  |
 | [setLanguageDetectionLevel(LanguageDetectionLevel languageDetectionLevel)](#setLanguageDetectionLevel-com.aspose.ocr.models.LanguageDetectionLevel) | Specifies the level of language detection for text recognition. |
@@ -187,6 +189,19 @@ Determines the type of neural network used for areas detection.
 | --- | --- | --- |
 | detectAreasMode | [DetectAreasMode](../../com.aspose.ocr.models/detectareasmode/) | contains enum @see [DetectAreasMode](../../com.aspose.ocr.models/detectareasmode/) value. |
 
+### setDetectFonts(boolean detectFonts) {#setDetectFonts-boolean}
+```
+public void setDetectFonts(boolean detectFonts)
+```
+
+
+Enables font detection for each recognized text line.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| detectFonts | boolean | true to fill RecognitionResult.LinesResult\#font.font. |
+
 ### setIgnoredCharacters(String characters) {#setIgnoredCharacters-java.lang.String}
 ```
 public void setIgnoredCharacters(String characters)
@@ -224,7 +239,7 @@ Specifies the level of language detection for text recognition. Works only if th
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| languageDetectionLevel | [LanguageDetectionLevel](../../com.aspose.ocr.models/languagedetectionlevel/) |  |
+| languageDetectionLevel | [LanguageDetectionLevel](../../com.aspose.ocr.models/languagedetectionlevel/) | enum value to set level (Paragraph, Word, Page). |
 
 ### setLinesFiltration(boolean linesFiltration) {#setLinesFiltration-boolean}
 ```
