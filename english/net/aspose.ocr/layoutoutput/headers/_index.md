@@ -3,7 +3,7 @@ title: Headers
 second_title: Aspose.OCR for .NET API Reference
 description: Detected headers.
 type: docs
-weight: 40
+weight: 70
 url: /net/aspose.ocr/layoutoutput/headers/
 ---
 ## LayoutOutput.Headers property

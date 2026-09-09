@@ -1,14 +1,14 @@
 ---
 title: FileModelPath
 second_title: Aspose.OCR for .NET API Reference
-description: Local path to the folder containing the model files. If specified this will be used instead of downloading. Default empty.
+description: Local path to the model file. If specified this file will be used instead of downloading the model. Default empty.
 type: docs
 weight: 50
 url: /net/aspose.ocr.ai/asposeaimodelconfig/filemodelpath/
 ---
 ## AsposeAIModelConfig.FileModelPath property
 
-Local path to the folder containing the model files. If specified, this will be used instead of downloading. Default empty.
+Local path to the model file. If specified, this file will be used instead of downloading the model. Default empty.
 
 ```csharp
 public string? FileModelPath { get; set; }

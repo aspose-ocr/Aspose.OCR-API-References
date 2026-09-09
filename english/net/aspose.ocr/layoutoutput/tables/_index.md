@@ -3,7 +3,7 @@ title: Tables
 second_title: Aspose.OCR for .NET API Reference
 description: Detected tables.
 type: docs
-weight: 100
+weight: 160
 url: /net/aspose.ocr/layoutoutput/tables/
 ---
 ## LayoutOutput.Tables property

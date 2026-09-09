@@ -1,17 +1,17 @@
 ---
-title: Paragraphs
+title: Footers
 second_title: Aspose.OCR for .NET API Reference
-description: Detected paragraphs.
+description: Detected footers.
 type: docs
-weight: 130
-url: /net/aspose.ocr/layoutoutput/paragraphs/
+weight: 60
+url: /net/aspose.ocr/layoutoutput/footers/
 ---
-## LayoutOutput.Paragraphs property
+## LayoutOutput.Footers property
 
-Detected paragraphs.
+Detected footers.
 
 ```csharp
-public List<ContentArea> Paragraphs { get; set; }
+public List<ContentArea> Footers { get; set; }
 ```
 
 ### See Also

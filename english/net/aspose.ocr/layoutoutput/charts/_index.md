@@ -1,17 +1,17 @@
 ---
-title: Paragraphs
+title: Charts
 second_title: Aspose.OCR for .NET API Reference
-description: Detected paragraphs.
+description: Detected charts or diagrams.
 type: docs
-weight: 130
-url: /net/aspose.ocr/layoutoutput/paragraphs/
+weight: 30
+url: /net/aspose.ocr/layoutoutput/charts/
 ---
-## LayoutOutput.Paragraphs property
+## LayoutOutput.Charts property
 
-Detected paragraphs.
+Detected charts or diagrams.
 
 ```csharp
-public List<ContentArea> Paragraphs { get; set; }
+public List<ContentArea> Charts { get; set; }
 ```
 
 ### See Also

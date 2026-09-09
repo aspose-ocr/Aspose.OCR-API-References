@@ -3,7 +3,7 @@ title: Images
 second_title: Aspose.OCR for .NET API Reference
 description: Detected pictures/illustrations.
 type: docs
-weight: 50
+weight: 80
 url: /net/aspose.ocr/layoutoutput/images/
 ---
 ## LayoutOutput.Images property

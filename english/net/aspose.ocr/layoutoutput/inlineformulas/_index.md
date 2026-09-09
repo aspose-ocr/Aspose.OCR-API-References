@@ -1,17 +1,17 @@
 ---
-title: Paragraphs
+title: InlineFormulas
 second_title: Aspose.OCR for .NET API Reference
-description: Detected paragraphs.
+description: Detected inline formulas.
 type: docs
-weight: 130
-url: /net/aspose.ocr/layoutoutput/paragraphs/
+weight: 90
+url: /net/aspose.ocr/layoutoutput/inlineformulas/
 ---
-## LayoutOutput.Paragraphs property
+## LayoutOutput.InlineFormulas property
 
-Detected paragraphs.
+Detected inline formulas.
 
 ```csharp
-public List<ContentArea> Paragraphs { get; set; }
+public List<ContentArea> InlineFormulas { get; set; }
 ```
 
 ### See Also

@@ -3,7 +3,7 @@ title: Lists
 second_title: Aspose.OCR for .NET API Reference
 description: Detected lists.
 type: docs
-weight: 60
+weight: 100
 url: /net/aspose.ocr/layoutoutput/lists/
 ---
 ## LayoutOutput.Lists property

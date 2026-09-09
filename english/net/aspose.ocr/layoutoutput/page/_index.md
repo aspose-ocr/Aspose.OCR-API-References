@@ -3,7 +3,7 @@ title: Page
 second_title: Aspose.OCR for .NET API Reference
 description: Page number for multi-page images.
 type: docs
-weight: 70
+weight: 110
 url: /net/aspose.ocr/layoutoutput/page/
 ---
 ## LayoutOutput.Page property

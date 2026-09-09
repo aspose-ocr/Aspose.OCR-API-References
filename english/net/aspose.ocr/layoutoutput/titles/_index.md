@@ -1,17 +1,17 @@
 ---
-title: Paragraphs
+title: Titles
 second_title: Aspose.OCR for .NET API Reference
-description: Detected paragraphs.
+description: Detected document or paragraph titles.
 type: docs
-weight: 130
-url: /net/aspose.ocr/layoutoutput/paragraphs/
+weight: 170
+url: /net/aspose.ocr/layoutoutput/titles/
 ---
-## LayoutOutput.Paragraphs property
+## LayoutOutput.Titles property
 
-Detected paragraphs.
+Detected document or paragraph titles.
 
 ```csharp
-public List<ContentArea> Paragraphs { get; set; }
+public List<ContentArea> Titles { get; set; }
 ```
 
 ### See Also

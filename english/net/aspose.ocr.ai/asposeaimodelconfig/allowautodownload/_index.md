@@ -1,14 +1,14 @@
 ---
 title: AllowAutoDownload
 second_title: Aspose.OCR for .NET API Reference
-description: If true the model will be automatically downloaded if not available locally.
+description: If true the model will be automatically downloaded if it is not available locally. The default value is false. When FileModelPathaspose.ocr.ai/asposeaimodelconfig/filemodelpath is specified the model is loaded from that file and automatic download is not required.
 type: docs
 weight: 20
 url: /net/aspose.ocr.ai/asposeaimodelconfig/allowautodownload/
 ---
 ## AsposeAIModelConfig.AllowAutoDownload property
 
-If true, the model will be automatically downloaded if not available locally.
+If true, the model will be automatically downloaded if it is not available locally. The default value is false. When [`FileModelPath`](../filemodelpath) is specified, the model is loaded from that file and automatic download is not required.
 
 ```csharp
 public bool AllowAutoDownload { get; set; }

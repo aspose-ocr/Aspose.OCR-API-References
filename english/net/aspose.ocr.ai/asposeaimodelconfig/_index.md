@@ -24,13 +24,13 @@ public class AsposeAIModelConfig
 
 | Name | Description |
 | --- | --- |
-| [AllowAutoDownload](../../aspose.ocr.ai/asposeaimodelconfig/allowautodownload) { get; set; } | If true, the model will be automatically downloaded if not available locally. |
+| [AllowAutoDownload](../../aspose.ocr.ai/asposeaimodelconfig/allowautodownload) { get; set; } | If true, the model will be automatically downloaded if it is not available locally. The default value is false. When [`FileModelPath`](./filemodelpath) is specified, the model is loaded from that file and automatic download is not required. |
 | [ContextSize](../../aspose.ocr.ai/asposeaimodelconfig/contextsize) { get; set; } | Defines the maximum number of tokens the LLM can use as context during inference. If null, the default context size defined by the model will be used. Larger values allow the model to consider more text but may require more memory. |
-| [DirectoryModelPath](../../aspose.ocr.ai/asposeaimodelconfig/directorymodelpath) { get; set; } | Optional path where downloaded or processed models will be cached. If not set, a default system location will be used. |
-| [FileModelPath](../../aspose.ocr.ai/asposeaimodelconfig/filemodelpath) { get; set; } | Local path to the folder containing the model files. If specified, this will be used instead of downloading. Default empty. |
+| [DirectoryModelPath](../../aspose.ocr.ai/asposeaimodelconfig/directorymodelpath) { get; set; } | Optional directory where HuggingFace models will be searched for and cached. Use [`FileModelPath`](./filemodelpath) instead when you want to point directly to a manually downloaded model file. If not set, a default system location will be used. |
+| [FileModelPath](../../aspose.ocr.ai/asposeaimodelconfig/filemodelpath) { get; set; } | Local path to the model file. If specified, this file will be used instead of downloading the model. Default empty. |
 | [GpuLayers](../../aspose.ocr.ai/asposeaimodelconfig/gpulayers) { get; set; } | Number of GPU layers to use for the model. If not specified, the default value (40) will be used. Set to 0 to run entirely on the CPU. |
 | [HuggingFaceFileName](../../aspose.ocr.ai/asposeaimodelconfig/huggingfacefilename) { get; set; } | Optional model's name to use when downloading from HuggingFace. Examples: "TableGPT2-7B.Q4_K_S.gguf". Default for table AI - TableGPT2-7B.Q4_K_S.gguf. |
-| [HuggingFaceRepoId](../../aspose.ocr.ai/asposeaimodelconfig/huggingfacerepoid) { get; set; } | ID of the model on HuggingFace (e.g., "openai/gpt2"). If specified, the model will be downloaded from HuggingFace. Default bartowski/Qwen2.5-3B-Instruct-GGUF. |
+| [HuggingFaceRepoId](../../aspose.ocr.ai/asposeaimodelconfig/huggingfacerepoid) { get; set; } | ID of the model on HuggingFace (e.g., "openai/gpt2"). If specified, the model can be loaded from the local cache or downloaded from HuggingFace when [`AllowAutoDownload`](./allowautodownload) is enabled. Default bartowski/Qwen2.5-3B-Instruct-GGUF. |
 
 ### See Also
 

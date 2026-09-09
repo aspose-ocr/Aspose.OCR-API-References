@@ -1,14 +1,14 @@
 ---
 title: AsposeAI
 second_title: Aspose.OCR for .NET API Reference
-description: Initializes a new instance of the AsposeAI class with default settings. Automatic model downloads are enabled.
+description: Initializes a new instance of the AsposeAI class with default settings. Automatic model downloads are disabled by default.
 type: docs
 weight: 10
 url: /net/aspose.ocr.ai/asposeai/asposeai/
 ---
 ## AsposeAI() {#constructor}
 
-Initializes a new instance of the AsposeAI class with default settings. Automatic model downloads are enabled.
+Initializes a new instance of the AsposeAI class with default settings. Automatic model downloads are disabled by default.
 
 ```csharp
 public AsposeAI()
@@ -24,7 +24,7 @@ public AsposeAI()
 
 ## AsposeAI(ILogger) {#constructor_1}
 
-Initializes a new instance of the AsposeAI class with a custom logger. Automatic model downloads are enabled.
+Initializes a new instance of the AsposeAI class with a custom logger. Automatic model downloads are disabled by default.
 
 ```csharp
 public AsposeAI(ILogger customLogger)

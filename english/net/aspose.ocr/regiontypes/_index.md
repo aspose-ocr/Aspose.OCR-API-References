@@ -20,12 +20,19 @@ public enum RegionTypes
 | --- | --- | --- |
 | PARAGRAPH | `1` | A block of continuous text, typically forming a paragraph. |
 | IMAGE | `2` | An embedded image or graphic element within the document. |
-| HEADER | `3` | A table header region (e.g., column names or top row of a table). |
+| HEADER | `3` | A page or document header region. |
 | TABLE | `4` | A structured table consisting of rows and columns. |
 | LIST | `5` | A list of items, such as bullet points or numbered entries. |
 | CAPTION | `6` | A caption describing an image, table, or other element. |
 | EQUATION | `7` | A mathematical expression or formula. |
 | LINE | `8` | Raw text lines not grouped into higher-level regions. Typically appears when region detection is UNIVERSAL, TABLE, CURVED_TEXT, LEAN. |
+| FOOTER | `9` | A page or document footer region. |
+| CHART | `10` | A chart or diagram region. |
+| FIGURE_CAPTION | `11` | A caption or title for a figure or chart. |
+| TABLE_CAPTION | `12` | A caption or title for a table. |
+| TITLE | `13` | A document or paragraph title. |
+| INLINE_FORMULA | `14` | An inline mathematical expression or formula. |
+| PAGE_NUMBER | `15` | A page number region. |
 
 ### See Also
 

@@ -1,17 +1,17 @@
 ---
-title: Paragraphs
+title: PageNumbers
 second_title: Aspose.OCR for .NET API Reference
-description: Detected paragraphs.
+description: Detected page numbers.
 type: docs
-weight: 130
-url: /net/aspose.ocr/layoutoutput/paragraphs/
+weight: 120
+url: /net/aspose.ocr/layoutoutput/pagenumbers/
 ---
-## LayoutOutput.Paragraphs property
+## LayoutOutput.PageNumbers property
 
-Detected paragraphs.
+Detected page numbers.
 
 ```csharp
-public List<ContentArea> Paragraphs { get; set; }
+public List<ContentArea> PageNumbers { get; set; }
 ```
 
 ### See Also
