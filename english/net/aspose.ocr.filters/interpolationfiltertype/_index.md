@@ -18,7 +18,7 @@ public enum InterpolationFilterType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Box | `0` | The 'Box' Or 'Nearest Neighbor' filterю http://www.imagemagick.org/Usage/filter/#box |
+| Box | `0` | The 'Box' Or 'Nearest Neighbor' filter. http://www.imagemagick.org/Usage/filter/#box |
 | Triangle | `1` | The 'Triangle' or 'Bilinear' interpolation filter just takes the interpolation of the nearest neighbourhood one step further. http://www.imagemagick.org/Usage/filter/#triangle |
 | Hermite | `2` | https://en.wikipedia.org/wiki/Hermite_interpolation |
 | Bell | `3` | http://www.imagemagick.org/Usage/filter/#gaussian |

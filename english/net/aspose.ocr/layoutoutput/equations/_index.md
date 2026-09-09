@@ -3,7 +3,7 @@ title: Equations
 second_title: Aspose.OCR for .NET API Reference
 description: Detected equations.
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.ocr/layoutoutput/equations/
 ---
 ## LayoutOutput.Equations property

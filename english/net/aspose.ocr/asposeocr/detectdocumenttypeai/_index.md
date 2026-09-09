@@ -11,12 +11,15 @@ url: /net/aspose.ocr/asposeocr/detectdocumenttypeai/
 Analyzes the image using AI and identifies its document type. Supports PNG, JPEG, BMP, TIFF, JFIF, and GIF images from files, streams, and pixel arrays. Can bulk process folders and archives.
 
 ```csharp
-public List<AIResult> DetectDocumentTypeAI(OcrInput images)
+public List<AIResult> DetectDocumentTypeAI(OcrInput images, bool allowAutoDownload, 
+    string modelPath = null)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | images | OcrInput | Source images. [`OcrInput`](../../ocrinput) |
+| allowAutoDownload | Boolean | Allow automatic AI model download if model files are not available locally. |
+| modelPath | String | Optional local path to the main GGUF model file. If automatic download is disabled, this path must be specified. For this vision AI method, put the projector file in the same directory as the main model file. The default projector file name is "Gemma-3-Vision-Latex.mmproj-f16.gguf". |
 
 ### Return Value
 

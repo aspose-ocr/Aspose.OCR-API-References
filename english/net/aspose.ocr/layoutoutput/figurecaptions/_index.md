@@ -1,17 +1,17 @@
 ---
-title: Paragraphs
+title: FigureCaptions
 second_title: Aspose.OCR for .NET API Reference
-description: Detected paragraphs.
+description: Detected figure captions.
 type: docs
-weight: 130
-url: /net/aspose.ocr/layoutoutput/paragraphs/
+weight: 50
+url: /net/aspose.ocr/layoutoutput/figurecaptions/
 ---
-## LayoutOutput.Paragraphs property
+## LayoutOutput.FigureCaptions property
 
-Detected paragraphs.
+Detected figure captions.
 
 ```csharp
-public List<ContentArea> Paragraphs { get; set; }
+public List<ContentArea> FigureCaptions { get; set; }
 ```
 
 ### See Also

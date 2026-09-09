@@ -18,8 +18,8 @@ public class AsposeAI : IDisposable
 
 | Name | Description |
 | --- | --- |
-| [AsposeAI](asposeai#constructor)() | Initializes a new instance of the AsposeAI class with default settings. Automatic model downloads are enabled. |
-| [AsposeAI](asposeai#constructor_1)(ILogger) | Initializes a new instance of the AsposeAI class with a custom logger. Automatic model downloads are enabled. |
+| [AsposeAI](asposeai#constructor)() | Initializes a new instance of the AsposeAI class with default settings. Automatic model downloads are disabled by default. |
+| [AsposeAI](asposeai#constructor_1)(ILogger) | Initializes a new instance of the AsposeAI class with a custom logger. Automatic model downloads are disabled by default. |
 
 ## Methods
 

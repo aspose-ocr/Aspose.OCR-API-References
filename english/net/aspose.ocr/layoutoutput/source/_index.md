@@ -3,7 +3,7 @@ title: Source
 second_title: Aspose.OCR for .NET API Reference
 description: The full path to the file or URL if applicable. Empty for images provided as a stream byte array or Base64.
 type: docs
-weight: 90
+weight: 140
 url: /net/aspose.ocr/layoutoutput/source/
 ---
 ## LayoutOutput.Source property

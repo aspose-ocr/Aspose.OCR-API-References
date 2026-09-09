@@ -1,14 +1,14 @@
 ---
 title: DirectoryModelPath
 second_title: Aspose.OCR for .NET API Reference
-description: Optional path where downloaded or processed models will be cached. If not set a default system location will be used.
+description: Optional directory where HuggingFace models will be searched for and cached. Use FileModelPathaspose.ocr.ai/asposeaimodelconfig/filemodelpath instead when you want to point directly to a manually downloaded model file. If not set a default system location will be used.
 type: docs
 weight: 40
 url: /net/aspose.ocr.ai/asposeaimodelconfig/directorymodelpath/
 ---
 ## AsposeAIModelConfig.DirectoryModelPath property
 
-Optional path where downloaded or processed models will be cached. If not set, a default system location will be used.
+Optional directory where HuggingFace models will be searched for and cached. Use [`FileModelPath`](../filemodelpath) instead when you want to point directly to a manually downloaded model file. If not set, a default system location will be used.
 
 ```csharp
 public string? DirectoryModelPath { get; set; }

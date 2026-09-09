@@ -1,14 +1,14 @@
 ---
 title: Dispose
 second_title: Aspose.OCR for .NET API Reference
-description: Clear resources for recognition.
+description: Disposes internal resources used by the Aspose OCR instance.
 type: docs
 weight: 130
 url: /net/aspose.ocr/asposeocr/dispose/
 ---
 ## AsposeOcr.Dispose method
 
-Clear resources for recognition.
+Disposes internal resources used by the Aspose OCR instance.
 
 ```csharp
 public void Dispose()

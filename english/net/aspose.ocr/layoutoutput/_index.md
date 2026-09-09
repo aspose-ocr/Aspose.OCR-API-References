@@ -25,14 +25,21 @@ public class LayoutOutput
 | Name | Description |
 | --- | --- |
 | [Captions](../../aspose.ocr/layoutoutput/captions) { get; set; } | Detected captions. |
+| [Charts](../../aspose.ocr/layoutoutput/charts) { get; set; } | Detected charts or diagrams. |
 | [Equations](../../aspose.ocr/layoutoutput/equations) { get; set; } | Detected equations. |
+| [FigureCaptions](../../aspose.ocr/layoutoutput/figurecaptions) { get; set; } | Detected figure captions. |
+| [Footers](../../aspose.ocr/layoutoutput/footers) { get; set; } | Detected footers. |
 | [Headers](../../aspose.ocr/layoutoutput/headers) { get; set; } | Detected headers. |
 | [Images](../../aspose.ocr/layoutoutput/images) { get; set; } | Detected pictures/illustrations. |
+| [InlineFormulas](../../aspose.ocr/layoutoutput/inlineformulas) { get; set; } | Detected inline formulas. |
 | [Lists](../../aspose.ocr/layoutoutput/lists) { get; set; } | Detected lists. |
 | [Page](../../aspose.ocr/layoutoutput/page) { get; set; } | Page number for multi-page images. |
+| [PageNumbers](../../aspose.ocr/layoutoutput/pagenumbers) { get; set; } | Detected page numbers. |
 | [Paragraphs](../../aspose.ocr/layoutoutput/paragraphs) { get; set; } | Detected paragraphs. |
 | [Source](../../aspose.ocr/layoutoutput/source) { get; set; } | The full path to the file or URL, if applicable. Empty for images provided as a stream, byte array, or Base64. |
+| [TableCaptions](../../aspose.ocr/layoutoutput/tablecaptions) { get; set; } | Detected table captions. |
 | [Tables](../../aspose.ocr/layoutoutput/tables) { get; set; } | Detected tables. |
+| [Titles](../../aspose.ocr/layoutoutput/titles) { get; set; } | Detected document or paragraph titles. |
 
 ### See Also
 

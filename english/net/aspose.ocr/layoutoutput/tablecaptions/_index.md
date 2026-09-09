@@ -1,17 +1,17 @@
 ---
-title: Paragraphs
+title: TableCaptions
 second_title: Aspose.OCR for .NET API Reference
-description: Detected paragraphs.
+description: Detected table captions.
 type: docs
-weight: 130
-url: /net/aspose.ocr/layoutoutput/paragraphs/
+weight: 150
+url: /net/aspose.ocr/layoutoutput/tablecaptions/
 ---
-## LayoutOutput.Paragraphs property
+## LayoutOutput.TableCaptions property
 
-Detected paragraphs.
+Detected table captions.
 
 ```csharp
-public List<ContentArea> Paragraphs { get; set; }
+public List<ContentArea> TableCaptions { get; set; }
 ```
 
 ### See Also
