@@ -15,7 +15,7 @@ The AsposeAI type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|AsposeAI()|Initializes a new instance of the AsposeAI class with default settings.<br/>            Automatic model downloads are enabled.|
+|AsposeAI()|Initializes a new instance of the AsposeAI class with default settings.<br/>            Automatic model downloads are disabled by default.|
 |AsposeAI(logging)|Initializes a new instance of the AsposeAI class|
 ## Methods
 | Name | Description |
