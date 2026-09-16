@@ -25,6 +25,7 @@ public class RegionResult
 | Name | Description |
 | --- | --- |
 | [Region](../../aspose.ocr/regionresult/region) { get; set; } | Region coordinates. |
+| [RegionType](../../aspose.ocr/regionresult/regiontype) { get; set; } | Gets or sets the detected layout type of this recognition region. |
 | [TextInRegion](../../aspose.ocr/regionresult/textinregion) { get; set; } | Recognized text from region. |
 
 ### See Also
