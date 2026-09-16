@@ -3,7 +3,7 @@ title: TextInRegion
 second_title: Aspose.OCR for .NET API Reference
 description: Recognized text from region.
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.ocr/recognitionresult.regionresult/textinregion/
 ---
 ## RecognitionResult.RegionResult.TextInRegion property

@@ -1,22 +1,22 @@
 ---
-title: GetConsumptionQuantity
+title: IsMeteredLicensed
 second_title: Aspose.OCR for .NET API Reference
-description: Gets consumption file size
+description: Check whether metered is licensed
 type: docs
-weight: 40
-url: /net/aspose.ocr/metered/getconsumptionquantity/
+weight: 50
+url: /net/aspose.ocr/metered/ismeteredlicensed/
 ---
-## Metered.GetConsumptionQuantity method
+## Metered.IsMeteredLicensed method
 
-Gets consumption file size
+Check whether metered is licensed
 
 ```csharp
-public static decimal GetConsumptionQuantity()
+public static bool IsMeteredLicensed()
 ```
 
 ### Return Value
 
-consumption quantity
+True or false
 
 ### See Also
 
