@@ -3,7 +3,7 @@ title: RegionTypes
 second_title: Aspose.OCR for Java API Reference
 description: Determines the type of regions detected by the DSR
 type: docs
-weight: 28
+weight: 33
 url: /java/com.aspose.ocr.models/regiontypes/
 ---
 
@@ -19,14 +19,21 @@ Determines the type of regions detected by the DSR.
 | Field | Description |
 | --- | --- |
 | [CAPTION](#CAPTION) |  |
+| [CHART](#CHART) |  |
 | [EQUATION](#EQUATION) |  |
+| [FIGURE_CAPTION](#FIGURE-CAPTION) |  |
+| [FOOTER](#FOOTER) |  |
 | [HEADER](#HEADER) |  |
 | [IMAGE](#IMAGE) |  |
+| [INLINE_FORMULA](#INLINE-FORMULA) |  |
 | [LINE](#LINE) |  |
 | [LIST](#LIST) |  |
 | [NONE](#NONE) |  |
+| [PAGE_NUMBER](#PAGE-NUMBER) |  |
 | [PARAGRAPH](#PARAGRAPH) |  |
 | [TABLE](#TABLE) |  |
+| [TABLE_CAPTION](#TABLE-CAPTION) |  |
+| [TITLE](#TITLE) |  |
 | [value](#value) |  |
 
 ### CAPTION {#CAPTION}
@@ -35,9 +42,27 @@ public static final RegionTypes CAPTION
 ```
 
 
+### CHART {#CHART}
+```
+public static final RegionTypes CHART
+```
+
+
 ### EQUATION {#EQUATION}
 ```
 public static final RegionTypes EQUATION
+```
+
+
+### FIGURE_CAPTION {#FIGURE-CAPTION}
+```
+public static final RegionTypes FIGURE_CAPTION
+```
+
+
+### FOOTER {#FOOTER}
+```
+public static final RegionTypes FOOTER
 ```
 
 
@@ -50,6 +75,12 @@ public static final RegionTypes HEADER
 ### IMAGE {#IMAGE}
 ```
 public static final RegionTypes IMAGE
+```
+
+
+### INLINE_FORMULA {#INLINE-FORMULA}
+```
+public static final RegionTypes INLINE_FORMULA
 ```
 
 
@@ -71,6 +102,12 @@ public static final RegionTypes NONE
 ```
 
 
+### PAGE_NUMBER {#PAGE-NUMBER}
+```
+public static final RegionTypes PAGE_NUMBER
+```
+
+
 ### PARAGRAPH {#PARAGRAPH}
 ```
 public static final RegionTypes PARAGRAPH
@@ -83,8 +120,13 @@ public static final RegionTypes TABLE
 ```
 
 
-### value {#value}
+### TABLE_CAPTION {#TABLE-CAPTION}
 ```
-public final int value
+public static final RegionTypes TABLE_CAPTION
 ```
 
+
+### TITLE {#TITLE}
+```
+public static final RegionTypes TITLE
+```
