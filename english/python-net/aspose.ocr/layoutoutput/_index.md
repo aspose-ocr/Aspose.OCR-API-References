@@ -24,10 +24,17 @@ The LayoutOutput type exposes the following members:
 |paragraphs|Detected paragraphs.|
 |images|Detected pictures/illustrations.|
 |headers|Detected headers.|
+|footers|Detected footers.|
 |tables|Detected tables.|
+|table_captions|Detected table captions.|
 |lists|Detected lists.|
+|titles|Detected document or paragraph titles.|
 |captions|Detected captions.|
+|figure_captions|Detected figure captions.|
 |equations|Detected equations.|
+|inline_formulas|Detected inline formulas.|
+|charts|Detected charts or diagrams.|
+|page_numbers|Detected page numbers.|
 
 ### See Also
 

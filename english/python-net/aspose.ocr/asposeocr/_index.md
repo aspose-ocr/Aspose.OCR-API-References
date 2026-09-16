@@ -57,9 +57,9 @@ The AsposeOcr type exposes the following members:
 |recognize_handwritten_text(images)|Recognizes handwritten text on images.|
 |detect_document_layout(images)|Analyzes the image and identifies the different types of content areas within it.<br/>            Supports PNG, JPEG, BMP, TIFF, JFIF, and GIF images from files, streams, and pixel arrays. Can bulk process folders and archives.|
 |detect_document_type(images)|Analyzes the image and identifies it's type.<br/>            Supports PNG, JPEG, BMP, TIFF, JFIF, and GIF images from files, streams, and pixel arrays. Can bulk process folders and archives.|
-|detect_document_type_ai(images)|Analyzes the image using AI and identifies its document type.<br/>            Supports PNG, JPEG, BMP, TIFF, JFIF, and GIF images from files, streams, and pixel arrays.<br/>            Can bulk process folders and archives.|
+|detect_document_type_ai(images, allow_auto_download, model_path)|Analyzes the image using AI and identifies its document type.<br/>            Supports PNG, JPEG, BMP, TIFF, JFIF, and GIF images from files, streams, and pixel arrays.<br/>            Can bulk process folders and archives.|
 |recognize_formula(images, detect_areas)|Recognizes mathematical formulas from the provided input images.|
-|recognize_formula_ai(images)|Recognizes mathematical formulas from the provided input images using AI.|
+|recognize_formula_ai(images, allow_auto_download, model_path)|Recognizes mathematical formulas from the provided input images using AI.|
 |recognize_tables(images, language)|Detect tables and structure, recognizes text cells.<br/>            Supports GIF, PNG, JPEG, BMP, TIFF, JFIF, stream, directory, arrays, archives.|
 |detect_tables(images)|Detects table regions on images.<br/>            Supports GIF, PNG, JPEG, BMP, TIFF, JFIF, stream, folder, arrays, archives.|
 |calculate_skew(images)|Calculates the skew angles of an images.<br/>            Supports GIF, PNG, JPEG, BMP, TIFF, JFIF, stream, folder, arrays, archives.|

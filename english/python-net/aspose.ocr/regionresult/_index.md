@@ -17,6 +17,7 @@ The RegionResult type exposes the following members:
 | :- | :- |
 |text_in_region|Recognized text from region.|
 |region|Region coordinates. (Rectangles).|
+|region_type|[RegionTypes](/ocr/python-net/aspose.ocr/regiontypes/)
 
 ### See Also
 
