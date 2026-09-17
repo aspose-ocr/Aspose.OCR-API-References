@@ -4,7 +4,7 @@ second_title: Aspose.OCR for Python via .NET API Reference
 description: 
 type: docs
 weight: 250
-url: /python-net/aspose.ocr/regionresult
+url: /python-net/aspose.ocr/regionresult/
 ---
 
 ## RegionResult class
@@ -17,7 +17,7 @@ The RegionResult type exposes the following members:
 | :- | :- |
 |text_in_region|Recognized text from region.|
 |region|Region coordinates. (Rectangles).|
-|region_type|[RegionTypes](/ocr/python-net/aspose.ocr/regiontypes/)
+|region_type|[RegionTypes](/ocr/python-net/aspose.ocr/regiontypes/)|
 
 ### See Also
 
