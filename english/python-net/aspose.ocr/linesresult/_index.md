@@ -4,7 +4,7 @@ second_title: Aspose.OCR for Python via .NET API Reference
 description: 
 type: docs
 weight: 245
-url: /python-net/aspose.ocr/linesresult
+url: /python-net/aspose.ocr/linesresult/
 ---
 
 ## LinesResult class
@@ -19,6 +19,7 @@ The LinesResult type exposes the following members:
 |line|Row coordinates. (Rectangles).|
 |confidence|The confidence score assigned to the recognized text line, represented as a floating-point value between 0.0 and 1.0.|
 |font|Detected font information for the recognized text line. Filled only when RecognitionSettings.detect_fonts is enabled(set True).|
+|region_type|Detected layout region type and bounds for the recognized text line.|
 
 ### See Also
 

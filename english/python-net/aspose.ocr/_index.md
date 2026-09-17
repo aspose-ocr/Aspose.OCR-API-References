@@ -30,6 +30,7 @@ Contains tools for image recognition, skew correction, text areas detection and 
 |[InvoiceRecognitionSettings](/ocr/python-net/aspose.ocr/invoicerecognitionsettings/)|Settings for the invoice recognition.<br/>            Contains elements that allow customizing the recognition process.|
 |[LanguageDetectionOutput](/ocr/python-net/aspose.ocr/languagedetectionoutput/)|Languages detected in the image text.|
 |[LayoutOutput](/ocr/python-net/aspose.ocr/layoutoutput/)|Information on detected content areas in the image.|
+|[LinesResult](/ocr/python-net/aspose.ocr/linesresult/)|The results of the image recognition for a single recognized text line.|
 |[License](/ocr/python-net/aspose.ocr/license/)|Provides methods to license the component.|
 |[Logging](/ocr/python-net/aspose.ocr/logging/)|Class to create log configurations.|
 |[Metered](/ocr/python-net/aspose.ocr/metered/)|Provides methods to set metered key.|
@@ -44,6 +45,7 @@ Contains tools for image recognition, skew correction, text areas detection and 
 |[ReceiptRecognitionSettings](/ocr/python-net/aspose.ocr/receiptrecognitionsettings/)|Settings for the receipt recognition.<br/>            Contains elements that allow customizing the recognition process.|
 |[RecognitionResult](/ocr/python-net/aspose.ocr/recognitionresult/)|The results of the image recognition.<br/>            Contains elements with recognition information and methods for result export.|
 |[RecognitionSettings](/ocr/python-net/aspose.ocr/recognitionsettings/)|Settings for the image recognition.<br/>            Contains elements that allow customizing the recognition process.|
+|[RegionResult](/ocr/python-net/aspose.ocr/regionresult/)|The results of the image recognition for a detected region.|
 |[Rectangle](/ocr/python-net/aspose.ocr/rectangle/)|Stores a set of four integers that represent the location and size of a rectangle.|
 |[RectangleOutput](/ocr/python-net/aspose.ocr/rectangleoutput/)|Data about detected text areas or lines.|
 |[Resources](/ocr/python-net/aspose.ocr/resources/)|Manage downloadable resources that enhance Aspose.OCR recognition capabilities.|
