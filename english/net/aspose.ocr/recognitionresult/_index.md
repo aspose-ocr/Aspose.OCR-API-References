@@ -30,7 +30,7 @@ public class RecognitionResult
 | [RecognitionLinesResult](../../aspose.ocr/recognitionresult/recognitionlinesresult) { get; } | Gets a list of recognition results with a list of rows (Rectangles). |
 | [RecognitionRegionsResult](../../aspose.ocr/recognitionresult/recognitionregionsresult) { get; } | Gets a list of recognition results with a list of regions (Rectangles). |
 | [RecognitionText](../../aspose.ocr/recognitionresult/recognitiontext) { get; set; } | Gets recognition result in one string. |
-| [SerializableImage](../../aspose.ocr/recognitionresult/serializableimage) { get; set; } | Serialized image payload used for RecognitionResult JSON/binary serialization. Stores the same image data as [`Image`](./image), but in one-dimensional form. |
+| [SerializableImage](../../aspose.ocr/recognitionresult/serializableimage) { get; set; } | Serialized image payload used for RecognitionResult JSON/binary serialization. Stores the same image data as [`Image`](./image) in a compressed binary form. |
 | [Warnings](../../aspose.ocr/recognitionresult/warnings) { get; } | Gets list of the warning messages describing non-critical faults appeared during generation. |
 
 ## Methods
@@ -42,6 +42,7 @@ public class RecognitionResult
 | [GetSpellCheckCorrectedText](../../aspose.ocr/recognitionresult/getspellcheckcorrectedtext)(SpellCheckLanguage, string) | Corrects text (replaces misspelled words). |
 | [GetSpellCheckErrorList](../../aspose.ocr/recognitionresult/getspellcheckerrorlist)(SpellCheckLanguage, string) | Find the misspelled words with suggested spellings for a given input text. |
 | [GetXml](../../aspose.ocr/recognitionresult/getxml)() | Form XML string with recognition results. |
+| [ReleaseImage](../../aspose.ocr/recognitionresult/releaseimage)() | Releases a materialized [`Image`](./image) array while retaining a compressed, lossless representation that can be decoded again on demand. |
 | [Save](../../aspose.ocr/recognitionresult/save#save_1)(MemoryStream, SaveFormat, string, PdfOptimizationMode) | Saves the document as the plain text, PDF or Microsoft Word Document. |
 | [Save](../../aspose.ocr/recognitionresult/save#save_3)(string, SaveFormat, string, PdfOptimizationMode) | Saves the document as the plain text, PDF or Microsoft Word Document. |
 | [Save](../../aspose.ocr/recognitionresult/save#save)(MemoryStream, SaveFormat, bool, SpellCheckLanguage, string, string, PdfOptimizationMode) | Saves the document as the plain text, PDF or Microsoft Word Document. |

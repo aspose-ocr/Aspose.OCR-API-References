@@ -19,7 +19,7 @@ public enum OcrPreset
 | Name | Value | Description |
 | --- | --- | --- |
 | None | `0` | No preset. Uses default settings. |
-| StandardDocument | `1` | Standard document with multiple columns, e.g., articles or books. |
+| StandardDocument | `1` | Standard document with structured layout, including columns, tables, and images. |
 | Receipt | `2` | Receipt or bill layout with total amounts and items. |
 | CarPlate | `3` | Vehicle license plates with constrained character sets. |
 | HandwrittenNote | `4` | Handwritten notes and informal text. |

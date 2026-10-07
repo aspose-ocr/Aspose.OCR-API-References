@@ -1,14 +1,14 @@
 ---
 title: DetectAreasMode
 second_title: Aspose.OCR for .NET API Reference
-description: Allows to select the optimal mode for document type areas document photo plain text column image.
+description: Selects the content-area detection strategy. Use DOCUMENT_LAYOUT to detect complete document structure including columns tables images charts and formulas.
 type: docs
 weight: 20
 url: /net/aspose.ocr/recognitionsettings/detectareasmode/
 ---
 ## RecognitionSettings.DetectAreasMode property
 
-Allows to select the optimal mode for document type areas: document, photo, plain text, column, image.
+Selects the content-area detection strategy. Use DOCUMENT_LAYOUT to detect complete document structure, including columns, tables, images, charts, and formulas.
 
 ```csharp
 public DetectAreasMode DetectAreasMode { get; set; }

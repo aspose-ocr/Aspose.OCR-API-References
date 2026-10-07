@@ -1,14 +1,14 @@
 ---
 title: SerializableImage
 second_title: Aspose.OCR for .NET API Reference
-description: Serialized image payload used for RecognitionResult JSON/binary serialization. Stores the same image data as Imageaspose.ocr/recognitionresult/image but in one-dimensional form.
+description: Serialized image payload used for RecognitionResult JSON/binary serialization. Stores the same image data as Imageaspose.ocr/recognitionresult/image in a compressed binary form.
 type: docs
 weight: 80
 url: /net/aspose.ocr/recognitionresult/serializableimage/
 ---
 ## RecognitionResult.SerializableImage property
 
-Serialized image payload used for RecognitionResult JSON/binary serialization. Stores the same image data as [`Image`](../image), but in one-dimensional form.
+Serialized image payload used for RecognitionResult JSON/binary serialization. Stores the same image data as [`Image`](../image) in a compressed binary form.
 
 ```csharp
 [EditorBrowsable(EditorBrowsableState.Never)]
