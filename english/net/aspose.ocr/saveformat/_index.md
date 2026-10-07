@@ -29,7 +29,7 @@ public enum SaveFormat
 | RTF | `8` | Saves the document as an rtf file. |
 | PdfNoImg | `9` | Saves the document as a Searchable PDF (Adobe Portable Document) Document without image. |
 | HOCR | `10` | Saves the document as a hOCR (.html) file. |
-| Md | `11` | Saves the document as a Markdown (.md) file. If MULTICOLUMN is used, images will also be extracted. |
+| Md | `11` | Saves the document as a Markdown (.md) file. If DOCUMENT_LAYOUT or MULTICOLUMN is used, detected images will also be extracted. |
 | Csv | `12` | Saves the document as a CSV (.csv) file. |
 
 ### See Also
