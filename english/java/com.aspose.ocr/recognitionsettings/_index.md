@@ -34,7 +34,7 @@ Settings for the image recognition. Contains elements that allow customizing the
 | [setAllowedCharacters(CharactersAllowedType allowedCharacters)](#setAllowedCharacters-com.aspose.ocr.models.CharactersAllowedType) | Allowed characters set. |
 | [setAllowedCharacters(String allowedCharacters)](#setAllowedCharacters-java.lang.String) | Allowed characters set. |
 | [setAutomaticColorInversion(boolean automaticColorInversion)](#setAutomaticColorInversion-boolean) | Detect images with white text on dark/black background and automatically choose a special OCR algorithm for them. |
-| [setDetectAreasMode(DetectAreasMode detectAreasMode)](#setDetectAreasMode-com.aspose.ocr.models.DetectAreasMode) | Determines the type of neural network used for areas detection. |
+| [setDetectAreasMode(DetectAreasMode detectAreasMode)](#setDetectAreasMode-com.aspose.ocr.models.DetectAreasMode) | Selects the content-area detection strategy. |
 | [setDetectFonts(boolean detectFonts)](#setDetectFonts-boolean) | Enables font detection for each recognized text line. |
 | [setIgnoredCharacters(String characters)](#setIgnoredCharacters-java.lang.String) | Sets blacklist for recognition symbols. |
 | [setLanguage(Language language)](#setLanguage-com.aspose.ocr.models.Language) |  |
@@ -42,7 +42,8 @@ Settings for the image recognition. Contains elements that allow customizing the
 | [setLinesFiltration(boolean linesFiltration)](#setLinesFiltration-boolean) | Allows to recognize text in the tables (regions surrounded lines). |
 | [setRecognitionAreas(ArrayList<Rectangle> recognitionAreas)](#setRecognitionAreas-java.util.ArrayList-java.awt.Rectangle) | Sets the list of text areas for processing. |
 | [setRecognizeSingleLine(boolean recognizeSingleLine)](#setRecognizeSingleLine-boolean) | Sets single-line image recognition. |
-| [setThreadsCount(int threadsCount)](#setThreadsCount-int) | Gets or sets the number of threads for processing. |
+| [setRetainImageForExport(boolean retainImageForExport)](#setRetainImageForExport-boolean) | Sets whether the preprocessed source image is retained in the recognition result. |
+| [setThreadsCount(int threadsCount)](#setThreadsCount-int) | Sets the number of threads used to recognize fragments of a single image. |
 | [setUpscaleSmallFont(boolean upscaleSmallFont)](#setUpscaleSmallFont-boolean) | Allows you to use additional algorithms specifically for small font recognition. |
 ### RecognitionSettings() {#RecognitionSettings}
 ```
@@ -182,7 +183,7 @@ public void setDetectAreasMode(DetectAreasMode detectAreasMode)
 ```
 
 
-Determines the type of neural network used for areas detection.
+Selects the content-area detection strategy. Use [DetectAreasMode.DOCUMENT\_LAYOUT](../../com.aspose.ocr.models/detectareasmode/\#DOCUMENT-LAYOUT) to detect complete document structure, including columns, tables, images, charts, and formulas.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -280,13 +281,26 @@ Sets single-line image recognition. Disabled (false) by default. Disable all the
 | --- | --- | --- |
 | recognizeSingleLine | boolean | True for single-line image |
 
+### setRetainImageForExport(boolean retainImageForExport) {#setRetainImageForExport-boolean}
+```
+public void setRetainImageForExport(boolean retainImageForExport)
+```
+
+
+Sets whether the preprocessed source image is retained in the recognition result. Disabled ( false ) by default to avoid keeping page images in memory. Enable this option when the image must be available through [RecognitionResult.image](../../com.aspose.ocr/recognitionresult/\#image), for example for legacy export APIs. [OcrOutput.save(String, Format)](../../com.aspose.ocr/ocroutput/\#save-String--Format) can reload source images without this option.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| retainImageForExport | boolean |  true  to retain the image in each recognition result. |
+
 ### setThreadsCount(int threadsCount) {#setThreadsCount-int}
 ```
 public void setThreadsCount(int threadsCount)
 ```
 
 
-Gets or sets the number of threads for processing. By default, 0 means that the image will be processed with the number of threads equal to your number of processors. ThreadsCount = 1 means that the image will be processed in the main thread.
+Sets the number of threads used to recognize fragments of a single image. By default, 0 means that a single image will use the number of threads equal to the number of processors. ThreadsCount = 1 means that fragments of a single image are recognized sequentially. Multipage inputs are processed by a fixed pool of four pages, with sequential fragment recognition inside each page.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -305,14 +319,3 @@ Allows you to use additional algorithms specifically for small font recognition.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | upscaleSmallFont | boolean | contains boolean value - an upscaleSmallFont is set. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
