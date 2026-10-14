@@ -3,7 +3,7 @@ title: ReceiptRecognitionSettings
 second_title: Aspose.OCR for Java API Reference
 description: Settings for the receipt recognition Contains elements that allow customizing the recognition process
 type: docs
-weight: 25
+weight: 27
 url: /java/com.aspose.ocr/receiptrecognitionsettings/
 ---
 
@@ -29,6 +29,7 @@ Settings for the receipt recognition Contains elements that allow customizing th
 | [setIgnoredCharacters(String characters)](#setIgnoredCharacters-java.lang.String) | Sets blacklist for recognition symbols. |
 | [setLanguage(Language language)](#setLanguage-com.aspose.ocr.models.Language) |  |
 | [setLanguageDetectionLevel(LanguageDetectionLevel languageDetectionLevel)](#setLanguageDetectionLevel-com.aspose.ocr.models.LanguageDetectionLevel) | Specifies the level of language detection for text recognition. |
+| [setRetainImageForExport(boolean retainImageForExport)](#setRetainImageForExport-boolean) | Sets whether the preprocessed source image is retained in the recognition result. |
 | [setThreadsCount(int threadsCount)](#setThreadsCount-int) | Gets or sets the number of threads for processing. |
 | [setUpscaleSmallFont(boolean upscaleSmallFont)](#setUpscaleSmallFont-boolean) | Allows you to use additional algorithms specifically for small font recognition. |
 ### ReceiptRecognitionSettings() {#ReceiptRecognitionSettings}
@@ -118,6 +119,19 @@ Specifies the level of language detection for text recognition. Works only if th
 | Parameter | Type | Description |
 | --- | --- | --- |
 | languageDetectionLevel | [LanguageDetectionLevel](../../com.aspose.ocr.models/languagedetectionlevel/) | enum value to set level (Paragraph, Word, Page). |
+
+### setRetainImageForExport(boolean retainImageForExport) {#setRetainImageForExport-boolean}
+```
+public void setRetainImageForExport(boolean retainImageForExport)
+```
+
+
+Sets whether the preprocessed source image is retained in the recognition result. Disabled ( false ) by default.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| retainImageForExport | boolean |  true  to retain the image for legacy export APIs. |
 
 ### setThreadsCount(int threadsCount) {#setThreadsCount-int}
 ```
