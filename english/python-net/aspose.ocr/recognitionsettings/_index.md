@@ -3,7 +3,7 @@ title: RecognitionSettings
 second_title: Aspose.OCR for Python via .NET API Reference
 description: 
 type: docs
-weight: 340
+weight: 350
 url: /python-net/aspose.ocr/recognitionsettings/
 ---
 
@@ -27,6 +27,7 @@ The RecognitionSettings type exposes the following members:
 |allowed_symbols|Set the allowed characters with alphabet property.|
 |allowed_characters|Allowed characters set. Determines the type of characters allowed for recognition result.|
 |automatic_color_inversion|Detect images with white text on dark/black background and automatically choose a special OCR algorithm for them.|
+|retain_image_for_export|Gets or sets a value indicating whether the preprocessed source image is retained<br/>            in the recognition result. The image is stored in a compressed form and decoded<br/>            only when|
 |recognition_areas|Gets or sets the list of text areas for processing.|
 |recognize_single_line|Sets single-line image recognition. <br/>            Disabled (false) by default. <br/>            Disable all the processing steps associated with splitting into lines. <br/>            Set this parameter to true if your image contains only one line. Disables RecognitionAreas settings, so all areas settings will be ignored.|
 |language_detection_level|Specifies the level of language detection for text recognition.<br/>            Works only if the selected language is [MULTILANGUAGE](/ocr/python-net/aspose.ocr/language/), <br/>            [AUTO](/ocr/python-net/aspose.ocr/language/), or [UNIVERSAL](/ocr/python-net/aspose.ocr/language/).<br/>            This process is time-consuming and significantly slows down the overall recognition.|

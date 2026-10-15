@@ -43,16 +43,16 @@ The AsposeOcr type exposes the following members:
 |detect_rectangles(images, areas_type, detect_areas)|Detects text areas on images.<br/>            Supports GIF, PNG, JPEG, BMP, TIFF, JFIF, stream, folder, arrays, archives.|
 |recognize_characters(images)|Detects symbols on images.<br/>            Supports GIF, PNG, JPEG, BMP, TIFF, JFIF, stream, folder, arrays, archives.|
 |recognize_characters(images, detect_areas_mode, language)|Detects symbols on images.<br/>            Supports GIF, PNG, JPEG, BMP, TIFF, JFIF, stream, folder, arrays, archives.|
-|save_multipage_document(full_file_name, save_format, results, embedded_font_path, optimize_pdf)|  |
-|save_multipage_document(full_file_name, save_format, results, apply_spelling_correction, language, dictionary_path, embedded_font_path, optimize_pdf)|  |
-|save_multipage_document(full_file_name, save_format, results, optimize_pdf)|  |
-|save_multipage_document(full_file_name, save_format, results)|  |
-|save_multipage_document(stream, save_format, results)|  |
-|save_multipage_document(stream, save_format, results, optimize_pdf)|  |
-|save_multipage_document(stream, save_format, results, embedded_font_path)|  |
-|save_multipage_document(stream, save_format, results, embedded_font_path, optimize_pdf)|  |
-|save_multipage_document(stream, save_format, results, apply_spelling_correction, language, dictionary_path, embedded_font_path)|  |
-|save_multipage_document(stream, save_format, results, apply_spelling_correction, language, dictionary_path, embedded_font_path, optimize_pdf)|  |
+|save_multipage_document(full_file_name, save_format, results, embedded_font_path, optimize_pdf)|  Obsolete("Use OcrOutput.save instead. This API will be removed in version 27.3.0 (March 2027).")|
+|save_multipage_document(full_file_name, save_format, results, apply_spelling_correction, language, dictionary_path, embedded_font_path, optimize_pdf)| Obsolete("Use OcrOutput.save instead. This API will be removed in version 27.3.0 (March 2027).") |
+|save_multipage_document(full_file_name, save_format, results, optimize_pdf)| Obsolete("Use OcrOutput.save instead. This API will be removed in version 27.3.0 (March 2027).") |
+|save_multipage_document(full_file_name, save_format, results)| Obsolete("Use OcrOutput.save instead. This API will be removed in version 27.3.0 (March 2027).") |
+|save_multipage_document(stream, save_format, results)| Obsolete("Use OcrOutput.save instead. This API will be removed in version 27.3.0 (March 2027).") |
+|save_multipage_document(stream, save_format, results, optimize_pdf)| Obsolete("Use OcrOutput.save instead. This API will be removed in version 27.3.0 (March 2027).") |
+|save_multipage_document(stream, save_format, results, embedded_font_path)| Obsolete("Use OcrOutput.save instead. This API will be removed in version 27.3.0 (March 2027).") |
+|save_multipage_document(stream, save_format, results, embedded_font_path, optimize_pdf)| Obsolete("Use OcrOutput.save instead. This API will be removed in version 27.3.0 (March 2027).") |
+|save_multipage_document(stream, save_format, results, apply_spelling_correction, language, dictionary_path, embedded_font_path)| Obsolete("Use OcrOutput.save instead. This API will be removed in version 27.3.0 (March 2027).") |
+|save_multipage_document(stream, save_format, results, apply_spelling_correction, language, dictionary_path, embedded_font_path, optimize_pdf)| Obsolete("Use OcrOutput.save instead. This API will be removed in version 27.3.0 (March 2027).") |
 |recognize_fast(images)|Recognizes text on images / documents.<br/>            Supports GIF, PNG, JPEG, BMP, TIFF, JFIF, stream, directory, arrays, archives.|
 |recognize_handwritten_text(images)|Recognizes handwritten text on images.|
 |detect_document_layout(images)|Analyzes the image and identifies the different types of content areas within it.<br/>            Supports PNG, JPEG, BMP, TIFF, JFIF, and GIF images from files, streams, and pixel arrays. Can bulk process folders and archives.|

@@ -3,7 +3,7 @@ title: RecognitionResult
 second_title: Aspose.OCR for Python via .NET API Reference
 description: 
 type: docs
-weight: 300
+weight: 310
 url: /python-net/aspose.ocr/recognitionresult/
 ---
 
@@ -29,13 +29,14 @@ The RecognitionResult type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|save(full_file_name, save_format, apply_spelling_correction, language, dictionary_path, embedded_font_path, optimize_pdf)|Saves the document as the plain text, PDF or Microsoft Word Document.|
-|save(full_file_name, save_format, embedded_font_path, optimize_pdf)|Saves the document as the plain text, PDF or Microsoft Word Document.|
-|save(full_file_name, save_format, optimize_pdf)|Saves the document as the plain text, PDF or Microsoft Word Document.|
-|save(stream, save_format, optimize_pdf)|Saves the document as the plain text, PDF or Microsoft Word Document.|
-|save(stream, save_format, apply_spelling_correction, language, dictionary_path)|Saves the document as the plain text, PDF or Microsoft Word Document.|
+|save(full_file_name, save_format, apply_spelling_correction, language, dictionary_path, embedded_font_path, optimize_pdf)| Obsolete("Use OcrOutput.save instead. This API will be removed in version 27.3.0 (March 2027).") |
+|save(full_file_name, save_format, embedded_font_path, optimize_pdf)| Obsolete("Use OcrOutput.save instead. This API will be removed in version 27.3.0 (March 2027).") |
+|save(full_file_name, save_format, optimize_pdf)| Obsolete("Use OcrOutput.save instead. This API will be removed in version 27.3.0 (March 2027).") |
+|save(stream, save_format, optimize_pdf)|  Obsolete("Use OcrOutput.save instead. This API will be removed in version 27.3.0 (March 2027).") |
+|save(stream, save_format, apply_spelling_correction, language, dictionary_path) | Obsolete("Use OcrOutput.save instead. This API will be removed in version 27.3.0 (March 2027).") |
 |get_spell_check_corrected_text(language, dictionary_path)|Corrects text (replaces misspelled words).|
 |get_spell_check_error_list(language, dictionary_path)|Find the misspelled words with suggested spellings for a given input text.|
+|release_image()|Releases a materialized|
 |get_json(is_readable)|Form JSON string with recognition results.|
 |get_xml()|Form XML string with recognition results.|
 |get_keywords()|Get keywords from pasport (Test mode. Works only for USA and MADAGASCAR passports).|
