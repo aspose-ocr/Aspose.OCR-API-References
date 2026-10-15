@@ -3,7 +3,7 @@ title: ReceiptRecognitionSettings
 second_title: Aspose.OCR for Python via .NET API Reference
 description: 
 type: docs
-weight: 290
+weight: 300
 url: /python-net/aspose.ocr/receiptrecognitionsettings/
 ---
 
@@ -27,6 +27,7 @@ The ReceiptRecognitionSettings type exposes the following members:
 |allowed_symbols|Set the allowed characters with alphabet property.|
 |allowed_characters|Allowed characters set. Determines the type of characters allowed for recognition result.|
 |automatic_color_inversion|Detect images with white text on dark/black background and automatically choose a special OCR algorithm for them.|
+|retain_image_for_export|Gets or sets a value indicating whether the preprocessed source image is retained<br/>            in the recognition result. The image is stored in a compressed form and decoded<br/>            only when|
 
 ### See Also
 
