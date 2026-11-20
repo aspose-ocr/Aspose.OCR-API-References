@@ -3,7 +3,7 @@ title: OcrOutput
 second_title: Aspose.OCR for Java API Reference
 description: 
 type: docs
-weight: 21
+weight: 24
 url: /java/com.aspose.ocr/ocroutput/
 ---
 
@@ -21,7 +21,11 @@ public class OcrOutput extends ArrayList<RecognitionResult>
 
 | Method | Description |
 | --- | --- |
-
+| [add(E arg0)](#add-E) |  |
+| [add(int arg0, E arg1)](#add-int-E) |  |
+| [addAll(int arg0, Collection<? extends E> arg1)](#addAll-int-java.util.Collection---extends-E) |  |
+| [addAll(Collection<? extends E> arg0)](#addAll-java.util.Collection---extends-E) |  |
+| [addAll(Collection<? extends RecognitionResult> collection)](#addAll-java.util.Collection---extends-com.aspose.ocr.RecognitionResult) | Overrides addAll to add the elements of the specified collection to the end of the OcrOutput list. |
 | [getTableData()](#getTableData) | Returns structured table data extracted from all recognized pages. |
 | [save(OutputStream stream)](#save-java.io.OutputStream) | Save all recognition results to a memory stream in the specified format. |
 | [save(OutputStream stream, Format saveFormat)](#save-java.io.OutputStream-com.aspose.ocr.models.Format) | Save all recognition results to a memory stream in the specified format. |
@@ -34,19 +38,108 @@ public class OcrOutput extends ArrayList<RecognitionResult>
 | [savePdf(String fullFileName)](#savePdf-java.lang.String) | Save all recognition results into a searchable PDF file, with the original images set as the background. |
 | [savePdf(String fullFileName, String embeddedFontPath, PdfOptimizationMode optimizePdf)](#savePdf-java.lang.String-java.lang.String-com.aspose.ocr.models.PdfOptimizationMode) | Save all recognition results into a searchable PDF file, with the original images set as the background. |
 
-### getTableData() {#getTableData}
+### OcrOutput() {#OcrOutput}
 ```
-public OCRTable getTableData()
+public OcrOutput()
 ```
 
 
-Returns structured table data extracted from all recognized pages.
+Initializes a new instance of the OcrOutput class with an empty collection. This constructor calls the base class constructor to initialize an empty list of RecognitionResult.
 
-Each page contains rows, and each row contains cells with recognized text and optional position information.
+### add(E arg0) {#add-E}
+```
+public boolean add(E arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | E |  |
 
 **Returns:**
-[OCRTable](../../com.aspose.ocr.models/ocrtable/) - an [OCRTable](../../com.aspose.ocr.models/ocrtable/) structure representing all tables in the document
+boolean
+### add(int arg0, E arg1) {#add-int-E}
+```
+public void add(int arg0, E arg1)
+```
 
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | int |  |
+| arg1 | E |  |
+
+### addAll(int arg0, Collection<? extends E> arg1) {#addAll-int-java.util.Collection---extends-E}
+```
+public boolean addAll(int arg0, Collection<? extends E> arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | int |  |
+| arg1 | java.util.Collection<? extends E> |  |
+
+**Returns:**
+boolean
+### addAll(Collection<? extends E> arg0) {#addAll-java.util.Collection---extends-E}
+```
+public boolean addAll(Collection<? extends E> arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.util.Collection<? extends E> |  |
+
+**Returns:**
+boolean
+### addAll(Collection<? extends RecognitionResult> collection) {#addAll-java.util.Collection---extends-com.aspose.ocr.RecognitionResult}
+```
+public boolean addAll(Collection<? extends RecognitionResult> collection)
+```
+
+
+Overrides addAll to add the elements of the specified collection to the end of the OcrOutput list.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| collection | java.util.Collection<? extends com.aspose.ocr.RecognitionResult> | The collection of RecognitionResult to add. |
+
+**Returns:**
+boolean - true if the collection was modified as a result of the operation.
+### clear() {#clear}
+```
+public void clear()
+```
+
+
+
+### getTableData() {#getTableData}
+```
+public ArrayList<OCRTablePage> getTableData()
+```
+
+
+Returns structured table data extracted from all recognized pages. Useful if the entire page is one table.
+
+Each page structured as one table and contains rows, and each row contains cells with recognized text and optional position information.
+
+**Returns:**
+java.util.ArrayList<com.aspose.ocr.models.OCRTablePage> - an [OCRTablePage](../../com.aspose.ocr.models/ocrtablepage/) structure representing all tables in the document (one page contains one table).
 
 ### save(OutputStream stream) {#save-java.io.OutputStream}
 ```
@@ -189,7 +282,6 @@ Save all recognition results into a searchable PDF file, with the original image
 | fullFileName | java.lang.String | Filename with a path for saving recognition result in the selected format. |
 | embeddedFontPath | java.lang.String | Optional. Full path to the user font. |
 | optimizePdf | [PdfOptimizationMode](../../com.aspose.ocr.models/pdfoptimizationmode/) | Reduce the PDF file size by lowering the quality of background images. By default, the original image quality is preserved. |
-
 ### size() {#size}
 ```
 public int size()
