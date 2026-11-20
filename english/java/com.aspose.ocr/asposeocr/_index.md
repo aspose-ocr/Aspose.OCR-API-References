@@ -54,6 +54,7 @@ Main class for recognize text from images.
 | [ImageTextDiff(String fullPath1, String fullPath2, RecognitionSettings settings, boolean ignoreCase)](#ImageTextDiff-java.lang.String-java.lang.String-com.aspose.ocr.RecognitionSettings-boolean) | Compare the texts on the two images and return a number representing how similar they are (0 to 1). |
 | [Recognize(OcrInput input)](#Recognize-com.aspose.ocr.OcrInput) | Recognizes image with the ability to specify Supports GIF, PNG, JPEG, WBMP, TIFF, JFIF, TIFF, PDF, InputStream, BufferedImage, folder, array, zip archive, URL, base64. |
 | [Recognize(OcrInput input, RecognitionSettings settings)](#Recognize-com.aspose.ocr.OcrInput-com.aspose.ocr.RecognitionSettings) | Recognizes image with the ability to specify Supports GIF, PNG, JPEG, WBMP, TIFF, JFIF, TIFF, PDF, InputStream, BufferedImage, folder, array, zip archive, URL, base64. |
+| [Recognize(OcrInput input, RecognitionSettings settings, OcrCancellationToken cancellationToken)](#Recognize-com.aspose.ocr.OcrInput-com.aspose.ocr.RecognitionSettings-com.aspose.ocr.OcrCancellationToken) | Recognizes images with progress reporting and cancellation support. |
 | [RecognizeCarPlate(OcrInput input, CarPlateRecognitionSettings settings)](#RecognizeCarPlate-com.aspose.ocr.OcrInput-com.aspose.ocr.CarPlateRecognitionSettings) | Recognizes car plate with the ability to specify Supports GIF, PNG, JPEG, WBMP, TIFF, JFIF, TIFF, PDF, InputStream, BufferedImage, folder, array, zip archive, URL, base64. |
 | [RecognizeCharacters(OcrInput input)](#RecognizeCharacters-com.aspose.ocr.OcrInput) | Detects symbols on images. |
 | [RecognizeCharacters(OcrInput input, DetectAreasMode detectAreasMode, Language language)](#RecognizeCharacters-com.aspose.ocr.OcrInput-com.aspose.ocr.models.DetectAreasMode-com.aspose.ocr.models.Language) | Detects symbols on images. |
@@ -73,7 +74,7 @@ Main class for recognize text from images.
 | [SaveMultipageDocument(String fullFileName, Format saveFormat, ArrayList<RecognitionResult> results, String embeddedFontPath)](#SaveMultipageDocument-java.lang.String-com.aspose.ocr.models.Format-java.util.ArrayList-com.aspose.ocr.RecognitionResult--java.lang.String) | Allows to get multipage document from list of RecognitionResult objects. |
 | [SaveMultipageDocument(String fullFileName, Format saveFormat, ArrayList<RecognitionResult> results, String embeddedFontPath, PdfOptimizationMode optimizePdf)](#SaveMultipageDocument-java.lang.String-com.aspose.ocr.models.Format-java.util.ArrayList-com.aspose.ocr.RecognitionResult--java.lang.String-com.aspose.ocr.models.PdfOptimizationMode) | Allows to get multipage document from list of RecognitionResult objects. |
 | [close()](#close) |  |
-
+| [setOcrProgress(OcrRecognizeEventHandler handler)](#setOcrProgress-com.aspose.ocr.OcrRecognizeEventHandler) | Sets the handler called after each recognized page. |
 ### AsposeOCR() {#AsposeOCR}
 ```
 public AsposeOCR()
@@ -456,6 +457,23 @@ Recognizes image with the ability to specify Supports GIF, PNG, JPEG, WBMP, TIFF
 
 **Returns:**
 [OcrOutput](../../com.aspose.ocr/ocroutput/) - RecognitionResult list with images recognition results [RecognitionResult](../../com.aspose.ocr/recognitionresult/)
+### Recognize(OcrInput input, RecognitionSettings settings, OcrCancellationToken cancellationToken) {#Recognize-com.aspose.ocr.OcrInput-com.aspose.ocr.RecognitionSettings-com.aspose.ocr.OcrCancellationToken}
+```
+public OcrOutput Recognize(OcrInput input, RecognitionSettings settings, OcrCancellationToken cancellationToken)
+```
+
+
+Recognizes images with progress reporting and cancellation support. A canceled operation returns results for the completed pages.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| input | [OcrInput](../../com.aspose.ocr/ocrinput/) |  |
+| settings | [RecognitionSettings](../../com.aspose.ocr/recognitionsettings/) |  |
+| cancellationToken | [OcrCancellationToken](../../com.aspose.ocr/ocrcancellationtoken/) |  |
+
+**Returns:**
+[OcrOutput](../../com.aspose.ocr/ocroutput/)
 ### RecognizeCarPlate(OcrInput input, CarPlateRecognitionSettings settings) {#RecognizeCarPlate-com.aspose.ocr.OcrInput-com.aspose.ocr.CarPlateRecognitionSettings}
 ```
 public OcrOutput RecognizeCarPlate(OcrInput input, CarPlateRecognitionSettings settings)
@@ -746,3 +764,16 @@ Allows to get multipage document from list of RecognitionResult objects.
 ```
 public void close()
 ```
+
+### setOcrProgress(OcrRecognizeEventHandler handler) {#setOcrProgress-com.aspose.ocr.OcrRecognizeEventHandler}
+```
+public void setOcrProgress(OcrRecognizeEventHandler handler)
+```
+
+
+Sets the handler called after each recognized page.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| handler | [OcrRecognizeEventHandler](../../com.aspose.ocr/ocrrecognizeeventhandler/) |  |

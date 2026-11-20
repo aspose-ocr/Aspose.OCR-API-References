@@ -24,8 +24,11 @@ url: /java/com.aspose.ocr/
 | [InvoiceRecognitionSettings](../com.aspose.ocr/invoicerecognitionsettings/) | Settings for the invoice recognition Contains elements that allow customizing the recognition process |
 | [License](../com.aspose.ocr/license/) | Provides methods to license the component. |
 | [Logging](../com.aspose.ocr/logging/) |  |
+| [OcrCancellationToken](../com.aspose.ocr/ocrcancellationtoken/) | Controls cancellation of a recognition operation. |
 | [OcrInput](../com.aspose.ocr/ocrinput/) | Main class for recognize text from images. |
 | [OcrOutput](../com.aspose.ocr/ocroutput/) |  |
+| [OcrPageRecognizeEventsArgs](../com.aspose.ocr/ocrpagerecognizeeventsargs/) | Progress data for a recognized page. |
+| [Pair<K,V>](../com.aspose.ocr/pair/) |  |
 | [PassportRecognitionSettings](../com.aspose.ocr/passportrecognitionsettings/) | Settings for the Passport recognition Contains elements that allow customizing the recognition process |
 | [PreprocessingFilter](../com.aspose.ocr/preprocessingfilter/) | Base class for image processing commands. |
 | [ReceiptRecognitionSettings](../com.aspose.ocr/receiptrecognitionsettings/) | Settings for the receipt recognition Contains elements that allow customizing the recognition process |
@@ -35,6 +38,12 @@ url: /java/com.aspose.ocr/
 | [RecognitionSettings](../com.aspose.ocr/recognitionsettings/) | Settings for the image recognition. |
 | [RectangleOutput](../com.aspose.ocr/rectangleoutput/) | Data about detected text areas or lines. |
 | [Resources](../com.aspose.ocr/resources/) | Manage downloadable resources that enhance Aspose.OCR recognition capabilities. |
+
+## Interfaces
+
+| Interface | Description |
+| --- | --- |
+| [OcrRecognizeEventHandler](../com.aspose.ocr/ocrrecognizeeventhandler/) | Receives recognition progress notifications. |
 
 ## Enumerations
 
